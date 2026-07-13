@@ -108,7 +108,7 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
       </div>
 
       {/* Intro */}
-      <p className="text-xl leading-relaxed mb-12 max-w-prose mx-auto">
+      <p className="text-lg leading-relaxed mb-12 max-w-prose mx-auto">
         {recipe.shortDescription}
       </p>
 
@@ -180,7 +180,7 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
                           )}
                           aria-label={`Mark ${ing.item} as ${checked ? "needed" : "done"}`}
                         />
-                        <span className={cn("text-sm", checked && "line-through text-on-surface-variant")}>
+                        <span className={cn("text-base", checked && "line-through text-on-surface-variant")}>
                           {scaledAmount && `${scaledAmount} `}
                           {ing.unit && `${ing.unit} `}
                           {ing.item}
@@ -205,9 +205,9 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
                   <span className="absolute left-0 top-0 font-serif text-xl text-saffron leading-none">
                     {step.step}
                   </span>
-                  <p className="text-sm leading-relaxed">{step.text}</p>
+                  <p className="text-base leading-relaxed">{step.text}</p>
                   {step.tip && (
-                    <p className="mt-2 text-sm text-herb-green italic border-l-2 border-herb-green pl-3">
+                    <p className="mt-2 text-base text-herb-green italic border-l-2 border-herb-green pl-3">
                       {step.tip}
                     </p>
                   )}
@@ -224,8 +224,8 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
           <h3 className="font-serif text-xl text-deep-plum mb-3">Tips</h3>
           <ul className="space-y-2">
             {recipe.tips.map((tip, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm">
-                <span className="w-1.5 h-1.5 bg-saffron rounded-full mt-2 shrink-0" />
+              <li key={i} className="flex items-start gap-2 text-base">
+                <span className="w-1.5 h-1.5 bg-saffron rounded-full mt-2.5 shrink-0" />
                 {tip}
               </li>
             ))}
@@ -239,8 +239,8 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
           <h3 className="font-serif text-xl text-deep-plum mb-3">Substitutions</h3>
           <ul className="space-y-2">
             {recipe.substitutions.map((sub, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm">
-                <span className="w-1.5 h-1.5 bg-saffron rounded-full mt-2 shrink-0" />
+              <li key={i} className="flex items-start gap-2 text-base">
+                <span className="w-1.5 h-1.5 bg-saffron rounded-full mt-2.5 shrink-0" />
                 {sub}
               </li>
             ))}
@@ -252,7 +252,7 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
       {recipe.storage && (
         <div className="mb-12">
           <h3 className="font-serif text-xl text-deep-plum mb-2">Storage</h3>
-          <p className="text-sm text-on-surface-variant">{recipe.storage}</p>
+          <p className="text-base text-on-surface-variant">{recipe.storage}</p>
         </div>
       )}
 
@@ -263,8 +263,8 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
           <div className="space-y-4">
             {recipe.faqs.map((faq, i) => (
               <div key={i}>
-                <h4 className="font-semibold text-sm mb-1">{faq.question}</h4>
-                <p className="text-sm text-on-surface-variant">{faq.answer}</p>
+                <h4 className="font-semibold text-base mb-1">{faq.question}</h4>
+                <p className="text-base text-on-surface-variant">{faq.answer}</p>
               </div>
             ))}
           </div>

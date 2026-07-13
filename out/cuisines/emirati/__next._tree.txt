@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/1t4egzsw93hgs.css","style"]
+:HL["/_next/static/chunks/0idw_-5gmeo-_.css","style"]
 :HL["/_next/static/media/0c8f209abc35ee02-s.p.0c0g8ifvh7k7-.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/47df9ba1c7236d3b-s.p.137759vg1sbmi.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"cuisines","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"emirati","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"zCoU8bAvhmo3WlmaAPRwH"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"cuisines","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"emirati","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"MU0MNILq-cFXsHl91O2Br"}
