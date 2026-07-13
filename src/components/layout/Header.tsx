@@ -62,7 +62,7 @@ export default function Header() {
               alt="GulfSpoon"
               width={44}
               height={44}
-              className={cn("object-contain transition-all duration-300", scrolled ? "w-8 h-8" : "w-10 h-10")}
+              className={cn("object-contain mix-blend-multiply transition-all duration-300", scrolled ? "w-8 h-8" : "w-10 h-10")}
               priority
             />
             <span className={cn("font-serif text-deep-plum italic transition-all duration-300", scrolled ? "text-xl" : "text-2xl")}>
@@ -122,7 +122,7 @@ export default function Header() {
           >
             <div className="flex items-center justify-between px-5 h-20 border-b border-outline-variant">
               <div className="flex items-center gap-2">
-                <Image src="/images/gulfspoon-logo.png" alt="GulfSpoon" width={32} height={32} className="w-8 h-8 object-contain" />
+                <Image src="/images/gulfspoon-logo.png" alt="GulfSpoon" width={32} height={32} className="w-8 h-8 object-contain mix-blend-multiply" />
                 <span className="font-serif text-xl text-deep-plum italic">GulfSpoon</span>
               </div>
               <button

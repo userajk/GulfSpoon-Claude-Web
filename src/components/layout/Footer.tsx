@@ -44,7 +44,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
           <div className="col-span-2">
             <Link href="/" className="inline-flex items-center gap-3 mb-4">
-              <Image src="/images/gulfspoon-logo.png" alt="GulfSpoon" width={40} height={40} className="w-10 h-10 object-contain" />
+              <Image src="/images/gulfspoon-logo.png" alt="GulfSpoon" width={40} height={40} className="w-10 h-10 object-contain mix-blend-multiply" />
               <span className="font-serif text-[28px] leading-10 text-deep-plum italic">GulfSpoon</span>
             </Link>
             <p className="text-on-surface-variant text-sm max-w-xs">
