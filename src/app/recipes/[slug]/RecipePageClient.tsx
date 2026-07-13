@@ -108,7 +108,7 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
       </div>
 
       {/* Intro */}
-      <p className="text-lg leading-relaxed mb-12 max-w-prose">
+      <p className="text-xl leading-relaxed mb-12 max-w-prose mx-auto">
         {recipe.shortDescription}
       </p>
 
