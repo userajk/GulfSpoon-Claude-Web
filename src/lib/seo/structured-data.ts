@@ -10,7 +10,7 @@ export function generateOrganizationSchema() {
     "@type": "Organization",
     name: "GulfSpoon",
     url: SITE_URL,
-    logo: `${SITE_URL}/images/gulfspoon-logo.png`,
+    logo: `${SITE_URL}/images/gulfspoon-logo-v2.png`,
     description: "Recipes from the Gulf and the people who call it home.",
   };
 }
@@ -102,7 +102,7 @@ export function generateArticleSchema(story: Story) {
       name: "GulfSpoon",
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_URL}/images/gulfspoon-logo.png`,
+        url: `${SITE_URL}/images/gulfspoon-logo-v2.png`,
       },
     },
   };
