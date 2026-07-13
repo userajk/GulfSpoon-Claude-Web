@@ -27,7 +27,7 @@ export default function ContactForm() {
     }
 
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -36,7 +36,6 @@ export default function ContactForm() {
           reason: data.get("reason"),
           message: data.get("message"),
           articleUrl: data.get("articleUrl"),
-          consent: data.get("consent") === "on",
         }),
       });
       if (res.ok) {

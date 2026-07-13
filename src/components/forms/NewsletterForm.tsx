@@ -12,7 +12,7 @@ export default function NewsletterForm() {
     if (!email) return;
 
     try {
-      const res = await fetch("/api/newsletter", {
+      const res = await fetch("https://formspree.io/f/YOUR_NEWSLETTER_FORM_ID", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, name }),

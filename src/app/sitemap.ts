@@ -4,6 +4,8 @@ import { getAllStories } from "@/content/stories";
 import { getAllAuthors } from "@/content/authors";
 import { getCuisines } from "@/content/categories";
 
+export const dynamic = "force-static";
+
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://gulfspoon.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
