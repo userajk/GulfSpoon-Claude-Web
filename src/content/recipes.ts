@@ -189,7 +189,7 @@ In the UAE and Bahrain, machboos is typically made with chicken or lamb and serv
     recipeName: "Halwa Puri",
     archiveTitle: "Halwa Puri",
     pageTitle: "Pakistani Halwa Puri: The Classic Weekend Breakfast",
-    seoTitle: "Halwa Puri Recipe: Authentic Pakistani Weekend Breakfast",
+    seoTitle: "Halwa Puri: Pakistani Weekend Breakfast",
     metaDescription: "Make authentic Pakistani Halwa Puri at home — golden puffy puris, sweet semolina halwa, and spicy chickpea curry for the perfect weekend breakfast.",
     shortDescription: "The beloved Pakistani weekend breakfast — golden puffy puris served with sweet semolina halwa and spicy chickpea curry.",
     intro: `Halwa puri is Pakistan's answer to the full English breakfast — a multi-dish spread that takes time, fills the house with noise and aroma, and turns a lazy morning into an event. The tradition is strongest in Punjab, particularly in Lahore, where halwa puri shops line every neighborhood and the Sunday morning queue starts before sunrise. But it belongs to all of Pakistan, with regional variations from Karachi to Peshawar, and it has traveled wherever Pakistanis have settled.
@@ -385,7 +385,7 @@ In the Gulf, adobo has become one of the most widely cooked Filipino dishes, pre
     recipeName: "Fish Salona",
     archiveTitle: "Fish Salona",
     pageTitle: "Fish Salona: Traditional Gulf Tomato-Spiced Fish Stew",
-    seoTitle: "Fish Salona Recipe: Gulf-Style Spiced Fish Stew",
+    seoTitle: "Fish Salona: Gulf Spiced Fish Stew",
     metaDescription: "A comforting Gulf fish stew made with fresh fish, tomatoes, tamarind, and a warming blend of spices. A staple of coastal Khaleeji cooking.",
     shortDescription: "A comforting Gulf fish stew with tomatoes, tamarind, and warming spices — a staple of coastal Khaleeji cooking.",
     intro: `Salona is the everyday stew of the Gulf — the dish that appears on weeknight dinner tables more often than any celebratory rice platter. The word comes from the same root as "salon" in some South Asian languages, meaning a gravy or curry, and the connection is not accidental. Gulf cooking absorbed influences from the Indian subcontinent through centuries of trade and migration, and salona is one of the clearest examples of that exchange — a spiced, broth-based stew that feels familiar to anyone who has eaten South Asian food, but tastes distinctly Gulf.
@@ -440,7 +440,7 @@ Fish salona is the coastal version of this dish, and it is arguably the most tra
     recipeName: "Karak Chai",
     archiveTitle: "Karak Chai",
     pageTitle: "Karak Chai: The Gulf's Beloved Spiced Tea",
-    seoTitle: "Karak Chai Recipe: Authentic Gulf-Style Spiced Tea",
+    seoTitle: "Karak Chai: Gulf Spiced Tea Recipe",
     metaDescription: "Make authentic Karak Chai at home — the richly spiced, creamy tea beloved across the Gulf, made with cardamom, saffron, and evaporated milk.",
     shortDescription: "The Gulf's beloved spiced tea — strong, creamy, and fragrant with cardamom and saffron.",
     intro: `Karak chai is the Gulf's unofficial national drink. Not gahwa — the pale, cardamom-heavy Arabic coffee served at formal occasions — but this thick, sweet, milky tea that people drink three, four, five times a day. It is sold from every cafeteria window and roadside kiosk in the UAE, Qatar, Bahrain, Kuwait, and Oman. It costs a dirham or two. It is never refused.
@@ -491,7 +491,7 @@ What makes karak chai different from a standard masala chai is the technique as 
     recipeName: "Gulf Shakshuka",
     archiveTitle: "Gulf Shakshuka",
     pageTitle: "Gulf Shakshuka: Spiced Eggs in Tomato Sauce",
-    seoTitle: "Gulf Shakshuka Recipe: Spiced Eggs in Rich Tomato Sauce",
+    seoTitle: "Gulf Shakshuka: Spiced Eggs in Tomato Sauce",
     metaDescription: "A Gulf-inspired take on shakshuka with warming bezar spices, eggs poached in rich tomato and bell pepper sauce.",
     shortDescription: "A Gulf-inspired take on shakshuka with warming bezar spices, eggs poached in rich tomato sauce.",
     intro: `Shakshuka — eggs poached in a spiced tomato sauce — is one of those dishes claimed by half the Mediterranean and Middle Eastern world, and no one is entirely sure who made it first. The name is Arabic, likely derived from a word meaning "mixture" or "shaken." North Africans, particularly Tunisians and Libyans, have strong claims to the dish. So do Yemenis, who make a version called shakshouka that predates the more famous Israeli adoption. The Ottomans probably spread it across their empire. The truth is that eggs cooked in tomato sauce is such an obvious, satisfying idea that it almost certainly arose independently in multiple places.
@@ -604,7 +604,7 @@ In the Gulf, baklava is associated with generosity and celebration. It appears a
     recipeName: "Muhalla Crepes",
     archiveTitle: "Muhalla Crepes",
     pageTitle: "Saffron & Rosewater Crepes (Muhalla)",
-    seoTitle: "Muhalla Recipe: Saffron Rosewater Crepes from the Gulf",
+    seoTitle: "Muhalla: Saffron Rosewater Crepes",
     metaDescription: "Make traditional Gulf muhalla — delicate saffron-infused crepes drizzled with date syrup and garnished with crushed pistachios.",
     shortDescription: "Delicate saffron-infused crepes drizzled with date syrup and crushed pistachios — a Gulf breakfast treat.",
     intro: `Muhalla — sometimes spelled muhallaq, muhallabiyya, or chebab depending on where in the Gulf you are — is a traditional Emirati and Gulf Arab pancake or crepe that predates the region's modern development by generations. It belongs to the same family of griddle breads found across the Middle East and North Africa, from Moroccan baghrir to Yemeni lahoh, but the Gulf version distinguishes itself with saffron and rosewater, the two aromatics that run through Khaleeji cooking like a signature.
@@ -655,7 +655,7 @@ Today, muhalla occupies a special place in Gulf food culture as one of the dishe
     recipeName: "Mutabbaq Samak",
     archiveTitle: "Mutabbaq Samak",
     pageTitle: "Kuwaiti Mutabbaq Samak: Spiced Fish and Rice",
-    seoTitle: "Mutabbaq Samak Recipe: Kuwaiti Spiced Fish and Rice",
+    seoTitle: "Mutabbaq Samak: Kuwaiti Spiced Fish & Rice",
     metaDescription: "Make traditional Kuwaiti Mutabbaq Samak — whole fried fish served on fragrant spiced rice with caramelized onions.",
     shortDescription: "Kuwaiti-style spiced fish served over fragrant rice with caramelized onions and a hint of cardamom.",
     intro: `Mutabbaq samak is Kuwait's signature fish and rice dish, and it carries the memory of a time when Kuwait's economy ran on the sea rather than on oil. Before the mid-twentieth century, Kuwait was a maritime nation. Its wooden dhows sailed as far as East Africa and India, and its coast supported a thriving fishing and pearl-diving industry. Fish was not a luxury — it was the daily protein of a coastal people, and mutabbaq samak was one of the ways they ate it.
@@ -704,7 +704,7 @@ Zubaidi (silver pomfret) is the traditional fish for this dish and is considered
     recipeName: "Harees",
     archiveTitle: "Harees",
     pageTitle: "Traditional Emirati Harees: Wheat and Meat Porridge",
-    seoTitle: "Harees Recipe: Traditional Emirati Comfort Food",
+    seoTitle: "Harees: Emirati Wheat & Meat Porridge",
     metaDescription: "Make traditional Emirati Harees — a comforting slow-cooked porridge of cracked wheat and meat, essential during Ramadan.",
     shortDescription: "A comforting slow-cooked porridge of cracked wheat and meat — an Emirati Ramadan essential.",
     intro: `Harees is one of the oldest dishes in the Arabian Peninsula, and its history stretches back far beyond the Gulf states as we know them today. References to harisa — a wheat-and-meat porridge from which harees descends — appear in medieval Arabic cookbooks dating to the tenth century. The Abbasid caliphs ate it. Crusaders encountered it. Versions of it exist from Armenia to Hyderabad, each adapted to local grains and meats, but all sharing the same fundamental idea: wheat and protein, cooked slowly and for a very long time, until they merge into a smooth, comforting porridge.
@@ -755,7 +755,7 @@ The dish requires almost nothing in terms of ingredients — cracked wheat, meat
     archiveTitle: "Gulf Red Lentil Soup",
     pageTitle: "Shorbat Adas: Gulf Red Lentil Soup with Cumin and Lemon",
     seoTitle: "Shorbat Adas: Gulf Red Lentil Soup Recipe",
-    metaDescription: "Make authentic Gulf-style red lentil soup (shorbat adas) with cumin, turmeric, and fresh lemon. Ready in 30 minutes. A staple of Ramadan iftar tables across the Middle East.",
+    metaDescription: "Make authentic Gulf-style red lentil soup (shorbat adas) with cumin, turmeric, and fresh lemon. Ready in 30 minutes. A Ramadan iftar staple.",
     shortDescription: "A velvety, golden soup made from split red lentils simmered with cumin, turmeric, garlic, and a generous squeeze of lemon. This is the soup that appears on nearly every iftar table during Ramadan and on cold-weather dinner tables the rest of the year. Simple enough for a weeknight, satisfying enough to build a meal around.",
     intro: `Shorbat adas — lentil soup — is one of those dishes that belongs to everyone and no one. You will find versions of it from Cairo to Karachi, from Istanbul to Aden. But the Gulf version has its own identity, shaped by centuries of trade and the practical realities of cooking in a region where fresh produce was historically scarce and pantry staples had to travel well. Lentils, dried spices, onions, and lemons — everything in this soup could survive a long journey by dhow or caravan.
 
@@ -1149,7 +1149,7 @@ The key is starting with dry fillets and a hot air fryer. Moisture on the surfac
     recipeName: "Air Fryer Baked Potato",
     archiveTitle: "Air Fryer Baked Potato",
     pageTitle: "Air Fryer Baked Potato: Crispy Skin, Fluffy Inside",
-    seoTitle: "Air Fryer Baked Potato — Crispy Skin, Fluffy Center",
+    seoTitle: "Air Fryer Baked Potato — Crispy & Fluffy",
     metaDescription: "Air fryer baked potatoes with shatteringly crispy skin and a fluffy, steamy interior. Ready in 40 minutes with just oil and salt. The best baked potato method.",
     shortDescription: "Baked potatoes with shatteringly crispy, salted skin and a cloud-like fluffy interior — made in the air fryer in about 40 minutes. No foil wrapping, no soggy skin. Just oil, salt, and the circulating heat of the air fryer doing what an oven cannot.",
     intro: `The air fryer produces the best baked potato most home cooks have ever made. The circulating hot air dries and crisps the skin in a way that a conventional oven struggles to match, while the interior steams to a light, fluffy texture. No foil, no microwave shortcut, no compromise.
