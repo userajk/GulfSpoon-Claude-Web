@@ -7,6 +7,7 @@ export const categories: Category[] = [
   { slug: "breakfast", name: "Breakfast", description: "Start your day with traditional Gulf breakfasts and morning meals from across the region's diverse communities.", type: "category" },
   { slug: "ramadan", name: "Ramadan", description: "Recipes for Iftar, Suhoor, and the holy month — from comforting soups to festive desserts and refreshing drinks.", type: "category" },
   { slug: "quick-and-easy", name: "Quick & Easy", description: "Delicious meals ready in under 30 minutes, one-pot wonders, and weeknight dinners for busy home cooks.", type: "category" },
+  { slug: "air-fryer", name: "Air Fryer", description: "Crispy, golden air fryer recipes with a fraction of the oil — chicken tenders, falafel, samosas, and more. Quick, easy, and perfectly crunchy every time.", type: "category" },
   { slug: "drinks", name: "Drinks", description: "From traditional Arabic coffee and karak chai to fresh juices, smoothies, and homemade lattes.", type: "category" },
   { slug: "desserts", name: "Desserts", description: "Sweet treats from the Gulf and beyond — baklava, luqaimat, kunafa, halwa, and modern fusion desserts.", type: "category" },
   { slug: "food-stories", name: "Food Stories", description: "Cultural features, ingredient guides, and the stories behind the dishes that bring communities together.", type: "category" },

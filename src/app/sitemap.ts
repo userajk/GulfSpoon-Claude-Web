@@ -38,8 +38,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const staticPages = [
-    "/", "/recipes/", "/gulf-kitchen/", "/expat-kitchens/", "/breakfast/",
-    "/ramadan/", "/quick-and-easy/", "/drinks/", "/desserts/", "/food-stories/",
+    "/", "/recipes/", "/gulf-kitchen/", "/expat-kitchens/", "/air-fryer/",
+    "/breakfast/", "/ramadan/", "/quick-and-easy/", "/drinks/", "/desserts/", "/food-stories/",
     "/search/", "/saved-recipes/", "/about/", "/contributors/", "/contact/",
     "/privacy-policy/", "/cookie-policy/", "/terms/", "/disclaimer/",
     "/editorial-policy/", "/accessibility/",

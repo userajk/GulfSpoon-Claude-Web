@@ -10,9 +10,7 @@ const navLinks = [
   { href: "/recipes/", label: "Recipes" },
   { href: "/gulf-kitchen/", label: "Gulf Kitchen" },
   { href: "/expat-kitchens/", label: "Expat Kitchens" },
-  { href: "/breakfast/", label: "Breakfast" },
-  { href: "/ramadan/", label: "Ramadan" },
-  { href: "/quick-and-easy/", label: "Quick & Easy" },
+  { href: "/air-fryer/", label: "Air Fryer", highlight: true },
   { href: "/food-stories/", label: "Food Stories" },
   { href: "/about/", label: "About" },
 ];
@@ -76,9 +74,15 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="label-caps text-on-surface-variant hover:text-saffron transition-colors duration-200 whitespace-nowrap"
+                className={cn(
+                  "label-caps transition-colors duration-200 whitespace-nowrap",
+                  link.highlight
+                    ? "font-bold text-deep-plum hover:text-saffron"
+                    : "text-on-surface-variant hover:text-saffron"
+                )}
               >
                 {link.label}
+                {link.highlight && <span className="ml-1 inline-block w-1.5 h-1.5 bg-saffron rounded-full align-super" />}
               </Link>
             ))}
           </nav>
@@ -139,10 +143,14 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="px-6 py-3 label-caps text-on-surface-variant hover:text-deep-plum hover:bg-soft-sand transition-colors"
+                  className={cn(
+                    "px-6 py-3 label-caps hover:text-deep-plum hover:bg-soft-sand transition-colors",
+                    link.highlight ? "font-bold text-deep-plum" : "text-on-surface-variant"
+                  )}
                   onClick={() => setMobileOpen(false)}
                 >
                   {link.label}
+                  {link.highlight && <span className="ml-1 inline-block w-1.5 h-1.5 bg-saffron rounded-full align-super" />}
                 </Link>
               ))}
               <hr className="my-4 border-outline-variant mx-6" />
