@@ -107,7 +107,19 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
         ))}
       </div>
 
-      {/* Intro */}
+      {/* Intro & Origin */}
+      {recipe.intro && (
+        <div className="mb-12 max-w-prose mx-auto space-y-4 text-base leading-relaxed"
+          dangerouslySetInnerHTML={{
+            __html: recipe.intro
+              .split("\n\n")
+              .map((p) => `<p>${p.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")}</p>`)
+              .join(""),
+          }}
+        />
+      )}
+
+      {/* Short Description */}
       <p className="text-lg leading-relaxed mb-12 max-w-prose mx-auto">
         {recipe.shortDescription}
       </p>

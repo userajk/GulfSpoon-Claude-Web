@@ -9,6 +9,11 @@ export const recipes: Recipe[] = [
     seoTitle: "How to Make a Latte at Home — 3 Easy Methods | GulfSpoon",
     metaDescription: "Learn how to make a cafe-quality latte at home using an espresso machine, moka pot, or French press. Step-by-step instructions with milk frothing tips and flavor variations.",
     shortDescription: "Making a latte at home is easier than you think. All you need is strong coffee, steamed milk, and a few minutes. This guide walks you through three different brewing methods — espresso machine, moka pot, and French press — so you can make a smooth, creamy latte no matter what equipment you have in your kitchen. Once you nail the basics, you may never queue at a coffee shop again.",
+    intro: `The word "latte" is borrowed from the Italian caffè latte, meaning "milk coffee." But the drink that most of us picture — espresso topped with steamed milk and a thin layer of foam — is largely an American invention. In Italy, a caffè latte is a simple morning drink made at home, usually with stovetop moka pot coffee poured into a glass of hot milk. No art, no foam, no ceremony. The elaborate coffeehouse version emerged in Seattle in the 1980s, when espresso bars started experimenting with milk textures and presentation.
+
+In the Gulf, the latte arrived through the wave of international coffee chains that opened across Dubai, Abu Dhabi, Riyadh, and Doha in the late 1990s and early 2000s. Coffee culture in the region had always been strong — gahwa (Arabic coffee) and karak chai are deeply embedded in daily life — but the milky, sweetened latte found a natural audience. Gulf coffee drinkers often prefer their drinks rich and sweet, and the latte fit right in. Today, it is one of the most ordered drinks in the region, and local roasters have started adding Gulf touches: cardamom lattes, saffron lattes, date-syrup sweetened versions.
+
+Making a good latte at home comes down to two things: strong, concentrated coffee and properly textured milk. The coffee needs to be bolder than a standard drip brew because it has to hold its flavor against 8 ounces of milk. And the milk needs to be steamed to a smooth, glossy consistency — tiny bubbles, no foam chunks. Get those two right, and you are most of the way there.`,
     author: "sarah-al-fayed",
     publishedAt: "2024-10-24",
     updatedAt: "2025-07-13",
@@ -106,6 +111,11 @@ export const recipes: Recipe[] = [
     seoTitle: "Chicken Machboos Recipe: Authentic Gulf Spiced Rice with Chicken",
     metaDescription: "Learn to make authentic Chicken Machboos, the quintessential Gulf rice dish with tender chicken, aromatic spices, black lime, and fragrant basmati rice.",
     shortDescription: "The quintessential Gulf rice dish — tender chicken slow-cooked with aromatic loomi, baharat, and fragrant basmati rice.",
+    intro: `Machboos — also spelled majboos or machbous depending on which part of the Gulf you are in — is the dish that sits at the center of Khaleeji food culture. Every Gulf country claims a version, and families argue over the details the way Italian families argue over Sunday ragù. The name comes from the Arabic word "kabsa" or "machboos" meaning "pressed," referring to the method of cooking rice pressed down with meat so the grains absorb every drop of flavor from the broth.
+
+The dish traces its roots to the ancient trade routes that passed through the Arabian Peninsula. The core technique — cooking rice in a spiced meat broth — arrived from Persia and the Indian subcontinent centuries ago, but Gulf cooks made it their own through one ingredient that defines the entire cuisine: loomi, the sun-dried black lime. These small, hard, dark spheres are made by boiling fresh limes in salt water and drying them in the sun for weeks. The result is a flavor that does not exist anywhere else in cooking — sour, smoky, earthy, and faintly sweet all at once. It is the single ingredient that makes machboos taste like machboos and not like biryani.
+
+In the UAE and Bahrain, machboos is typically made with chicken or lamb and served on a communal platter for Friday family lunches. In Kuwait, the version tends to be slightly wetter and more tomato-heavy. In Saudi Arabia, a closely related dish called kabsa uses a slightly different spice profile. But across the entire Gulf, the principle is the same: rice cooked in richly flavored broth, meat served on top, and the whole thing brought to the table on a single large platter meant to be shared.`,
     author: "sarah-al-fayed",
     publishedAt: "2024-09-15",
     cuisine: "Emirati",
@@ -183,6 +193,11 @@ export const recipes: Recipe[] = [
     seoTitle: "Halwa Puri Recipe: Authentic Pakistani Weekend Breakfast",
     metaDescription: "Make authentic Pakistani Halwa Puri at home — golden puffy puris, sweet semolina halwa, and spicy chickpea curry for the perfect weekend breakfast.",
     shortDescription: "The beloved Pakistani weekend breakfast — golden puffy puris served with sweet semolina halwa and spicy chickpea curry.",
+    intro: `Halwa puri is Pakistan's answer to the full English breakfast — a multi-dish spread that takes time, fills the house with noise and aroma, and turns a lazy morning into an event. The tradition is strongest in Punjab, particularly in Lahore, where halwa puri shops line every neighborhood and the Sunday morning queue starts before sunrise. But it belongs to all of Pakistan, with regional variations from Karachi to Peshawar, and it has traveled wherever Pakistanis have settled.
+
+The breakfast is ancient in its components. Puri — unleavened deep-fried bread — has roots in the Indian subcontinent going back at least a thousand years. Sooji ka halwa, the sweet semolina dish, is descended from Arabic and Persian confections that arrived with the Mughal Empire. And channay — the spiced chickpea curry — draws on a tradition of legume cooking that has sustained South Asian populations for centuries. Somewhere along the way, these three elements merged into a single meal, and that meal became inseparable from the rhythm of Pakistani weekend life.
+
+In the Gulf, halwa puri has become one of the most recognizable Pakistani food traditions. With roughly three million Pakistanis living across the UAE, Saudi Arabia, Qatar, Kuwait, Oman, and Bahrain, the Friday morning breakfast has been recreated in apartments from Sharjah to Jeddah. The recipes stay close to home — the same ghee-heavy halwa, the same hand-rolled puris, the same arguments about whether the channay should be dark or light — but the setting is different, and that difference has made the ritual even more meaningful.`,
     author: "omar-hussain",
     publishedAt: "2024-09-20",
     cuisine: "Pakistani",
@@ -254,6 +269,11 @@ export const recipes: Recipe[] = [
     seoTitle: "Balaleet Recipe: Traditional Emirati Sweet & Savory Breakfast",
     metaDescription: "Make traditional Emirati Balaleet at home — sweet cardamom and saffron vermicelli topped with a thin savory omelet.",
     shortDescription: "Sweet vermicelli noodles with cardamom, saffron, and rosewater, topped with a thin savory omelet — an Emirati breakfast classic.",
+    intro: `Balaleet is one of the most distinctive breakfast dishes in the Gulf — a plate that combines sweet, saffron-scented vermicelli noodles with a thin savory omelet folded on top. The contrast surprises first-time tasters, but in the Gulf it makes perfect sense. Sweet and savory combinations run through Khaleeji cooking like a thread, from dates eaten with cheese to saffron rice served with meat stews.
+
+The dish has a history shaped by trade. Vermicelli noodles are not native to the Arabian Peninsula — they arrived through centuries of commercial exchange with India and Southeast Asia. Gulf merchants who traded in spices, pearls, and textiles brought back not only goods but also cooking techniques, and the thin wheat noodles became a pantry staple across the region. Gulf cooks adapted them by toasting the noodles in ghee until golden (which gives balaleet its distinctive nutty depth) and sweetening them with sugar, saffron, cardamom, and rosewater — the same aromatic trio that appears in almost every traditional Gulf dessert.
+
+Balaleet is served across the UAE, Bahrain, Kuwait, and Qatar, though every family insists their version is the correct one. Some add a pinch of cinnamon. Others use orange blossom water instead of rosewater. The omelet on top ranges from a thin French-style crepe to a thicker, more substantial egg layer. It is traditionally a breakfast dish, served during Eid celebrations and Ramadan iftars, but many Gulf families eat it any time of day.`,
     author: "sarah-al-fayed",
     publishedAt: "2024-09-10",
     cuisine: "Emirati",
@@ -311,6 +331,11 @@ export const recipes: Recipe[] = [
     seoTitle: "Filipino Chicken Adobo Recipe: Easy One-Pot Comfort Food",
     metaDescription: "Make authentic Filipino Chicken Adobo — tender chicken braised in soy sauce and vinegar with garlic, bay leaves, and black peppercorns.",
     shortDescription: "Tender chicken braised in soy sauce and vinegar with garlic, bay leaves, and black peppercorns — a Filipino staple loved across the Gulf.",
+    intro: `Adobo is the dish most often called the national food of the Philippines, though Filipinos themselves will tell you there is no single national dish — just this one that every family cooks and no two families make the same way. The name is Spanish, borrowed during three centuries of colonial rule, but the technique is older than the colonizers. Filipino cooks were preserving meat in vinegar long before the Spanish arrived and gave the method a European name.
+
+The basic principle — braising protein in vinegar and salt — was originally a preservation technique in a tropical climate where meat spoiled quickly. The vinegar's acidity slowed bacterial growth and extended the life of the food. When the Spanish introduced soy sauce to the Philippines through the Manila-Acapulco galleon trade (which also brought ingredients from China and Southeast Asia), Filipino cooks added it to the braise, and modern adobo was born. The soy sauce contributed salt, color, and umami. The vinegar provided tang and preservation. Together, they created something greater than either ingredient alone.
+
+In the Gulf, adobo has become one of the most widely cooked Filipino dishes, prepared nightly in apartments from Abu Dhabi to Dammam by a community of over two million Filipino workers and families. The recipe adapts easily to Gulf kitchens — the ingredients are universally available, it cooks in a single pot, and it reheats beautifully the next day (many Filipinos will tell you it tastes better on day two). It has also crossed cultural lines, winning over Arab, Indian, and Pakistani colleagues through office potlucks and neighborly food sharing.`,
     author: "maria-santos",
     publishedAt: "2024-09-25",
     cuisine: "Filipino",
@@ -364,6 +389,11 @@ export const recipes: Recipe[] = [
     seoTitle: "Fish Salona Recipe: Gulf-Style Spiced Fish Stew",
     metaDescription: "A comforting Gulf fish stew made with fresh fish, tomatoes, tamarind, and a warming blend of spices. A staple of coastal Khaleeji cooking.",
     shortDescription: "A comforting Gulf fish stew with tomatoes, tamarind, and warming spices — a staple of coastal Khaleeji cooking.",
+    intro: `Salona is the everyday stew of the Gulf — the dish that appears on weeknight dinner tables more often than any celebratory rice platter. The word comes from the same root as "salon" in some South Asian languages, meaning a gravy or curry, and the connection is not accidental. Gulf cooking absorbed influences from the Indian subcontinent through centuries of trade and migration, and salona is one of the clearest examples of that exchange — a spiced, broth-based stew that feels familiar to anyone who has eaten South Asian food, but tastes distinctly Gulf.
+
+What makes a salona Gulf rather than Indian is the combination of loomi (dried black lime), baharat, and tamarind. These three ingredients create a flavor profile that is earthy, sour, and aromatic in a way that Indian curries typically are not. The tamarind adds a fruity tang, the loomi contributes a smoky depth, and the baharat blend provides warmth without the sharp heat of Indian chili powder. Gulf salona is also lighter than most Indian curries — the gravy is thinner, more brothy, designed to be spooned over rice rather than mopped up with bread.
+
+Fish salona is the coastal version of this dish, and it is arguably the most traditional. The Gulf's coastal communities — in the UAE, Oman, Bahrain, Kuwait, and eastern Saudi Arabia — have fished these waters for thousands of years, and fish stews were a daily staple long before rice and meat dishes became associated with celebrations. Hamour (grouper) is the most prized fish for salona, though any firm white fish works. The fish is added to the stew at the very end, cooking gently in the simmering broth so it stays intact and tender.`,
     author: "sarah-al-fayed",
     publishedAt: "2024-10-01",
     cuisine: "Emirati",
@@ -414,6 +444,11 @@ export const recipes: Recipe[] = [
     seoTitle: "Karak Chai Recipe: Authentic Gulf-Style Spiced Tea",
     metaDescription: "Make authentic Karak Chai at home — the richly spiced, creamy tea beloved across the Gulf, made with cardamom, saffron, and evaporated milk.",
     shortDescription: "The Gulf's beloved spiced tea — strong, creamy, and fragrant with cardamom and saffron.",
+    intro: `Karak chai is the Gulf's unofficial national drink. Not gahwa — the pale, cardamom-heavy Arabic coffee served at formal occasions — but this thick, sweet, milky tea that people drink three, four, five times a day. It is sold from every cafeteria window and roadside kiosk in the UAE, Qatar, Bahrain, Kuwait, and Oman. It costs a dirham or two. It is never refused.
+
+The word "karak" comes from the Hindi-Urdu word for "strong," and the drink's origins trace directly to the South Asian tea tradition brought to the Gulf by Indian and Pakistani workers in the mid-twentieth century. As the Gulf states began developing their oil economies in the 1960s and 70s, hundreds of thousands of workers from the subcontinent arrived, bringing their chai with them. The Gulf version evolved into something distinct: stronger, sweeter, made with evaporated milk instead of fresh, and flavored with crushed cardamom and sometimes a pinch of saffron.
+
+What makes karak chai different from a standard masala chai is the technique as much as the ingredients. The tea and milk are boiled together — not just simmered, but brought to a rolling boil repeatedly. Each time the mixture rises in the pot, the cook lowers the heat and lets it settle, then brings it back to a boil again. This process, repeated three or four times, concentrates the flavor and gives karak its signature rich, almost caramelized taste. The evaporated milk (not condensed — that would be too sweet) is essential: it has a density and creaminess that fresh milk cannot replicate.`,
     author: "sarah-al-fayed",
     publishedAt: "2024-10-05",
     cuisine: "Emirati",
@@ -460,6 +495,11 @@ export const recipes: Recipe[] = [
     seoTitle: "Gulf Shakshuka Recipe: Spiced Eggs in Rich Tomato Sauce",
     metaDescription: "A Gulf-inspired take on shakshuka with warming bezar spices, eggs poached in rich tomato and bell pepper sauce.",
     shortDescription: "A Gulf-inspired take on shakshuka with warming bezar spices, eggs poached in rich tomato sauce.",
+    intro: `Shakshuka — eggs poached in a spiced tomato sauce — is one of those dishes claimed by half the Mediterranean and Middle Eastern world, and no one is entirely sure who made it first. The name is Arabic, likely derived from a word meaning "mixture" or "shaken." North Africans, particularly Tunisians and Libyans, have strong claims to the dish. So do Yemenis, who make a version called shakshouka that predates the more famous Israeli adoption. The Ottomans probably spread it across their empire. The truth is that eggs cooked in tomato sauce is such an obvious, satisfying idea that it almost certainly arose independently in multiple places.
+
+In the Gulf, shakshuka arrived through multiple channels — from Levantine and Yemeni communities, from Egyptian and North African expats, and eventually from the global food media that turned it into a brunch trend in the 2010s. Gulf cooks adapted it by adding their own spice blends. This version uses bezar — the signature Gulf spice mixture of cumin, coriander, black pepper, cinnamon, and sometimes dried chilies — in place of the cumin-paprika-cayenne combination typical of North African versions. The result is warmer and more aromatic, less smoky, with a spice profile that sits comfortably alongside other Gulf breakfast dishes like balaleet and foul medames.
+
+The beauty of shakshuka is its simplicity. One pan, a handful of ingredients, twenty-five minutes from stove to table. It is the kind of recipe that forgives improvisation — you can add feta, olives, preserved lemon, or whatever is in the fridge — and still delivers every time.`,
     author: "sarah-al-fayed",
     publishedAt: "2024-10-08",
     cuisine: "Levantine",
@@ -508,6 +548,11 @@ export const recipes: Recipe[] = [
     seoTitle: "Pistachio Cardamom Baklava Recipe: Flaky Layered Pastry",
     metaDescription: "Make crispy, golden pistachio and cardamom baklava at home with phyllo pastry, clarified butter, and fragrant cardamom syrup.",
     shortDescription: "Crispy layers of phyllo pastry filled with crushed pistachios and drenched in fragrant cardamom syrup.",
+    intro: `Baklava is one of the oldest pastries still made in its original form. Versions of layered nut-filled pastry drenched in honey or syrup appear in records from the Assyrian Empire, and the dish was refined into something close to its modern form in the kitchens of the Ottoman Topkapi Palace in Istanbul. From there, it spread across the entire former Ottoman world — from Greece and Turkey to Lebanon, Syria, Iran, and the Arabian Gulf — and each region developed its own version.
+
+The Gulf's baklava tradition leans heavily on two ingredients: pistachios and cardamom. Turkish baklava often uses walnuts and is drenched in butter-heavy syrup. Greek baklava favors honey and cinnamon. Lebanese versions use a mix of nuts with orange blossom water. Gulf baklava is built around the bright green pistachios imported from Iran (the Gulf's historic trading partner) and perfumed with cardamom and rosewater — the same aromatic combination that defines Gulf sweets from luqaimat to kunafa.
+
+In the Gulf, baklava is associated with generosity and celebration. It appears at Eid gatherings, weddings, and Ramadan iftar tables. It is given as a gift when visiting someone's home and offered with Arabic coffee to guests. The quality of a host's baklava — crisp layers, generous nut filling, well-balanced syrup — is a quiet measure of hospitality, and many Gulf families order from specific bakeries they have patronized for decades. Making it at home is more ambitious than most Gulf desserts, but the result — when you get those shattering-crisp phyllo layers and the syrup soaks in just right — is worth the effort.`,
     author: "sarah-al-fayed",
     publishedAt: "2024-10-12",
     cuisine: "Levantine",
@@ -563,6 +608,11 @@ export const recipes: Recipe[] = [
     seoTitle: "Muhalla Recipe: Saffron Rosewater Crepes from the Gulf",
     metaDescription: "Make traditional Gulf muhalla — delicate saffron-infused crepes drizzled with date syrup and garnished with crushed pistachios.",
     shortDescription: "Delicate saffron-infused crepes drizzled with date syrup and crushed pistachios — a Gulf breakfast treat.",
+    intro: `Muhalla — sometimes spelled muhallaq, muhallabiyya, or chebab depending on where in the Gulf you are — is a traditional Emirati and Gulf Arab pancake or crepe that predates the region's modern development by generations. It belongs to the same family of griddle breads found across the Middle East and North Africa, from Moroccan baghrir to Yemeni lahoh, but the Gulf version distinguishes itself with saffron and rosewater, the two aromatics that run through Khaleeji cooking like a signature.
+
+The dish has deep roots in Emirati culture. Older Emiratis remember muhalla as a staple of their grandmothers' kitchens, made on flat iron griddles over charcoal fires. The batter was simple — flour, eggs, a little sugar — but the saffron gave it a golden color and a fragrance that announced itself through the house. It was a breakfast food, a snack, a Ramadan staple. Date syrup (dibs) was the traditional accompaniment, drizzled over the warm crepes while they were still steaming.
+
+Today, muhalla occupies a special place in Gulf food culture as one of the dishes that connects modern Emirati life to its pre-oil past. It appears on heritage restaurant menus and at Ramadan tents, and it is one of the recipes that Emirati food preservation projects have worked to document and keep alive. The version here uses a crepe-style batter rather than the slightly thicker traditional pancake, producing lighter, more delicate results that work beautifully with the date syrup and pistachio garnish.`,
     author: "sarah-al-fayed",
     publishedAt: "2024-10-15",
     cuisine: "Emirati",
@@ -609,6 +659,11 @@ export const recipes: Recipe[] = [
     seoTitle: "Mutabbaq Samak Recipe: Kuwaiti Spiced Fish and Rice",
     metaDescription: "Make traditional Kuwaiti Mutabbaq Samak — whole fried fish served on fragrant spiced rice with caramelized onions.",
     shortDescription: "Kuwaiti-style spiced fish served over fragrant rice with caramelized onions and a hint of cardamom.",
+    intro: `Mutabbaq samak is Kuwait's signature fish and rice dish, and it carries the memory of a time when Kuwait's economy ran on the sea rather than on oil. Before the mid-twentieth century, Kuwait was a maritime nation. Its wooden dhows sailed as far as East Africa and India, and its coast supported a thriving fishing and pearl-diving industry. Fish was not a luxury — it was the daily protein of a coastal people, and mutabbaq samak was one of the ways they ate it.
+
+The name means "covered fish" or "layered fish," referring to the way the fried fish is placed on top of the seasoned rice, covering it like a lid. The dish is closely related to machboos, but where machboos cooks the meat in the rice broth, mutabbaq samak keeps the fish separate — frying it whole until crisp and golden before laying it over the finished rice. This gives the fish a texture that braised or stewed fish cannot achieve: a crunchy exterior giving way to tender, flaky flesh underneath.
+
+Zubaidi (silver pomfret) is the traditional fish for this dish and is considered the finest eating fish in the Gulf. It has a clean, mild flavor and a firm texture that holds up well to frying. When zubaidi is unavailable or out of season, sea bream, hamour (grouper), or any firm-fleshed white fish will work. The rice is cooked with deeply caramelized onions and baharat, giving it a golden color and a sweet, spiced depth that complements the clean flavor of the fish.`,
     author: "editorial-team",
     publishedAt: "2024-10-18",
     cuisine: "Kuwaiti",
@@ -653,6 +708,11 @@ export const recipes: Recipe[] = [
     seoTitle: "Harees Recipe: Traditional Emirati Comfort Food",
     metaDescription: "Make traditional Emirati Harees — a comforting slow-cooked porridge of cracked wheat and meat, essential during Ramadan.",
     shortDescription: "A comforting slow-cooked porridge of cracked wheat and meat — an Emirati Ramadan essential.",
+    intro: `Harees is one of the oldest dishes in the Arabian Peninsula, and its history stretches back far beyond the Gulf states as we know them today. References to harisa — a wheat-and-meat porridge from which harees descends — appear in medieval Arabic cookbooks dating to the tenth century. The Abbasid caliphs ate it. Crusaders encountered it. Versions of it exist from Armenia to Hyderabad, each adapted to local grains and meats, but all sharing the same fundamental idea: wheat and protein, cooked slowly and for a very long time, until they merge into a smooth, comforting porridge.
+
+In the Gulf, harees holds a particular cultural weight because of its association with Ramadan. During the holy month, it is served at nearly every iftar table — the meal that breaks the day's fast at sunset. Its soft, easy-to-digest texture makes it ideal for a stomach that has been empty since dawn, and its richness provides sustenance for the evening ahead. Many Gulf families consider Ramadan incomplete without harees, and in some households, the recipe and technique have been handed down through four or five generations.
+
+The dish requires almost nothing in terms of ingredients — cracked wheat, meat, water, salt, ghee — but it demands patience. Traditional harees is cooked for three to four hours over the lowest possible heat, stirred occasionally, until the wheat grains disintegrate completely and the meat falls apart into fibers that disappear into the porridge. The final texture should be absolutely smooth, almost like a savory cream. It is then served in a bowl with a well of melted ghee in the center and a dusting of cinnamon. The simplicity is the point. In a cuisine built on complex spice blends and layered rice dishes, harees strips everything away and lets two ingredients do all the work.`,
     author: "sarah-al-fayed",
     publishedAt: "2024-10-20",
     cuisine: "Emirati",

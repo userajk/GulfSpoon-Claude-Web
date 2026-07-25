@@ -46,6 +46,7 @@ export interface Recipe {
   totalTimeMinutes: number;
   servings: number;
   estimatedCost?: string;
+  intro?: string;
   heroImage: string;
   cardImage?: string;
   imageAlt: string;
