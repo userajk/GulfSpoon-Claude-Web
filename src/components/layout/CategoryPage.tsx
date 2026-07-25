@@ -22,7 +22,9 @@ export default function CategoryPage({ category, subcategories }: Props) {
   const latest = recipes.slice(0, 6);
 
   const breadcrumbParent = category.type === "cuisine"
-    ? { label: "Gulf Kitchen", href: "/gulf-kitchen" }
+    ? category.region === "Gulf"
+      ? { label: "Gulf Kitchen", href: "/gulf-kitchen" }
+      : { label: "Expat Kitchens", href: "/expat-kitchens" }
     : undefined;
 
   return (
