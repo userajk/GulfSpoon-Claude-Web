@@ -39,6 +39,8 @@ This culinary identity was shaped by the environment as much as by trade. The ha
 
 **Turmeric:** While turmeric is common across South and Southeast Asian cooking, it plays a particular role in the Gulf, where it is used primarily for color rather than flavor. Gulf cooks add turmeric to rice, soups, and stews to achieve a warm golden hue. It is almost always used alongside other spices rather than as a standalone flavoring.
 
+{{image:spices}}
+
 ## Rice: The Heart of the Khaleeji Table {#rice-dishes}
 
 If spices are the soul of Khaleeji cooking, rice is its heart. The Gulf's most celebrated dishes — machboos, kabsa, majboos, mandi — are all built around long-grain rice cooked with meat, spices, and dried limes. The preference is overwhelmingly for basmati, imported from India and Pakistan, and Gulf cooks are famously particular about which brand they use.
@@ -46,6 +48,8 @@ If spices are the soul of Khaleeji cooking, rice is its heart. The Gulf's most c
 The technique for Gulf rice dishes typically follows a pattern: meat is browned with onions and spices, then simmered in a broth until tender. The rice is cooked separately or in the same broth, absorbing the flavors of the meat and spices. The dish is then assembled — rice mounded on a platter, meat arranged on top — and garnished with fried onions, roasted nuts, or raisins. The result is a single-platter meal meant to be shared.
 
 Each Gulf country has its own variation. In Kuwait, machboos tends to be made with more tomato and a slightly wetter consistency. In Saudi Arabia, kabsa often includes a smoky element from wood-fired cooking. In the UAE and Oman, the flavors tend to be milder, with a stronger emphasis on dried limes and saffron. These differences are subtle but meaningful to local cooks, and they reflect the diversity within what outsiders often mistakenly treat as a single, uniform cuisine.
+
+{{image:machboos}}
 
 ## The Communal Table {#communal-dining}
 
@@ -62,6 +66,18 @@ Khaleeji cuisine is experiencing a quiet renaissance. A new generation of Gulf-b
 At the same time, the home kitchen remains the true custodian of this cuisine. The most authentic machboos, the best harees, the finest luqaimat — these are still made at home, by cooks who learned from their mothers and grandmothers, using bezar blends that have been in the family for generations. The recipes are rarely written down in precise measurements. A handful of this, a pinch of that, cook it until it smells right. This oral tradition is part of what makes Khaleeji cooking so difficult to replicate from a cookbook and so rewarding to learn from a person.
 
 The Gulf's food story is also being shaped by its extraordinary diversity. In a region where expatriates often outnumber citizens, Khaleeji cooking exists alongside Indian, Pakistani, Filipino, Levantine, and East African food traditions. These cuisines have influenced each other in subtle ways — a Pakistani bezar that adds Gulf-style loomi, a Filipino adobo made with locally available vinegar, an Emirati dessert that borrows cardamom usage from Indian sweets. The result is a food culture that is traditional and modern, local and global, deeply rooted and constantly evolving.`,
+    contentImages: {
+      "spices": {
+        src: "/images/stories/khaleeji-spices-closeup.jpg",
+        alt: "Traditional Gulf spices including dried black limes, saffron threads, green cardamom pods, and bezar blend arranged on a brass tray",
+        caption: "The essential spices of Khaleeji cooking — loomi, saffron, cardamom, and bezar — each carrying centuries of trade history.",
+      },
+      "machboos": {
+        src: "/images/stories/khaleeji-machboos-platter.jpg",
+        alt: "A communal platter of chicken machboos with golden saffron rice, fried onions, and toasted almonds on a traditional dining cloth",
+        caption: "Machboos served on a communal platter — the centerpiece of the Khaleeji table.",
+      },
+    },
     relatedRecipes: ["chicken-machboos", "fish-salona", "emirati-harees"],
   },
   {
@@ -104,6 +120,8 @@ A traditional halwa puri breakfast has three essential components, and each one 
 
 Beyond these three staples, the spread might include aloo bhujia (dry spiced potatoes), anda chanay (egg and chickpea curry), imli ki chutney (tamarind sauce), sliced onions, green chilies, and fresh coriander. Each family has its own additions and its own opinions about what belongs on the table.
 
+{{image:spread}}
+
 ## Adapting to Gulf Kitchens {#adaptation}
 
 Gulf-based Pakistani home cooks have adapted the halwa puri tradition in ways both practical and creative. The core recipes remain unchanged — the techniques are the same ones learned from mothers and grandmothers in Lahore, Rawalpindi, and Hyderabad. But the ingredients have shifted slightly to accommodate what is available in Gulf supermarkets.
@@ -129,6 +147,13 @@ The halwa puri breakfast extends well beyond the family table. In Gulf apartment
 In labor camps and shared accommodations, halwa puri takes on an even deeper significance. For workers living far from their families, the Friday breakfast is a powerful connection to home. Groups of friends from the same city or province will pool resources and cook together, recreating not just the food but the social ritual that surrounds it — the conversation, the tea afterward, the sense that this morning, at least, is about something other than work.
 
 The tradition has also become a quiet cultural ambassador. Gulf-based Arab, Indian, and Filipino neighbors who have been offered halwa puri often become fans, requesting the recipe or asking to join next Friday. In this way, a breakfast born in the streets of Lahore has become one of the Gulf's most widespread expatriate food traditions — a weekly reminder that identity can be carried in a plate of food, no matter how far from home you are.`,
+    contentImages: {
+      "spread": {
+        src: "/images/stories/halwa-puri-spread.jpg",
+        alt: "Overhead view of a complete Pakistani halwa puri breakfast spread with golden puris, sooji halwa, chickpea curry, and spiced potatoes",
+        caption: "A complete halwa puri spread — puris, sooji ka halwa, channay, and aloo bhujia — the Friday morning ritual.",
+      },
+    },
     relatedRecipes: ["pakistani-halwa-puri"],
     relatedStories: ["the-soul-of-khaleeji-cooking"],
   },
@@ -170,6 +195,8 @@ In the Gulf, adobo takes on an additional dimension. Pork is not widely availabl
 
 The vinegar question is another Gulf adaptation. Philippine cane vinegar and coconut vinegar are available in Filipino grocery stores across the Gulf, but they are more expensive than locally available alternatives. Some cooks have started using locally sourced white vinegar or apple cider vinegar and adjusting the proportions to approximate the flavor they are used to. Purists insist on the real thing. Pragmatists make do. The debate, like all debates about adobo, is passionate and unresolved.
 
+{{image:adobo}}
+
 ## The Ingredient Hunt {#ingredient-hunt}
 
 The growth of the Filipino community in the Gulf has transformed the grocery landscape. Twenty years ago, finding calamansi, banana ketchup, or patis (fish sauce) in a Gulf supermarket would have been nearly impossible. Today, major supermarket chains in the UAE, Saudi Arabia, Qatar, and Bahrain stock dedicated Filipino sections. In cities with large Filipino populations — Abu Dhabi, Dubai, Jeddah, Al Khobar — standalone Filipino grocery stores carry everything from frozen milkfish (bangus) and longanisa sausages to ube (purple yam) extract and shrimp paste.
@@ -188,6 +215,8 @@ For Filipino workers who live far from their families — and there are millions
 
 Birthday celebrations within the community are another major food event. A Filipino birthday in the Gulf almost always involves a large feast — far larger than the guest list might seem to require — with spaghetti (sweet-style, with banana ketchup in the sauce, a distinctly Filipino preparation that surprises the uninitiated), fried chicken, pancit, and a cake. The birthday spaghetti is so ubiquitous that it has become a running joke within the community: if you see a Filipino carrying a foil tray of sweet red spaghetti, someone nearby is turning a year older.
 
+{{image:potluck}}
+
 ## Sharing Food, Building Bridges {#sharing-food}
 
 Filipino cooks in the Gulf are known for their extraordinary generosity with food. It is a cultural trait that transcends the Gulf context — in the Philippines, offering food to visitors, neighbors, and even strangers is a deeply ingrained social practice. In the Gulf, this generosity has become one of the primary ways Filipino workers build relationships across cultural lines.
@@ -197,6 +226,18 @@ Office potlucks are a common venue. In Gulf workplaces where Filipinos are part 
 In domestic settings, Filipino caregivers, nannies, and household staff have quietly introduced Filipino flavors to Gulf families. A nanny who cooks adobo for the children, a caregiver who prepares sinigang for an elderly family member — these everyday acts of cooking have made Filipino food familiar to a generation of Gulf Arab families who might never have encountered it otherwise.
 
 The cultural exchange goes deeper than individual dishes. The Filipino approach to food — generous, communal, practical, unfussy — resonates with Gulf values of hospitality and shared meals. In a region where many different cultures live and work side by side, food has become one of the most natural bridges between communities. And for the millions of Filipinos who call the Gulf home, the kitchen remains the one place where distance from the Philippines disappears entirely, one simmering pot of adobo at a time.`,
+    contentImages: {
+      "adobo": {
+        src: "/images/stories/chicken-adobo-gulf.jpg",
+        alt: "A simmering pot of Filipino chicken adobo in dark soy-vinegar sauce with garlic, bay leaves, and peppercorns",
+        caption: "Chicken adobo simmering in its signature soy-vinegar sauce — the dish every Filipino in the Gulf calls home.",
+      },
+      "potluck": {
+        src: "/images/stories/filipino-potluck-spread.jpg",
+        alt: "A Filipino Sunday potluck spread with pancit, lumpia, chicken adobo, steamed rice, and leche flan",
+        caption: "A Sunday potluck spread — pancit, lumpia, adobo, and leche flan — the weekly gathering that keeps the community close.",
+      },
+    },
     relatedRecipes: ["filipino-chicken-adobo"],
     relatedStories: ["halwa-puri-sundays-in-the-gulf"],
   },

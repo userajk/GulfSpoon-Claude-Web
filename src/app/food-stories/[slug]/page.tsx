@@ -92,8 +92,19 @@ export default async function StoryPage({ params }: Props) {
             className="prose prose-lg max-w-none mb-12
               [&_h2]:font-serif [&_h2]:text-deep-plum [&_h2]:text-2xl [&_h2]:mt-12 [&_h2]:mb-4
               [&_p]:text-charcoal [&_p]:leading-relaxed [&_p]:mb-4
-              [&_strong]:text-deep-plum"
-            dangerouslySetInnerHTML={{ __html: story.content.replace(/## (.*?) \{#(.*?)\}/g, '<h2 id="$2">$1</h2>').replace(/\n\n/g, '</p><p>').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }}
+              [&_strong]:text-deep-plum
+              [&_figure]:my-10 [&_figure]:border [&_figure]:border-warm-taupe
+              [&_figcaption]:text-sm [&_figcaption]:text-on-surface-variant [&_figcaption]:italic [&_figcaption]:px-4 [&_figcaption]:py-3 [&_figcaption]:bg-soft-ivory"
+            dangerouslySetInnerHTML={{ __html: story.content
+              .replace(/## (.*?) \{#(.*?)\}/g, '<h2 id="$2">$1</h2>')
+              .replace(/\{\{image:(.*?)\}\}/g, (_match, key) => {
+                const img = story.contentImages?.[key];
+                if (!img) return '';
+                return `</p><figure><img src="${img.src}" alt="${img.alt}" loading="lazy" style="width:100%;height:auto;display:block;" />${img.caption ? `<figcaption>${img.caption}</figcaption>` : ''}</figure><p>`;
+              })
+              .replace(/\n\n/g, '</p><p>')
+              .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+            }}
           />
 
           {/* Author bio */}

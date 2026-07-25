@@ -1,3 +1,9 @@
+export interface StoryImage {
+  src: string;
+  alt: string;
+  caption?: string;
+}
+
 export interface Story {
   slug: string;
   title: string;
@@ -13,6 +19,7 @@ export interface Story {
   imageAlt: string;
   tableOfContents?: { id: string; title: string }[];
   content: string;
+  contentImages?: Record<string, StoryImage>;
   sourceLinks?: { title: string; url: string }[];
   relatedStories?: string[];
   relatedRecipes?: string[];
