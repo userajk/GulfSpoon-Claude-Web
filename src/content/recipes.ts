@@ -967,11 +967,11 @@ Making shawarma at home means you do not have a vertical rotisserie, and that is
     seoTitle: "Air Fryer Chicken Tenders — Crispy & Juicy",
     metaDescription: "Crispy, golden air fryer chicken tenders with a crunchy panko coating. Brined for juiciness, cooked with barely any oil, and ready in 20 minutes. A family favorite.",
     shortDescription: "Crispy, golden chicken tenders with a shattering panko crust and juicy interior, made in the air fryer with barely a tablespoon of oil. A quick brine keeps the meat moist, and the dual-breadcrumb coating delivers that deep-fried crunch without the mess. Ready in 20 minutes, loved by everyone at the table.",
-    intro: `The air fryer has quietly changed the way home cooks approach fried food. The technology is not new — convection ovens have been circulating hot air around food for decades — but the compact, countertop format and the speed at which these machines work have turned them into one of the most-used appliances in Gulf kitchens. In a region where deep-fried snacks are a staple of everything from school lunchboxes to Ramadan iftar spreads, the air fryer offers a genuine alternative: crispy results with a fraction of the oil.
+    intro: `Chicken tenders sit in a sweet spot for air fryer cooking. They are thin enough to cook through in minutes, but substantial enough to develop a proper crust. The challenge has always been getting breaded chicken to crisp evenly without the coating falling off or turning pale and soft. The solution is a three-step dredge — flour, egg, breadcrumbs — with a firm press at each stage, and a light mist of oil before and during cooking.
 
-Chicken tenders sit in a sweet spot for air fryer cooking. They are thin enough to cook through in minutes, but substantial enough to develop a proper crust. The challenge has always been getting breaded chicken to crisp evenly in an air fryer without the coating falling off or turning pale and soft. The solution is a three-step dredge — flour, egg, breadcrumbs — with a firm press at each stage, and a light mist of oil before and during cooking. That oil spray is not optional. Without it, the breadcrumbs toast unevenly and the surface stays matte instead of golden.
+The brine is the other key. Chicken tenders are lean, and lean meat dries out fast at high heat. A 30-minute soak in salted water seasons the meat all the way through and adds enough moisture to keep the interior juicy even at 200°C. It is a small step that makes a significant difference.
 
-The brine is the other key. Chicken tenders are lean, and lean meat dries out fast at high heat. A 30-minute soak in salted water seasons the meat all the way through and adds enough moisture to keep the interior juicy even at 200°C. It is a small step that makes a significant difference, and once you try it, you will not skip it again.`,
+**Pro Tip:** Keep a meat thermometer handy — it is the most reliable way to ensure perfect results when cooking proteins. For chicken, aim for 74°C (165°F).`,
     author: "sarah-al-fayed",
     publishedAt: "2026-07-16",
     cuisine: "International",
@@ -1031,6 +1031,7 @@ The brine is the other key. Chicken tenders are lean, and lean meat dries out fa
       "Do not overcrowd the basket. Overlapping tenders will steam instead of crisp. Cook in batches and keep finished tenders warm in a 100°C (200°F) oven.",
       "Oil spray is essential. A light mist on the breaded chicken is what turns the coating golden and crispy. Without it, the breadcrumbs stay pale.",
       "Use a meat thermometer. Air fryer temperatures vary between models. Cook until the internal temperature reaches 74°C (165°F) for guaranteed juicy results.",
+      "Quick Reference — Air Fryer Cooking Chart: Chicken Tenders → 200°C (400°F) for 12–14 min, flip halfway. Salmon Fillets → 200°C (400°F) for 8–10 min, no flipping needed. Baked Potato → 200°C (400°F) for 35–45 min, rotate halfway.",
     ],
     substitutions: [
       "No chicken tenders? Cut boneless, skinless chicken breast into strips about 2cm wide. They work identically.",
@@ -1051,7 +1052,184 @@ The brine is the other key. Chicken tenders are lean, and lean meat dries out fa
       { question: "Can I make these ahead for meal prep?", answer: "Yes. Bread the tenders and freeze them uncooked on a baking sheet. Once frozen, transfer to a zip-lock bag. Cook from frozen, adding 2 to 3 extra minutes to the cooking time." },
       { question: "What temperature should I use for my air fryer?", answer: "200°C (400°F) works for most air fryers. If your model runs hot, reduce to 190°C (375°F) and add a minute to the cook time. Use a meat thermometer to confirm doneness at 74°C (165°F)." },
     ],
-    relatedRecipeSlugs: ["chicken-shawarma", "filipino-chicken-adobo"],
+    relatedRecipeSlugs: ["air-fryer-salmon", "air-fryer-baked-potato"],
+  },
+  {
+    slug: "air-fryer-salmon",
+    recipeName: "Air Fryer Salmon",
+    archiveTitle: "Air Fryer Salmon",
+    pageTitle: "Air Fryer Salmon: Perfectly Flaky in 10 Minutes",
+    seoTitle: "Air Fryer Salmon — Crispy Skin, Flaky Inside",
+    metaDescription: "Perfectly cooked air fryer salmon with crispy skin and a flaky, juicy interior. Ready in 10 minutes with a simple garlic-paprika seasoning. Optional honey-soy glaze.",
+    shortDescription: "Salmon fillets with crispy, golden skin and a buttery, flaky interior — cooked in the air fryer in under 10 minutes. A simple garlic and smoked paprika rub does the heavy lifting, and an optional honey-soy glaze adds a caramelised finish. No flipping required.",
+    intro: `Salmon is one of the best proteins for the air fryer. The circulating hot air crisps the skin in a way that is difficult to achieve in a conventional oven, while the interior stays moist and flaky. The entire cook takes 8 to 10 minutes with no flipping, no babysitting, and no splatter.
+
+The key is starting with dry fillets and a hot air fryer. Moisture on the surface of the fish prevents crisping, so a thorough pat-down with paper towels before seasoning is essential. A light coat of olive oil, a simple spice rub, and 200°C does the rest.
+
+**Pro Tip:** Keep a meat thermometer handy — for salmon, the USDA recommends 63°C (145°F). For a juicier, medium-cooked fillet, pull it at 52°C (125°F) and let it rest for 2 minutes.`,
+    author: "sarah-al-fayed",
+    publishedAt: "2026-07-18",
+    cuisine: "International",
+    categories: ["air-fryer", "quick-and-easy"],
+    mealTypes: ["Lunch", "Dinner"],
+    cookingMethods: ["Air Frying"],
+    difficulty: "Easy",
+    prepTimeMinutes: 5,
+    cookTimeMinutes: 10,
+    totalTimeMinutes: 15,
+    servings: 4,
+    estimatedCost: "Medium",
+    heroImage: "/images/recipes/air-fryer-salmon.jpg",
+    imageAlt: "Air fryer salmon fillets on a white plate with crispy golden skin, garnished with lemon wedges and fresh dill",
+    ingredients: [
+      {
+        title: "Salmon",
+        items: [
+          { item: "salmon fillets", amount: "4", unit: "", note: "skin-on, about 170g (6 oz) each, 2.5cm (1 inch) thick", amountNumeric: 4 },
+          { item: "olive oil", amount: "1", unit: "tbsp", amountNumeric: 1 },
+          { item: "garlic powder", amount: "1", unit: "tsp", amountNumeric: 1 },
+          { item: "smoked paprika", amount: "1", unit: "tsp", amountNumeric: 1 },
+          { item: "salt", amount: "½", unit: "tsp", amountNumeric: 0.5 },
+          { item: "black pepper", amount: "¼", unit: "tsp", amountNumeric: 0.25 },
+          { item: "lemon", amount: "1", unit: "", note: "cut into wedges, for serving", amountNumeric: 1 },
+        ],
+      },
+      {
+        title: "Optional Honey-Soy Glaze",
+        items: [
+          { item: "honey", amount: "2", unit: "tbsp", amountNumeric: 2 },
+          { item: "soy sauce", amount: "1", unit: "tbsp", amountNumeric: 1 },
+          { item: "garlic", amount: "1", unit: "clove", note: "minced", amountNumeric: 1 },
+          { item: "rice vinegar", amount: "1", unit: "tsp", amountNumeric: 1 },
+        ],
+      },
+    ],
+    instructions: [
+      { step: 1, text: "Remove the salmon from the fridge 10 minutes before cooking. Pat each fillet thoroughly dry with paper towels — both the flesh side and the skin side.", tip: "This is the most important step. Dry skin = crispy skin. Wet skin = rubbery skin." },
+      { step: 2, text: "Preheat your air fryer to 200°C (400°F) for 3 minutes." },
+      { step: 3, text: "Brush or drizzle the flesh side of each fillet with olive oil. Mix the garlic powder, smoked paprika, salt, and black pepper together, then sprinkle evenly over the flesh side of each fillet." },
+      { step: 4, text: "If using the honey-soy glaze, whisk together the honey, soy sauce, minced garlic, and rice vinegar in a small bowl. Set aside." },
+      { step: 5, text: "Place the salmon fillets skin-side down in the air fryer basket. Leave space between each fillet for air circulation. Do not flip at any point during cooking." },
+      { step: 6, text: "Air fry at 200°C (400°F) for 8 to 10 minutes, depending on thickness. The salmon is done when it flakes easily with a fork and the internal temperature reaches 63°C (145°F) for well-done, or 52°C (125°F) for medium." },
+      { step: 7, text: "If using the glaze, brush it over the salmon during the last 2 minutes of cooking. The sugars in the honey will caramelise under the high heat." },
+      { step: 8, text: "Remove from the air fryer and let rest for 2 minutes. Squeeze fresh lemon over the top and serve immediately." },
+    ],
+    equipment: ["Air fryer", "Paper towels", "Small mixing bowl", "Pastry brush", "Meat thermometer"],
+    tips: [
+      "Do not flip the salmon. Skin-side down the entire time gives you crispy skin on the bottom and perfectly cooked flesh on top.",
+      "Fillet thickness matters. For fillets thinner than 2cm, start checking at 7 minutes. For thicker cuts over 3cm, add 2 to 3 minutes.",
+      "The honey-soy glaze burns easily. Only add it in the final 2 minutes of cooking.",
+      "For crispier skin, lightly spray the skin side with oil before placing it in the basket.",
+      "Frozen salmon works — cook from frozen at 200°C for 12 to 15 minutes. Season after the first 5 minutes when the surface has thawed enough for the spices to stick.",
+      "Quick Reference — Air Fryer Cooking Chart: Chicken Tenders → 200°C (400°F) for 12–14 min, flip halfway. Salmon Fillets → 200°C (400°F) for 8–10 min, no flipping needed. Baked Potato → 200°C (400°F) for 35–45 min, rotate halfway.",
+    ],
+    substitutions: [
+      "No smoked paprika? Use regular paprika with a pinch of cumin for warmth.",
+      "Swap honey for maple syrup in the glaze for a deeper, less sweet flavour.",
+      "Use any firm fish fillet — trout, arctic char, or cod work well, though cook times may vary.",
+      "For a Middle Eastern twist, season with sumac, za'atar, and a squeeze of lemon instead of the paprika rub.",
+    ],
+    servingSuggestions: [
+      "Serve over a bed of fluffy basmati rice with roasted vegetables.",
+      "Pair with a simple cucumber and dill salad dressed in lemon juice and olive oil.",
+      "Flake the salmon over a grain bowl with quinoa, avocado, and pickled onion.",
+      "Serve with roasted asparagus or air-fried broccoli for a complete low-carb meal.",
+    ],
+    storage: "Store leftover salmon in an airtight container in the fridge for up to 2 days. Reheat gently in the air fryer at 160°C (320°F) for 3 to 4 minutes. Salmon does not reheat well in the microwave — the texture suffers.",
+    faqs: [
+      { question: "Should I use skin-on or skinless salmon?", answer: "Skin-on is recommended. The skin protects the fillet from the intense heat and crisps up beautifully. Skinless fillets work but cook slightly faster — start checking at 6 minutes." },
+      { question: "Why is my salmon dry?", answer: "Most likely overcooked. Start checking at 8 minutes and use a meat thermometer. For juicy results, pull the salmon at 52°C (125°F) for medium or 57°C (135°F) for medium-well." },
+      { question: "Can I cook salmon with the glaze from the start?", answer: "No. The honey will burn at 200°C if exposed for the full cook time. Add the glaze only during the last 2 minutes." },
+      { question: "Do I need to use parchment paper?", answer: "Not required, but a parchment liner makes cleanup easier and prevents the skin from sticking to the basket. If using parchment, poke a few holes for air circulation." },
+    ],
+    relatedRecipeSlugs: ["air-fryer-chicken-tenders", "air-fryer-baked-potato"],
+  },
+  {
+    slug: "air-fryer-baked-potato",
+    recipeName: "Air Fryer Baked Potato",
+    archiveTitle: "Air Fryer Baked Potato",
+    pageTitle: "Air Fryer Baked Potato: Crispy Skin, Fluffy Inside",
+    seoTitle: "Air Fryer Baked Potato — Crispy Skin, Fluffy Center",
+    metaDescription: "Air fryer baked potatoes with shatteringly crispy skin and a fluffy, steamy interior. Ready in 40 minutes with just oil and salt. The best baked potato method.",
+    shortDescription: "Baked potatoes with shatteringly crispy, salted skin and a cloud-like fluffy interior — made in the air fryer in about 40 minutes. No foil wrapping, no soggy skin. Just oil, salt, and the circulating heat of the air fryer doing what an oven cannot.",
+    intro: `The air fryer produces the best baked potato most home cooks have ever made. The circulating hot air dries and crisps the skin in a way that a conventional oven struggles to match, while the interior steams to a light, fluffy texture. No foil, no microwave shortcut, no compromise.
+
+The method is simple: scrub the potatoes, poke them, rub with oil and salt, and let the air fryer do its work at 200°C for 35 to 45 minutes. The salt draws moisture from the skin's surface, and the oil conducts heat evenly across it. The result is skin you actually want to eat.
+
+**Pro Tip:** Rotate the potatoes halfway through cooking. Air fryers have hot spots, and rotating ensures even crisping on all sides.`,
+    author: "sarah-al-fayed",
+    publishedAt: "2026-07-20",
+    cuisine: "International",
+    categories: ["air-fryer"],
+    mealTypes: ["Lunch", "Dinner", "Side Dish"],
+    cookingMethods: ["Air Frying"],
+    difficulty: "Easy",
+    prepTimeMinutes: 5,
+    cookTimeMinutes: 40,
+    totalTimeMinutes: 45,
+    servings: 4,
+    estimatedCost: "Low",
+    heroImage: "/images/recipes/air-fryer-baked-potato.jpg",
+    imageAlt: "Split-open air fryer baked potato with fluffy white interior topped with butter, sour cream, and chives on a rustic wooden table",
+    ingredients: [
+      {
+        title: "Baked Potatoes",
+        items: [
+          { item: "russet potatoes", amount: "4", unit: "large", note: "similar size for even cooking", amountNumeric: 4 },
+          { item: "olive oil", amount: "1", unit: "tbsp", amountNumeric: 1 },
+          { item: "coarse salt", amount: "1", unit: "tsp", note: "sea salt or kosher salt", amountNumeric: 1 },
+        ],
+      },
+      {
+        title: "Toppings (Choose Your Own)",
+        items: [
+          { item: "unsalted butter", amount: "2", unit: "tbsp", amountNumeric: 2 },
+          { item: "sour cream", amount: "¼", unit: "cup", amountNumeric: 0.25 },
+          { item: "shredded cheddar cheese", amount: "½", unit: "cup", amountNumeric: 0.5 },
+          { item: "fresh chives", amount: "2", unit: "tbsp", note: "chopped", amountNumeric: 2 },
+          { item: "salt and pepper", amount: "", unit: "", note: "to taste" },
+        ],
+      },
+    ],
+    instructions: [
+      { step: 1, text: "Scrub the potatoes under running water and dry them completely. Any dirt left on the skin will taste gritty once crisped." },
+      { step: 2, text: "Poke each potato 6 to 8 times with a fork on all sides. This allows steam to escape during cooking and prevents the potato from bursting.", tip: "Do not skip the poking. A potato without holes can build up enough steam pressure to crack open in the air fryer." },
+      { step: 3, text: "Rub each potato with a thin, even coat of olive oil. Sprinkle coarse salt all over the skin, pressing gently so it adheres.", tip: "The oil conducts heat across the skin's surface for even crisping. The salt draws out moisture, which is what makes the skin shatteringly crisp." },
+      { step: 4, text: "Preheat the air fryer to 200°C (400°F) for 3 minutes." },
+      { step: 5, text: "Place the potatoes in the air fryer basket. Leave space between them — do not stack or crowd. If your air fryer is small, cook in batches of 2." },
+      { step: 6, text: "Cook at 200°C (400°F) for 20 minutes. Then rotate each potato (turn them over or shift their position) and cook for another 15 to 25 minutes.", tip: "Total cook time depends on potato size. Medium potatoes: 35 minutes. Large potatoes: 40 to 45 minutes." },
+      { step: 7, text: "The potato is done when a knife slides into the centre with no resistance and the skin feels dry and crisp to the touch. If unsure, the internal temperature should reach 99°C (210°F)." },
+      { step: 8, text: "Remove from the air fryer. Cut a deep slit down the centre of each potato, squeeze the ends to push the fluffy interior up, and add your toppings. Serve immediately." },
+    ],
+    equipment: ["Air fryer", "Fork", "Paper towels"],
+    tips: [
+      "Choose potatoes of similar size so they finish cooking at the same time. A 50g difference in weight can mean 5 to 10 minutes of uneven cooking.",
+      "Russet potatoes are the best variety for baking. Their high starch content produces the fluffiest interior. Waxy potatoes like Yukon Gold will not give the same result.",
+      "Do not wrap in foil. Foil traps steam and produces soft, soggy skin — the opposite of what the air fryer excels at.",
+      "Rotate halfway through. Air fryers have uneven hot spots, and rotating ensures the skin crisps evenly on all sides.",
+      "Leftover baked potatoes are excellent sliced and reheated in the air fryer at 190°C (375°F) for 5 minutes — they crisp up like home fries.",
+      "Quick Reference — Air Fryer Cooking Chart: Chicken Tenders → 200°C (400°F) for 12–14 min, flip halfway. Salmon Fillets → 200°C (400°F) for 8–10 min, no flipping needed. Baked Potato → 200°C (400°F) for 35–45 min, rotate halfway.",
+    ],
+    substitutions: [
+      "No russet potatoes? Sweet potatoes work well — reduce cook time to 30 to 35 minutes and check early, as they are denser and cook slightly differently.",
+      "Use any neutral oil — avocado oil, vegetable oil, or even melted butter rubbed on the skin.",
+      "For a dairy-free version, top with olive oil, za'atar, and chopped parsley instead of butter and sour cream.",
+      "Swap cheddar for crumbled feta or labneh for a Gulf-inspired loaded potato.",
+    ],
+    servingSuggestions: [
+      "Load with butter, sour cream, shredded cheddar, and chives for a classic baked potato.",
+      "Top with spiced minced meat, diced tomato, and a drizzle of tahini for a hearty meal.",
+      "Serve alongside grilled chicken or air fryer salmon for a complete dinner.",
+      "Fill with sautéed mushrooms, spinach, and melted cheese for a vegetarian main.",
+    ],
+    storage: "Store cooked potatoes in the fridge for up to 4 days. Reheat in the air fryer at 190°C (375°F) for 8 to 10 minutes to restore the crispy skin. Microwaving works for the interior but will soften the skin.",
+    faqs: [
+      { question: "Why are my baked potatoes not crispy?", answer: "Three common reasons: the potatoes were not dried before oiling, you wrapped them in foil (which steams the skin), or you did not use enough oil. The skin needs direct contact with hot circulating air to crisp." },
+      { question: "How do I know when the potato is done?", answer: "A knife should slide into the centre with zero resistance. The skin should feel dry and firm, not soft. Internal temperature of 99°C (210°F) is the most reliable indicator." },
+      { question: "Can I cook sweet potatoes the same way?", answer: "Yes, with adjustments. Sweet potatoes are denser and cook faster — check at 30 minutes. They also release more sugar, so line the basket with parchment to prevent sticking." },
+      { question: "How many potatoes can I cook at once?", answer: "Depends on your air fryer size. Most standard baskets fit 2 to 4 medium potatoes comfortably. Never stack them — each potato needs air circulation on all sides." },
+    ],
+    relatedRecipeSlugs: ["air-fryer-chicken-tenders", "air-fryer-salmon"],
   },
 ];
 
