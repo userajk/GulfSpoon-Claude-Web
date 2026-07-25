@@ -3,21 +3,19 @@ import Link from "next/link";
 import { getAllRecipes } from "@/content/recipes";
 import { getAllStories } from "@/content/stories";
 import RecipeCardGrid from "@/components/recipes/RecipeCardGrid";
-import { UtensilsCrossed, Flame, Coffee, IceCreamCone, BookOpen, Salad, Sunrise, Moon } from "lucide-react";
+import { UtensilsCrossed, Flame, Coffee, IceCreamCone, BookOpen, Fan } from "lucide-react";
 import {
   generateOrganizationSchema,
   generateWebSiteSchema,
 } from "@/lib/seo/structured-data";
 
 const categoryStrip = [
-  { href: "/gulf-kitchen", label: "Gulf Kitchen", icon: "UtensilsCrossed" },
-  { href: "/expat-kitchens", label: "Expat Kitchens", icon: "Flame" },
-  { href: "/breakfast", label: "Breakfast", icon: "Sunrise" },
-  { href: "/ramadan", label: "Ramadan", icon: "Moon" },
-  { href: "/quick-and-easy", label: "Quick & Easy", icon: "Salad" },
-  { href: "/desserts", label: "Desserts", icon: "IceCreamCone" },
-  { href: "/drinks", label: "Drinks", icon: "Coffee" },
-  { href: "/food-stories", label: "Food Stories", icon: "BookOpen" },
+  { href: "/gulf-kitchen/", label: "Gulf Kitchen", icon: "UtensilsCrossed" },
+  { href: "/expat-kitchens/", label: "Expat Kitchens", icon: "Flame" },
+  { href: "/air-fryer/", label: "Air Fryer", icon: "Fan" },
+  { href: "/desserts/", label: "Desserts", icon: "IceCreamCone" },
+  { href: "/drinks/", label: "Drinks", icon: "Coffee" },
+  { href: "/food-stories/", label: "Food Stories", icon: "BookOpen" },
 ];
 
 const iconMap: Record<string, React.ReactNode> = {
@@ -26,9 +24,7 @@ const iconMap: Record<string, React.ReactNode> = {
   Coffee: <Coffee size={28} />,
   IceCreamCone: <IceCreamCone size={28} />,
   BookOpen: <BookOpen size={28} />,
-  Salad: <Salad size={28} />,
-  Sunrise: <Sunrise size={28} />,
-  Moon: <Moon size={28} />,
+  Fan: <Fan size={28} />,
 };
 
 const cuisineCards = [
@@ -39,19 +35,12 @@ const cuisineCards = [
   { slug: "kuwaiti", name: "Kuwaiti", image: "/images/recipes/mutabbaq-samak.jpg" },
 ];
 
-const quickEasyTabs = [
-  "Under 30 Minutes", "One-Pot Meals", "Air Fryer", "Weeknight Dinners", "Lunchboxes", "Small-Kitchen Cooking",
-];
-
-const ramadanTabs = [
-  "Iftar", "Suhoor", "Ramadan Drinks", "Make-Ahead Meals", "Desserts", "Eid Recipes",
-];
 
 export default function HomePage() {
   const recipes = getAllRecipes();
   const stories = getAllStories();
   const trending = recipes.slice(0, 5);
-  const breakfastRecipes = recipes.filter((r) => r.categories.includes("breakfast")).slice(0, 3);
+  const airFryerRecipes = recipes.filter((r) => r.categories.includes("air-fryer")).slice(0, 3);
   const latestRecipes = recipes.slice(0, 6);
 
   return (
@@ -158,44 +147,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* How the Gulf Starts Its Day */}
+      {/* Air Fryer Recipes */}
       <section className="py-20 max-w-[1320px] mx-auto px-5 md:px-10">
-        <h2 className="font-serif text-4xl text-deep-plum mb-8">How the Gulf Starts Its Day</h2>
-        <RecipeCardGrid recipes={breakfastRecipes} columns={3} />
-      </section>
-
-      {/* Quick & Easy */}
-      <section className="py-20 bg-surface-container-low">
-        <div className="max-w-[1320px] mx-auto px-5 md:px-10">
-          <h2 className="font-serif text-4xl text-deep-plum mb-6">Quick &amp; Easy</h2>
-          <div className="flex flex-wrap gap-2 mb-8">
-            {quickEasyTabs.map((tab) => (
-              <Link key={tab} href="/quick-and-easy/" className="px-4 py-2 text-sm border border-outline-variant text-on-surface-variant hover:border-deep-plum hover:text-deep-plum transition-colors">
-                {tab}
-              </Link>
-            ))}
-          </div>
-          <RecipeCardGrid
-            recipes={recipes.filter((r) => r.categories.includes("quick-and-easy")).slice(0, 3)}
-            columns={3}
-          />
+        <div className="flex items-center justify-between mb-8">
+          <h2 className="font-serif text-4xl text-deep-plum">Air Fryer Favourites</h2>
+          <Link href="/air-fryer/" className="text-sm font-semibold text-deep-plum hover:text-saffron underline decoration-saffron underline-offset-4 transition-colors">
+            View All
+          </Link>
         </div>
-      </section>
-
-      {/* Gather Around the Ramadan Table */}
-      <section className="py-20 max-w-[1320px] mx-auto px-5 md:px-10">
-        <h2 className="font-serif text-4xl text-deep-plum mb-6">Gather Around the Ramadan Table</h2>
-        <div className="flex flex-wrap gap-2 mb-8">
-          {ramadanTabs.map((tab) => (
-            <Link key={tab} href="/ramadan/" className="px-4 py-2 text-sm border border-outline-variant text-on-surface-variant hover:border-deep-plum hover:text-deep-plum transition-colors">
-              {tab}
-            </Link>
-          ))}
-        </div>
-        <RecipeCardGrid
-          recipes={recipes.filter((r) => r.categories.includes("ramadan")).slice(0, 3)}
-          columns={3}
-        />
+        <RecipeCardGrid recipes={airFryerRecipes} columns={3} />
       </section>
 
       {/* Latest Recipes */}
