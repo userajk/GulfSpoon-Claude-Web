@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[43562,["/_next/static/chunks/07uutq3xyq_02.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/018lv1c-j966i.js","/_next/static/chunks/17rtt9v-fz978.js","/_next/static/chunks/27z-e2f87jbiw.js"],"default"]
+3:I[97367,["/_next/static/chunks/07uutq3xyq_02.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/018lv1c-j966i.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-[1320px] mx-auto px-5 md:px-10 py-8 md:py-20","children":[["$","h1",null,{"className":"font-serif text-4xl text-deep-plum mb-8","children":"Saved Recipes"}],["$","$L2",null,{}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/17rtt9v-fz978.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/27z-e2f87jbiw.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TuS4dhVK4czj8MNJRVM-M"}
+5:null

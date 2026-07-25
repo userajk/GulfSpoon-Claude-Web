@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { DM_Serif_Display, Source_Sans_3 } from "next/font/google";
+import { DM_Serif_Display, Source_Sans_3, Dancing_Script } from "next/font/google";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import CookieConsent from "@/components/consent/CookieConsent";
@@ -15,6 +15,12 @@ const dmSerif = DM_Serif_Display({
 const sourceSans = Source_Sans_3({
   subsets: ["latin"],
   variable: "--font-source-sans-3",
+  display: "swap",
+});
+
+const dancingScript = Dancing_Script({
+  subsets: ["latin"],
+  variable: "--font-dancing-script",
   display: "swap",
 });
 
@@ -73,7 +79,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${dmSerif.variable} ${sourceSans.variable} scroll-smooth`}
+      className={`${dmSerif.variable} ${sourceSans.variable} ${dancingScript.variable} scroll-smooth`}
     >
       <body className="min-h-screen flex flex-col antialiased">
         <Header />

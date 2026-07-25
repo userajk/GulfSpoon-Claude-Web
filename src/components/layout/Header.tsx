@@ -65,9 +65,9 @@ export default function Header() {
               className={cn("object-contain  transition-all duration-300", scrolled ? "w-8 h-8" : "w-10 h-10")}
               priority
             />
-            <span className={cn("font-sans font-medium tracking-tight transition-all duration-300", scrolled ? "text-xl" : "text-2xl")}>
-              <span className="text-charcoal">gulf</span>
-              <span className="text-saffron">spoon</span>
+            <span className={cn("font-[var(--font-dancing-script)] font-bold tracking-tight transition-all duration-300", scrolled ? "text-2xl" : "text-3xl")}>
+              <span style={{ color: "#4C1B42" }}>gulf</span>
+              <span style={{ color: "#DDA11B" }}>spoon</span>
             </span>
           </Link>
 
@@ -124,7 +124,7 @@ export default function Header() {
             <div className="flex items-center justify-between px-5 h-20 border-b border-outline-variant">
               <div className="flex items-center gap-2">
                 <Image src="/images/gulfspoon-logo-v2.png" alt="GulfSpoon" width={32} height={32} className="w-8 h-8 object-contain " />
-                <span className="font-sans text-xl font-medium tracking-tight"><span className="text-charcoal">gulf</span><span className="text-saffron">spoon</span></span>
+                <span className="font-[var(--font-dancing-script)] text-2xl font-bold tracking-tight"><span style={{ color: "#4C1B42" }}>gulf</span><span style={{ color: "#DDA11B" }}>spoon</span></span>
               </div>
               <button
                 onClick={() => setMobileOpen(false)}
