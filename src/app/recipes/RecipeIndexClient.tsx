@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback, useEffect } from "react";
+import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Search, SlidersHorizontal, X } from "lucide-react";
 import RecipeCard from "@/components/recipes/RecipeCard";
@@ -32,8 +32,13 @@ export default function RecipeIndexClient({ initialRecipes }: Props) {
   const [selectedDifficulty, setSelectedDifficulty] = useState<string[]>(() => searchParams.getAll("difficulty"));
   const [sort, setSort] = useState(searchParams.get("sort") ?? "newest");
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const isInitialMount = useRef(true);
 
-  const updateURL = useCallback(() => {
+  useEffect(() => {
+    if (isInitialMount.current) {
+      isInitialMount.current = false;
+      return;
+    }
     const params = new URLSearchParams();
     if (query) params.set("q", query);
     selectedCuisines.forEach((c) => params.append("cuisine", c));
@@ -42,13 +47,11 @@ export default function RecipeIndexClient({ initialRecipes }: Props) {
     selectedDifficulty.forEach((d) => params.append("difficulty", d));
     if (sort !== "newest") params.set("sort", sort);
     const str = params.toString();
-    router.replace(`/recipes${str ? `?${str}` : ""}`, { scroll: false });
-  }, [query, selectedCuisines, selectedMeals, selectedDietary, selectedDifficulty, sort, router]);
-
-  useEffect(() => {
-    const timer = setTimeout(updateURL, 300);
+    const timer = setTimeout(() => {
+      router.replace(`/recipes/${str ? `?${str}` : ""}`, { scroll: false });
+    }, 300);
     return () => clearTimeout(timer);
-  }, [updateURL]);
+  }, [query, selectedCuisines, selectedMeals, selectedDietary, selectedDifficulty, sort, router]);
 
   const filtered = useMemo(() => {
     let results = [...initialRecipes];

@@ -109,7 +109,7 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
 
       {/* Intro & Origin */}
       {recipe.intro && (
-        <div className="mb-12 max-w-prose mx-auto space-y-4 text-base leading-relaxed"
+        <div className="mb-12 space-y-4 text-base leading-relaxed"
           dangerouslySetInnerHTML={{
             __html: recipe.intro
               .split("\n\n")
