@@ -23,8 +23,8 @@ export default function CategoryPage({ category, subcategories }: Props) {
 
   const breadcrumbParent = category.type === "cuisine"
     ? category.region === "Gulf"
-      ? { label: "Gulf Kitchen", href: "/gulf-kitchen" }
-      : { label: "Expat Kitchens", href: "/expat-kitchens" }
+      ? { label: "Gulf Kitchen", href: "/gulf-kitchen/" }
+      : { label: "Expat Kitchens", href: "/expat-kitchens/" }
     : undefined;
 
   return (
@@ -51,7 +51,7 @@ export default function CategoryPage({ category, subcategories }: Props) {
             {subcategories.map((sub) => (
               <Link
                 key={sub.slug}
-                href={`/cuisines/${sub.slug}`}
+                href={`/cuisines/${sub.slug}/`}
                 className="label-caps text-on-surface-variant hover:text-deep-plum transition-colors pb-3"
               >
                 {sub.name}
@@ -66,7 +66,7 @@ export default function CategoryPage({ category, subcategories }: Props) {
         <section className="mb-20">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
             <div className="md:col-span-8">
-              <Link href={`/recipes/${featured.slug}`} className="block relative aspect-[4/3] overflow-hidden border border-outline-variant">
+              <Link href={`/recipes/${featured.slug}/`} className="block relative aspect-[4/3] overflow-hidden border border-outline-variant">
                 <Image
                   src={featured.heroImage}
                   alt={featured.imageAlt}
@@ -86,7 +86,7 @@ export default function CategoryPage({ category, subcategories }: Props) {
                 {featured.shortDescription}
               </p>
               <Link
-                href={`/recipes/${featured.slug}`}
+                href={`/recipes/${featured.slug}/`}
                 className="inline-flex items-center bg-deep-plum text-white px-6 py-3 text-sm font-semibold tracking-wider uppercase hover:bg-dark-aubergine transition-colors"
               >
                 Read Recipe
@@ -101,7 +101,7 @@ export default function CategoryPage({ category, subcategories }: Props) {
         <section className="mb-20">
           <div className="flex items-center justify-between mb-6 border-b border-outline-variant pb-3">
             <h3 className="font-serif text-2xl text-deep-plum">Popular Recipes</h3>
-            <Link href="/recipes" className="label-caps text-saffron hover:text-deep-plum transition-colors">
+            <Link href="/recipes/" className="label-caps text-saffron hover:text-deep-plum transition-colors">
               View All
             </Link>
           </div>
@@ -124,7 +124,7 @@ export default function CategoryPage({ category, subcategories }: Props) {
           Get the latest {category.name.toLowerCase()} recipes delivered to your inbox.
         </p>
         <Link
-          href="/recipes"
+          href="/recipes/"
           className="inline-flex items-center bg-deep-plum text-white px-6 py-3 text-sm font-semibold tracking-wider uppercase hover:bg-dark-aubergine transition-colors"
         >
           Browse All Recipes

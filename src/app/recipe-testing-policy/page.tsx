@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Recipe Testing Policy",
-  description: "How GulfSpoon tests and verifies recipes before publication.",
+  description: "How GulfSpoon tests and verifies every recipe before publication. Learn about our multi-step testing process that ensures reliable, repeatable results at home.",
 };
 
 export default function RecipeTestingPolicyPage() {
@@ -21,7 +21,7 @@ export default function RecipeTestingPolicyPage() {
             <li>Confirming ingredient quantities and proportions</li>
             <li>Noting potential substitutions and variations</li>
           </ul>
-          <p>If you find an issue with any recipe, please <a href="/contact" className="text-deep-plum underline">let us know</a> so we can investigate and correct it.</p>
+          <p>If you find an issue with any recipe, please <a href="/contact/" className="text-deep-plum underline">let us know</a> so we can investigate and correct it.</p>
         </div>
       </div>
     </div>

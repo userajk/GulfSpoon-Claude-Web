@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Cookie Policy",
-  description: "How GulfSpoon uses cookies and similar technologies.",
+  description: "Learn how GulfSpoon uses cookies and similar technologies to improve your browsing experience, remember preferences, and analyze site traffic.",
 };
 
 export default function CookiePolicyPage() {

@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "GulfSpoon privacy policy — how we collect, use, and protect your information.",
+  description: "Read the GulfSpoon privacy policy to understand how we collect, use, and protect your personal information when you browse recipes and use our website.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -29,13 +29,13 @@ export default function PrivacyPolicyPage() {
           </ul>
 
           <h2 className="font-serif text-2xl text-deep-plum mt-8">Cookies</h2>
-          <p>We use cookies to remember your preferences, such as cookie consent choices and saved recipes (stored locally on your device). See our <a href="/cookie-policy" className="text-deep-plum underline">Cookie Policy</a> for details.</p>
+          <p>We use cookies to remember your preferences, such as cookie consent choices and saved recipes (stored locally on your device). See our <a href="/cookie-policy/" className="text-deep-plum underline">Cookie Policy</a> for details.</p>
 
           <h2 className="font-serif text-2xl text-deep-plum mt-8">Your Rights</h2>
-          <p>You may request access to, correction of, or deletion of your personal data at any time by contacting us at <a href="/contact" className="text-deep-plum underline">our contact page</a>.</p>
+          <p>You may request access to, correction of, or deletion of your personal data at any time by contacting us at <a href="/contact/" className="text-deep-plum underline">our contact page</a>.</p>
 
           <h2 className="font-serif text-2xl text-deep-plum mt-8">Contact</h2>
-          <p>If you have questions about this policy, please <a href="/contact" className="text-deep-plum underline">contact us</a>.</p>
+          <p>If you have questions about this policy, please <a href="/contact/" className="text-deep-plum underline">contact us</a>.</p>
         </div>
       </div>
     </div>

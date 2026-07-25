@@ -25,7 +25,7 @@ export default function SavedRecipesClient() {
           Browse our recipes and tap the bookmark icon to save your favorites.
         </p>
         <Link
-          href="/recipes"
+          href="/recipes/"
           className="inline-flex items-center bg-deep-plum text-white px-6 py-3 text-sm font-semibold tracking-wider uppercase hover:bg-dark-aubergine transition-colors"
         >
           Browse Recipes

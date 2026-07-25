@@ -4,7 +4,7 @@ import SearchPageClient from "./SearchPageClient";
 
 export const metadata: Metadata = {
   title: "Search",
-  description: "Search GulfSpoon recipes and food stories.",
+  description: "Search GulfSpoon for Gulf, Levantine, South Asian, and expat recipes by ingredient, dish name, cuisine, or dietary preference. Find your next favorite meal.",
 };
 
 export default function SearchPage() {

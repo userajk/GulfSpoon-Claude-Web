@@ -77,7 +77,7 @@ export default async function RecipePage({ params }: Props) {
               <span>
                 By{" "}
                 {author ? (
-                  <a href={`/authors/${author.slug}`} className="font-bold hover:text-deep-plum">
+                  <a href={`/authors/${author.slug}/`} className="font-bold hover:text-deep-plum">
                     {author.name}
                   </a>
                 ) : (

@@ -3,22 +3,22 @@ import Image from "next/image";
 import NewsletterForm from "@/components/forms/NewsletterForm";
 
 const exploreLinks = [
-  { href: "/recipes", label: "Recipes" },
-  { href: "/gulf-kitchen", label: "Gulf Kitchen" },
-  { href: "/expat-kitchens", label: "Expat Kitchens" },
+  { href: "/recipes/", label: "Recipes" },
+  { href: "/gulf-kitchen/", label: "Gulf Kitchen" },
+  { href: "/expat-kitchens/", label: "Expat Kitchens" },
 ];
 
 const featureLinks = [
-  { href: "/ramadan", label: "Ramadan" },
-  { href: "/food-stories", label: "Food Stories" },
-  { href: "/about", label: "About" },
+  { href: "/ramadan/", label: "Ramadan" },
+  { href: "/food-stories/", label: "Food Stories" },
+  { href: "/about/", label: "About" },
 ];
 
 const legalLinks = [
-  { href: "/privacy-policy", label: "Privacy Policy" },
-  { href: "/terms", label: "Terms of Use" },
-  { href: "/contact", label: "Contact Us" },
-  { href: "/cookie-policy", label: "Cookie Preferences" },
+  { href: "/privacy-policy/", label: "Privacy Policy" },
+  { href: "/terms/", label: "Terms of Use" },
+  { href: "/contact/", label: "Contact Us" },
+  { href: "/cookie-policy/", label: "Cookie Preferences" },
 ];
 
 export default function Footer() {

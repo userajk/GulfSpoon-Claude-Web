@@ -93,13 +93,13 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap items-center gap-4">
               <Link
-                href="/recipes"
+                href="/recipes/"
                 className="inline-flex items-center bg-deep-plum text-white px-8 py-4 text-sm font-semibold tracking-wider uppercase hover:bg-dark-aubergine transition-colors"
               >
                 Browse Recipes
               </Link>
               <Link
-                href="/gulf-kitchen"
+                href="/gulf-kitchen/"
                 className="text-sm font-semibold text-deep-plum border-b-2 border-saffron pb-0.5 hover:text-saffron transition-colors"
               >
                 Explore Gulf Kitchens
@@ -135,7 +135,7 @@ export default function HomePage() {
       <section className="py-20 max-w-[1320px] mx-auto px-5 md:px-10">
         <div className="flex items-center justify-between mb-8">
           <h2 className="font-serif text-4xl text-deep-plum">Trending Now</h2>
-          <Link href="/recipes" className="text-sm font-semibold text-deep-plum hover:text-saffron underline decoration-saffron underline-offset-4 transition-colors">
+          <Link href="/recipes/" className="text-sm font-semibold text-deep-plum hover:text-saffron underline decoration-saffron underline-offset-4 transition-colors">
             View All
           </Link>
         </div>
@@ -148,7 +148,7 @@ export default function HomePage() {
           <h2 className="font-serif text-4xl text-deep-plum mb-8 text-center">A Gulf of Flavours</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             {cuisineCards.map((c) => (
-              <Link key={c.slug} href={`/cuisines/${c.slug}`} className="group relative aspect-[3/4] overflow-hidden border border-outline-variant">
+              <Link key={c.slug} href={`/cuisines/${c.slug}/`} className="group relative aspect-[3/4] overflow-hidden border border-outline-variant">
                 <Image src={c.image} alt={c.name} fill className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 640px) 50vw, 20vw" />
                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 to-transparent" />
                 <span className="absolute bottom-4 left-4 font-serif text-xl text-white">{c.name}</span>
@@ -170,7 +170,7 @@ export default function HomePage() {
           <h2 className="font-serif text-4xl text-deep-plum mb-6">Quick &amp; Easy</h2>
           <div className="flex flex-wrap gap-2 mb-8">
             {quickEasyTabs.map((tab) => (
-              <Link key={tab} href="/quick-and-easy" className="px-4 py-2 text-sm border border-outline-variant text-on-surface-variant hover:border-deep-plum hover:text-deep-plum transition-colors">
+              <Link key={tab} href="/quick-and-easy/" className="px-4 py-2 text-sm border border-outline-variant text-on-surface-variant hover:border-deep-plum hover:text-deep-plum transition-colors">
                 {tab}
               </Link>
             ))}
@@ -187,7 +187,7 @@ export default function HomePage() {
         <h2 className="font-serif text-4xl text-deep-plum mb-6">Gather Around the Ramadan Table</h2>
         <div className="flex flex-wrap gap-2 mb-8">
           {ramadanTabs.map((tab) => (
-            <Link key={tab} href="/ramadan" className="px-4 py-2 text-sm border border-outline-variant text-on-surface-variant hover:border-deep-plum hover:text-deep-plum transition-colors">
+            <Link key={tab} href="/ramadan/" className="px-4 py-2 text-sm border border-outline-variant text-on-surface-variant hover:border-deep-plum hover:text-deep-plum transition-colors">
               {tab}
             </Link>
           ))}
@@ -210,13 +210,13 @@ export default function HomePage() {
       <section className="py-20 max-w-[1320px] mx-auto px-5 md:px-10">
         <div className="flex items-center justify-between mb-8">
           <h2 className="font-serif text-4xl text-deep-plum">Food Stories</h2>
-          <Link href="/food-stories" className="text-sm font-semibold text-deep-plum hover:text-saffron underline decoration-saffron underline-offset-4 transition-colors">
+          <Link href="/food-stories/" className="text-sm font-semibold text-deep-plum hover:text-saffron underline decoration-saffron underline-offset-4 transition-colors">
             View All
           </Link>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {stories.slice(0, 3).map((story) => (
-            <Link key={story.slug} href={`/food-stories/${story.slug}`} className="group">
+            <Link key={story.slug} href={`/food-stories/${story.slug}/`} className="group">
               <div className="relative aspect-[16/10] overflow-hidden mb-3 border border-outline-variant">
                 <Image src={story.heroImage} alt={story.imageAlt} fill className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 768px) 100vw, 33vw" />
               </div>

@@ -7,14 +7,14 @@ import { Search, Bookmark, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utilities/format";
 
 const navLinks = [
-  { href: "/recipes", label: "Recipes" },
-  { href: "/gulf-kitchen", label: "Gulf Kitchen" },
-  { href: "/expat-kitchens", label: "Expat Kitchens" },
-  { href: "/breakfast", label: "Breakfast" },
-  { href: "/ramadan", label: "Ramadan" },
-  { href: "/quick-and-easy", label: "Quick & Easy" },
-  { href: "/food-stories", label: "Food Stories" },
-  { href: "/about", label: "About" },
+  { href: "/recipes/", label: "Recipes" },
+  { href: "/gulf-kitchen/", label: "Gulf Kitchen" },
+  { href: "/expat-kitchens/", label: "Expat Kitchens" },
+  { href: "/breakfast/", label: "Breakfast" },
+  { href: "/ramadan/", label: "Ramadan" },
+  { href: "/quick-and-easy/", label: "Quick & Easy" },
+  { href: "/food-stories/", label: "Food Stories" },
+  { href: "/about/", label: "About" },
 ];
 
 export default function Header() {
@@ -85,14 +85,14 @@ export default function Header() {
 
           <div className="flex items-center gap-3">
             <Link
-              href="/search"
+              href="/search/"
               className="text-deep-plum hover:text-saffron transition-colors p-2"
               aria-label="Search recipes"
             >
               <Search size={20} strokeWidth={1.5} />
             </Link>
             <Link
-              href="/saved-recipes"
+              href="/saved-recipes/"
               className="text-deep-plum hover:text-saffron transition-colors p-2"
               aria-label="Saved recipes"
             >
@@ -147,14 +147,14 @@ export default function Header() {
               ))}
               <hr className="my-4 border-outline-variant mx-6" />
               <Link
-                href="/search"
+                href="/search/"
                 className="px-6 py-3 label-caps text-on-surface-variant hover:text-deep-plum flex items-center gap-2"
                 onClick={() => setMobileOpen(false)}
               >
                 <Search size={16} /> Search
               </Link>
               <Link
-                href="/saved-recipes"
+                href="/saved-recipes/"
                 className="px-6 py-3 label-caps text-on-surface-variant hover:text-deep-plum flex items-center gap-2"
                 onClick={() => setMobileOpen(false)}
               >

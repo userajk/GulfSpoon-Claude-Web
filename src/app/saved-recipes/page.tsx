@@ -3,7 +3,7 @@ import SavedRecipesClient from "./SavedRecipesClient";
 
 export const metadata: Metadata = {
   title: "Saved Recipes",
-  description: "Your saved recipes collection.",
+  description: "View and manage your saved GulfSpoon recipes. Bookmark your favorite Gulf, Levantine, and South Asian dishes for quick access whenever you need them.",
 };
 
 export default function SavedRecipesPage() {

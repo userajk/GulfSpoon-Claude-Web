@@ -6,7 +6,7 @@ export const recipes: Recipe[] = [
     recipeName: "Homemade Latte",
     archiveTitle: "How to Make a Latte at Home",
     pageTitle: "How to Make a Latte at Home (With or Without an Espresso Machine)",
-    seoTitle: "How to Make a Latte at Home — 3 Easy Methods | GulfSpoon",
+    seoTitle: "How to Make a Latte at Home — 3 Methods",
     metaDescription: "Learn how to make a cafe-quality latte at home using an espresso machine, moka pot, or French press. Step-by-step instructions with milk frothing tips and flavor variations.",
     shortDescription: "Making a latte at home is easier than you think. All you need is strong coffee, steamed milk, and a few minutes. This guide walks you through three different brewing methods — espresso machine, moka pot, and French press — so you can make a smooth, creamy latte no matter what equipment you have in your kitchen. Once you nail the basics, you may never queue at a coffee shop again.",
     intro: `The word "latte" is borrowed from the Italian caffè latte, meaning "milk coffee." But the drink that most of us picture — espresso topped with steamed milk and a thin layer of foam — is largely an American invention. In Italy, a caffè latte is a simple morning drink made at home, usually with stovetop moka pot coffee poured into a glass of hot milk. No art, no foam, no ceremony. The elaborate coffeehouse version emerged in Seattle in the 1980s, when espresso bars started experimenting with milk textures and presentation.
@@ -107,7 +107,7 @@ Making a good latte at home comes down to two things: strong, concentrated coffe
     recipeName: "Chicken Machboos",
     archiveTitle: "Chicken Machboos",
     pageTitle: "Chicken Machboos: Traditional Gulf Spiced Rice",
-    seoTitle: "Chicken Machboos Recipe: Authentic Gulf Spiced Rice with Chicken",
+    seoTitle: "Chicken Machboos: Gulf Spiced Rice Recipe",
     metaDescription: "Learn to make authentic Chicken Machboos, the quintessential Gulf rice dish with tender chicken, aromatic spices, black lime, and fragrant basmati rice.",
     shortDescription: "The quintessential Gulf rice dish — tender chicken slow-cooked with aromatic loomi, baharat, and fragrant basmati rice.",
     intro: `Machboos — also spelled majboos or machbous depending on which part of the Gulf you are in — is the dish that sits at the center of Khaleeji food culture. Every Gulf country claims a version, and families argue over the details the way Italian families argue over Sunday ragù. The name comes from the Arabic word "kabsa" or "machboos" meaning "pressed," referring to the method of cooking rice pressed down with meat so the grains absorb every drop of flavor from the broth.
@@ -265,7 +265,7 @@ In the Gulf, halwa puri has become one of the most recognizable Pakistani food t
     recipeName: "Balaleet",
     archiveTitle: "Balaleet",
     pageTitle: "Emirati Balaleet: Sweet Vermicelli with Egg",
-    seoTitle: "Balaleet Recipe: Traditional Emirati Sweet & Savory Breakfast",
+    seoTitle: "Balaleet: Emirati Sweet Vermicelli Recipe",
     metaDescription: "Make traditional Emirati Balaleet at home — sweet cardamom and saffron vermicelli topped with a thin savory omelet.",
     shortDescription: "Sweet vermicelli noodles with cardamom, saffron, and rosewater, topped with a thin savory omelet — an Emirati breakfast classic.",
     intro: `Balaleet is one of the most distinctive breakfast dishes in the Gulf — a plate that combines sweet, saffron-scented vermicelli noodles with a thin savory omelet folded on top. The contrast surprises first-time tasters, but in the Gulf it makes perfect sense. Sweet and savory combinations run through Khaleeji cooking like a thread, from dates eaten with cheese to saffron rice served with meat stews.
@@ -327,7 +327,7 @@ Balaleet is served across the UAE, Bahrain, Kuwait, and Qatar, though every fami
     recipeName: "Chicken Adobo",
     archiveTitle: "Chicken Adobo",
     pageTitle: "Filipino Chicken Adobo: The Gulf Kitchen Version",
-    seoTitle: "Filipino Chicken Adobo Recipe: Easy One-Pot Comfort Food",
+    seoTitle: "Filipino Chicken Adobo: Easy One-Pot Recipe",
     metaDescription: "Make authentic Filipino Chicken Adobo — tender chicken braised in soy sauce and vinegar with garlic, bay leaves, and black peppercorns.",
     shortDescription: "Tender chicken braised in soy sauce and vinegar with garlic, bay leaves, and black peppercorns — a Filipino staple loved across the Gulf.",
     intro: `Adobo is the dish most often called the national food of the Philippines, though Filipinos themselves will tell you there is no single national dish — just this one that every family cooks and no two families make the same way. The name is Spanish, borrowed during three centuries of colonial rule, but the technique is older than the colonizers. Filipino cooks were preserving meat in vinegar long before the Spanish arrived and gave the method a European name.
@@ -544,7 +544,7 @@ The beauty of shakshuka is its simplicity. One pan, a handful of ingredients, tw
     recipeName: "Pistachio Baklava",
     archiveTitle: "Pistachio Baklava",
     pageTitle: "Pistachio & Cardamom Baklava",
-    seoTitle: "Pistachio Cardamom Baklava Recipe: Flaky Layered Pastry",
+    seoTitle: "Pistachio Cardamom Baklava Recipe",
     metaDescription: "Make crispy, golden pistachio and cardamom baklava at home with phyllo pastry, clarified butter, and fragrant cardamom syrup.",
     shortDescription: "Crispy layers of phyllo pastry filled with crushed pistachios and drenched in fragrant cardamom syrup.",
     intro: `Baklava is one of the oldest pastries still made in its original form. Versions of layered nut-filled pastry drenched in honey or syrup appear in records from the Assyrian Empire, and the dish was refined into something close to its modern form in the kitchens of the Ottoman Topkapi Palace in Istanbul. From there, it spread across the entire former Ottoman world — from Greece and Turkey to Lebanon, Syria, Iran, and the Arabian Gulf — and each region developed its own version.
@@ -754,7 +754,7 @@ The dish requires almost nothing in terms of ingredients — cracked wheat, meat
     recipeName: "Gulf Red Lentil Soup (Shorbat Adas)",
     archiveTitle: "Gulf Red Lentil Soup",
     pageTitle: "Shorbat Adas: Gulf Red Lentil Soup with Cumin and Lemon",
-    seoTitle: "Gulf Red Lentil Soup (Shorbat Adas) — Easy Lentil Soup Recipe | GulfSpoon",
+    seoTitle: "Shorbat Adas: Gulf Red Lentil Soup Recipe",
     metaDescription: "Make authentic Gulf-style red lentil soup (shorbat adas) with cumin, turmeric, and fresh lemon. Ready in 30 minutes. A staple of Ramadan iftar tables across the Middle East.",
     shortDescription: "A velvety, golden soup made from split red lentils simmered with cumin, turmeric, garlic, and a generous squeeze of lemon. This is the soup that appears on nearly every iftar table during Ramadan and on cold-weather dinner tables the rest of the year. Simple enough for a weeknight, satisfying enough to build a meal around.",
     intro: `Shorbat adas — lentil soup — is one of those dishes that belongs to everyone and no one. You will find versions of it from Cairo to Karachi, from Istanbul to Aden. But the Gulf version has its own identity, shaped by centuries of trade and the practical realities of cooking in a region where fresh produce was historically scarce and pantry staples had to travel well. Lentils, dried spices, onions, and lemons — everything in this soup could survive a long journey by dhow or caravan.
@@ -852,7 +852,7 @@ What separates the Gulf version from its cousins elsewhere is the finishing. A d
     recipeName: "Chicken Shawarma",
     archiveTitle: "Chicken Shawarma",
     pageTitle: "Chicken Shawarma: Homemade Middle Eastern Spiced Chicken",
-    seoTitle: "Chicken Shawarma Recipe — Authentic Homemade Shawarma | GulfSpoon",
+    seoTitle: "Chicken Shawarma Recipe — Homemade Shawarma",
     metaDescription: "Make restaurant-quality chicken shawarma at home with a simple spice marinade, oven or stovetop cooking, and traditional garlic sauce. Ready in under an hour.",
     shortDescription: "Tender, juicy chicken thighs marinated in a warm blend of cumin, turmeric, paprika, and yogurt, then cooked until charred at the edges and sliced thin. Pile it into warm flatbread with garlic sauce, pickles, and fresh vegetables for the ultimate street food at home.",
     intro: `Shawarma is street food royalty across the Middle East, and its origins are tangled up in the broader history of spit-roasted meat that stretches from the Ottoman Empire to modern-day Beirut. The word itself comes from the Turkish "çevirme," meaning "turning" — a reference to the vertical rotisserie that defines the dish. Stacks of marinated meat rotate slowly next to a wall of heat, the outer layer crisping and caramelizing while the inside stays juicy. The cook shaves thin slices off the spinning cone as it cooks, and those slices — charred at the edges, tender in the middle — are what make shawarma shawarma.

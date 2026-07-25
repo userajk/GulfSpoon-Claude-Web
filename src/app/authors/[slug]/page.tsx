@@ -62,7 +62,7 @@ export default async function AuthorPage({ params }: Props) {
           <h2 className="font-serif text-2xl text-deep-plum mb-6">Stories by {author.name}</h2>
           <div className="space-y-4">
             {stories.map((story) => (
-              <a key={story.slug} href={`/food-stories/${story.slug}`} className="block p-4 border border-outline-variant hover:border-deep-plum transition-colors">
+              <a key={story.slug} href={`/food-stories/${story.slug}/`} className="block p-4 border border-outline-variant hover:border-deep-plum transition-colors">
                 <span className="label-caps text-saffron">{story.category}</span>
                 <h3 className="font-serif text-lg text-deep-plum">{story.title}</h3>
                 <p className="text-sm text-on-surface-variant mt-1">{story.standfirst}</p>

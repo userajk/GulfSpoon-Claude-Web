@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Community Guidelines",
-  description: "GulfSpoon community guidelines for respectful engagement.",
+  description: "GulfSpoon community guidelines for respectful engagement. Learn our expectations for comments, recipe feedback, and interactions across our food community.",
 };
 
 export default function CommunityGuidelinesPage() {
@@ -22,7 +22,7 @@ export default function CommunityGuidelinesPage() {
             <li>Credit original sources when sharing recipes or food traditions</li>
             <li>Report inaccurate or harmful content to our editorial team</li>
           </ul>
-          <p>If you have concerns about any content or interactions, please <a href="/contact" className="text-deep-plum underline">contact us</a>.</p>
+          <p>If you have concerns about any content or interactions, please <a href="/contact/" className="text-deep-plum underline">contact us</a>.</p>
         </div>
       </div>
     </div>

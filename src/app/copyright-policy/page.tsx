@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Copyright Policy",
-  description: "GulfSpoon copyright and intellectual property policy.",
+  description: "GulfSpoon copyright and intellectual property policy. Understand how our recipe content, photography, and written materials are protected under copyright law.",
 };
 
 export default function CopyrightPolicyPage() {
@@ -20,7 +20,7 @@ export default function CopyrightPolicyPage() {
           <h2 className="font-serif text-2xl text-deep-plum mt-8">Prohibited Use</h2>
           <p>Reproducing, republishing, or redistributing GulfSpoon content without written permission is prohibited. This includes scraping content for use in other publications or websites.</p>
           <h2 className="font-serif text-2xl text-deep-plum mt-8">DMCA</h2>
-          <p>If you believe content on GulfSpoon infringes your copyright, please <a href="/contact" className="text-deep-plum underline">contact us</a> with details of the alleged infringement.</p>
+          <p>If you believe content on GulfSpoon infringes your copyright, please <a href="/contact/" className="text-deep-plum underline">contact us</a> with details of the alleged infringement.</p>
         </div>
       </div>
     </div>

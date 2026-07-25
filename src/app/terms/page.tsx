@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Terms of Use",
-  description: "Terms and conditions for using GulfSpoon.",
+  description: "Read the terms and conditions for using GulfSpoon, including content usage, intellectual property rights, and user responsibilities when accessing our recipes and food stories.",
 };
 
 export default function TermsPage() {
@@ -26,7 +26,7 @@ export default function TermsPage() {
           <p>By submitting content through our contact form or newsletter signup, you grant GulfSpoon permission to use that content for the purpose of responding to your inquiry.</p>
 
           <h2 className="font-serif text-2xl text-deep-plum mt-8">Disclaimer</h2>
-          <p>GulfSpoon provides recipes and food content for informational purposes. We are not responsible for any adverse effects resulting from the use of recipes or information on this site. See our <a href="/disclaimer" className="text-deep-plum underline">Disclaimer</a> for more details.</p>
+          <p>GulfSpoon provides recipes and food content for informational purposes. We are not responsible for any adverse effects resulting from the use of recipes or information on this site. See our <a href="/disclaimer/" className="text-deep-plum underline">Disclaimer</a> for more details.</p>
         </div>
       </div>
     </div>

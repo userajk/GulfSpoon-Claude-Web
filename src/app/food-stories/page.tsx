@@ -28,7 +28,7 @@ export default function FoodStoriesPage() {
 
       {featured && (
         <section className="mb-20">
-          <Link href={`/food-stories/${featured.slug}`} className="group block">
+          <Link href={`/food-stories/${featured.slug}/`} className="group block">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
               <div className="relative aspect-[16/10] overflow-hidden border border-outline-variant">
                 <Image src={featured.heroImage} alt={featured.imageAlt} fill className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 768px) 100vw, 50vw" priority />
@@ -47,7 +47,7 @@ export default function FoodStoriesPage() {
         <h2 className="font-serif text-2xl text-deep-plum mb-8">Latest Stories</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {latest.map((story) => (
-            <Link key={story.slug} href={`/food-stories/${story.slug}`} className="group">
+            <Link key={story.slug} href={`/food-stories/${story.slug}/`} className="group">
               <div className="relative aspect-[16/10] overflow-hidden mb-3 border border-outline-variant">
                 <Image src={story.heroImage} alt={story.imageAlt} fill className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 768px) 100vw, 33vw" />
               </div>

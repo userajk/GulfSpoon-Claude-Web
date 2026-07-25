@@ -43,7 +43,7 @@ export default async function StoryPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateBreadcrumbSchema([
         { name: "Home", url: "/" },
         { name: "Food Stories", url: "/food-stories" },
-        { name: story.title, url: `/food-stories/${story.slug}` },
+        { name: story.title, url: `/food-stories/${story.slug}/` },
       ])) }} />
 
       <div className="max-w-[1320px] mx-auto px-5 md:px-10 py-8">
@@ -59,7 +59,7 @@ export default async function StoryPage({ params }: Props) {
             <div className="flex flex-wrap items-center gap-4 text-sm text-on-surface-variant border-y border-warm-taupe py-3">
               {author && (
                 <span>
-                  By <Link href={`/authors/${author.slug}`} className="font-bold hover:text-deep-plum">{author.name}</Link>
+                  By <Link href={`/authors/${author.slug}/`} className="font-bold hover:text-deep-plum">{author.name}</Link>
                 </span>
               )}
               <span className="text-warm-taupe">|</span>
@@ -100,7 +100,7 @@ export default async function StoryPage({ params }: Props) {
           {author && (
             <div className="border-t border-warm-taupe pt-8 mb-12">
               <h3 className="label-caps text-on-surface-variant mb-3">About the Author</h3>
-              <Link href={`/authors/${author.slug}`} className="flex items-start gap-4 group">
+              <Link href={`/authors/${author.slug}/`} className="flex items-start gap-4 group">
                 <div>
                   <span className="font-serif text-lg text-deep-plum group-hover:text-saffron transition-colors">{author.name}</span>
                   <p className="text-sm text-on-surface-variant mt-1">{author.biography}</p>

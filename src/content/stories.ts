@@ -4,7 +4,7 @@ export const stories: Story[] = [
   {
     slug: "the-soul-of-khaleeji-cooking",
     title: "The Soul of Khaleeji Cooking",
-    seoTitle: "The Soul of Khaleeji Cooking: A Guide to Gulf Spices, Ingredients, and Traditions",
+    seoTitle: "The Soul of Khaleeji Cooking: Gulf Spices Guide",
     metaDescription: "Explore the essential spices, ingredients, and traditions that define Khaleeji cooking — from loomi and bezar to saffron, communal dining, and the Gulf's centuries-old culinary heritage.",
     standfirst: "To understand Gulf cuisine is to understand its history as a global trading hub. The flavor profiles are built on a foundation of imported spices that have been integrated over centuries, creating a culinary identity unlike anything else in the Middle East.",
     category: "Culture",
@@ -67,7 +67,7 @@ The Gulf's food story is also being shaped by its extraordinary diversity. In a 
   {
     slug: "halwa-puri-sundays-in-the-gulf",
     title: "Halwa Puri Sundays in the Gulf",
-    seoTitle: "Halwa Puri Sundays: How Pakistani Breakfast Traditions Thrive in the Gulf",
+    seoTitle: "Halwa Puri Sundays: Pakistani Breakfast in the Gulf",
     metaDescription: "The story of how Pakistani halwa puri breakfast became a cherished Gulf weekend tradition — the recipes, the rituals, and the community it builds across generations.",
     standfirst: "Every Friday morning in Sharjah, Deira, and Doha, the smell of deep-frying puris and toasting semolina fills apartment corridors — a weekly ritual that connects Gulf-based Pakistani families to home, one plate at a time.",
     category: "Expat Stories",
@@ -135,7 +135,7 @@ The tradition has also become a quiet cultural ambassador. Gulf-based Arab, Indi
   {
     slug: "adobo-in-abu-dhabi",
     title: "Adobo in Abu Dhabi",
-    seoTitle: "Adobo in Abu Dhabi: How Filipino Food Culture Thrives in the Gulf",
+    seoTitle: "Adobo in Abu Dhabi: Filipino Food in the Gulf",
     metaDescription: "How Filipino cooks have kept adobo, sinigang, and other cherished dishes alive in Gulf kitchens — adapting ingredients, building community, and sharing their food culture across borders.",
     standfirst: "The Filipino community in the Gulf is one of the largest expatriate populations in the region. Their food traditions — from adobo to sinigang — have quietly become part of the Gulf's culinary landscape, carried by millions of workers and families who refuse to let distance dilute the flavors of home.",
     category: "Expat Stories",

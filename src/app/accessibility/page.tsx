@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Accessibility",
-  description: "GulfSpoon accessibility statement and commitment to WCAG 2.2 AA compliance.",
+  description: "GulfSpoon accessibility statement and our commitment to WCAG 2.2 AA compliance. Learn about the steps we take to make our recipes accessible to all users.",
 };
 
 export default function AccessibilityPage() {
@@ -29,7 +29,7 @@ export default function AccessibilityPage() {
           </ul>
 
           <h2 className="font-serif text-2xl text-deep-plum mt-8">Feedback</h2>
-          <p>If you encounter any accessibility barriers on GulfSpoon, please <a href="/contact" className="text-deep-plum underline">contact us</a>. We take accessibility feedback seriously and will work to address any issues.</p>
+          <p>If you encounter any accessibility barriers on GulfSpoon, please <a href="/contact/" className="text-deep-plum underline">contact us</a>. We take accessibility feedback seriously and will work to address any issues.</p>
         </div>
       </div>
     </div>

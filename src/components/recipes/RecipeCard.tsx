@@ -18,7 +18,7 @@ export default function RecipeCard({ recipe, priority = false }: RecipeCardProps
 
   return (
     <article className="group">
-      <Link href={`/recipes/${recipe.slug}`} className="block">
+      <Link href={`/recipes/${recipe.slug}/`} className="block">
         <div className="relative overflow-hidden mb-2 aspect-[4/5] border border-outline-variant bg-surface-container">
           <Image
             src={recipe.heroImage}

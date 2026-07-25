@@ -20,11 +20,11 @@ const sourceSans = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: {
-    default: "GulfSpoon — Recipes from the Gulf and the People Who Call It Home",
+    default: "GulfSpoon — Gulf Recipes and Expat Kitchens",
     template: "%s | GulfSpoon",
   },
   description:
-    "Discover the vibrant culinary traditions of the modern Gulf. From authentic Khaleeji staples to expat kitchens, explore recipes that bring diverse communities together.",
+    "Authentic Gulf recipes, expat kitchen favorites, and food stories from the Arabian Peninsula. Khaleeji, South Asian, and Levantine dishes for home cooks.",
   metadataBase: new URL("https://gulfspoon.com"),
   alternates: {
     canonical: "/",
@@ -33,17 +33,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "GulfSpoon",
+    title: "GulfSpoon — Gulf Recipes and Expat Kitchens",
+    description:
+      "Authentic Gulf recipes, expat kitchen favorites, and food stories from the Arabian Peninsula. Khaleeji, South Asian, and Levantine dishes for home cooks.",
+    url: "https://gulfspoon.com",
     images: [
       {
         url: "/images/gulfspoon-og.png",
         width: 1200,
         height: 630,
-        alt: "GulfSpoon — Recipes from the Gulf",
+        alt: "GulfSpoon — Gulf Recipes and Expat Kitchens",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
+    title: "GulfSpoon — Gulf Recipes and Expat Kitchens",
+    description:
+      "Authentic Gulf recipes, expat kitchen favorites, and food stories from the Arabian Peninsula. Khaleeji, South Asian, and Levantine dishes for home cooks.",
   },
   icons: {
     icon: "/icons/favicon.png",

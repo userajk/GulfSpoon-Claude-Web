@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Editorial Policy",
-  description: "GulfSpoon editorial standards, recipe testing, and content guidelines.",
+  description: "Learn about GulfSpoon editorial standards, recipe testing methodology, and content guidelines. Every recipe is tested and reviewed before publication.",
 };
 
 export default function EditorialPolicyPage() {
@@ -24,7 +24,7 @@ export default function EditorialPolicyPage() {
           <p>We work with contributors from the communities whose cuisines we feature. We credit cultural origins and avoid misattributing dishes.</p>
 
           <h2 className="font-serif text-2xl text-deep-plum mt-8">Corrections</h2>
-          <p>If you find an error in any recipe or article, please <a href="/contact" className="text-deep-plum underline">contact us</a>. We will review and correct verified errors promptly.</p>
+          <p>If you find an error in any recipe or article, please <a href="/contact/" className="text-deep-plum underline">contact us</a>. We will review and correct verified errors promptly.</p>
 
           <h2 className="font-serif text-2xl text-deep-plum mt-8">Independence</h2>
           <p>Our editorial content is independent of any advertising or sponsorship relationships. Sponsored content, if any, is clearly labeled.</p>

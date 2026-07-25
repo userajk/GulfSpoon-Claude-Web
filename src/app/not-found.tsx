@@ -13,7 +13,7 @@ export default function NotFound() {
         <Link href="/" className="bg-deep-plum text-white px-8 py-3 text-sm font-semibold tracking-wider uppercase hover:bg-dark-aubergine transition-colors">
           Back to Home
         </Link>
-        <Link href="/recipes" className="border border-deep-plum text-deep-plum px-8 py-3 text-sm font-semibold tracking-wider uppercase hover:bg-deep-plum hover:text-white transition-colors">
+        <Link href="/recipes/" className="border border-deep-plum text-deep-plum px-8 py-3 text-sm font-semibold tracking-wider uppercase hover:bg-deep-plum hover:text-white transition-colors">
           Browse Recipes
         </Link>
       </div>

@@ -34,7 +34,7 @@ export default function AboutPage() {
         </p>
         <div className="mt-12 border-t border-outline-variant pt-8">
           <p className="text-on-surface-variant text-sm">
-            Interested in contributing? <Link href="/contact" className="text-deep-plum font-semibold hover:text-saffron transition-colors">Get in touch</Link> or visit our <Link href="/contributors" className="text-deep-plum font-semibold hover:text-saffron transition-colors">contributors page</Link>.
+            Interested in contributing? <Link href="/contact/" className="text-deep-plum font-semibold hover:text-saffron transition-colors">Get in touch</Link> or visit our <Link href="/contributors/" className="text-deep-plum font-semibold hover:text-saffron transition-colors">contributors page</Link>.
           </p>
         </div>
       </div>

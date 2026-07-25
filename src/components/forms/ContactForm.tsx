@@ -97,7 +97,7 @@ export default function ContactForm() {
       <label className="flex items-start gap-3">
         <input type="checkbox" name="consent" required className="accent-deep-plum w-4 h-4 mt-0.5" />
         <span className="text-sm text-on-surface-variant">
-          I agree that my information will be used to respond to my inquiry. See our <a href="/privacy-policy" className="text-deep-plum underline">Privacy Policy</a>.
+          I agree that my information will be used to respond to my inquiry. See our <a href="/privacy-policy/" className="text-deep-plum underline">Privacy Policy</a>.
         </span>
       </label>
 

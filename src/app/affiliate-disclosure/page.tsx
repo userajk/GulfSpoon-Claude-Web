@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Affiliate Disclosure",
-  description: "GulfSpoon affiliate and sponsorship disclosure.",
+  description: "GulfSpoon affiliate and sponsorship disclosure. Understand how affiliate links and partnerships work on our site and how they support our recipe content.",
 };
 
 export default function AffiliateDisclosurePage() {
