@@ -107,6 +107,11 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
         ))}
       </div>
 
+      {/* Short Description */}
+      <p className="text-lg leading-relaxed mb-8">
+        {recipe.shortDescription}
+      </p>
+
       {/* Intro & Origin */}
       {recipe.intro && (
         <div className="mb-12 space-y-4 text-base leading-relaxed"
@@ -118,11 +123,6 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
           }}
         />
       )}
-
-      {/* Short Description */}
-      <p className="text-lg leading-relaxed mb-12 max-w-prose mx-auto">
-        {recipe.shortDescription}
-      </p>
 
       {/* Recipe card */}
       <div ref={recipeCardRef} className="bg-soft-ivory border border-warm-taupe p-6 md:p-8 mb-12" id="recipe-card">
