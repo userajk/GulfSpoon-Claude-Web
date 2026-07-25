@@ -9,8 +9,7 @@ export const stories: Story[] = [
     standfirst: "To understand Gulf cuisine is to understand its history as a global trading hub. The flavor profiles are built on a foundation of imported spices that have been integrated over centuries, creating a culinary identity unlike anything else in the Middle East.",
     category: "Culture",
     author: "sarah-al-fayed",
-    publishedAt: "2024-09-01",
-    updatedAt: "2025-07-14",
+    publishedAt: "2026-07-04",
     heroImage: "/images/stories/khaleeji-cooking.jpg",
     imageAlt: "An assortment of Gulf spices including dried black limes, bezar blend, and saffron threads in brass bowls",
     tableOfContents: [
@@ -73,8 +72,7 @@ The Gulf's food story is also being shaped by its extraordinary diversity. In a 
     standfirst: "Every Friday morning in Sharjah, Deira, and Doha, the smell of deep-frying puris and toasting semolina fills apartment corridors — a weekly ritual that connects Gulf-based Pakistani families to home, one plate at a time.",
     category: "Expat Stories",
     author: "omar-hussain",
-    publishedAt: "2024-09-18",
-    updatedAt: "2025-07-14",
+    publishedAt: "2026-07-11",
     heroImage: "/images/stories/halwa-puri-sundays.jpg",
     imageAlt: "A family-style spread of halwa puri breakfast with multiple dishes on a tablecloth",
     tableOfContents: [
@@ -142,8 +140,7 @@ The tradition has also become a quiet cultural ambassador. Gulf-based Arab, Indi
     standfirst: "The Filipino community in the Gulf is one of the largest expatriate populations in the region. Their food traditions — from adobo to sinigang — have quietly become part of the Gulf's culinary landscape, carried by millions of workers and families who refuse to let distance dilute the flavors of home.",
     category: "Expat Stories",
     author: "maria-santos",
-    publishedAt: "2024-10-02",
-    updatedAt: "2025-07-14",
+    publishedAt: "2026-07-16",
     heroImage: "/images/stories/adobo-abu-dhabi.jpg",
     imageAlt: "A home kitchen scene with Filipino dishes being prepared",
     tableOfContents: [

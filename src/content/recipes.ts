@@ -15,8 +15,7 @@ In the Gulf, the latte arrived through the wave of international coffee chains t
 
 Making a good latte at home comes down to two things: strong, concentrated coffee and properly textured milk. The coffee needs to be bolder than a standard drip brew because it has to hold its flavor against 8 ounces of milk. And the milk needs to be steamed to a smooth, glossy consistency — tiny bubbles, no foam chunks. Get those two right, and you are most of the way there.`,
     author: "sarah-al-fayed",
-    publishedAt: "2024-10-24",
-    updatedAt: "2025-07-13",
+    publishedAt: "2026-07-02",
     cuisine: "International",
     categories: ["drinks"],
     mealTypes: ["Breakfast", "Snack"],
@@ -117,7 +116,7 @@ The dish traces its roots to the ancient trade routes that passed through the Ar
 
 In the UAE and Bahrain, machboos is typically made with chicken or lamb and served on a communal platter for Friday family lunches. In Kuwait, the version tends to be slightly wetter and more tomato-heavy. In Saudi Arabia, a closely related dish called kabsa uses a slightly different spice profile. But across the entire Gulf, the principle is the same: rice cooked in richly flavored broth, meat served on top, and the whole thing brought to the table on a single large platter meant to be shared.`,
     author: "sarah-al-fayed",
-    publishedAt: "2024-09-15",
+    publishedAt: "2026-07-05",
     cuisine: "Emirati",
     region: "Gulf",
     categories: ["gulf-kitchen"],
@@ -199,7 +198,7 @@ The breakfast is ancient in its components. Puri — unleavened deep-fried bread
 
 In the Gulf, halwa puri has become one of the most recognizable Pakistani food traditions. With roughly three million Pakistanis living across the UAE, Saudi Arabia, Qatar, Kuwait, Oman, and Bahrain, the Friday morning breakfast has been recreated in apartments from Sharjah to Jeddah. The recipes stay close to home — the same ghee-heavy halwa, the same hand-rolled puris, the same arguments about whether the channay should be dark or light — but the setting is different, and that difference has made the ritual even more meaningful.`,
     author: "omar-hussain",
-    publishedAt: "2024-09-20",
+    publishedAt: "2026-07-08",
     cuisine: "Pakistani",
     region: "South Asia",
     categories: ["expat-kitchens", "breakfast"],
@@ -275,7 +274,7 @@ The dish has a history shaped by trade. Vermicelli noodles are not native to the
 
 Balaleet is served across the UAE, Bahrain, Kuwait, and Qatar, though every family insists their version is the correct one. Some add a pinch of cinnamon. Others use orange blossom water instead of rosewater. The omelet on top ranges from a thin French-style crepe to a thicker, more substantial egg layer. It is traditionally a breakfast dish, served during Eid celebrations and Ramadan iftars, but many Gulf families eat it any time of day.`,
     author: "sarah-al-fayed",
-    publishedAt: "2024-09-10",
+    publishedAt: "2026-07-03",
     cuisine: "Emirati",
     region: "Gulf",
     categories: ["gulf-kitchen", "breakfast"],
@@ -337,7 +336,7 @@ The basic principle — braising protein in vinegar and salt — was originally 
 
 In the Gulf, adobo has become one of the most widely cooked Filipino dishes, prepared nightly in apartments from Abu Dhabi to Dammam by a community of over two million Filipino workers and families. The recipe adapts easily to Gulf kitchens — the ingredients are universally available, it cooks in a single pot, and it reheats beautifully the next day (many Filipinos will tell you it tastes better on day two). It has also crossed cultural lines, winning over Arab, Indian, and Pakistani colleagues through office potlucks and neighborly food sharing.`,
     author: "maria-santos",
-    publishedAt: "2024-09-25",
+    publishedAt: "2026-07-10",
     cuisine: "Filipino",
     region: "Southeast Asia",
     categories: ["expat-kitchens", "quick-and-easy"],
@@ -395,7 +394,7 @@ What makes a salona Gulf rather than Indian is the combination of loomi (dried b
 
 Fish salona is the coastal version of this dish, and it is arguably the most traditional. The Gulf's coastal communities — in the UAE, Oman, Bahrain, Kuwait, and eastern Saudi Arabia — have fished these waters for thousands of years, and fish stews were a daily staple long before rice and meat dishes became associated with celebrations. Hamour (grouper) is the most prized fish for salona, though any firm white fish works. The fish is added to the stew at the very end, cooking gently in the simmering broth so it stays intact and tender.`,
     author: "sarah-al-fayed",
-    publishedAt: "2024-10-01",
+    publishedAt: "2026-07-12",
     cuisine: "Emirati",
     region: "Gulf",
     categories: ["gulf-kitchen"],
@@ -450,7 +449,7 @@ The word "karak" comes from the Hindi-Urdu word for "strong," and the drink's or
 
 What makes karak chai different from a standard masala chai is the technique as much as the ingredients. The tea and milk are boiled together — not just simmered, but brought to a rolling boil repeatedly. Each time the mixture rises in the pot, the cook lowers the heat and lets it settle, then brings it back to a boil again. This process, repeated three or four times, concentrates the flavor and gives karak its signature rich, almost caramelized taste. The evaporated milk (not condensed — that would be too sweet) is essential: it has a density and creaminess that fresh milk cannot replicate.`,
     author: "sarah-al-fayed",
-    publishedAt: "2024-10-05",
+    publishedAt: "2026-07-06",
     cuisine: "Emirati",
     region: "Gulf",
     categories: ["gulf-kitchen", "drinks"],
@@ -501,7 +500,7 @@ In the Gulf, shakshuka arrived through multiple channels — from Levantine and 
 
 The beauty of shakshuka is its simplicity. One pan, a handful of ingredients, twenty-five minutes from stove to table. It is the kind of recipe that forgives improvisation — you can add feta, olives, preserved lemon, or whatever is in the fridge — and still delivers every time.`,
     author: "sarah-al-fayed",
-    publishedAt: "2024-10-08",
+    publishedAt: "2026-07-14",
     cuisine: "Levantine",
     region: "Gulf",
     categories: ["breakfast", "quick-and-easy"],
@@ -554,7 +553,7 @@ The Gulf's baklava tradition leans heavily on two ingredients: pistachios and ca
 
 In the Gulf, baklava is associated with generosity and celebration. It appears at Eid gatherings, weddings, and Ramadan iftar tables. It is given as a gift when visiting someone's home and offered with Arabic coffee to guests. The quality of a host's baklava — crisp layers, generous nut filling, well-balanced syrup — is a quiet measure of hospitality, and many Gulf families order from specific bakeries they have patronized for decades. Making it at home is more ambitious than most Gulf desserts, but the result — when you get those shattering-crisp phyllo layers and the syrup soaks in just right — is worth the effort.`,
     author: "sarah-al-fayed",
-    publishedAt: "2024-10-12",
+    publishedAt: "2026-07-17",
     cuisine: "Levantine",
     region: "Gulf",
     categories: ["desserts", "ramadan"],
@@ -614,7 +613,7 @@ The dish has deep roots in Emirati culture. Older Emiratis remember muhalla as a
 
 Today, muhalla occupies a special place in Gulf food culture as one of the dishes that connects modern Emirati life to its pre-oil past. It appears on heritage restaurant menus and at Ramadan tents, and it is one of the recipes that Emirati food preservation projects have worked to document and keep alive. The version here uses a crepe-style batter rather than the slightly thicker traditional pancake, producing lighter, more delicate results that work beautifully with the date syrup and pistachio garnish.`,
     author: "sarah-al-fayed",
-    publishedAt: "2024-10-15",
+    publishedAt: "2026-07-19",
     cuisine: "Emirati",
     region: "Gulf",
     categories: ["gulf-kitchen", "breakfast", "desserts"],
@@ -665,7 +664,7 @@ The name means "covered fish" or "layered fish," referring to the way the fried 
 
 Zubaidi (silver pomfret) is the traditional fish for this dish and is considered the finest eating fish in the Gulf. It has a clean, mild flavor and a firm texture that holds up well to frying. When zubaidi is unavailable or out of season, sea bream, hamour (grouper), or any firm-fleshed white fish will work. The rice is cooked with deeply caramelized onions and baharat, giving it a golden color and a sweet, spiced depth that complements the clean flavor of the fish.`,
     author: "editorial-team",
-    publishedAt: "2024-10-18",
+    publishedAt: "2026-07-21",
     cuisine: "Kuwaiti",
     region: "Gulf",
     categories: ["gulf-kitchen"],
@@ -714,7 +713,7 @@ In the Gulf, harees holds a particular cultural weight because of its associatio
 
 The dish requires almost nothing in terms of ingredients — cracked wheat, meat, water, salt, ghee — but it demands patience. Traditional harees is cooked for three to four hours over the lowest possible heat, stirred occasionally, until the wheat grains disintegrate completely and the meat falls apart into fibers that disappear into the porridge. The final texture should be absolutely smooth, almost like a savory cream. It is then served in a bowl with a well of melted ghee in the center and a dusting of cinnamon. The simplicity is the point. In a cuisine built on complex spice blends and layered rice dishes, harees strips everything away and lets two ingredients do all the work.`,
     author: "sarah-al-fayed",
-    publishedAt: "2024-10-20",
+    publishedAt: "2026-07-23",
     cuisine: "Emirati",
     region: "Gulf",
     categories: ["gulf-kitchen", "ramadan"],
