@@ -5,7 +5,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Contributors",
-  description: "Meet the food writers, recipe developers, and cultural researchers behind GulfSpoon. Our team brings deep expertise in Gulf, Levantine, and South Asian cuisines.",
+  description: "Meet the food writers, recipe developers, and cultural researchers behind GulfSpoon. Our team brings deep expertise in Gulf, Levantine, and South Asian cuisine.",
 };
 
 export default function ContributorsPage() {

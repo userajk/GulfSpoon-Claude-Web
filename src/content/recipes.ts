@@ -7,7 +7,7 @@ export const recipes: Recipe[] = [
     archiveTitle: "How to Make a Latte at Home",
     pageTitle: "How to Make a Latte at Home (With or Without an Espresso Machine)",
     seoTitle: "How to Make a Latte at Home — 3 Methods",
-    metaDescription: "Learn how to make a cafe-quality latte at home using an espresso machine, moka pot, or French press. Step-by-step instructions with milk frothing tips and flavor variations.",
+    metaDescription: "Make a cafe-quality latte at home using an espresso machine, moka pot, or French press. Step-by-step guide with milk frothing tips and Gulf-spiced twist ideas.",
     shortDescription: "Making a latte at home is easier than you think. All you need is strong coffee, steamed milk, and a few minutes. This guide walks you through three different brewing methods — espresso machine, moka pot, and French press — so you can make a smooth, creamy latte no matter what equipment you have in your kitchen. Once you nail the basics, you may never queue at a coffee shop again.",
     intro: `The word "latte" is borrowed from the Italian caffè latte, meaning "milk coffee." But the drink that most of us picture — espresso topped with steamed milk and a thin layer of foam — is largely an American invention. In Italy, a caffè latte is a simple morning drink made at home, usually with stovetop moka pot coffee poured into a glass of hot milk. No art, no foam, no ceremony. The elaborate coffeehouse version emerged in Seattle in the 1980s, when espresso bars started experimenting with milk textures and presentation.
 
@@ -108,7 +108,7 @@ Making a good latte at home comes down to two things: strong, concentrated coffe
     archiveTitle: "Chicken Machboos",
     pageTitle: "Chicken Machboos: Traditional Gulf Spiced Rice",
     seoTitle: "Chicken Machboos: Gulf Spiced Rice Recipe",
-    metaDescription: "Learn to make authentic Chicken Machboos, the quintessential Gulf rice dish with tender chicken, aromatic spices, black lime, and fragrant basmati rice.",
+    metaDescription: "Make authentic Chicken Machboos, the quintessential Gulf spiced rice with tender chicken, aromatic baharat, dried black lime, and fragrant saffron basmati rice.",
     shortDescription: "The quintessential Gulf rice dish — tender chicken slow-cooked with aromatic loomi, baharat, and fragrant basmati rice.",
     intro: `Machboos — also spelled majboos or machbous depending on which part of the Gulf you are in — is the dish that sits at the center of Khaleeji food culture. Every Gulf country claims a version, and families argue over the details the way Italian families argue over Sunday ragù. The name comes from the Arabic word "kabsa" or "machboos" meaning "pressed," referring to the method of cooking rice pressed down with meat so the grains absorb every drop of flavor from the broth.
 
@@ -190,7 +190,7 @@ In the UAE and Bahrain, machboos is typically made with chicken or lamb and serv
     archiveTitle: "Halwa Puri",
     pageTitle: "Pakistani Halwa Puri: The Classic Weekend Breakfast",
     seoTitle: "Halwa Puri: Pakistani Weekend Breakfast",
-    metaDescription: "Make authentic Pakistani Halwa Puri at home — golden puffy puris, sweet semolina halwa, and spicy chickpea curry for the perfect weekend breakfast.",
+    metaDescription: "Make authentic Pakistani Halwa Puri at home. Golden deep-fried puffy puris served with sweet semolina halwa and spicy chickpea curry — a weekend breakfast gem.",
     shortDescription: "The beloved Pakistani weekend breakfast — golden puffy puris served with sweet semolina halwa and spicy chickpea curry.",
     intro: `Halwa puri is Pakistan's answer to the full English breakfast — a multi-dish spread that takes time, fills the house with noise and aroma, and turns a lazy morning into an event. The tradition is strongest in Punjab, particularly in Lahore, where halwa puri shops line every neighborhood and the Sunday morning queue starts before sunrise. But it belongs to all of Pakistan, with regional variations from Karachi to Peshawar, and it has traveled wherever Pakistanis have settled.
 
@@ -266,7 +266,7 @@ In the Gulf, halwa puri has become one of the most recognizable Pakistani food t
     archiveTitle: "Balaleet",
     pageTitle: "Emirati Balaleet: Sweet Vermicelli with Egg",
     seoTitle: "Balaleet: Emirati Sweet Vermicelli Recipe",
-    metaDescription: "Make traditional Emirati Balaleet at home — sweet cardamom and saffron vermicelli topped with a thin savory omelet.",
+    metaDescription: "Make traditional Emirati Balaleet — sweet vermicelli with cardamom, saffron, and rosewater, topped with a thin savory egg omelet. A Gulf breakfast staple dish.",
     shortDescription: "Sweet vermicelli noodles with cardamom, saffron, and rosewater, topped with a thin savory omelet — an Emirati breakfast classic.",
     intro: `Balaleet is one of the most distinctive breakfast dishes in the Gulf — a plate that combines sweet, saffron-scented vermicelli noodles with a thin savory omelet folded on top. The contrast surprises first-time tasters, but in the Gulf it makes perfect sense. Sweet and savory combinations run through Khaleeji cooking like a thread, from dates eaten with cheese to saffron rice served with meat stews.
 
@@ -328,7 +328,7 @@ Balaleet is served across the UAE, Bahrain, Kuwait, and Qatar, though every fami
     archiveTitle: "Chicken Adobo",
     pageTitle: "Filipino Chicken Adobo: The Gulf Kitchen Version",
     seoTitle: "Filipino Chicken Adobo: Easy One-Pot Recipe",
-    metaDescription: "Make authentic Filipino Chicken Adobo — tender chicken braised in soy sauce and vinegar with garlic, bay leaves, and black peppercorns.",
+    metaDescription: "Make authentic Filipino Chicken Adobo — tender chicken braised in soy sauce and vinegar with crushed garlic, bay leaves, and peppercorns. A quick one-pot meal.",
     shortDescription: "Tender chicken braised in soy sauce and vinegar with garlic, bay leaves, and black peppercorns — a Filipino staple loved across the Gulf.",
     intro: `Adobo is the dish most often called the national food of the Philippines, though Filipinos themselves will tell you there is no single national dish — just this one that every family cooks and no two families make the same way. The name is Spanish, borrowed during three centuries of colonial rule, but the technique is older than the colonizers. Filipino cooks were preserving meat in vinegar long before the Spanish arrived and gave the method a European name.
 
@@ -386,7 +386,7 @@ In the Gulf, adobo has become one of the most widely cooked Filipino dishes, pre
     archiveTitle: "Fish Salona",
     pageTitle: "Fish Salona: Traditional Gulf Tomato-Spiced Fish Stew",
     seoTitle: "Fish Salona: Gulf Spiced Fish Stew",
-    metaDescription: "A comforting Gulf fish stew made with fresh fish, tomatoes, tamarind, and a warming blend of spices. A staple of coastal Khaleeji cooking.",
+    metaDescription: "A comforting Gulf fish stew with fresh white fish, tomatoes, tamarind, and warming baharat spices. Salona is a beloved staple of coastal Khaleeji home cooking.",
     shortDescription: "A comforting Gulf fish stew with tomatoes, tamarind, and warming spices — a staple of coastal Khaleeji cooking.",
     intro: `Salona is the everyday stew of the Gulf — the dish that appears on weeknight dinner tables more often than any celebratory rice platter. The word comes from the same root as "salon" in some South Asian languages, meaning a gravy or curry, and the connection is not accidental. Gulf cooking absorbed influences from the Indian subcontinent through centuries of trade and migration, and salona is one of the clearest examples of that exchange — a spiced, broth-based stew that feels familiar to anyone who has eaten South Asian food, but tastes distinctly Gulf.
 
@@ -441,7 +441,7 @@ Fish salona is the coastal version of this dish, and it is arguably the most tra
     archiveTitle: "Karak Chai",
     pageTitle: "Karak Chai: The Gulf's Beloved Spiced Tea",
     seoTitle: "Karak Chai: Gulf Spiced Tea Recipe",
-    metaDescription: "Make authentic Karak Chai at home — the richly spiced, creamy tea beloved across the Gulf, made with cardamom, saffron, and evaporated milk.",
+    metaDescription: "Make authentic Karak Chai at home — the richly spiced and creamy tea beloved across the Gulf. Brewed strong with crushed cardamom, saffron, and evaporated milk.",
     shortDescription: "The Gulf's beloved spiced tea — strong, creamy, and fragrant with cardamom and saffron.",
     intro: `Karak chai is the Gulf's unofficial national drink. Not gahwa — the pale, cardamom-heavy Arabic coffee served at formal occasions — but this thick, sweet, milky tea that people drink three, four, five times a day. It is sold from every cafeteria window and roadside kiosk in the UAE, Qatar, Bahrain, Kuwait, and Oman. It costs a dirham or two. It is never refused.
 
@@ -492,7 +492,7 @@ What makes karak chai different from a standard masala chai is the technique as 
     archiveTitle: "Gulf Shakshuka",
     pageTitle: "Gulf Shakshuka: Spiced Eggs in Tomato Sauce",
     seoTitle: "Gulf Shakshuka: Spiced Eggs in Tomato Sauce",
-    metaDescription: "A Gulf-inspired take on shakshuka with warming bezar spices, eggs poached in rich tomato and bell pepper sauce.",
+    metaDescription: "Gulf-style shakshuka with warming bezar spices, eggs gently poached in a rich tomato and bell pepper sauce. A quick and satisfying one-pan breakfast or brunch.",
     shortDescription: "A Gulf-inspired take on shakshuka with warming bezar spices, eggs poached in rich tomato sauce.",
     intro: `Shakshuka — eggs poached in a spiced tomato sauce — is one of those dishes claimed by half the Mediterranean and Middle Eastern world, and no one is entirely sure who made it first. The name is Arabic, likely derived from a word meaning "mixture" or "shaken." North Africans, particularly Tunisians and Libyans, have strong claims to the dish. So do Yemenis, who make a version called shakshouka that predates the more famous Israeli adoption. The Ottomans probably spread it across their empire. The truth is that eggs cooked in tomato sauce is such an obvious, satisfying idea that it almost certainly arose independently in multiple places.
 
@@ -545,7 +545,7 @@ The beauty of shakshuka is its simplicity. One pan, a handful of ingredients, tw
     archiveTitle: "Pistachio Baklava",
     pageTitle: "Pistachio & Cardamom Baklava",
     seoTitle: "Pistachio Cardamom Baklava Recipe",
-    metaDescription: "Make crispy, golden pistachio and cardamom baklava at home with phyllo pastry, clarified butter, and fragrant cardamom syrup.",
+    metaDescription: "Make crispy, golden pistachio cardamom baklava at home with layers of phyllo pastry, clarified butter, and fragrant cardamom-infused syrup. Step-by-step guide.",
     shortDescription: "Crispy layers of phyllo pastry filled with crushed pistachios and drenched in fragrant cardamom syrup.",
     intro: `Baklava is one of the oldest pastries still made in its original form. Versions of layered nut-filled pastry drenched in honey or syrup appear in records from the Assyrian Empire, and the dish was refined into something close to its modern form in the kitchens of the Ottoman Topkapi Palace in Istanbul. From there, it spread across the entire former Ottoman world — from Greece and Turkey to Lebanon, Syria, Iran, and the Arabian Gulf — and each region developed its own version.
 
@@ -605,7 +605,7 @@ In the Gulf, baklava is associated with generosity and celebration. It appears a
     archiveTitle: "Muhalla Crepes",
     pageTitle: "Saffron & Rosewater Crepes (Muhalla)",
     seoTitle: "Muhalla: Saffron Rosewater Crepes",
-    metaDescription: "Make traditional Gulf muhalla — delicate saffron-infused crepes drizzled with date syrup and garnished with crushed pistachios.",
+    metaDescription: "Make traditional Gulf muhalla at home — delicate saffron and rosewater-infused crepes drizzled with date syrup and crushed pistachios. A Gulf dessert favorite.",
     shortDescription: "Delicate saffron-infused crepes drizzled with date syrup and crushed pistachios — a Gulf breakfast treat.",
     intro: `Muhalla — sometimes spelled muhallaq, muhallabiyya, or chebab depending on where in the Gulf you are — is a traditional Emirati and Gulf Arab pancake or crepe that predates the region's modern development by generations. It belongs to the same family of griddle breads found across the Middle East and North Africa, from Moroccan baghrir to Yemeni lahoh, but the Gulf version distinguishes itself with saffron and rosewater, the two aromatics that run through Khaleeji cooking like a signature.
 
@@ -656,7 +656,7 @@ Today, muhalla occupies a special place in Gulf food culture as one of the dishe
     archiveTitle: "Mutabbaq Samak",
     pageTitle: "Kuwaiti Mutabbaq Samak: Spiced Fish and Rice",
     seoTitle: "Mutabbaq Samak: Kuwaiti Spiced Fish & Rice",
-    metaDescription: "Make traditional Kuwaiti Mutabbaq Samak — whole fried fish served on fragrant spiced rice with caramelized onions.",
+    metaDescription: "Make traditional Kuwaiti Mutabbaq Samak — whole spiced fried fish on fragrant baharat-seasoned rice with sweet caramelized onions. A coastal Gulf classic dish.",
     shortDescription: "Kuwaiti-style spiced fish served over fragrant rice with caramelized onions and a hint of cardamom.",
     intro: `Mutabbaq samak is Kuwait's signature fish and rice dish, and it carries the memory of a time when Kuwait's economy ran on the sea rather than on oil. Before the mid-twentieth century, Kuwait was a maritime nation. Its wooden dhows sailed as far as East Africa and India, and its coast supported a thriving fishing and pearl-diving industry. Fish was not a luxury — it was the daily protein of a coastal people, and mutabbaq samak was one of the ways they ate it.
 
@@ -705,7 +705,7 @@ Zubaidi (silver pomfret) is the traditional fish for this dish and is considered
     archiveTitle: "Harees",
     pageTitle: "Traditional Emirati Harees: Wheat and Meat Porridge",
     seoTitle: "Harees: Emirati Wheat & Meat Porridge",
-    metaDescription: "Make traditional Emirati Harees — a comforting slow-cooked porridge of cracked wheat and meat, essential during Ramadan.",
+    metaDescription: "Make traditional Emirati Harees — a silky slow-cooked porridge of cracked wheat and lamb, topped with melted ghee and cinnamon. An essential Ramadan iftar dish.",
     shortDescription: "A comforting slow-cooked porridge of cracked wheat and meat — an Emirati Ramadan essential.",
     intro: `Harees is one of the oldest dishes in the Arabian Peninsula, and its history stretches back far beyond the Gulf states as we know them today. References to harisa — a wheat-and-meat porridge from which harees descends — appear in medieval Arabic cookbooks dating to the tenth century. The Abbasid caliphs ate it. Crusaders encountered it. Versions of it exist from Armenia to Hyderabad, each adapted to local grains and meats, but all sharing the same fundamental idea: wheat and protein, cooked slowly and for a very long time, until they merge into a smooth, comforting porridge.
 
@@ -755,7 +755,7 @@ The dish requires almost nothing in terms of ingredients — cracked wheat, meat
     archiveTitle: "Gulf Red Lentil Soup",
     pageTitle: "Shorbat Adas: Gulf Red Lentil Soup with Cumin and Lemon",
     seoTitle: "Shorbat Adas: Gulf Red Lentil Soup Recipe",
-    metaDescription: "Make authentic Gulf-style red lentil soup (shorbat adas) with cumin, turmeric, and fresh lemon. Ready in 30 minutes. A Ramadan iftar staple.",
+    metaDescription: "Make Gulf-style red lentil soup (shorbat adas) with toasted cumin, turmeric, garlic, and fresh lemon. Ready in 30 minutes and perfect for Ramadan iftar tables.",
     shortDescription: "A velvety, golden soup made from split red lentils simmered with cumin, turmeric, garlic, and a generous squeeze of lemon. This is the soup that appears on nearly every iftar table during Ramadan and on cold-weather dinner tables the rest of the year. Simple enough for a weeknight, satisfying enough to build a meal around.",
     intro: `Shorbat adas — lentil soup — is one of those dishes that belongs to everyone and no one. You will find versions of it from Cairo to Karachi, from Istanbul to Aden. But the Gulf version has its own identity, shaped by centuries of trade and the practical realities of cooking in a region where fresh produce was historically scarce and pantry staples had to travel well. Lentils, dried spices, onions, and lemons — everything in this soup could survive a long journey by dhow or caravan.
 
@@ -853,7 +853,7 @@ What separates the Gulf version from its cousins elsewhere is the finishing. A d
     archiveTitle: "Chicken Shawarma",
     pageTitle: "Chicken Shawarma: Homemade Middle Eastern Spiced Chicken",
     seoTitle: "Chicken Shawarma Recipe — Homemade Shawarma",
-    metaDescription: "Make restaurant-quality chicken shawarma at home with a simple spice marinade, oven or stovetop cooking, and traditional garlic sauce. Ready in under an hour.",
+    metaDescription: "Make restaurant-quality chicken shawarma at home with a fragrant spice marinade, oven or stovetop method, and traditional garlicky toum. Ready in under an hour.",
     shortDescription: "Tender, juicy chicken thighs marinated in a warm blend of cumin, turmeric, paprika, and yogurt, then cooked until charred at the edges and sliced thin. Pile it into warm flatbread with garlic sauce, pickles, and fresh vegetables for the ultimate street food at home.",
     intro: `Shawarma is street food royalty across the Middle East, and its origins are tangled up in the broader history of spit-roasted meat that stretches from the Ottoman Empire to modern-day Beirut. The word itself comes from the Turkish "çevirme," meaning "turning" — a reference to the vertical rotisserie that defines the dish. Stacks of marinated meat rotate slowly next to a wall of heat, the outer layer crisping and caramelizing while the inside stays juicy. The cook shaves thin slices off the spinning cone as it cooks, and those slices — charred at the edges, tender in the middle — are what make shawarma shawarma.
 
@@ -965,7 +965,7 @@ Making shawarma at home means you do not have a vertical rotisserie, and that is
     archiveTitle: "Air Fryer Chicken Tenders",
     pageTitle: "Air Fryer Chicken Tenders: Crispy, Juicy & Ready in 20 Minutes",
     seoTitle: "Air Fryer Chicken Tenders — Crispy & Juicy",
-    metaDescription: "Crispy, golden air fryer chicken tenders with a crunchy panko coating. Brined for juiciness, cooked with barely any oil, and ready in 20 minutes. A family favorite.",
+    metaDescription: "Crispy golden air fryer chicken tenders with a crunchy panko breadcrumb coating. Brined for juiciness, cooked with barely any oil, and ready in 20 minutes.",
     shortDescription: "Crispy, golden chicken tenders with a shattering panko crust and juicy interior, made in the air fryer with barely a tablespoon of oil. A quick brine keeps the meat moist, and the dual-breadcrumb coating delivers that deep-fried crunch without the mess. Ready in 20 minutes, loved by everyone at the table.",
     intro: `Chicken tenders sit in a sweet spot for air fryer cooking. They are thin enough to cook through in minutes, but substantial enough to develop a proper crust. The challenge has always been getting breaded chicken to crisp evenly without the coating falling off or turning pale and soft. The solution is a three-step dredge — flour, egg, breadcrumbs — with a firm press at each stage, and a light mist of oil before and during cooking.
 
@@ -1060,7 +1060,7 @@ The brine is the other key. Chicken tenders are lean, and lean meat dries out fa
     archiveTitle: "Air Fryer Salmon",
     pageTitle: "Air Fryer Salmon: Perfectly Flaky in 10 Minutes",
     seoTitle: "Air Fryer Salmon — Crispy Skin, Flaky Inside",
-    metaDescription: "Perfectly cooked air fryer salmon with crispy skin and a flaky, juicy interior. Ready in 10 minutes with a simple garlic-paprika seasoning. Optional honey-soy glaze.",
+    metaDescription: "Air fryer salmon with crispy skin and a flaky, juicy interior. Ready in just 10 minutes with a simple garlic-paprika seasoning and optional honey-soy glaze.",
     shortDescription: "Salmon fillets with crispy, golden skin and a buttery, flaky interior — cooked in the air fryer in under 10 minutes. A simple garlic and smoked paprika rub does the heavy lifting, and an optional honey-soy glaze adds a caramelised finish. No flipping required.",
     intro: `Salmon is one of the best proteins for the air fryer. The circulating hot air crisps the skin in a way that is difficult to achieve in a conventional oven, while the interior stays moist and flaky. The entire cook takes 8 to 10 minutes with no flipping, no babysitting, and no splatter.
 
@@ -1150,7 +1150,7 @@ The key is starting with dry fillets and a hot air fryer. Moisture on the surfac
     archiveTitle: "Air Fryer Baked Potato",
     pageTitle: "Air Fryer Baked Potato: Crispy Skin, Fluffy Inside",
     seoTitle: "Air Fryer Baked Potato — Crispy & Fluffy",
-    metaDescription: "Air fryer baked potatoes with shatteringly crispy skin and a fluffy, steamy interior. Ready in 40 minutes with just oil and salt. The best baked potato method.",
+    metaDescription: "Air fryer baked potatoes with crispy, shatteringly crunchy skin and a fluffy steamy interior. Ready in 40 minutes with just oil and salt — the best method ever.",
     shortDescription: "Baked potatoes with shatteringly crispy, salted skin and a cloud-like fluffy interior — made in the air fryer in about 40 minutes. No foil wrapping, no soggy skin. Just oil, salt, and the circulating heat of the air fryer doing what an oven cannot.",
     intro: `The air fryer produces the best baked potato most home cooks have ever made. The circulating hot air dries and crisps the skin in a way that a conventional oven struggles to match, while the interior steams to a light, fluffy texture. No foil, no microwave shortcut, no compromise.
 

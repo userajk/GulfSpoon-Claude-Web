@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Terms of Use",
-  description: "Read the terms and conditions for using GulfSpoon, including content usage, intellectual property rights, and user responsibilities when accessing our recipes and food stories.",
+  description: "GulfSpoon terms of use covering content usage, intellectual property, and your responsibilities when accessing our published recipes, food stories, and content.",
 };
 
 export default function TermsPage() {

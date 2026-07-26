@@ -6,7 +6,7 @@ export const authors: Author[] = [
     name: "Sarah Al-Fayed",
     role: "Senior Recipe Developer",
     biography:
-      "Sarah is a food writer and recipe developer based in Dubai, specializing in Gulf heritage cuisine. She grew up learning traditional Emirati cooking from her grandmother and has spent over a decade documenting the region's culinary traditions.",
+      "Food writer and recipe developer based in Dubai, specializing in Gulf heritage cuisine. Over a decade spent documenting Emirati traditional culinary traditions.",
     photo: "/images/authors/sarah-al-fayed.jpg",
     expertise: ["Emirati Cuisine", "Gulf Traditional", "Spice Blending"],
     culturalBackground: "Emirati, raised in Dubai with roots in Abu Dhabi",
@@ -19,7 +19,7 @@ export const authors: Author[] = [
     name: "Omar Hussain",
     role: "Contributing Writer",
     biography:
-      "Omar is a food journalist and home cook from Karachi, now living in Doha. He writes about the intersection of South Asian and Gulf culinary traditions, exploring how expatriate communities adapt their home recipes.",
+      "Food journalist and home cook from Karachi, now in Doha. He writes about how South Asian expatriate communities preserve and adapt home recipes across the Gulf.",
     photo: "/images/authors/omar-hussain.jpg",
     expertise: ["Pakistani Cuisine", "South Asian Fusion", "Street Food"],
     culturalBackground: "Pakistani, based in Qatar",
@@ -32,7 +32,7 @@ export const authors: Author[] = [
     name: "Maria Santos",
     role: "Contributing Writer",
     biography:
-      "Maria is a Filipino food writer and community organizer in Abu Dhabi. She documents the rich Filipino food culture thriving across the Gulf and shares recipes that bridge her homeland traditions with locally available ingredients.",
+      "Filipino food writer and community organizer in Abu Dhabi. She documents Filipino food culture across the Gulf and shares home recipes using local ingredients.",
     photo: "/images/authors/maria-santos.jpg",
     expertise: ["Filipino Cuisine", "Community Cooking", "Adaptation Recipes"],
     culturalBackground: "Filipino, based in Abu Dhabi",
@@ -45,7 +45,7 @@ export const authors: Author[] = [
     name: "GulfSpoon Editorial Team",
     role: "Editorial Team",
     biography:
-      "The GulfSpoon editorial team comprises food writers, recipe developers, and cultural researchers dedicated to documenting the diverse culinary landscape of the Gulf region.",
+      "The GulfSpoon editorial team comprises food writers, recipe developers, and cultural researchers dedicated to documenting the Gulf region culinary landscape.",
     expertise: ["Gulf Cuisine", "Editorial", "Recipe Development"],
     professionalLinks: [],
   },

@@ -10,6 +10,8 @@ const exploreLinks = [
 
 const featureLinks = [
   { href: "/ramadan/", label: "Ramadan" },
+  { href: "/breakfast/", label: "Breakfast" },
+  { href: "/quick-and-easy/", label: "Quick & Easy" },
   { href: "/food-stories/", label: "Food Stories" },
   { href: "/about/", label: "About" },
 ];
@@ -17,6 +19,8 @@ const featureLinks = [
 const legalLinks = [
   { href: "/privacy-policy/", label: "Privacy Policy" },
   { href: "/terms/", label: "Terms of Use" },
+  { href: "/editorial-policy/", label: "Editorial Policy" },
+  { href: "/accessibility/", label: "Accessibility" },
   { href: "/contact/", label: "Contact Us" },
   { href: "/cookie-policy/", label: "Cookie Preferences" },
 ];

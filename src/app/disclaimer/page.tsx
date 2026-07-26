@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Disclaimer",
-  description: "Important disclaimers about GulfSpoon recipes, nutritional information, and food content. Understand the limitations of our recipe guidance and health-related information.",
+  description: "Important disclaimers about GulfSpoon recipes, nutritional guidance, and food content. Understand the limitations of our recipe guidance and health information.",
 };
 
 export default function DisclaimerPage() {

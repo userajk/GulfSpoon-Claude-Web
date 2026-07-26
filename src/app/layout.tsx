@@ -32,9 +32,7 @@ export const metadata: Metadata = {
   description:
     "Authentic Gulf recipes, expat kitchen favorites, and food stories from the Arabian Peninsula. Khaleeji, South Asian, and Levantine dishes for home cooks.",
   metadataBase: new URL("https://gulfspoon.com"),
-  alternates: {
-    canonical: "/",
-  },
+  alternates: {},
   openGraph: {
     type: "website",
     locale: "en_US",
