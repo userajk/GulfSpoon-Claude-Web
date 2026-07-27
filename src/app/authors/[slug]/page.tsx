@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const author = getAuthor(slug);
   if (!author) return {};
-  return { title: `${author.name} — ${author.role}`, description: author.biography };
+  return { title: `${author.name} — ${author.role}`, description: author.biography, alternates: { canonical: `/authors/${slug}/` } };
 }
 
 export default async function AuthorPage({ params }: Props) {

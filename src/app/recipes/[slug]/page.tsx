@@ -22,6 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: recipe.seoTitle,
     description: recipe.metaDescription,
+    alternates: { canonical: `/recipes/${recipe.slug}/` },
     openGraph: {
       title: recipe.seoTitle,
       description: recipe.metaDescription,

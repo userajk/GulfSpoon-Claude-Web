@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const cat = getCategory(slug);
   if (!cat) return {};
-  return { title: `${cat.name} Recipes`, description: cat.description };
+  return { title: `${cat.name} Recipes`, description: cat.description, alternates: { canonical: `/cuisines/${slug}/` } };
 }
 
 export default async function CuisinePage({ params }: Props) {
