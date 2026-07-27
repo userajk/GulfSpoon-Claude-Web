@@ -4,7 +4,7 @@ import CategoryPage from "@/components/layout/CategoryPage";
 
 export const metadata: Metadata = {
   title: "Expat Kitchens",
-  description: "Recipes from the diverse expatriate communities that call the Gulf home, bringing flavors from across the world.",
+  description: getCategory("expat-kitchens")?.description ?? "",
 };
 
 export default function ExpatKitchensPage() {

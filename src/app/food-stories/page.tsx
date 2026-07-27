@@ -6,7 +6,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Food Stories",
-  description: "Cultural features, ingredient guides, and the stories behind the dishes that bring communities together.",
+  description: "Cultural features, ingredient deep dives, and the stories behind the dishes that bring Gulf communities together. Khaleeji traditions and expat food culture.",
 };
 
 export default function FoodStoriesPage() {

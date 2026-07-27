@@ -4,7 +4,7 @@ import CategoryPage from "@/components/layout/CategoryPage";
 
 export const metadata: Metadata = {
   title: "Gulf Kitchen",
-  description: "Authentic recipes from the Arabian Peninsula — from coastal seafood traditions to spice-laden dishes of the desert.",
+  description: getCategory("gulf-kitchen")?.description ?? "",
 };
 
 export default function GulfKitchenPage() {
