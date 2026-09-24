@@ -12,7 +12,7 @@ const featureLinks = [
   { href: "/ramadan/", label: "Ramadan" },
   { href: "/breakfast/", label: "Breakfast" },
   { href: "/quick-and-easy/", label: "Quick & Easy" },
-  { href: "/food-stories/", label: "Food Stories" },
+  { href: "/beyond-the-recipes/", label: "Beyond the Recipes" },
   { href: "/about/", label: "About" },
 ];
 

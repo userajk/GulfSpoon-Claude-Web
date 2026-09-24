@@ -17,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const stories = getAllStories().map((s) => ({
-    url: `${BASE_URL}/food-stories/${s.slug}/`,
+    url: `${BASE_URL}/beyond-the-recipes/${s.slug}/`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.7,
@@ -39,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPages = [
     "/", "/recipes/", "/gulf-kitchen/", "/expat-kitchens/", "/air-fryer/",
-    "/breakfast/", "/ramadan/", "/quick-and-easy/", "/drinks/", "/desserts/", "/food-stories/",
+    "/breakfast/", "/ramadan/", "/quick-and-easy/", "/drinks/", "/desserts/", "/beyond-the-recipes/",
     "/search/", "/saved-recipes/", "/about/", "/contributors/", "/contact/",
     "/privacy-policy/", "/cookie-policy/", "/terms/", "/disclaimer/",
     "/editorial-policy/", "/accessibility/",
