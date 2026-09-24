@@ -82,6 +82,21 @@ export function generateRecipeSchema(recipe: Recipe) {
   return schema;
 }
 
+export function generateFAQPageSchema(faqs: { question: string; answer: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+}
+
 export function generateArticleSchema(story: Story) {
   const author = getAuthor(story.author);
 

@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { getRecipe, getAllRecipes } from "@/content/recipes";
 import { getAuthor } from "@/content/authors";
-import { generateRecipeSchema, generateBreadcrumbSchema } from "@/lib/seo/structured-data";
+import { generateRecipeSchema, generateBreadcrumbSchema, generateFAQPageSchema } from "@/lib/seo/structured-data";
 import { formatDate, formatTime } from "@/lib/utilities/format";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import RecipePageClient from "./RecipePageClient";
@@ -65,6 +65,12 @@ export default async function RecipePage({ params }: Props) {
           ),
         }}
       />
+      {recipe.faqs && recipe.faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQPageSchema(recipe.faqs)) }}
+        />
+      )}
 
       <div className="max-w-[1320px] mx-auto px-5 md:px-10 py-8">
         <Breadcrumbs items={breadcrumbs} />
