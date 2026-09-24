@@ -1433,98 +1433,6 @@ In the Gulf, chicken wings have become a fixture at gatherings — from Friday f
     relatedRecipeSlugs: ["air-fryer-chicken-thighs", "air-fryer-chicken-tenders"],
   },
   {
-    slug: "air-fryer-baked-potato-fluffy",
-    recipeName: "Fluffy Air Fryer Baked Potatoes",
-    archiveTitle: "Fluffy Air Fryer Baked Potatoes",
-    pageTitle: "Fluffy Air Fryer Baked Potatoes: The Best Method",
-    seoTitle: "Fluffy Air Fryer Baked Potatoes — Best Method",
-    metaDescription: "Fluffy air fryer baked potatoes with ultra-crispy salted skin in 40 minutes. The definitive method for perfect jacket potatoes every time.",
-    shortDescription: "The fluffiest baked potatoes you have ever made — with ultra-crispy, salt-crusted skin and a cloud-like interior. The air fryer method takes about 40 minutes and produces better results than a conventional oven. No foil, no microwave shortcut. Just oil, salt, and 200°C circulating heat.",
-    intro: `If you have already tried baked potatoes in the air fryer, you know the skin comes out crispier than any oven can manage. But the real secret to a truly perfect baked potato is not just the skin — it is the interior. The goal is a dry, fluffy, almost crumbly center that absorbs butter and toppings like a sponge. And that comes down to choosing the right potato and finishing it correctly.
-
-Russet potatoes (also sold as baking potatoes or Idaho potatoes in some markets) are the only choice. Their high starch content is what produces that light, fluffy texture when baked. Waxy potatoes like red or Yukon Gold hold their shape — great for roasting, terrible for baking. If you cannot find russets, look for any potato labeled "floury" or "mealy."
-
-The other trick most recipes skip: once the potato is cooked, cut it open immediately and fluff the interior with a fork. This releases steam that would otherwise get trapped and turn the inside dense and gummy. A baked potato that sits unopened for even five minutes loses its fluffiness.
-
-In the Gulf, the jacket potato has become unexpectedly popular — largely through British-influenced cafes and food courts that serve them loaded with everything from cheese and beans to shawarma chicken and garlic sauce. Making them at home in the air fryer takes a fraction of the time and produces a better potato than most restaurants manage.
-
-**Pro Tip:** For the crispiest possible skin, lightly spray the oiled and salted potato with cooking spray right before it goes in. The extra oil layer crisps faster than a simple rub.`,
-    author: "sarah-al-fayed",
-    publishedAt: "2026-09-24",
-    cuisine: "International",
-    categories: ["air-fryer"],
-    mealTypes: ["Lunch", "Dinner", "Side Dish"],
-    cookingMethods: ["Air Frying"],
-    dietaryTags: ["Vegan", "Gluten-Free"],
-    difficulty: "Easy",
-    prepTimeMinutes: 5,
-    cookTimeMinutes: 40,
-    totalTimeMinutes: 45,
-    servings: 4,
-    estimatedCost: "Low",
-    heroImage: "/images/recipes/air-fryer-fluffy-baked-potatoes.webp",
-    imageAlt: "Fluffy split-open air fryer baked potato with crispy golden skin topped with butter and chives on a rustic wooden board",
-    ingredients: [
-      {
-        title: "Baked Potatoes",
-        items: [
-          { item: "large russet potatoes", amount: "4", unit: "", note: "similar size for even cooking — about 250g each", amountNumeric: 4 },
-          { item: "olive oil", amount: "1", unit: "tbsp", amountNumeric: 1 },
-          { item: "coarse sea salt", amount: "1", unit: "tsp", amountNumeric: 1 },
-        ],
-      },
-      {
-        title: "Topping Ideas",
-        items: [
-          { item: "butter", amount: "2", unit: "tbsp", amountNumeric: 2 },
-          { item: "sour cream", amount: "¼", unit: "cup", amountNumeric: 0.25 },
-          { item: "shredded cheddar cheese", amount: "½", unit: "cup", amountNumeric: 0.5 },
-          { item: "chives, chopped", amount: "2", unit: "tbsp", amountNumeric: 2 },
-          { item: "salt and pepper", note: "to taste" },
-        ],
-      },
-    ],
-    instructions: [
-      { step: 1, text: "Scrub the potatoes thoroughly under cold running water. Dry them completely with a clean towel — any moisture on the surface prevents crisping." },
-      { step: 2, text: "Poke each potato 8 to 10 times all over with a fork. This allows steam to escape and prevents the potato from bursting.", tip: "Poke deeper than you think — the fork should penetrate at least halfway into the potato." },
-      { step: 3, text: "Rub each potato with olive oil, then roll in coarse sea salt, pressing the crystals into the skin. The oil conducts heat for even crisping and the salt draws out moisture." },
-      { step: 4, text: "Preheat the air fryer to 200°C (400°F) for 3 minutes." },
-      { step: 5, text: "Place potatoes in the air fryer basket with space between each. Do not stack." },
-      { step: 6, text: "Cook at 200°C (400°F) for 20 minutes. Rotate each potato and cook for another 15 to 25 minutes until a knife slides into the center with zero resistance.", tip: "Total time depends on size: medium potatoes finish in 35 minutes, large ones take 40 to 45. Internal temperature should read 99°C (210°F)." },
-      { step: 7, text: "Remove from the air fryer. Immediately cut a deep cross in the top of each potato and squeeze the sides to push the fluffy interior upward.", tip: "Do not wait to cut them open. Trapped steam turns fluffy potato into dense, gummy potato within minutes." },
-      { step: 8, text: "Add butter into the steaming center, then pile on your chosen toppings. Serve immediately." },
-    ],
-    equipment: ["Air fryer", "Fork", "Paper towels or clean kitchen towel"],
-    tips: [
-      "Russet potatoes are essential. Their high starch content is what makes the interior fluffy. Waxy potatoes will give you a dense, almost gluey result.",
-      "Choose potatoes of similar size. A 50g difference in weight can mean 5 to 10 minutes of uneven cooking.",
-      "Never wrap potatoes in foil. Foil traps steam and produces soft, soggy skin — the exact opposite of what the air fryer does best.",
-      "Cut the potato open immediately after removing from the air fryer. This releases steam and keeps the interior light and fluffy.",
-      "Leftover baked potatoes are excellent sliced in half and reheated face-down in the air fryer at 190°C for 5 minutes — the cut side crisps up beautifully.",
-    ],
-    substitutions: [
-      "No russet potatoes? Large floury potatoes labeled 'baking potatoes' work. Avoid red or waxy varieties.",
-      "Sweet potatoes work with the same method — reduce cook time to 30 to 35 minutes and check early.",
-      "Use any neutral oil: avocado, vegetable, or melted butter.",
-      "For a Gulf-inspired topping, try labneh, za'atar, and olive oil instead of butter and sour cream.",
-    ],
-    servingSuggestions: [
-      "Classic: butter, sour cream, shredded cheddar, and chives.",
-      "Gulf-loaded: spiced minced meat, diced tomato, tahini drizzle, and fresh parsley.",
-      "Vegetarian: sautéed mushrooms, spinach, and melted cheese.",
-      "Serve alongside air fryer chicken thighs or salmon for a complete dinner.",
-    ],
-    storage: "Cooked potatoes keep in the fridge for up to 4 days. Reheat in the air fryer at 190°C (375°F) for 8 to 10 minutes. Microwaving works but softens the skin.",
-    faqs: [
-      { question: "How long does it take to bake a potato in the air fryer?", answer: "35 to 45 minutes at 200°C (400°F), depending on size. Medium potatoes are done in about 35 minutes; large ones need 40 to 45. A knife should slide in with zero resistance." },
-      { question: "Should I wrap potatoes in foil for the air fryer?", answer: "No. Foil traps steam and creates soft, soggy skin. The whole point of the air fryer is direct, circulating heat that crisps the skin — foil defeats that purpose." },
-      { question: "Why is my air fryer baked potato not fluffy inside?", answer: "Two likely reasons: you used the wrong variety (use russet or floury potatoes, not waxy ones), or you let it sit too long before cutting it open. Cut immediately to release steam." },
-      { question: "Can I cook sweet potatoes the same way?", answer: "Yes, with adjustments. Sweet potatoes are denser and cook faster — check at 30 minutes. They release more sugar, so line the basket with parchment to prevent sticking and sticky cleanup." },
-      { question: "Do I need to poke holes in potatoes before air frying?", answer: "Yes. Without holes, steam builds up inside and the potato can burst. Poke 8 to 10 times all over with a fork." },
-    ],
-    relatedRecipeSlugs: ["air-fryer-sweet-potato", "air-fryer-baked-potato"],
-  },
-  {
     slug: "air-fryer-sweet-potato",
     recipeName: "Air Fryer Sweet Potato",
     archiveTitle: "Air Fryer Sweet Potato",
@@ -1620,7 +1528,7 @@ In the Gulf, sweet potatoes have become increasingly popular over the past decad
       { question: "Do I need to peel sweet potatoes for fries?", answer: "For fries, yes — the peel can prevent even crisping. For whole baked sweet potatoes, leave the skin on — it caramelises beautifully and is edible." },
       { question: "Can I use regular potatoes for the fries method?", answer: "Yes, but skip the cornstarch (regular potatoes have enough surface starch on their own). Cook time is similar — 18 to 22 minutes, shaking halfway." },
     ],
-    relatedRecipeSlugs: ["air-fryer-baked-potato-fluffy", "air-fryer-chicken-tenders"],
+    relatedRecipeSlugs: ["air-fryer-baked-potato", "air-fryer-chicken-tenders"],
   },
   {
     slug: "air-fryer-chocolate-chip-cookies",
