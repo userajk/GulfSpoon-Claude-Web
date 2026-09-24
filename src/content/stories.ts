@@ -81,83 +81,6 @@ The Gulf's food story is also being shaped by its extraordinary diversity. In a 
     relatedRecipes: ["chicken-machboos", "fish-salona", "emirati-harees"],
   },
   {
-    slug: "halwa-puri-sundays-in-the-gulf",
-    title: "Halwa Puri Sundays in the Gulf",
-    seoTitle: "Halwa Puri Sundays: Pakistani Breakfast in the Gulf",
-    metaDescription: "The story of how Pakistani halwa puri breakfast became a beloved Gulf weekend tradition. The recipes, the rituals, and the community it builds for all families.",
-    standfirst: "Every Friday morning in Sharjah, Deira, and Doha, the smell of deep-frying puris and toasting semolina fills apartment corridors — a weekly ritual that connects Gulf-based Pakistani families to home, one plate at a time.",
-    category: "Expat Stories",
-    author: "omar-hussain",
-    publishedAt: "2026-07-11",
-    heroImage: "/images/stories/halwa-puri-sundays.jpg",
-    imageAlt: "A family-style spread of halwa puri breakfast with multiple dishes on a tablecloth",
-    tableOfContents: [
-      { id: "ritual", title: "The Friday Ritual" },
-      { id: "components", title: "What Makes Up a Halwa Puri Spread" },
-      { id: "adaptation", title: "Adapting to Gulf Kitchens" },
-      { id: "next-generation", title: "The Next Generation" },
-      { id: "community", title: "Community and Connection" },
-    ],
-    content: `## The Friday Ritual {#ritual}
-
-For the estimated three million Pakistanis living across the Gulf states, Friday morning means one thing: halwa puri. The tradition, rooted deeply in the street food culture of Lahore, Karachi, and Peshawar, has been faithfully transported across the Arabian Sea and recreated in apartments from Abu Dhabi to Muscat, from Jeddah to Kuwait City.
-
-The ritual starts early. By 7 a.m. on a Friday — the Gulf weekend — the kitchen is already active. Semolina is being dry-roasted in ghee for the halwa. Dough for the puris has been kneaded and is resting under a damp cloth. A pot of channay — chickpea curry spiced with cumin, ginger, and green chilies — is simmering on a back burner. In some households, aloo bhujia (spiced potato stir-fry) is prepared as a side. In others, imli chutney (tamarind sauce) is mixed fresh.
-
-This is not a quick breakfast. A proper halwa puri spread takes at least an hour to prepare, sometimes longer. The puris must be rolled individually and fried one at a time, each one puffing into a golden balloon in hot oil before being drained on paper towels. The halwa requires constant stirring — neglect it for a minute and the semolina will burn or clump. The channay need time to develop depth, the whole spices releasing their flavor slowly into the thick gravy.
-
-The effort is the point. In Pakistan, halwa puri is often bought from neighborhood shops and street vendors. A family might walk to their local halwai on a Sunday morning and bring home a steel container of channay and a bag of hot puris wrapped in newspaper. In the Gulf, where these corner shops do not exist in the same way, the entire production moves into the home kitchen. What was once outsourced becomes a labor of love, and the act of making halwa puri from scratch becomes as important as eating it.
-
-## What Makes Up a Halwa Puri Spread {#components}
-
-A traditional halwa puri breakfast has three essential components, and each one is non-negotiable.
-
-**Sooji ka Halwa** is a sweet dish made from semolina (sooji), ghee, sugar, and water, flavored with cardamom and sometimes garnished with slivered almonds or pistachios. The semolina is first dry-roasted in generous amounts of ghee — this is not a dish for the calorie-conscious — until it turns golden and fragrant. Sugar syrup is then added carefully (it sputters violently), and the mixture is stirred continuously until it pulls away from the sides of the pan in a glossy, cohesive mass. Good halwa should be rich but not greasy, sweet but not cloying, with a slight graininess from the semolina.
-
-**Puri** is an unleavened deep-fried bread made from whole wheat flour, water, a pinch of salt, and sometimes a teaspoon of oil worked into the dough. The dough is rolled into small circles — about four to five inches across — and fried in hot oil until they puff up dramatically. A well-made puri is golden brown, crisp on the outside, and hollow in the middle. It should be eaten hot. A cold puri is a sad thing — chewy, deflated, and nothing like the original.
-
-**Channay** is a chickpea curry that varies considerably from household to household. The base is almost always onions, tomatoes, ginger, and garlic, cooked down until thick. From there, the variations begin. Some families make a dark, richly spiced version heavy on cumin and coriander. Others prefer a lighter, tangier preparation with more tomato. The chickpeas should be soft but not mushy, and the gravy should be thick enough to scoop with a piece of puri without dripping.
-
-Beyond these three staples, the spread might include aloo bhujia (dry spiced potatoes), anda chanay (egg and chickpea curry), imli ki chutney (tamarind sauce), sliced onions, green chilies, and fresh coriander. Each family has its own additions and its own opinions about what belongs on the table.
-
-{{image:spread}}
-
-## Adapting to Gulf Kitchens {#adaptation}
-
-Gulf-based Pakistani home cooks have adapted the halwa puri tradition in ways both practical and creative. The core recipes remain unchanged — the techniques are the same ones learned from mothers and grandmothers in Lahore, Rawalpindi, and Hyderabad. But the ingredients have shifted slightly to accommodate what is available in Gulf supermarkets.
-
-Local ghee brands from the UAE and Saudi Arabia have become household favorites, and many Gulf-based cooks swear by them over imported Pakistani brands. The chickpeas used in channay are often sourced from Indian or Gulf grocery stores, and some cooks have noted that locally available varieties cook differently — slightly faster, slightly softer — than the ones back home.
-
-More interesting are the subtle flavor crossovers. Some Gulf-based Pakistani cooks have started adding a dried black lime (loomi) to their channay, a practice borrowed from Khaleeji cooking that adds an earthy sourness absent from the traditional recipe. Others use Gulf-sourced saffron to color their halwa, giving it a deeper golden hue than the food coloring sometimes used in Pakistan. These are small changes, rarely acknowledged explicitly, but they represent the kind of quiet culinary exchange that happens when communities live side by side for decades.
-
-The cooking environment itself is different. Most Gulf apartments have compact kitchens — far smaller than the spacious cooking spaces many Pakistani families are used to at home. Deep-frying puris in a small kitchen requires careful oil management and good ventilation. Some families have invested in dedicated puri pans — wide, shallow vessels that minimize splatter — specifically for the Friday ritual. Others fry puris on their apartment balconies when the weather permits, a practice that has become something of a Gulf-Pakistani tradition in itself.
-
-## The Next Generation {#next-generation}
-
-Perhaps the most significant question surrounding halwa puri in the Gulf is whether the tradition will survive into the next generation. Many Gulf-born Pakistani children — some now in their twenties and thirties — have grown up eating halwa puri every Friday but have never learned to make it themselves. The recipes live in their parents' muscle memory, in the handful of this and the pinch of that approach that defies written measurement.
-
-Some families have made deliberate efforts to teach the next generation. Teenage daughters and sons are pulled into the kitchen on Friday mornings, taught to roll puris to the right thickness, to judge the oil temperature by the sound of the sizzle, to stir halwa with the correct rhythm. In some households, the tradition has become a grandfather's domain — retired men who took up cooking in the Gulf and turned the Friday breakfast into their personal project.
-
-Social media has also played a role. Pakistani food accounts on Instagram and YouTube have documented halwa puri recipes in precise, replicable detail, providing a resource for young Gulf-based Pakistanis who want to learn but lack a family member willing to stand over a hot stove and teach. The recipes are there now, preserved digitally, even if the hands-on transmission is fading.
-
-## Community and Connection {#community}
-
-The halwa puri breakfast extends well beyond the family table. In Gulf apartment buildings with large Pakistani communities — and there are many, particularly in Sharjah, Al Ain, and Doha's industrial areas — Friday morning becomes a communal event. Families share plates with neighbors. A mother who made extra channay will send a bowl to the family down the hall. Children run between apartments carrying puris wrapped in foil.
-
-In labor camps and shared accommodations, halwa puri takes on an even deeper significance. For workers living far from their families, the Friday breakfast is a powerful connection to home. Groups of friends from the same city or province will pool resources and cook together, recreating not just the food but the social ritual that surrounds it — the conversation, the tea afterward, the sense that this morning, at least, is about something other than work.
-
-The tradition has also become a quiet cultural ambassador. Gulf-based Arab, Indian, and Filipino neighbors who have been offered halwa puri often become fans, requesting the recipe or asking to join next Friday. In this way, a breakfast born in the streets of Lahore has become one of the Gulf's most widespread expatriate food traditions — a weekly reminder that identity can be carried in a plate of food, no matter how far from home you are.`,
-    contentImages: {
-      "spread": {
-        src: "/images/stories/halwa-puri-spread.jpg",
-        alt: "Overhead view of a complete Pakistani halwa puri breakfast spread with golden puris, sooji halwa, chickpea curry, and spiced potatoes",
-        caption: "A complete halwa puri spread — puris, sooji ka halwa, channay, and aloo bhujia — the Friday morning ritual.",
-      },
-    },
-    relatedRecipes: ["pakistani-halwa-puri"],
-    relatedStories: ["the-soul-of-khaleeji-cooking"],
-  },
-  {
     slug: "adobo-in-abu-dhabi",
     title: "Adobo in Abu Dhabi",
     seoTitle: "Adobo in Abu Dhabi: Filipino Food in the Gulf",
@@ -239,7 +162,7 @@ The cultural exchange goes deeper than individual dishes. The Filipino approach 
       },
     },
     relatedRecipes: ["filipino-chicken-adobo"],
-    relatedStories: ["halwa-puri-sundays-in-the-gulf"],
+    relatedStories: ["the-soul-of-khaleeji-cooking"],
   },
 ];
 

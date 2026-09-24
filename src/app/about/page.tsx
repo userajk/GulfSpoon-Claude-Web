@@ -26,7 +26,7 @@ export default function AboutPage() {
         <ul className="space-y-3 text-charcoal mb-6">
           <li className="flex items-start gap-2"><span className="w-1.5 h-1.5 bg-saffron rounded-full mt-2 shrink-0" /><strong>Gulf Kitchen:</strong> Authentic Emirati, Saudi, Omani, Kuwaiti, Bahraini, and Qatari recipes.</li>
           <li className="flex items-start gap-2"><span className="w-1.5 h-1.5 bg-saffron rounded-full mt-2 shrink-0" /><strong>Expat Kitchens:</strong> Pakistani, Indian, Filipino, Bangladeshi, Sri Lankan, Egyptian, Levantine, and Persian recipes as prepared in Gulf homes.</li>
-          <li className="flex items-start gap-2"><span className="w-1.5 h-1.5 bg-saffron rounded-full mt-2 shrink-0" /><strong>Food Stories:</strong> Cultural features, ingredient guides, and the stories behind the dishes.</li>
+          <li className="flex items-start gap-2"><span className="w-1.5 h-1.5 bg-saffron rounded-full mt-2 shrink-0" /><strong>Beyond the Recipes:</strong> Cultural features, ingredient guides, and the stories behind the dishes.</li>
         </ul>
         <h2 className="font-serif text-2xl text-deep-plum mt-12 mb-4">Our Approach</h2>
         <p className="text-charcoal leading-relaxed mb-6">

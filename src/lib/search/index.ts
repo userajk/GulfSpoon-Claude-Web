@@ -31,7 +31,7 @@ export function search(query: string): SearchResult[] {
     description: s.standfirst,
     image: s.heroImage,
     category: s.category,
-    url: `/food-stories/${s.slug}`,
+    url: `/beyond-the-recipes/${s.slug}`,
   }));
 
   return [...recipeResults, ...storyResults];

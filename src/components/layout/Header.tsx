@@ -11,7 +11,7 @@ const navLinks = [
   { href: "/gulf-kitchen/", label: "Gulf Kitchen" },
   { href: "/expat-kitchens/", label: "Expat Kitchens" },
   { href: "/air-fryer/", label: "Air Fryer", highlight: true },
-  { href: "/food-stories/", label: "Food Stories" },
+  { href: "/beyond-the-recipes/", label: "Beyond the Recipes" },
   { href: "/about/", label: "About" },
 ];
 

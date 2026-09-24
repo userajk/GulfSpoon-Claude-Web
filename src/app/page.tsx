@@ -15,7 +15,7 @@ const categoryStrip = [
   { href: "/air-fryer/", label: "Air Fryer", icon: "Fan" },
   { href: "/desserts/", label: "Desserts", icon: "IceCreamCone" },
   { href: "/drinks/", label: "Drinks", icon: "Coffee" },
-  { href: "/food-stories/", label: "Food Stories", icon: "BookOpen" },
+  { href: "/beyond-the-recipes/", label: "Beyond the Recipes", icon: "BookOpen" },
 ];
 
 const iconMap: Record<string, React.ReactNode> = {
@@ -166,17 +166,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Food Stories */}
+      {/* Beyond the Recipes */}
       <section className="py-20 max-w-[1320px] mx-auto px-5 md:px-10">
         <div className="flex items-center justify-between mb-8">
-          <h2 className="font-serif text-4xl text-deep-plum">Food Stories</h2>
-          <Link href="/food-stories/" className="text-sm font-semibold text-deep-plum hover:text-saffron underline decoration-saffron underline-offset-4 transition-colors">
+          <h2 className="font-serif text-4xl text-deep-plum">Beyond the Recipes</h2>
+          <Link href="/beyond-the-recipes/" className="text-sm font-semibold text-deep-plum hover:text-saffron underline decoration-saffron underline-offset-4 transition-colors">
             View All
           </Link>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {stories.slice(0, 3).map((story) => (
-            <Link key={story.slug} href={`/food-stories/${story.slug}/`} className="group">
+            <Link key={story.slug} href={`/beyond-the-recipes/${story.slug}/`} className="group">
               <div className="relative aspect-[16/10] overflow-hidden mb-3 border border-outline-variant">
                 <Image src={story.heroImage} alt={story.imageAlt} fill className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 768px) 100vw, 33vw" />
               </div>

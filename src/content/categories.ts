@@ -10,7 +10,7 @@ export const categories: Category[] = [
   { slug: "air-fryer", name: "Air Fryer", description: "Crispy, golden air fryer recipes with a fraction of the oil. Chicken tenders, salmon, baked potatoes, and more — quick, easy, and perfectly crunchy results.", type: "category" },
   { slug: "drinks", name: "Drinks", description: "Traditional Arabic coffee, karak chai, fresh juices, smoothies, and homemade lattes. Hot and cold drink recipes from Gulf cafes and home kitchens in the region.", type: "category" },
   { slug: "desserts", name: "Desserts", description: "Sweet treats from the Gulf and beyond. Baklava, luqaimat, kunafa, semolina halwa, saffron crepes, and modern fusion desserts with step-by-step instructions.", type: "category" },
-  { slug: "food-stories", name: "Food Stories", description: "Cultural features, ingredient deep dives, and the stories behind the dishes that bring Gulf communities together. Khaleeji traditions and expat food culture.", type: "category" },
+  { slug: "beyond-the-recipes", name: "Beyond the Recipes", description: "Guides, tips, cultural features, and the stories behind the dishes that bring Gulf communities together. Khaleeji traditions, expat food culture, and everything beyond the recipe itself.", type: "category" },
 
   // Cuisines
   { slug: "emirati", name: "Emirati", description: "Traditional Emirati recipes from the UAE. Machboos, harees, balaleet, luqaimat, and more — authentic dishes celebrating the full culinary heritage of Emirates.", type: "cuisine", region: "Gulf" },
