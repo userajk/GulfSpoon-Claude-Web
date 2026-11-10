@@ -1,6 +1,8 @@
 import { Story } from "@/lib/schema/story";
+import { scheduledStories } from "@/content/generated/scheduled-content";
+import { isLive } from "@/lib/publishing";
 
-export const stories: Story[] = [
+const baseStories: Story[] = [
   {
     slug: "the-soul-of-khaleeji-cooking",
     title: "The Soul of Khaleeji Cooking",
@@ -167,8 +169,8 @@ The cultural exchange goes deeper than individual dishes. The Filipino approach 
   {
     slug: "how-to-clean-air-fryer",
     title: "How to Clean an Air Fryer",
-    seoTitle: "How to Clean an Air Fryer: The Complete Guide (2026)",
-    metaDescription: "Learn how to clean an air fryer properly — from quick wipe-downs after every use to deep cleaning baked-on grease. Includes tips for baskets, trays, and heating elements.",
+    seoTitle: "How to Clean an Air Fryer: Basket & Element",
+    metaDescription: "How to clean an air fryer: a 5-minute wash after each use, a deep clean for baked-on grease, and safe ways to clean the basket and heating element.",
     standfirst: "Your air fryer works hard, and grease buildup is inevitable. Regular cleaning keeps it performing at its best, prevents smoke and off-flavors, and extends its lifespan. Here is exactly how to clean every part of your air fryer — whether it needs a quick wipe or a serious deep clean.",
     category: "Guides",
     author: "sarah-al-fayed",
@@ -388,6 +390,9 @@ Wash all removable parts with warm soapy water. Then place a small oven-safe dis
     relatedStories: ["the-soul-of-khaleeji-cooking"],
   },
 ];
+
+/** Everything live today: base content plus scheduled content whose date has arrived and whose hero image exists. */
+export const stories: Story[] = [...baseStories, ...scheduledStories].filter(isLive);
 
 export function getStory(slug: string): Story | undefined {
   return stories.find((s) => s.slug === slug);

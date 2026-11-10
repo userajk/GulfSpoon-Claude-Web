@@ -4,6 +4,15 @@ import { getAuthor } from "@/content/authors";
 
 const SITE_URL = "https://gulfspoon.com";
 
+const DIET_MAP: Record<string, string> = {
+  vegetarian: "https://schema.org/VegetarianDiet",
+  vegan: "https://schema.org/VeganDiet",
+  "gluten-free": "https://schema.org/GlutenFreeDiet",
+  halal: "https://schema.org/HalalDiet",
+  "low-calorie": "https://schema.org/LowCalorieDiet",
+  "low-fat": "https://schema.org/LowFatDiet",
+};
+
 export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
@@ -53,10 +62,13 @@ export function generateRecipeSchema(recipe: Recipe) {
     "@context": "https://schema.org",
     "@type": "Recipe",
     name: recipe.recipeName,
-    image: `${SITE_URL}${recipe.heroImage}`,
+    image: [`${SITE_URL}${recipe.heroImage}`],
+    url: `${SITE_URL}/recipes/${recipe.slug}/`,
+    mainEntityOfPage: `${SITE_URL}/recipes/${recipe.slug}/`,
     author: {
       "@type": "Person",
       name: author?.name ?? recipe.author,
+      ...(author ? { url: `${SITE_URL}/authors/${author.slug}/` } : {}),
     },
     datePublished: recipe.publishedAt,
     description: recipe.shortDescription,
@@ -77,6 +89,16 @@ export function generateRecipeSchema(recipe: Recipe) {
 
   if (recipe.updatedAt) {
     schema.dateModified = recipe.updatedAt;
+  }
+
+  const keywords = [recipe.primaryKeyword, ...(recipe.secondaryKeywords ?? [])].filter(Boolean);
+  if (keywords.length) schema.keywords = keywords.join(", ");
+  if (recipe.cookingMethods.length) schema.cookingMethod = recipe.cookingMethods.join(", ");
+  if (recipe.dietaryTags?.length) schema.suitableForDiet = recipe.dietaryTags
+    .map((t) => DIET_MAP[t.toLowerCase()])
+    .filter(Boolean);
+  if (recipe.nutrition && Object.keys(recipe.nutrition).length) {
+    schema.nutrition = { "@type": "NutritionInformation", ...recipe.nutrition };
   }
 
   return schema;
@@ -104,10 +126,15 @@ export function generateArticleSchema(story: Story) {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: story.title,
-    image: `${SITE_URL}${story.heroImage}`,
+    image: [`${SITE_URL}${story.heroImage}`],
+    mainEntityOfPage: `${SITE_URL}/beyond-the-recipes/${story.slug}/`,
+    ...(story.primaryKeyword
+      ? { keywords: [story.primaryKeyword, ...(story.secondaryKeywords ?? [])].join(", ") }
+      : {}),
     author: {
       "@type": "Person",
       name: author?.name ?? story.author,
+      ...(author ? { url: `${SITE_URL}/authors/${author.slug}/` } : {}),
     },
     datePublished: story.publishedAt,
     dateModified: story.updatedAt ?? story.publishedAt,

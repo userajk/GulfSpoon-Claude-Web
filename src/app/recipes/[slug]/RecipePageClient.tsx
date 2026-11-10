@@ -12,9 +12,28 @@ import type { Recipe } from "@/lib/schema/recipe";
 interface Props {
   recipe: Recipe;
   relatedRecipes: Recipe[];
+  introHtml?: string;
+  sectionsHtml?: { id: string; heading: string; html: string }[];
 }
 
-export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
+function BulletList({ title, items }: { title: string; items?: string[] }) {
+  if (!items || items.length === 0) return null;
+  return (
+    <div className="mb-12">
+      <h2 className="font-serif text-xl text-deep-plum mb-3">{title}</h2>
+      <ul className="space-y-2">
+        {items.map((item, i) => (
+          <li key={i} className="flex items-start gap-2 text-base">
+            <span className="w-1.5 h-1.5 bg-saffron rounded-full mt-2.5 shrink-0" />
+            {item}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default function RecipePageClient({ recipe, relatedRecipes, introHtml, sectionsHtml = [] }: Props) {
   const [scale, setScale] = useState(1);
   const [checkedIngredients, setCheckedIngredients] = useState<Set<string>>(new Set());
   const [cookMode, setCookMode] = useState(false);
@@ -112,17 +131,59 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
         {recipe.shortDescription}
       </p>
 
-      {/* Intro & Origin */}
-      {recipe.intro && (
-        <div className="mb-12 space-y-4 text-base leading-relaxed"
-          dangerouslySetInnerHTML={{
-            __html: recipe.intro
-              .split("\n\n")
-              .map((p) => `<p>${p.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")}</p>`)
-              .join(""),
-          }}
-        />
+      {/* Quick answer (featured snippet / AI answer target) */}
+      {recipe.quickAnswer && (
+        <aside className="mb-10 border-l-4 border-saffron bg-soft-ivory p-5" aria-label="Quick answer">
+          <p className="label-caps text-saffron mb-2">Quick answer</p>
+          <p className="text-base leading-relaxed">{recipe.quickAnswer}</p>
+        </aside>
       )}
+
+      {/* Intro & Origin */}
+      {introHtml && (
+        <div className="rich-text mb-12 text-base" dangerouslySetInnerHTML={{ __html: introHtml }} />
+      )}
+
+      {/* Reference chart */}
+      {recipe.cookingChart && (
+        <figure className="mb-12">
+          <div className="overflow-x-auto border border-warm-taupe">
+            <table className="w-full border-collapse text-sm md:text-base">
+              <caption className="caption-top text-left font-serif text-xl text-deep-plum pb-3">
+                {recipe.cookingChart.caption}
+              </caption>
+              <thead>
+                <tr>
+                  {recipe.cookingChart.headers.map((h) => (
+                    <th key={h} scope="col" className="bg-soft-sand text-deep-plum text-left font-bold px-3 py-2">{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {recipe.cookingChart.rows.map((row, ri) => (
+                  <tr key={ri} className="border-t border-soft-sand">
+                    {row.map((cell, ci) =>
+                      ci === 0 ? (
+                        <th key={ci} scope="row" className="text-left font-semibold px-3 py-2 align-top">{cell}</th>
+                      ) : (
+                        <td key={ci} className="px-3 py-2 align-top">{cell}</td>
+                      )
+                    )}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </figure>
+      )}
+
+      {/* Long-form sections */}
+      {sectionsHtml.map((s) => (
+        <section key={s.id} className="rich-text mb-12 text-base" aria-labelledby={s.id}>
+          <h2 id={s.id}>{s.heading}</h2>
+          <div dangerouslySetInnerHTML={{ __html: s.html }} />
+        </section>
+      ))}
 
       {/* Recipe card */}
       <div ref={recipeCardRef} className="bg-soft-ivory border border-warm-taupe p-6 md:p-8 mb-12" id="recipe-card">
@@ -226,6 +287,12 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
                 </li>
               ))}
             </ol>
+            {recipe.equipment && recipe.equipment.length > 0 && (
+              <div className="mt-8">
+                <h4 className="label-caps text-on-surface-variant mb-2">Equipment</h4>
+                <p className="text-base">{recipe.equipment.join(" · ")}</p>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -233,7 +300,7 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
       {/* Tips */}
       {recipe.tips && recipe.tips.length > 0 && (
         <div className="mb-12 border border-herb-green bg-herb-green/5 p-6">
-          <h3 className="font-serif text-xl text-deep-plum mb-3">Tips</h3>
+          <h2 className="font-serif text-xl text-deep-plum mb-3">Tips</h2>
           <ul className="space-y-2">
             {recipe.tips.map((tip, i) => (
               <li key={i} className="flex items-start gap-2 text-base">
@@ -245,37 +312,33 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
         </div>
       )}
 
-      {/* Substitutions */}
-      {recipe.substitutions && recipe.substitutions.length > 0 && (
-        <div className="mb-12">
-          <h3 className="font-serif text-xl text-deep-plum mb-3">Substitutions</h3>
-          <ul className="space-y-2">
-            {recipe.substitutions.map((sub, i) => (
-              <li key={i} className="flex items-start gap-2 text-base">
-                <span className="w-1.5 h-1.5 bg-saffron rounded-full mt-2.5 shrink-0" />
-                {sub}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <BulletList title="Troubleshooting" items={recipe.troubleshooting} />
+      <BulletList title="Substitutions" items={recipe.substitutions} />
+      <BulletList title="Variations" items={recipe.variations} />
+      <BulletList title="What to Serve With It" items={recipe.servingSuggestions} />
 
-      {/* Storage */}
-      {recipe.storage && (
-        <div className="mb-12">
-          <h3 className="font-serif text-xl text-deep-plum mb-2">Storage</h3>
-          <p className="text-base text-on-surface-variant">{recipe.storage}</p>
-        </div>
-      )}
+      {/* Storage, reheating, make-ahead */}
+      {[
+        { title: "Storage", text: recipe.storage },
+        { title: "Reheating", text: recipe.reheating },
+        { title: "Make Ahead", text: recipe.makeAhead },
+      ]
+        .filter((b) => b.text)
+        .map((b) => (
+          <div key={b.title} className="mb-12">
+            <h2 className="font-serif text-xl text-deep-plum mb-2">{b.title}</h2>
+            <p className="text-base text-on-surface-variant">{b.text}</p>
+          </div>
+        ))}
 
       {/* FAQs */}
       {recipe.faqs && recipe.faqs.length > 0 && (
         <div className="mb-12">
-          <h3 className="font-serif text-xl text-deep-plum mb-4">Frequently Asked Questions</h3>
+          <h2 id="faq" className="font-serif text-xl text-deep-plum mb-4">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {recipe.faqs.map((faq, i) => (
               <div key={i}>
-                <h4 className="font-semibold text-base mb-1">{faq.question}</h4>
+                <h3 className="font-semibold text-base mb-1">{faq.question}</h3>
                 <p className="text-base text-on-surface-variant">{faq.answer}</p>
               </div>
             ))}
@@ -286,7 +349,7 @@ export default function RecipePageClient({ recipe, relatedRecipes }: Props) {
       {/* Related recipes */}
       {relatedRecipes.length > 0 && (
         <div className="mb-12">
-          <h3 className="font-serif text-2xl text-deep-plum mb-6">You Might Also Like</h3>
+          <h2 className="font-serif text-2xl text-deep-plum mb-6">You Might Also Like</h2>
           <RecipeCardGrid recipes={relatedRecipes} columns={3} />
         </div>
       )}

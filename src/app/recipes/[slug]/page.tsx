@@ -6,6 +6,7 @@ import { generateRecipeSchema, generateBreadcrumbSchema, generateFAQPageSchema }
 import { formatDate, formatTime } from "@/lib/utilities/format";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import RecipePageClient from "./RecipePageClient";
+import { renderMarkdown } from "@/lib/markdown";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -60,7 +61,7 @@ export default async function RecipePage({ params }: Props) {
             generateBreadcrumbSchema([
               { name: "Home", url: "/" },
               { name: "Recipes", url: "/recipes" },
-              { name: recipe.archiveTitle, url: `/recipes/${recipe.slug}` },
+              { name: recipe.archiveTitle, url: `/recipes/${recipe.slug}/` },
             ])
           ),
         }}
@@ -96,7 +97,12 @@ export default async function RecipePage({ params }: Props) {
             </div>
           </header>
 
-          <RecipePageClient recipe={recipe} relatedRecipes={relatedRecipes as import("@/lib/schema/recipe").Recipe[]} />
+          <RecipePageClient
+            recipe={recipe}
+            relatedRecipes={relatedRecipes as import("@/lib/schema/recipe").Recipe[]}
+            introHtml={recipe.intro ? renderMarkdown(recipe.intro) : undefined}
+            sectionsHtml={(recipe.sections ?? []).map((s) => ({ id: s.id, heading: s.heading, html: renderMarkdown(s.body) }))}
+          />
         </article>
       </div>
     </>

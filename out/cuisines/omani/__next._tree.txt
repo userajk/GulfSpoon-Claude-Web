@@ -1,5 +1,5 @@
-:HL["/_next/static/css/a6332101ec7eb0b1.css","style"]
+:HL["/_next/static/css/1bb104b458849243.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"omani","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"cuisines","h":96,"c":"$Q2"}]]
-0:{"b":"Pk0UZKGOgPfhKTVq8rEIN","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"s7NBdl8P9M8Sfmx9BYWbB","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

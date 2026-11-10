@@ -1,0 +1,49 @@
+name: Daily publish
+
+# The site is a static export, so scheduled recipes and guides only appear after a rebuild.
+# Hostinger rebuilds on every push to master. This job runs just after midnight Gulf time
+# (00:05 Asia/Dubai = 20:05 UTC) and, if any content is dated today, pushes an empty commit
+# to trigger that rebuild.
+
+on:
+  schedule:
+    - cron: "5 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Find content dated today
+        id: due
+        run: |
+          TODAY=$(TZ=Asia/Dubai date +%F)
+          echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+          DUE=$(grep -rl "publishedAt: \"$TODAY\"" src/content || true)
+          if [ -n "$DUE" ]; then
+            echo "Due today ($TODAY):"
+            echo "$DUE"
+            echo "due=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Nothing scheduled for $TODAY."
+            echo "due=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Trigger Hostinger rebuild
+        if: steps.due.outputs.due == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: publish scheduled content for ${{ steps.due.outputs.today }}"
+          git push origin master

@@ -66,6 +66,22 @@ export interface Recipe {
   nutrition?: Record<string, string>;
   rating?: number;
   ratingCount?: number;
+  /** The one search query this page owns. No other page may target it. */
+  primaryKeyword?: string;
+  /** Supporting long-tail queries from the same cluster (emitted as schema keywords). */
+  secondaryKeywords?: string[];
+  /** 40–60 word direct answer shown near the top (featured snippet / AI answer target). */
+  quickAnswer?: string;
+  /** Optional reference table, e.g. time and temperature by size. */
+  cookingChart?: CookingChart;
+  /** Extra H2 sections rendered as markdown (links to /recipes/… and /beyond-the-recipes/… allowed). */
+  sections?: { id: string; heading: string; body: string }[];
+}
+
+export interface CookingChart {
+  caption: string;
+  headers: string[];
+  rows: string[][];
 }
 
 export type Ingredient = z.infer<typeof IngredientSchema>;

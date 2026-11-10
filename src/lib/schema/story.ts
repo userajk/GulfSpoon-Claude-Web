@@ -23,4 +23,9 @@ export interface Story {
   sourceLinks?: { title: string; url: string }[];
   relatedStories?: string[];
   relatedRecipes?: string[];
+  /** The one search query this page owns. No other page may target it. */
+  primaryKeyword?: string;
+  secondaryKeywords?: string[];
+  /** Rendered as an FAQ section and FAQPage structured data. */
+  faqs?: { question: string; answer: string }[];
 }

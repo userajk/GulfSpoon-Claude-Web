@@ -11,14 +11,14 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://gulfspoon.com";
 export default function sitemap(): MetadataRoute.Sitemap {
   const recipes = getAllRecipes().map((r) => ({
     url: `${BASE_URL}/recipes/${r.slug}/`,
-    lastModified: new Date(),
+    lastModified: new Date(r.updatedAt ?? r.publishedAt),
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
   const stories = getAllStories().map((s) => ({
     url: `${BASE_URL}/beyond-the-recipes/${s.slug}/`,
-    lastModified: new Date(),
+    lastModified: new Date(s.updatedAt ?? s.publishedAt),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));

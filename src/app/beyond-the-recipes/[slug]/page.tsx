@@ -6,7 +6,8 @@ import { getStory, getAllStories } from "@/content/stories";
 import { getAuthor } from "@/content/authors";
 import { getRecipe } from "@/content/recipes";
 import { formatDate } from "@/lib/utilities/format";
-import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/seo/structured-data";
+import { generateArticleSchema, generateBreadcrumbSchema, generateFAQPageSchema } from "@/lib/seo/structured-data";
+import { renderMarkdown } from "@/lib/markdown";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import RecipeCardGrid from "@/components/recipes/RecipeCardGrid";
 
@@ -46,6 +47,9 @@ export default async function StoryPage({ params }: Props) {
         { name: "Beyond the Recipes", url: "/beyond-the-recipes" },
         { name: story.title, url: `/beyond-the-recipes/${story.slug}/` },
       ])) }} />
+      {story.faqs && story.faqs.length > 0 && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQPageSchema(story.faqs)) }} />
+      )}
 
       <div className="max-w-[1320px] mx-auto px-5 md:px-10 py-8">
         <Breadcrumbs items={[{ label: "Beyond the Recipes", href: "/beyond-the-recipes" }, { label: story.title }]} />
@@ -90,23 +94,38 @@ export default async function StoryPage({ params }: Props) {
 
           {/* Content */}
           <div
-            className="prose prose-lg max-w-none mb-12
-              [&_h2]:font-serif [&_h2]:text-deep-plum [&_h2]:text-2xl [&_h2]:mt-12 [&_h2]:mb-4
-              [&_p]:text-charcoal [&_p]:leading-relaxed [&_p]:mb-4
-              [&_strong]:text-deep-plum
-              [&_figure]:my-10 [&_figure]:border [&_figure]:border-warm-taupe
-              [&_figcaption]:text-sm [&_figcaption]:text-on-surface-variant [&_figcaption]:italic [&_figcaption]:px-4 [&_figcaption]:py-3 [&_figcaption]:bg-soft-ivory"
-            dangerouslySetInnerHTML={{ __html: story.content
-              .replace(/## (.*?) \{#(.*?)\}/g, '<h2 id="$2">$1</h2>')
-              .replace(/\{\{image:(.*?)\}\}/g, (_match, key) => {
-                const img = story.contentImages?.[key];
-                if (!img) return '';
-                return `</p><figure><img src="${img.src}" alt="${img.alt}" loading="lazy" style="width:100%;height:auto;display:block;" />${img.caption ? `<figcaption>${img.caption}</figcaption>` : ''}</figure><p>`;
-              })
-              .replace(/\n\n/g, '</p><p>')
-              .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-            }}
+            className="rich-text text-lg mb-12"
+            dangerouslySetInnerHTML={{ __html: renderMarkdown(story.content, story.contentImages) }}
           />
+
+          {/* FAQs */}
+          {story.faqs && story.faqs.length > 0 && (
+            <section className="rich-text mb-12" aria-labelledby="faq">
+              <h2 id="faq">Frequently Asked Questions</h2>
+              {story.faqs.map((faq, i) => (
+                <div key={i}>
+                  <h3>{faq.question}</h3>
+                  <p>{faq.answer}</p>
+                </div>
+              ))}
+            </section>
+          )}
+
+          {/* Sources */}
+          {story.sourceLinks && story.sourceLinks.length > 0 && (
+            <section className="mb-12 border-t border-warm-taupe pt-6">
+              <h2 className="label-caps text-on-surface-variant mb-3">Sources</h2>
+              <ul className="space-y-1 text-sm">
+                {story.sourceLinks.map((s) => (
+                  <li key={s.url}>
+                    <a href={s.url} rel="noopener" target="_blank" className="text-deep-plum underline decoration-saffron underline-offset-2 hover:text-muted-berry">
+                      {s.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
 
           {/* Author bio */}
           {author && (
