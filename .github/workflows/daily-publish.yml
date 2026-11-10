@@ -51,6 +51,7 @@ jobs:
         if: steps.due.outputs.due == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           npm ci
+          rm -rf out
           npm run build
 
       - name: Commit and push rebuilt out/
