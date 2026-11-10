@@ -26,7 +26,7 @@ const dancingScript = Dancing_Script({
 
 export const metadata: Metadata = {
   title: {
-    default: "GulfSpoon — Gulf Recipes and Expat Kitchens",
+    default: "GulfSpoon: Gulf Recipes and Expat Kitchens",
     template: "%s | GulfSpoon",
   },
   description:
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "GulfSpoon",
-    title: "GulfSpoon — Gulf Recipes and Expat Kitchens",
+    title: "GulfSpoon: Gulf Recipes and Expat Kitchens",
     description:
       "Authentic Gulf recipes, expat kitchen favorites, and food stories from the Arabian Peninsula. Khaleeji, South Asian, and Levantine dishes for home cooks.",
     url: "https://gulfspoon.com",
@@ -45,13 +45,13 @@ export const metadata: Metadata = {
         url: "/images/gulfspoon-og.png",
         width: 1200,
         height: 630,
-        alt: "GulfSpoon — Gulf Recipes and Expat Kitchens",
+        alt: "GulfSpoon: Gulf Recipes and Expat Kitchens",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "GulfSpoon — Gulf Recipes and Expat Kitchens",
+    title: "GulfSpoon: Gulf Recipes and Expat Kitchens",
     description:
       "Authentic Gulf recipes, expat kitchen favorites, and food stories from the Arabian Peninsula. Khaleeji, South Asian, and Levantine dishes for home cooks.",
   },

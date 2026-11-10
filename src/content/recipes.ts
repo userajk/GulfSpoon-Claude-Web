@@ -10,12 +10,12 @@ const baseRecipes: Recipe[] = [
     pageTitle: "How to Make a Latte at Home (With or Without an Espresso Machine)",
     seoTitle: "How to Make a Latte at Home: 3 Easy Methods",
     metaDescription: "Make a café-style latte at home with an espresso machine, moka pot or French press. Milk frothing steps, ratios and Gulf-spiced twists like cardamom.",
-    shortDescription: "Making a latte at home is easier than you think. All you need is strong coffee, steamed milk, and a few minutes. This guide walks you through three different brewing methods — espresso machine, moka pot, and French press — so you can make a smooth, creamy latte no matter what equipment you have in your kitchen. Once you nail the basics, you may never queue at a coffee shop again.",
-    intro: `The word "latte" is borrowed from the Italian caffè latte, meaning "milk coffee." But the drink that most of us picture — espresso topped with steamed milk and a thin layer of foam — is largely an American invention. In Italy, a caffè latte is a simple morning drink made at home, usually with stovetop moka pot coffee poured into a glass of hot milk. No art, no foam, no ceremony. The elaborate coffeehouse version emerged in Seattle in the 1980s, when espresso bars started experimenting with milk textures and presentation.
+    shortDescription: "Making a latte at home is easier than you think. All you need is strong coffee, steamed milk, and a few minutes. This guide walks you through three different brewing methods (espresso machine, moka pot, and French press) so you can make a smooth, creamy latte no matter what equipment you have in your kitchen. Once you nail the basics, you may never queue at a coffee shop again.",
+    intro: `The word "latte" is borrowed from the Italian caffè latte, meaning "milk coffee." But the drink that most of us picture (espresso topped with steamed milk and a thin layer of foam) is largely an American invention. In Italy, a caffè latte is a simple morning drink made at home, usually with stovetop moka pot coffee poured into a glass of hot milk. No art, no foam, no ceremony. The elaborate coffeehouse version emerged in Seattle in the 1980s, when espresso bars started experimenting with milk textures and presentation.
 
-In the Gulf, the latte arrived through the wave of international coffee chains that opened across Dubai, Abu Dhabi, Riyadh, and Doha in the late 1990s and early 2000s. Coffee culture in the region had always been strong — gahwa (Arabic coffee) and karak chai are deeply embedded in daily life — but the milky, sweetened latte found a natural audience. Gulf coffee drinkers often prefer their drinks rich and sweet, and the latte fit right in. Today, it is one of the most ordered drinks in the region, and local roasters have started adding Gulf touches: cardamom lattes, saffron lattes, date-syrup sweetened versions.
+In the Gulf, the latte arrived through the wave of international coffee chains that opened across Dubai, Abu Dhabi, Riyadh, and Doha in the late 1990s and early 2000s. Coffee culture in the region had always been strong, with gahwa (Arabic coffee) and karak chai deeply embedded in daily life, but the milky, sweetened latte found a natural audience. Gulf coffee drinkers often prefer their drinks rich and sweet, and the latte fit right in. Today, it is one of the most ordered drinks in the region, and local roasters have started adding Gulf touches: cardamom lattes, saffron lattes, date-syrup sweetened versions.
 
-Making a good latte at home comes down to two things: strong, concentrated coffee and properly textured milk. The coffee needs to be bolder than a standard drip brew because it has to hold its flavor against 8 ounces of milk. And the milk needs to be steamed to a smooth, glossy consistency — tiny bubbles, no foam chunks. Get those two right, and you are most of the way there.`,
+Making a good latte at home comes down to two things: strong, concentrated coffee and properly textured milk. The coffee needs to be bolder than a standard drip brew because it has to hold its flavor against 8 ounces of milk. And the milk needs to be steamed to a smooth, glossy consistency: tiny bubbles, no foam chunks. Get those two right, and you are most of the way there.`,
     author: "sarah-al-fayed",
     publishedAt: "2026-07-02",
     cuisine: "International",
@@ -42,7 +42,7 @@ Making a good latte at home comes down to two things: strong, concentrated coffe
       {
         title: "For the Steamed Milk",
         items: [
-          { item: "whole milk", amount: "8", unit: "oz", note: "240 ml — cold from the fridge froths best", amountNumeric: 8 },
+          { item: "whole milk", amount: "8", unit: "oz", note: "240 ml, cold from the fridge froths best", amountNumeric: 8 },
         ],
       },
       {
@@ -54,13 +54,13 @@ Making a good latte at home comes down to two things: strong, concentrated coffe
       },
     ],
     instructions: [
-      { step: 1, text: "Fill your mug with boiling water and let it sit while you prepare the coffee. A warm mug keeps the latte hot much longer.", tip: "This small step makes a noticeable difference — a cold ceramic mug drops the drink temperature by about 10°F instantly." },
+      { step: 1, text: "Fill your mug with boiling water and let it sit while you prepare the coffee. A warm mug keeps the latte hot much longer.", tip: "This small step makes a noticeable difference. A cold ceramic mug drops the drink temperature by about 10°F instantly." },
       { step: 2, text: "Grind your coffee beans fresh if possible. For an espresso machine, use a fine grind (like table salt). For a moka pot, go slightly coarser (like fine sand). For a French press, use a coarse grind." },
       { step: 3, text: "Brew a double shot of espresso (about 2 oz / 60 ml). If using a moka pot, fill the bottom chamber with hot water up to the valve, add coffee to the filter basket without packing it, and heat on medium until coffee flows into the upper chamber. If using a French press, steep 2 tablespoons of coarse-ground coffee in 3 oz of just-boiled water for 4 minutes, then press.", tip: "The goal is strong, concentrated coffee. A regular drip brew is too diluted for a proper latte." },
-      { step: 4, text: "While the coffee brews, pour cold milk into a frothing pitcher (or a microwave-safe jar if you do not have a frother). Steam the milk using your machine's steam wand until the pitcher feels too hot to hold comfortably — about 150°F (65°C). Tilt the pitcher at an angle and keep the wand tip just below the surface to create a whirlpool that incorporates tiny air bubbles." },
+      { step: 4, text: "While the coffee brews, pour cold milk into a frothing pitcher (or a microwave-safe jar if you do not have a frother). Steam the milk using your machine's steam wand until the pitcher feels too hot to hold comfortably, about 150°F (65°C). Tilt the pitcher at an angle and keep the wand tip just below the surface to create a whirlpool that incorporates tiny air bubbles." },
       { step: 5, text: "If you do not have a steam wand, heat the milk in a saucepan over medium heat until small bubbles form at the edges (do not boil). Then froth it by pumping a French press plunger up and down for 30 seconds, or shake it vigorously in a sealed jar for about 45 seconds." },
       { step: 6, text: "Tap the milk pitcher firmly on the counter 2 to 3 times and swirl it gently. This pops any large bubbles and gives the milk a glossy, paint-like consistency." },
-      { step: 7, text: "Empty the hot water from your mug. Pour the espresso in, followed by any sweetener or flavoring — stir briefly." },
+      { step: 7, text: "Empty the hot water from your mug. Pour the espresso in, followed by any sweetener or flavoring. Stir briefly." },
       { step: 8, text: "Hold the pitcher about 3 inches above the mug and pour the steamed milk in a steady stream into the center of the espresso. Once the cup is about three-quarters full, bring the pitcher closer to the surface and pour slightly faster to let the foam flow on top. Serve immediately." },
     ],
     equipment: ["Espresso machine, moka pot, or French press", "Milk frothing pitcher (or a jar with a lid)", "Steam wand, French press, or handheld milk frother", "Wide ceramic mug (10–12 oz capacity)", "Kitchen thermometer (optional but helpful)"],
@@ -69,12 +69,12 @@ Making a good latte at home comes down to two things: strong, concentrated coffe
       "Whole milk creates the richest, most velvety foam because of its fat content. If you prefer a lighter latte, 2% milk still froths reasonably well.",
       "For the best flavor, use coffee beans roasted within the last 2 to 4 weeks. Stale beans produce flat, bitter espresso.",
       "A latte has a higher milk-to-coffee ratio than a cappuccino. If you want a stronger coffee flavor, use less milk (6 oz instead of 8) or pull a longer espresso shot.",
-      "If your latte tastes bitter, your coffee may be over-extracted — try a coarser grind or shorter brew time. If it tastes sour or weak, go finer or brew a bit longer.",
+      "If your latte tastes bitter, your coffee may be over-extracted. Try a coarser grind or shorter brew time. If it tastes sour or weak, go finer or brew a bit longer.",
     ],
     substitutions: [
       "No espresso machine? A moka pot (stovetop espresso maker) produces strong coffee that works perfectly. A 3-cup Bialetti is the most popular size for a single latte.",
       "No moka pot either? Use a French press with double the normal coffee amount and half the water. Steep for 4 minutes for a concentrated brew.",
-      "For dairy-free lattes, barista-edition oat milk is the closest to whole milk in terms of frothing and taste. Avoid regular oat or almond milk — they tend to separate and produce thin foam.",
+      "For dairy-free lattes, barista-edition oat milk is the closest to whole milk in terms of frothing and taste. Avoid regular oat or almond milk. They tend to separate and produce thin foam.",
       "Replace the vanilla with caramel syrup, hazelnut syrup, or a pinch of cinnamon for different flavor profiles.",
     ],
     variations: [
@@ -85,20 +85,20 @@ Making a good latte at home comes down to two things: strong, concentrated coffe
     ],
     servingSuggestions: [
       "Pair with a slice of date cake or a piece of baklava for a Gulf-style coffee break.",
-      "Serve alongside balaleet for a traditional Emirati breakfast pairing — the sweet vermicelli complements a milky latte well.",
+      "Serve alongside balaleet for a traditional Emirati breakfast pairing. The sweet vermicelli complements a milky latte well.",
     ],
     storage: "A latte is best served immediately after making it. The foam begins to deflate within minutes, and reheating causes the milk to lose its silky texture. If you need coffee on the go, brew the espresso in advance, refrigerate it, and make an iced latte when you are ready to drink.",
     troubleshooting: [
       "Milk is too foamy or stiff: You introduced too much air. Keep the steam wand tip just below the surface, not deep in the milk. The milk should swirl, not bubble violently.",
-      "Milk is flat with no foam: You did not introduce enough air at the start. In the first 2 to 3 seconds of steaming, lower the pitcher slightly so the wand tip breaks the surface and hisses — this is what creates the foam.",
+      "Milk is flat with no foam: You did not introduce enough air at the start. In the first 2 to 3 seconds of steaming, lower the pitcher slightly so the wand tip breaks the surface and hisses. This is what creates the foam.",
       "Espresso tastes watery: Your grind is too coarse, or you used too little coffee. Aim for 18g of coffee yielding 2 oz of liquid in about 25 to 30 seconds.",
       "Latte has a burnt taste: The milk overheated past 160°F (70°C). At that point, the sugars in milk start to break down and taste scorched. Pull the steam wand out sooner.",
     ],
     faqs: [
-      { question: "Can I make a latte without an espresso machine?", answer: "Absolutely. A moka pot, AeroPress, or French press all work. The key is making concentrated coffee — about 2 oz of strong brew. Regular drip coffee is too weak and will taste watery once you add 8 oz of milk." },
+      { question: "Can I make a latte without an espresso machine?", answer: "Absolutely. A moka pot, AeroPress, or French press all work. The key is making concentrated coffee: about 2 oz of strong brew. Regular drip coffee is too weak and will taste watery once you add 8 oz of milk." },
       { question: "What milk is best for a latte?", answer: "Whole milk gives the creamiest texture and sweetest taste because of its fat and sugar content. For dairy-free options, barista-edition oat milk froths the best and has a naturally sweet, neutral flavor. Almond and soy milk can work but tend to produce thinner foam." },
-      { question: "What is the difference between a latte and a cappuccino?", answer: "Both use espresso and steamed milk, but the ratio differs. A latte is about one-third espresso and two-thirds steamed milk with a thin layer of foam. A cappuccino is equal parts espresso, steamed milk, and thick foam — so it is smaller, stronger, and much frothier." },
-      { question: "How do I make latte art?", answer: "Latte art requires well-textured microfoam — glossy, smooth milk with no visible bubbles. Pour the milk into the center of the espresso from a height of about 3 inches, then lower the pitcher close to the surface when the cup is three-quarters full. Gently wiggle the pitcher side to side while moving it backward to create a heart or rosetta pattern. It takes practice — expect your first few attempts to look like blobs." },
+      { question: "What is the difference between a latte and a cappuccino?", answer: "Both use espresso and steamed milk, but the ratio differs. A latte is about one-third espresso and two-thirds steamed milk with a thin layer of foam. A cappuccino is equal parts espresso, steamed milk, and thick foam, so it is smaller, stronger, and much frothier." },
+      { question: "How do I make latte art?", answer: "Latte art requires well-textured microfoam: glossy, smooth milk with no visible bubbles. Pour the milk into the center of the espresso from a height of about 3 inches, then lower the pitcher close to the surface when the cup is three-quarters full. Gently wiggle the pitcher side to side while moving it backward to create a heart or rosetta pattern. It takes practice. Expect your first few attempts to look like blobs." },
       { question: "Is a latte healthy?", answer: "A plain latte made with whole milk has about 150 calories and is a good source of calcium and protein. The main health concern comes from added syrups and sugar. If you are watching calories, use skim milk or unsweetened oat milk and skip the sweetener." },
       { question: "Why does my homemade latte not taste like the one from a coffee shop?", answer: "Three common reasons: the coffee is not strong enough (use real espresso or a concentrated brew, not drip coffee), the milk is not properly steamed (it should be silky and glossy, not bubbly or scalded), or the beans are stale. Freshly roasted beans within 2 to 4 weeks make a dramatic difference." },
     ],
@@ -111,10 +111,10 @@ Making a good latte at home comes down to two things: strong, concentrated coffe
     pageTitle: "Chicken Machboos: Traditional Gulf Spiced Rice",
     seoTitle: "Chicken Machboos: Gulf Spiced Rice Recipe",
     metaDescription: "Chicken machboos, the Gulf's spiced rice dish: chicken simmered with baharat and dried black lime, then cooked into saffron basmati rice. Step by step.",
-    shortDescription: "The quintessential Gulf rice dish — tender chicken slow-cooked with aromatic loomi, baharat, and fragrant basmati rice.",
-    intro: `Machboos — also spelled majboos or machbous depending on which part of the Gulf you are in — is the dish that sits at the center of Khaleeji food culture. Every Gulf country claims a version, and families argue over the details the way Italian families argue over Sunday ragù. The name comes from the Arabic word "kabsa" or "machboos" meaning "pressed," referring to the method of cooking rice pressed down with meat so the grains absorb every drop of flavor from the broth.
+    shortDescription: "The quintessential Gulf rice dish: tender chicken slow-cooked with aromatic loomi, baharat, and fragrant basmati rice.",
+    intro: `Machboos (also spelled majboos or machbous depending on which part of the Gulf you are in) is the dish that sits at the center of Khaleeji food culture. Every Gulf country claims a version, and families argue over the details the way Italian families argue over Sunday ragù. The name comes from the Arabic word "kabsa" or "machboos" meaning "pressed," referring to the method of cooking rice pressed down with meat so the grains absorb every drop of flavor from the broth.
 
-The dish traces its roots to the ancient trade routes that passed through the Arabian Peninsula. The core technique — cooking rice in a spiced meat broth — arrived from Persia and the Indian subcontinent centuries ago, but Gulf cooks made it their own through one ingredient that defines the entire cuisine: loomi, the sun-dried black lime. These small, hard, dark spheres are made by boiling fresh limes in salt water and drying them in the sun for weeks. The result is a flavor that does not exist anywhere else in cooking — sour, smoky, earthy, and faintly sweet all at once. It is the single ingredient that makes machboos taste like machboos and not like biryani.
+The dish traces its roots to the ancient trade routes that passed through the Arabian Peninsula. The core technique, cooking rice in a spiced meat broth, arrived from Persia and the Indian subcontinent centuries ago, but Gulf cooks made it their own through one ingredient that defines the entire cuisine: loomi, the sun-dried black lime. These small, hard, dark spheres are made by boiling fresh limes in salt water and drying them in the sun for weeks. The result is a flavor that does not exist anywhere else in cooking: sour, smoky, earthy, and faintly sweet all at once. It is the single ingredient that makes machboos taste like machboos and not like biryani.
 
 In the UAE and Bahrain, machboos is typically made with chicken or lamb and served on a communal platter for Friday family lunches. In Kuwait, the version tends to be slightly wetter and more tomato-heavy. In Saudi Arabia, a closely related dish called kabsa uses a slightly different spice profile. But across the entire Gulf, the principle is the same: rice cooked in richly flavored broth, meat served on top, and the whole thing brought to the table on a single large platter meant to be shared.`,
     author: "sarah-al-fayed",
@@ -177,9 +177,9 @@ In the UAE and Bahrain, machboos is typically made with chicken or lamb and serv
     ],
     equipment: ["Large heavy-bottomed pot with lid", "Large serving platter"],
     tips: [
-      "Piercing the loomi allows the flavor to infuse the broth — squeeze them gently before adding.",
+      "Piercing the loomi allows the flavor to infuse the broth. Squeeze them gently before adding.",
       "For the crispiest fried onions, slice very thin and fry slowly over medium heat.",
-      "The bottom layer of rice will develop a golden crust (hkaka) — this is prized and should be served.",
+      "The bottom layer of rice will develop a golden crust (hkaka). This is prized and should be served.",
     ],
     servingSuggestions: ["Serve with a fresh cucumber and tomato salad", "Pair with daqoos (spiced tomato sauce)", "Yogurt raita on the side"],
     storage: "Refrigerate leftovers for up to 3 days. The rice and chicken store well together.",
@@ -193,12 +193,12 @@ In the UAE and Bahrain, machboos is typically made with chicken or lamb and serv
     pageTitle: "Pakistani Halwa Puri: The Classic Weekend Breakfast",
     seoTitle: "Halwa Puri Recipe: Pakistani Weekend Breakfast",
     metaDescription: "Pakistani halwa puri at home: puffed puris, sweet semolina halwa and spicy chickpea curry (channay), with a plan to get all three on the table hot.",
-    shortDescription: "The beloved Pakistani weekend breakfast — golden puffy puris served with sweet semolina halwa and spicy chickpea curry.",
-    intro: `Halwa puri is Pakistan's answer to the full English breakfast — a multi-dish spread that takes time, fills the house with noise and aroma, and turns a lazy morning into an event. The tradition is strongest in Punjab, particularly in Lahore, where halwa puri shops line every neighborhood and the Sunday morning queue starts before sunrise. But it belongs to all of Pakistan, with regional variations from Karachi to Peshawar, and it has traveled wherever Pakistanis have settled.
+    shortDescription: "The beloved Pakistani weekend breakfast: golden puffy puris served with sweet semolina halwa and spicy chickpea curry.",
+    intro: `Halwa puri is Pakistan's answer to the full English breakfast: a multi-dish spread that takes time, fills the house with noise and aroma, and turns a lazy morning into an event. The tradition is strongest in Punjab, particularly in Lahore, where halwa puri shops line every neighborhood and the Sunday morning queue starts before sunrise. But it belongs to all of Pakistan, with regional variations from Karachi to Peshawar, and it has traveled wherever Pakistanis have settled.
 
-The breakfast is ancient in its components. Puri — unleavened deep-fried bread — has roots in the Indian subcontinent going back at least a thousand years. Sooji ka halwa, the sweet semolina dish, is descended from Arabic and Persian confections that arrived with the Mughal Empire. And channay — the spiced chickpea curry — draws on a tradition of legume cooking that has sustained South Asian populations for centuries. Somewhere along the way, these three elements merged into a single meal, and that meal became inseparable from the rhythm of Pakistani weekend life.
+The breakfast is ancient in its components. Puri, unleavened deep-fried bread, has roots in the Indian subcontinent going back at least a thousand years. Sooji ka halwa, the sweet semolina dish, is descended from Arabic and Persian confections that arrived with the Mughal Empire. And channay, the spiced chickpea curry, draws on a tradition of legume cooking that has sustained South Asian populations for centuries. Somewhere along the way, these three elements merged into a single meal, and that meal became inseparable from the rhythm of Pakistani weekend life.
 
-In the Gulf, halwa puri has become one of the most recognizable Pakistani food traditions. With roughly three million Pakistanis living across the UAE, Saudi Arabia, Qatar, Kuwait, Oman, and Bahrain, the Friday morning breakfast has been recreated in apartments from Sharjah to Jeddah. The recipes stay close to home — the same ghee-heavy halwa, the same hand-rolled puris, the same arguments about whether the channay should be dark or light — but the setting is different, and that difference has made the ritual even more meaningful.`,
+In the Gulf, halwa puri has become one of the most recognizable Pakistani food traditions. With roughly three million Pakistanis living across the UAE, Saudi Arabia, Qatar, Kuwait, Oman, and Bahrain, the Friday morning breakfast has been recreated in apartments from Sharjah to Jeddah. The recipes stay close to home (the same ghee-heavy halwa, the same hand-rolled puris, the same arguments about whether the channay should be dark or light), but the setting is different, and that difference has made the ritual even more meaningful.`,
     author: "omar-hussain",
     publishedAt: "2026-07-08",
     cuisine: "Pakistani",
@@ -256,8 +256,8 @@ In the Gulf, halwa puri has become one of the most recognizable Pakistani food t
       { step: 6, text: "Serve the puris hot alongside halwa and channay. Traditionally accompanied by pickled onions and green chutney." },
     ],
     tips: [
-      "The key to puffy puris is hot oil and even rolling — don't roll too thin.",
-      "Toast the semolina slowly for the best halwa — rushing creates a gritty texture.",
+      "The key to puffy puris is hot oil and even rolling. Don't roll too thin.",
+      "Toast the semolina slowly for the best halwa. Rushing creates a gritty texture.",
     ],
     servingSuggestions: ["Pickled onions", "Green chutney", "Sweet yogurt lassi"],
     relatedRecipeSlugs: ["emirati-balaleet"],
@@ -269,10 +269,10 @@ In the Gulf, halwa puri has become one of the most recognizable Pakistani food t
     pageTitle: "Emirati Balaleet: Sweet Vermicelli with Egg",
     seoTitle: "Balaleet: Emirati Sweet Vermicelli Recipe",
     metaDescription: "Traditional Emirati balaleet: sweet vermicelli with cardamom, saffron and rosewater, topped with a thin savoury omelette. A classic Gulf breakfast.",
-    shortDescription: "Sweet vermicelli noodles with cardamom, saffron, and rosewater, topped with a thin savory omelet — an Emirati breakfast classic.",
-    intro: `Balaleet is one of the most distinctive breakfast dishes in the Gulf — a plate that combines sweet, saffron-scented vermicelli noodles with a thin savory omelet folded on top. The contrast surprises first-time tasters, but in the Gulf it makes perfect sense. Sweet and savory combinations run through Khaleeji cooking like a thread, from dates eaten with cheese to saffron rice served with meat stews.
+    shortDescription: "Sweet vermicelli noodles with cardamom, saffron, and rosewater, topped with a thin savory omelet. An Emirati breakfast classic.",
+    intro: `Balaleet is one of the most distinctive breakfast dishes in the Gulf: a plate that combines sweet, saffron-scented vermicelli noodles with a thin savory omelet folded on top. The contrast surprises first-time tasters, but in the Gulf it makes perfect sense. Sweet and savory combinations run through Khaleeji cooking like a thread, from dates eaten with cheese to saffron rice served with meat stews.
 
-The dish has a history shaped by trade. Vermicelli noodles are not native to the Arabian Peninsula — they arrived through centuries of commercial exchange with India and Southeast Asia. Gulf merchants who traded in spices, pearls, and textiles brought back not only goods but also cooking techniques, and the thin wheat noodles became a pantry staple across the region. Gulf cooks adapted them by toasting the noodles in ghee until golden (which gives balaleet its distinctive nutty depth) and sweetening them with sugar, saffron, cardamom, and rosewater — the same aromatic trio that appears in almost every traditional Gulf dessert.
+The dish has a history shaped by trade. Vermicelli noodles are not native to the Arabian Peninsula. They arrived through centuries of commercial exchange with India and Southeast Asia. Gulf merchants who traded in spices, pearls, and textiles brought back not only goods but also cooking techniques, and the thin wheat noodles became a pantry staple across the region. Gulf cooks adapted them by toasting the noodles in ghee until golden (which gives balaleet its distinctive nutty depth) and sweetening them with sugar, saffron, cardamom, and rosewater, the same aromatic trio that appears in almost every traditional Gulf dessert.
 
 Balaleet is served across the UAE, Bahrain, Kuwait, and Qatar, though every family insists their version is the correct one. Some add a pinch of cinnamon. Others use orange blossom water instead of rosewater. The omelet on top ranges from a thin French-style crepe to a thicker, more substantial egg layer. It is traditionally a breakfast dish, served during Eid celebrations and Ramadan iftars, but many Gulf families eat it any time of day.`,
     author: "sarah-al-fayed",
@@ -319,7 +319,7 @@ Balaleet is served across the UAE, Bahrain, Kuwait, and Qatar, though every fami
       { step: 5, text: "Serve the sweet vermicelli on plates, topped with the omelet. Traditionally served together so each bite combines sweet and savory." },
     ],
     tips: [
-      "Toast the vermicelli slowly — the golden color gives the dish its distinctive nutty flavor.",
+      "Toast the vermicelli slowly. The golden color gives the dish its distinctive nutty flavor.",
       "The omelet should be thin, almost like a crepe. Use a wide pan.",
     ],
     relatedRecipeSlugs: ["chicken-machboos", "pakistani-halwa-puri"],
@@ -331,12 +331,12 @@ Balaleet is served across the UAE, Bahrain, Kuwait, and Qatar, though every fami
     pageTitle: "Filipino Chicken Adobo: The Gulf Kitchen Version",
     seoTitle: "Filipino Chicken Adobo: Easy One-Pot Recipe",
     metaDescription: "Filipino chicken adobo: halal chicken braised in soy sauce and vinegar with garlic, bay leaves and black peppercorns. A one-pot meal served with rice.",
-    shortDescription: "Tender chicken braised in soy sauce and vinegar with garlic, bay leaves, and black peppercorns — a Filipino staple loved across the Gulf.",
-    intro: `Adobo is the dish most often called the national food of the Philippines, though Filipinos themselves will tell you there is no single national dish — just this one that every family cooks and no two families make the same way. The name is Spanish, borrowed during three centuries of colonial rule, but the technique is older than the colonizers. Filipino cooks were preserving meat in vinegar long before the Spanish arrived and gave the method a European name.
+    shortDescription: "Tender chicken braised in soy sauce and vinegar with garlic, bay leaves, and black peppercorns. A Filipino staple loved across the Gulf.",
+    intro: `Adobo is the dish most often called the national food of the Philippines, though Filipinos themselves will tell you there is no single national dish, just this one that every family cooks and no two families make the same way. The name is Spanish, borrowed during three centuries of colonial rule, but the technique is older than the colonizers. Filipino cooks were preserving meat in vinegar long before the Spanish arrived and gave the method a European name.
 
-The basic principle — braising protein in vinegar and salt — was originally a preservation technique in a tropical climate where meat spoiled quickly. The vinegar's acidity slowed bacterial growth and extended the life of the food. When the Spanish introduced soy sauce to the Philippines through the Manila-Acapulco galleon trade (which also brought ingredients from China and Southeast Asia), Filipino cooks added it to the braise, and modern adobo was born. The soy sauce contributed salt, color, and umami. The vinegar provided tang and preservation. Together, they created something greater than either ingredient alone.
+The basic principle (braising protein in vinegar and salt) was originally a preservation technique in a tropical climate where meat spoiled quickly. The vinegar's acidity slowed bacterial growth and extended the life of the food. When the Spanish introduced soy sauce to the Philippines through the Manila-Acapulco galleon trade (which also brought ingredients from China and Southeast Asia), Filipino cooks added it to the braise, and modern adobo was born. The soy sauce contributed salt, color, and umami. The vinegar provided tang and preservation. Together, they created something greater than either ingredient alone.
 
-In the Gulf, adobo has become one of the most widely cooked Filipino dishes, prepared nightly in apartments from Abu Dhabi to Dammam by a community of over two million Filipino workers and families. The recipe adapts easily to Gulf kitchens — the ingredients are universally available, it cooks in a single pot, and it reheats beautifully the next day (many Filipinos will tell you it tastes better on day two). It has also crossed cultural lines, winning over Arab, Indian, and Pakistani colleagues through office potlucks and neighborly food sharing.`,
+In the Gulf, adobo has become one of the most widely cooked Filipino dishes, prepared nightly in apartments from Abu Dhabi to Dammam by a community of over two million Filipino workers and families. The recipe adapts easily to Gulf kitchens: the ingredients are universally available, it cooks in a single pot, and it reheats beautifully the next day (many Filipinos will tell you it tastes better on day two). It has also crossed cultural lines, winning over Arab, Indian, and Pakistani colleagues through office potlucks and neighborly food sharing.`,
     author: "maria-santos",
     publishedAt: "2026-07-10",
     cuisine: "Filipino",
@@ -368,14 +368,14 @@ In the Gulf, adobo has become one of the most widely cooked Filipino dishes, pre
       },
     ],
     instructions: [
-      { step: 1, text: "Combine chicken, soy sauce, vinegar, garlic, bay leaves, peppercorns, and water in a large pot. Do not stir the vinegar before it boils — this prevents a sour taste." },
+      { step: 1, text: "Combine chicken, soy sauce, vinegar, garlic, bay leaves, peppercorns, and water in a large pot. Do not stir the vinegar before it boils. This prevents a sour taste." },
       { step: 2, text: "Bring to a boil, then reduce heat and simmer covered for 25 minutes, turning chicken halfway through." },
       { step: 3, text: "Remove chicken from the sauce. Heat oil in a separate pan and brown the chicken pieces on all sides." },
       { step: 4, text: "Return chicken to the pot with the sauce. Simmer uncovered for 5-10 minutes until the sauce thickens. Add sugar if desired for a slightly sweet glaze." },
       { step: 5, text: "Serve hot over steamed jasmine rice with the sauce spooned generously over the top." },
     ],
     tips: [
-      "Don't stir the vinegar before it boils — this keeps the sauce from becoming overly sour.",
+      "Don't stir the vinegar before it boils. This keeps the sauce from becoming overly sour.",
       "Bone-in chicken thighs give the richest flavor. Adjust soy sauce if using a dark variety.",
     ],
     storage: "Refrigerate for up to 4 days. The flavor improves overnight.",
@@ -389,12 +389,12 @@ In the Gulf, adobo has become one of the most widely cooked Filipino dishes, pre
     pageTitle: "Fish Salona: Traditional Gulf Tomato-Spiced Fish Stew",
     seoTitle: "Fish Salona Recipe: Gulf Spiced Fish Stew",
     metaDescription: "Gulf fish salona: firm white fish simmered in a tomato, tamarind and baharat sauce. A coastal Khaleeji home-cooking staple, served with white rice.",
-    shortDescription: "A comforting Gulf fish stew with tomatoes, tamarind, and warming spices — a staple of coastal Khaleeji cooking.",
-    intro: `Salona is the everyday stew of the Gulf — the dish that appears on weeknight dinner tables more often than any celebratory rice platter. The word comes from the same root as "salon" in some South Asian languages, meaning a gravy or curry, and the connection is not accidental. Gulf cooking absorbed influences from the Indian subcontinent through centuries of trade and migration, and salona is one of the clearest examples of that exchange — a spiced, broth-based stew that feels familiar to anyone who has eaten South Asian food, but tastes distinctly Gulf.
+    shortDescription: "A comforting Gulf fish stew with tomatoes, tamarind, and warming spices. A staple of coastal Khaleeji cooking.",
+    intro: `Salona is the everyday stew of the Gulf: the dish that appears on weeknight dinner tables more often than any celebratory rice platter. The word comes from the same root as "salon" in some South Asian languages, meaning a gravy or curry, and the connection is not accidental. Gulf cooking absorbed influences from the Indian subcontinent through centuries of trade and migration, and salona is one of the clearest examples of that exchange: a spiced, broth-based stew that feels familiar to anyone who has eaten South Asian food, but tastes distinctly Gulf.
 
-What makes a salona Gulf rather than Indian is the combination of loomi (dried black lime), baharat, and tamarind. These three ingredients create a flavor profile that is earthy, sour, and aromatic in a way that Indian curries typically are not. The tamarind adds a fruity tang, the loomi contributes a smoky depth, and the baharat blend provides warmth without the sharp heat of Indian chili powder. Gulf salona is also lighter than most Indian curries — the gravy is thinner, more brothy, designed to be spooned over rice rather than mopped up with bread.
+What makes a salona Gulf rather than Indian is the combination of loomi (dried black lime), baharat, and tamarind. These three ingredients create a flavor profile that is earthy, sour, and aromatic in a way that Indian curries typically are not. The tamarind adds a fruity tang, the loomi contributes a smoky depth, and the baharat blend provides warmth without the sharp heat of Indian chili powder. Gulf salona is also lighter than most Indian curries. The gravy is thinner, more brothy, designed to be spooned over rice rather than mopped up with bread.
 
-Fish salona is the coastal version of this dish, and it is arguably the most traditional. The Gulf's coastal communities — in the UAE, Oman, Bahrain, Kuwait, and eastern Saudi Arabia — have fished these waters for thousands of years, and fish stews were a daily staple long before rice and meat dishes became associated with celebrations. Hamour (grouper) is the most prized fish for salona, though any firm white fish works. The fish is added to the stew at the very end, cooking gently in the simmering broth so it stays intact and tender.`,
+Fish salona is the coastal version of this dish, and it is arguably the most traditional. The Gulf's coastal communities (in the UAE, Oman, Bahrain, Kuwait, and eastern Saudi Arabia) have fished these waters for thousands of years, and fish stews were a daily staple long before rice and meat dishes became associated with celebrations. Hamour (grouper) is the most prized fish for salona, though any firm white fish works. The fish is added to the stew at the very end, cooking gently in the simmering broth so it stays intact and tender.`,
     author: "sarah-al-fayed",
     publishedAt: "2026-07-12",
     cuisine: "Emirati",
@@ -444,12 +444,12 @@ Fish salona is the coastal version of this dish, and it is arguably the most tra
     pageTitle: "Karak Chai: The Gulf's Beloved Spiced Tea",
     seoTitle: "Karak Chai Recipe: Gulf Spiced Milk Tea",
     metaDescription: "Make karak chai the way it's poured across the Gulf: strong black tea boiled with crushed cardamom and saffron, then simmered with evaporated milk.",
-    shortDescription: "The Gulf's beloved spiced tea — strong, creamy, and fragrant with cardamom and saffron.",
-    intro: `Karak chai is the Gulf's unofficial national drink. Not gahwa — the pale, cardamom-heavy Arabic coffee served at formal occasions — but this thick, sweet, milky tea that people drink three, four, five times a day. It is sold from every cafeteria window and roadside kiosk in the UAE, Qatar, Bahrain, Kuwait, and Oman. It costs a dirham or two. It is never refused.
+    shortDescription: "The Gulf's beloved spiced tea: strong, creamy, and fragrant with cardamom and saffron.",
+    intro: `Karak chai is the Gulf's unofficial national drink. Not gahwa (the pale, cardamom-heavy Arabic coffee served at formal occasions) but this thick, sweet, milky tea that people drink three, four, five times a day. It is sold from every cafeteria window and roadside kiosk in the UAE, Qatar, Bahrain, Kuwait, and Oman. It costs a dirham or two. It is never refused.
 
 The word "karak" comes from the Hindi-Urdu word for "strong," and the drink's origins trace directly to the South Asian tea tradition brought to the Gulf by Indian and Pakistani workers in the mid-twentieth century. As the Gulf states began developing their oil economies in the 1960s and 70s, hundreds of thousands of workers from the subcontinent arrived, bringing their chai with them. The Gulf version evolved into something distinct: stronger, sweeter, made with evaporated milk instead of fresh, and flavored with crushed cardamom and sometimes a pinch of saffron.
 
-What makes karak chai different from a standard masala chai is the technique as much as the ingredients. The tea and milk are boiled together — not just simmered, but brought to a rolling boil repeatedly. Each time the mixture rises in the pot, the cook lowers the heat and lets it settle, then brings it back to a boil again. This process, repeated three or four times, concentrates the flavor and gives karak its signature rich, almost caramelized taste. The evaporated milk (not condensed — that would be too sweet) is essential: it has a density and creaminess that fresh milk cannot replicate.`,
+What makes karak chai different from a standard masala chai is the technique as much as the ingredients. The tea and milk are boiled together: not just simmered, but brought to a rolling boil repeatedly. Each time the mixture rises in the pot, the cook lowers the heat and lets it settle, then brings it back to a boil again. This process, repeated three or four times, concentrates the flavor and gives karak its signature rich, almost caramelized taste. The evaporated milk (not condensed, which would be too sweet) is essential: it has a density and creaminess that fresh milk cannot replicate.`,
     author: "sarah-al-fayed",
     publishedAt: "2026-07-06",
     cuisine: "Emirati",
@@ -483,7 +483,7 @@ What makes karak chai different from a standard masala chai is the technique as 
       { step: 3, text: "Strain into small glasses (istikana) and serve immediately." },
     ],
     tips: [
-      "The 'karak' comes from repeatedly boiling the tea and milk — this concentrates the flavor.",
+      "The 'karak' comes from repeatedly boiling the tea and milk. This concentrates the flavor.",
       "Use evaporated milk for authentic richness. Fresh milk works but won't be as creamy.",
     ],
     relatedRecipeSlugs: ["how-to-make-latte-at-home"],
@@ -496,11 +496,11 @@ What makes karak chai different from a standard masala chai is the technique as 
     seoTitle: "Gulf Shakshuka: Spiced Eggs in Tomato Sauce",
     metaDescription: "Gulf-style shakshuka with bezar spices: eggs gently poached in a rich tomato and bell pepper sauce. A one-pan breakfast or brunch, step by step.",
     shortDescription: "A Gulf-inspired take on shakshuka with warming bezar spices, eggs poached in rich tomato sauce.",
-    intro: `Shakshuka — eggs poached in a spiced tomato sauce — is one of those dishes claimed by half the Mediterranean and Middle Eastern world, and no one is entirely sure who made it first. The name is Arabic, likely derived from a word meaning "mixture" or "shaken." North Africans, particularly Tunisians and Libyans, have strong claims to the dish. So do Yemenis, who make a version called shakshouka that predates the more famous Israeli adoption. The Ottomans probably spread it across their empire. The truth is that eggs cooked in tomato sauce is such an obvious, satisfying idea that it almost certainly arose independently in multiple places.
+    intro: `Shakshuka (eggs poached in a spiced tomato sauce) is one of those dishes claimed by half the Mediterranean and Middle Eastern world, and no one is entirely sure who made it first. The name is Arabic, likely derived from a word meaning "mixture" or "shaken." North Africans, particularly Tunisians and Libyans, have strong claims to the dish. So do Yemenis, who make a version called shakshouka that predates the more famous Israeli adoption. The Ottomans probably spread it across their empire. The truth is that eggs cooked in tomato sauce is such an obvious, satisfying idea that it almost certainly arose independently in multiple places.
 
-In the Gulf, shakshuka arrived through multiple channels — from Levantine and Yemeni communities, from Egyptian and North African expats, and eventually from the global food media that turned it into a brunch trend in the 2010s. Gulf cooks adapted it by adding their own spice blends. This version uses bezar — the signature Gulf spice mixture of cumin, coriander, black pepper, cinnamon, and sometimes dried chilies — in place of the cumin-paprika-cayenne combination typical of North African versions. The result is warmer and more aromatic, less smoky, with a spice profile that sits comfortably alongside other Gulf breakfast dishes like balaleet and foul medames.
+In the Gulf, shakshuka arrived through multiple channels: from Levantine and Yemeni communities, from Egyptian and North African expats, and eventually from the global food media that turned it into a brunch trend in the 2010s. Gulf cooks adapted it by adding their own spice blends. This version uses bezar (the signature Gulf spice mixture of cumin, coriander, black pepper, cinnamon, and sometimes dried chilies) in place of the cumin-paprika-cayenne combination typical of North African versions. The result is warmer and more aromatic, less smoky, with a spice profile that sits comfortably alongside other Gulf breakfast dishes like balaleet and foul medames.
 
-The beauty of shakshuka is its simplicity. One pan, a handful of ingredients, twenty-five minutes from stove to table. It is the kind of recipe that forgives improvisation — you can add feta, olives, preserved lemon, or whatever is in the fridge — and still delivers every time.`,
+The beauty of shakshuka is its simplicity. One pan, a handful of ingredients, twenty-five minutes from stove to table. It is the kind of recipe that forgives improvisation (you can add feta, olives, preserved lemon, or whatever is in the fridge) and still delivers every time.`,
     author: "sarah-al-fayed",
     publishedAt: "2026-07-14",
     cuisine: "Levantine",
@@ -549,11 +549,11 @@ The beauty of shakshuka is its simplicity. One pan, a handful of ingredients, tw
     seoTitle: "Pistachio Cardamom Baklava Recipe",
     metaDescription: "Pistachio cardamom baklava at home: layers of phyllo and clarified butter around a pistachio filling, soaked in cardamom syrup. Step-by-step guide.",
     shortDescription: "Crispy layers of phyllo pastry filled with crushed pistachios and drenched in fragrant cardamom syrup.",
-    intro: `Baklava is one of the oldest pastries still made in its original form. Versions of layered nut-filled pastry drenched in honey or syrup appear in records from the Assyrian Empire, and the dish was refined into something close to its modern form in the kitchens of the Ottoman Topkapi Palace in Istanbul. From there, it spread across the entire former Ottoman world — from Greece and Turkey to Lebanon, Syria, Iran, and the Arabian Gulf — and each region developed its own version.
+    intro: `Baklava is one of the oldest pastries still made in its original form. Versions of layered nut-filled pastry drenched in honey or syrup appear in records from the Assyrian Empire, and the dish was refined into something close to its modern form in the kitchens of the Ottoman Topkapi Palace in Istanbul. From there, it spread across the entire former Ottoman world (from Greece and Turkey to Lebanon, Syria, Iran, and the Arabian Gulf), and each region developed its own version.
 
-The Gulf's baklava tradition leans heavily on two ingredients: pistachios and cardamom. Turkish baklava often uses walnuts and is drenched in butter-heavy syrup. Greek baklava favors honey and cinnamon. Lebanese versions use a mix of nuts with orange blossom water. Gulf baklava is built around the bright green pistachios imported from Iran (the Gulf's historic trading partner) and perfumed with cardamom and rosewater — the same aromatic combination that defines Gulf sweets from luqaimat to kunafa.
+The Gulf's baklava tradition leans heavily on two ingredients: pistachios and cardamom. Turkish baklava often uses walnuts and is drenched in butter-heavy syrup. Greek baklava favors honey and cinnamon. Lebanese versions use a mix of nuts with orange blossom water. Gulf baklava is built around the bright green pistachios imported from Iran (the Gulf's historic trading partner) and perfumed with cardamom and rosewater, the same aromatic combination that defines Gulf sweets from luqaimat to kunafa.
 
-In the Gulf, baklava is associated with generosity and celebration. It appears at Eid gatherings, weddings, and Ramadan iftar tables. It is given as a gift when visiting someone's home and offered with Arabic coffee to guests. The quality of a host's baklava — crisp layers, generous nut filling, well-balanced syrup — is a quiet measure of hospitality, and many Gulf families order from specific bakeries they have patronized for decades. Making it at home is more ambitious than most Gulf desserts, but the result — when you get those shattering-crisp phyllo layers and the syrup soaks in just right — is worth the effort.`,
+In the Gulf, baklava is associated with generosity and celebration. It appears at Eid gatherings, weddings, and Ramadan iftar tables. It is given as a gift when visiting someone's home and offered with Arabic coffee to guests. The quality of a host's baklava (crisp layers, generous nut filling, well-balanced syrup) is a quiet measure of hospitality, and many Gulf families order from specific bakeries they have patronized for decades. Making it at home is more ambitious than most Gulf desserts, but the result, when you get those shattering-crisp phyllo layers and the syrup soaks in just right, is worth the effort.`,
     author: "sarah-al-fayed",
     publishedAt: "2026-07-17",
     cuisine: "Levantine",
@@ -595,7 +595,7 @@ In the Gulf, baklava is associated with generosity and celebration. It appears a
       { step: 8, text: "Immediately pour the cooled syrup evenly over the hot baklava. Let it soak and cool completely before serving." },
     ],
     tips: [
-      "The syrup must be cold when poured over hot baklava — this is what creates the crisp texture.",
+      "The syrup must be cold when poured over hot baklava. This is what creates the crisp texture.",
       "Keep phyllo covered with a damp towel while working to prevent it from drying out.",
     ],
     storage: "Store at room temperature in an airtight container for up to 1 week.",
@@ -608,10 +608,10 @@ In the Gulf, baklava is associated with generosity and celebration. It appears a
     pageTitle: "Saffron & Rosewater Crepes (Muhalla)",
     seoTitle: "Muhalla: Saffron Rosewater Crepes",
     metaDescription: "Gulf muhalla: thin saffron and rosewater crepes finished with date syrup and crushed pistachios. A traditional sweet breakfast, made step by step.",
-    shortDescription: "Delicate saffron-infused crepes drizzled with date syrup and crushed pistachios — a Gulf breakfast treat.",
-    intro: `Muhalla — sometimes spelled muhallaq, muhallabiyya, or chebab depending on where in the Gulf you are — is a traditional Emirati and Gulf Arab pancake or crepe that predates the region's modern development by generations. It belongs to the same family of griddle breads found across the Middle East and North Africa, from Moroccan baghrir to Yemeni lahoh, but the Gulf version distinguishes itself with saffron and rosewater, the two aromatics that run through Khaleeji cooking like a signature.
+    shortDescription: "Delicate saffron-infused crepes drizzled with date syrup and crushed pistachios. A Gulf breakfast treat.",
+    intro: `Muhalla (sometimes spelled muhallaq, muhallabiyya, or chebab depending on where in the Gulf you are) is a traditional Emirati and Gulf Arab pancake or crepe that predates the region's modern development by generations. It belongs to the same family of griddle breads found across the Middle East and North Africa, from Moroccan baghrir to Yemeni lahoh, but the Gulf version distinguishes itself with saffron and rosewater, the two aromatics that run through Khaleeji cooking like a signature.
 
-The dish has deep roots in Emirati culture. Older Emiratis remember muhalla as a staple of their grandmothers' kitchens, made on flat iron griddles over charcoal fires. The batter was simple — flour, eggs, a little sugar — but the saffron gave it a golden color and a fragrance that announced itself through the house. It was a breakfast food, a snack, a Ramadan staple. Date syrup (dibs) was the traditional accompaniment, drizzled over the warm crepes while they were still steaming.
+The dish has deep roots in Emirati culture. Older Emiratis remember muhalla as a staple of their grandmothers' kitchens, made on flat iron griddles over charcoal fires. The batter was simple (flour, eggs, a little sugar), but the saffron gave it a golden color and a fragrance that announced itself through the house. It was a breakfast food, a snack, a Ramadan staple. Date syrup (dibs) was the traditional accompaniment, drizzled over the warm crepes while they were still steaming.
 
 Today, muhalla occupies a special place in Gulf food culture as one of the dishes that connects modern Emirati life to its pre-oil past. It appears on heritage restaurant menus and at Ramadan tents, and it is one of the recipes that Emirati food preservation projects have worked to document and keep alive. The version here uses a crepe-style batter rather than the slightly thicker traditional pancake, producing lighter, more delicate results that work beautifully with the date syrup and pistachio garnish.`,
     author: "sarah-al-fayed",
@@ -660,9 +660,9 @@ Today, muhalla occupies a special place in Gulf food culture as one of the dishe
     seoTitle: "Mutabbaq Samak: Kuwaiti Spiced Fish & Rice",
     metaDescription: "Kuwaiti mutabbaq samak: whole spiced fried fish served on baharat-seasoned rice with caramelised onions. A coastal Gulf classic, step by step.",
     shortDescription: "Kuwaiti-style spiced fish served over fragrant rice with caramelized onions and a hint of cardamom.",
-    intro: `Mutabbaq samak is Kuwait's signature fish and rice dish, and it carries the memory of a time when Kuwait's economy ran on the sea rather than on oil. Before the mid-twentieth century, Kuwait was a maritime nation. Its wooden dhows sailed as far as East Africa and India, and its coast supported a thriving fishing and pearl-diving industry. Fish was not a luxury — it was the daily protein of a coastal people, and mutabbaq samak was one of the ways they ate it.
+    intro: `Mutabbaq samak is Kuwait's signature fish and rice dish, and it carries the memory of a time when Kuwait's economy ran on the sea rather than on oil. Before the mid-twentieth century, Kuwait was a maritime nation. Its wooden dhows sailed as far as East Africa and India, and its coast supported a thriving fishing and pearl-diving industry. Fish was not a luxury. It was the daily protein of a coastal people, and mutabbaq samak was one of the ways they ate it.
 
-The name means "covered fish" or "layered fish," referring to the way the fried fish is placed on top of the seasoned rice, covering it like a lid. The dish is closely related to machboos, but where machboos cooks the meat in the rice broth, mutabbaq samak keeps the fish separate — frying it whole until crisp and golden before laying it over the finished rice. This gives the fish a texture that braised or stewed fish cannot achieve: a crunchy exterior giving way to tender, flaky flesh underneath.
+The name means "covered fish" or "layered fish," referring to the way the fried fish is placed on top of the seasoned rice, covering it like a lid. The dish is closely related to machboos, but where machboos cooks the meat in the rice broth, mutabbaq samak keeps the fish separate, frying it whole until crisp and golden before laying it over the finished rice. This gives the fish a texture that braised or stewed fish cannot achieve: a crunchy exterior giving way to tender, flaky flesh underneath.
 
 Zubaidi (silver pomfret) is the traditional fish for this dish and is considered the finest eating fish in the Gulf. It has a clean, mild flavor and a firm texture that holds up well to frying. When zubaidi is unavailable or out of season, sea bream, hamour (grouper), or any firm-fleshed white fish will work. The rice is cooked with deeply caramelized onions and baharat, giving it a golden color and a sweet, spiced depth that complements the clean flavor of the fish.`,
     author: "editorial-team",
@@ -678,7 +678,7 @@ Zubaidi (silver pomfret) is the traditional fish for this dish and is considered
     totalTimeMinutes: 60,
     servings: 4,
     heroImage: "/images/recipes/mutabbaq-samak.jpg",
-    imageAlt: "Kuwaiti Mutabbaq Samak — whole fried fish atop dill-flecked spiced yellow rice",
+    imageAlt: "Kuwaiti Mutabbaq Samak: whole fried fish atop dill-flecked spiced yellow rice",
     ingredients: [
       {
         items: [
@@ -708,12 +708,12 @@ Zubaidi (silver pomfret) is the traditional fish for this dish and is considered
     pageTitle: "Traditional Emirati Harees: Wheat and Meat Porridge",
     seoTitle: "Harees Recipe: Emirati Wheat & Meat Porridge",
     metaDescription: "Traditional Emirati harees: cracked wheat and lamb slow-cooked into a smooth porridge, finished with ghee and cinnamon. A Ramadan iftar staple.",
-    shortDescription: "A comforting slow-cooked porridge of cracked wheat and meat — an Emirati Ramadan essential.",
-    intro: `Harees is one of the oldest dishes in the Arabian Peninsula, and its history stretches back far beyond the Gulf states as we know them today. References to harisa — a wheat-and-meat porridge from which harees descends — appear in medieval Arabic cookbooks dating to the tenth century. The Abbasid caliphs ate it. Crusaders encountered it. Versions of it exist from Armenia to Hyderabad, each adapted to local grains and meats, but all sharing the same fundamental idea: wheat and protein, cooked slowly and for a very long time, until they merge into a smooth, comforting porridge.
+    shortDescription: "A comforting slow-cooked porridge of cracked wheat and meat. An Emirati Ramadan essential.",
+    intro: `Harees is one of the oldest dishes in the Arabian Peninsula, and its history stretches back far beyond the Gulf states as we know them today. References to harisa (a wheat-and-meat porridge from which harees descends) appear in medieval Arabic cookbooks dating to the tenth century. The Abbasid caliphs ate it. Crusaders encountered it. Versions of it exist from Armenia to Hyderabad, each adapted to local grains and meats, but all sharing the same fundamental idea: wheat and protein, cooked slowly and for a very long time, until they merge into a smooth, comforting porridge.
 
-In the Gulf, harees holds a particular cultural weight because of its association with Ramadan. During the holy month, it is served at nearly every iftar table — the meal that breaks the day's fast at sunset. Its soft, easy-to-digest texture makes it ideal for a stomach that has been empty since dawn, and its richness provides sustenance for the evening ahead. Many Gulf families consider Ramadan incomplete without harees, and in some households, the recipe and technique have been handed down through four or five generations.
+In the Gulf, harees holds a particular cultural weight because of its association with Ramadan. During the holy month, it is served at nearly every iftar table, the meal that breaks the day's fast at sunset. Its soft, easy-to-digest texture makes it ideal for a stomach that has been empty since dawn, and its richness provides sustenance for the evening ahead. Many Gulf families consider Ramadan incomplete without harees, and in some households, the recipe and technique have been handed down through four or five generations.
 
-The dish requires almost nothing in terms of ingredients — cracked wheat, meat, water, salt, ghee — but it demands patience. Traditional harees is cooked for three to four hours over the lowest possible heat, stirred occasionally, until the wheat grains disintegrate completely and the meat falls apart into fibers that disappear into the porridge. The final texture should be absolutely smooth, almost like a savory cream. It is then served in a bowl with a well of melted ghee in the center and a dusting of cinnamon. The simplicity is the point. In a cuisine built on complex spice blends and layered rice dishes, harees strips everything away and lets two ingredients do all the work.`,
+The dish requires almost nothing in terms of ingredients (cracked wheat, meat, water, salt, ghee), but it demands patience. Traditional harees is cooked for three to four hours over the lowest possible heat, stirred occasionally, until the wheat grains disintegrate completely and the meat falls apart into fibers that disappear into the porridge. The final texture should be absolutely smooth, almost like a savory cream. It is then served in a bowl with a well of melted ghee in the center and a dusting of cinnamon. The simplicity is the point. In a cuisine built on complex spice blends and layered rice dishes, harees strips everything away and lets two ingredients do all the work.`,
     author: "sarah-al-fayed",
     publishedAt: "2026-07-23",
     cuisine: "Emirati",
@@ -748,7 +748,7 @@ The dish requires almost nothing in terms of ingredients — cracked wheat, meat
       { step: 4, text: "Remove any bones. Beat the mixture with a wooden spoon or immersion blender until smooth and porridge-like." },
       { step: 5, text: "Serve in bowls, topped with a generous drizzle of melted ghee and a sprinkle of cinnamon." },
     ],
-    tips: ["Traditional harees requires patience — the long, slow cooking is what gives it its signature silky texture."],
+    tips: ["Traditional harees requires patience. The long, slow cooking is what gives it its signature silky texture."],
     relatedRecipeSlugs: ["chicken-machboos"],
   },
   {
@@ -759,13 +759,13 @@ The dish requires almost nothing in terms of ingredients — cracked wheat, meat
     seoTitle: "Shorbat Adas: Gulf Red Lentil Soup Recipe",
     metaDescription: "Gulf-style red lentil soup (shorbat adas) with toasted cumin, turmeric, garlic and lemon. Ready in 30 minutes and a fixture on Ramadan iftar tables.",
     shortDescription: "A velvety, golden soup made from split red lentils simmered with cumin, turmeric, garlic, and a generous squeeze of lemon. This is the soup that appears on nearly every iftar table during Ramadan and on cold-weather dinner tables the rest of the year. Simple enough for a weeknight, satisfying enough to build a meal around.",
-    intro: `Shorbat adas — lentil soup — is one of those dishes that belongs to everyone and no one. You will find versions of it from Cairo to Karachi, from Istanbul to Aden. But the Gulf version has its own identity, shaped by centuries of trade and the practical realities of cooking in a region where fresh produce was historically scarce and pantry staples had to travel well. Lentils, dried spices, onions, and lemons — everything in this soup could survive a long journey by dhow or caravan.
+    intro: `Shorbat adas (lentil soup) is one of those dishes that belongs to everyone and no one. You will find versions of it from Cairo to Karachi, from Istanbul to Aden. But the Gulf version has its own identity, shaped by centuries of trade and the practical realities of cooking in a region where fresh produce was historically scarce and pantry staples had to travel well. Lentils, dried spices, onions, and lemons: everything in this soup could survive a long journey by dhow or caravan.
 
 The dish has roots that go back thousands of years. Lentils are one of the oldest cultivated crops in human history, domesticated in the Fertile Crescent around 8,000 BCE. The biblical story of Esau selling his birthright for a bowl of lentil stew speaks to how central this humble legume was to the ancient Near East. Arab traders carried lentils and the tradition of lentil soups across the peninsula, and by the medieval period, cookbooks from Baghdad and Damascus included dozens of lentil preparations.
 
-In the Gulf today, shorbat adas holds a particular place during Ramadan. After a full day of fasting, the body needs something gentle and nourishing to break the fast — not a heavy meal that shocks the stomach. A bowl of warm lentil soup does exactly that. It is light enough to ease you back into eating, rich enough to begin restoring energy, and quick enough that even a tired cook can have it ready before the maghrib prayer call. Most families serve it alongside dates and water as the first course of iftar, before the main dishes come out.
+In the Gulf today, shorbat adas holds a particular place during Ramadan. After a full day of fasting, the body needs something gentle and nourishing to break the fast, not a heavy meal that shocks the stomach. A bowl of warm lentil soup does exactly that. It is light enough to ease you back into eating, rich enough to begin restoring energy, and quick enough that even a tired cook can have it ready before the maghrib prayer call. Most families serve it alongside dates and water as the first course of iftar, before the main dishes come out.
 
-What separates the Gulf version from its cousins elsewhere is the finishing. A drizzle of good olive oil, a hard squeeze of fresh lemon, and sometimes a sprinkle of sumac or a scattering of fried garlic chips on top. The cumin is toasted until it smells almost smoky. The soup is usually blended smooth, not left chunky — Gulf palates tend to prefer it silky.`,
+What separates the Gulf version from its cousins elsewhere is the finishing. A drizzle of good olive oil, a hard squeeze of fresh lemon, and sometimes a sprinkle of sumac or a scattering of fried garlic chips on top. The cumin is toasted until it smells almost smoky. The soup is usually blended smooth, not left chunky. Gulf palates tend to prefer it silky.`,
     author: "sarah-al-fayed",
     publishedAt: "2026-07-25",
     cuisine: "Levantine",
@@ -788,7 +788,7 @@ What separates the Gulf version from its cousins elsewhere is the finishing. A d
           { item: "split red lentils", amount: "1½", unit: "cups", note: "about 300g, rinsed until water runs clear", amountNumeric: 1.5 },
           { item: "yellow onion", amount: "1", unit: "large", note: "finely diced", amountNumeric: 1 },
           { item: "garlic cloves", amount: "3", unit: "", note: "minced", amountNumeric: 3 },
-          { item: "carrot", amount: "1", unit: "medium", note: "peeled and diced — adds sweetness", amountNumeric: 1 },
+          { item: "carrot", amount: "1", unit: "medium", note: "peeled and diced, adds sweetness", amountNumeric: 1 },
           { item: "olive oil", amount: "2", unit: "tbsp", amountNumeric: 2 },
           { item: "ground cumin", amount: "1½", unit: "tsp", amountNumeric: 1.5 },
           { item: "ground turmeric", amount: "½", unit: "tsp", amountNumeric: 0.5 },
@@ -809,12 +809,12 @@ What separates the Gulf version from its cousins elsewhere is the finishing. A d
     ],
     instructions: [
       { step: 1, text: "Rinse the red lentils in a fine-mesh sieve under cold running water until the water runs clear. This removes surface starch and prevents the soup from getting gummy." },
-      { step: 2, text: "Heat 2 tablespoons of olive oil in a large pot over medium heat. Add the diced onion and cook, stirring occasionally, until soft and translucent — about 4 to 5 minutes. Do not brown the onion; you want sweetness, not caramelization." },
+      { step: 2, text: "Heat 2 tablespoons of olive oil in a large pot over medium heat. Add the diced onion and cook, stirring occasionally, until soft and translucent, about 4 to 5 minutes. Do not brown the onion; you want sweetness, not caramelization." },
       { step: 3, text: "Add the garlic, cumin, turmeric, and coriander. Stir for about 30 seconds until the spices are fragrant and coat the onion.", tip: "Toasting the spices in oil before adding liquid blooms their essential oils and deepens the flavor significantly." },
       { step: 4, text: "Add the rinsed lentils, diced carrot, salt, pepper, and 5 cups of water or broth. Bring to a boil over high heat, then reduce to a gentle simmer. Partially cover the pot." },
-      { step: 5, text: "Simmer for 20 to 25 minutes, stirring occasionally, until the lentils have completely broken down and the carrot is very soft. The soup will thicken as it cooks. If it gets too thick, add a splash of water.", tip: "Red lentils fall apart on their own — that is what you want. No soaking needed." },
+      { step: 5, text: "Simmer for 20 to 25 minutes, stirring occasionally, until the lentils have completely broken down and the carrot is very soft. The soup will thicken as it cooks. If it gets too thick, add a splash of water.", tip: "Red lentils fall apart on their own. That is what you want. No soaking needed." },
       { step: 6, text: "Use an immersion blender to puree the soup until smooth and velvety. If using a countertop blender, let the soup cool slightly first and blend in batches with the lid slightly ajar to let steam escape." },
-      { step: 7, text: "Taste and adjust salt. Stir in 2 tablespoons of fresh lemon juice — this brightens the whole soup and balances the earthiness of the lentils." },
+      { step: 7, text: "Taste and adjust salt. Stir in 2 tablespoons of fresh lemon juice. This brightens the whole soup and balances the earthiness of the lentils." },
       { step: 8, text: "Ladle into bowls. Drizzle each serving with a thread of extra-virgin olive oil and a pinch of cumin. Serve with lemon wedges on the side and warm flatbread." },
     ],
     equipment: ["Large pot or Dutch oven", "Immersion blender or countertop blender", "Fine-mesh sieve"],
@@ -840,11 +840,11 @@ What separates the Gulf version from its cousins elsewhere is the finishing. A d
       "Pair with a simple green salad dressed with lemon and olive oil for a light but complete meal.",
       "As part of a Ramadan iftar, serve as the opening course before heavier dishes like machboos or biryani.",
     ],
-    storage: "Keeps well in an airtight container in the fridge for up to 4 days. The soup will thicken as it cools — add a splash of water or broth when reheating. Freezes well for up to 3 months.",
+    storage: "Keeps well in an airtight container in the fridge for up to 4 days. The soup will thicken as it cools. Add a splash of water or broth when reheating. Freezes well for up to 3 months.",
     faqs: [
-      { question: "Do I need to soak red lentils before cooking?", answer: "No. Red lentils are split and cook very quickly — 20 to 25 minutes with no soaking. Just rinse them to remove starch." },
+      { question: "Do I need to soak red lentils before cooking?", answer: "No. Red lentils are split and cook very quickly: 20 to 25 minutes with no soaking. Just rinse them to remove starch." },
       { question: "Can I make this soup in a pressure cooker or Instant Pot?", answer: "Yes. Sauté the onion and spices using the sauté function, then add lentils, carrot, and liquid. Pressure cook on high for 8 minutes with a natural release. Blend and finish with lemon as directed." },
-      { question: "Why does my lentil soup taste flat?", answer: "Two things usually fix a flat lentil soup: more salt and more lemon juice. Lentils absorb a lot of salt, so you often need more than you expect. And the acidity from lemon is essential — it lifts the entire flavor." },
+      { question: "Why does my lentil soup taste flat?", answer: "Two things usually fix a flat lentil soup: more salt and more lemon juice. Lentils absorb a lot of salt, so you often need more than you expect. And the acidity from lemon is essential. It lifts the entire flavor." },
       { question: "Is shorbat adas healthy?", answer: "Very. Red lentils are high in protein, iron, and fiber. A bowl of this soup has roughly 230 calories and 16 grams of protein. With no dairy or oil beyond the finishing drizzle, it is naturally light." },
     ],
     relatedRecipeSlugs: ["gulf-shakshuka", "chicken-machboos"],
@@ -857,11 +857,11 @@ What separates the Gulf version from its cousins elsewhere is the finishing. A d
     seoTitle: "Chicken Shawarma Recipe with Garlic Toum",
     metaDescription: "Chicken shawarma at home: a spiced marinade, an oven or stovetop method and proper garlic toum. Restaurant-style wraps in under an hour, no rotisserie.",
     shortDescription: "Tender, juicy chicken thighs marinated in a warm blend of cumin, turmeric, paprika, and yogurt, then cooked until charred at the edges and sliced thin. Pile it into warm flatbread with garlic sauce, pickles, and fresh vegetables for the ultimate street food at home.",
-    intro: `Shawarma is street food royalty across the Middle East, and its origins are tangled up in the broader history of spit-roasted meat that stretches from the Ottoman Empire to modern-day Beirut. The word itself comes from the Turkish "çevirme," meaning "turning" — a reference to the vertical rotisserie that defines the dish. Stacks of marinated meat rotate slowly next to a wall of heat, the outer layer crisping and caramelizing while the inside stays juicy. The cook shaves thin slices off the spinning cone as it cooks, and those slices — charred at the edges, tender in the middle — are what make shawarma shawarma.
+    intro: `Shawarma is street food royalty across the Middle East, and its origins are tangled up in the broader history of spit-roasted meat that stretches from the Ottoman Empire to modern-day Beirut. The word itself comes from the Turkish "çevirme," meaning "turning," a reference to the vertical rotisserie that defines the dish. Stacks of marinated meat rotate slowly next to a wall of heat, the outer layer crisping and caramelizing while the inside stays juicy. The cook shaves thin slices off the spinning cone as it cooks, and those slices (charred at the edges, tender in the middle) are what make shawarma shawarma.
 
-The technique traveled from the Ottoman territories into the Arab world in the late 19th and early 20th centuries, and every country put its own stamp on it. In Lebanon and Syria, chicken shawarma is marinated in a bright, tangy blend heavy on lemon and garlic. In Egypt, it leans toward cumin and vinegar. In the Gulf states, shawarma arrived with Levantine immigrants who opened small restaurants and street stalls in the rapidly growing cities of the 1970s and 1980s. Today, shawarma joints are as common in Dubai, Riyadh, and Doha as they are in Beirut — you will find them on nearly every commercial street, usually wedged between a laundry and a grocery, identifiable by the slowly spinning cone of meat visible through the window.
+The technique traveled from the Ottoman territories into the Arab world in the late 19th and early 20th centuries, and every country put its own stamp on it. In Lebanon and Syria, chicken shawarma is marinated in a bright, tangy blend heavy on lemon and garlic. In Egypt, it leans toward cumin and vinegar. In the Gulf states, shawarma arrived with Levantine immigrants who opened small restaurants and street stalls in the rapidly growing cities of the 1970s and 1980s. Today, shawarma joints are as common in Dubai, Riyadh, and Doha as they are in Beirut. You will find them on nearly every commercial street, usually wedged between a laundry and a grocery, identifiable by the slowly spinning cone of meat visible through the window.
 
-What makes Gulf shawarma distinct is the context more than the recipe. It is eaten at all hours — a 2 AM shawarma run after a late night is as much a Gulf tradition as morning karak. The wraps tend to be generous, the garlic sauce (toum) is applied with abandon, and the pickled turnips that come on the side have stained every styrofoam container in the region a deep, unapologetic pink.
+What makes Gulf shawarma distinct is the context more than the recipe. It is eaten at all hours: a 2 AM shawarma run after a late night is as much a Gulf tradition as morning karak. The wraps tend to be generous, the garlic sauce (toum) is applied with abandon, and the pickled turnips that come on the side have stained every styrofoam container in the region a deep, unapologetic pink.
 
 Making shawarma at home means you do not have a vertical rotisserie, and that is fine. The flavor comes from the marinade and the char, not the equipment. Chicken thighs marinated in yogurt and spices, then cooked at high heat until the edges blacken slightly, get you remarkably close to the real thing.`,
     author: "sarah-al-fayed",
@@ -884,7 +884,7 @@ Making shawarma at home means you do not have a vertical rotisserie, and that is
       {
         title: "Chicken Marinade",
         items: [
-          { item: "boneless, skinless chicken thighs", amount: "750", unit: "g", note: "about 6 thighs — thighs stay juicier than breast", amountNumeric: 750 },
+          { item: "boneless, skinless chicken thighs", amount: "750", unit: "g", note: "about 6 thighs; thighs stay juicier than breast", amountNumeric: 750 },
           { item: "plain yogurt", amount: "3", unit: "tbsp", note: "full-fat", amountNumeric: 3 },
           { item: "olive oil", amount: "2", unit: "tbsp", amountNumeric: 2 },
           { item: "lemon juice", amount: "2", unit: "tbsp", note: "fresh", amountNumeric: 2 },
@@ -905,7 +905,7 @@ Making shawarma at home means you do not have a vertical rotisserie, and that is
           { item: "garlic cloves", amount: "4", unit: "", note: "roughly chopped", amountNumeric: 4 },
           { item: "lemon juice", amount: "2", unit: "tbsp", amountNumeric: 2 },
           { item: "salt", amount: "¼", unit: "tsp", amountNumeric: 0.25 },
-          { item: "vegetable oil", amount: "½", unit: "cup", note: "neutral flavored — sunflower or canola", amountNumeric: 0.5 },
+          { item: "vegetable oil", amount: "½", unit: "cup", note: "neutral flavored (sunflower or canola)", amountNumeric: 0.5 },
         ],
       },
       {
@@ -920,24 +920,24 @@ Making shawarma at home means you do not have a vertical rotisserie, and that is
       },
     ],
     instructions: [
-      { step: 1, text: "In a large bowl, combine the yogurt, olive oil, lemon juice, minced garlic, and all the spices — cumin, coriander, paprika, turmeric, cinnamon, cardamom, salt, and pepper. Mix well." },
+      { step: 1, text: "In a large bowl, combine the yogurt, olive oil, lemon juice, minced garlic, and all the spices: cumin, coriander, paprika, turmeric, cinnamon, cardamom, salt, and pepper. Mix well." },
       { step: 2, text: "Add the chicken thighs to the marinade and turn to coat every piece thoroughly. Cover and refrigerate for at least 1 hour, or up to overnight. The longer the marinade, the deeper the flavor.", tip: "The yogurt tenderizes the meat while the acid from lemon juice helps the spices penetrate. Even 30 minutes makes a difference if you are short on time." },
       { step: 3, text: "When ready to cook, heat a large cast-iron skillet or heavy pan over medium-high heat. You want the pan very hot before the chicken goes in. Add a thin film of oil." },
-      { step: 4, text: "Shake off excess marinade from the chicken and lay the thighs flat in the pan. Do not crowd the pan — cook in batches if needed. Let them cook undisturbed for 5 to 6 minutes until the bottom is deeply golden and charred in spots.", tip: "Resist the urge to move the chicken around. That uninterrupted contact with the hot pan is what creates the caramelized crust." },
-      { step: 5, text: "Flip and cook the other side for another 4 to 5 minutes until cooked through (internal temperature of 165°F / 74°C). The edges should be slightly blackened — that char is flavor, not a mistake." },
+      { step: 4, text: "Shake off excess marinade from the chicken and lay the thighs flat in the pan. Do not crowd the pan. Cook in batches if needed. Let them cook undisturbed for 5 to 6 minutes until the bottom is deeply golden and charred in spots.", tip: "Resist the urge to move the chicken around. That uninterrupted contact with the hot pan is what creates the caramelized crust." },
+      { step: 5, text: "Flip and cook the other side for another 4 to 5 minutes until cooked through (internal temperature of 165°F / 74°C). The edges should be slightly blackened. That char is flavor, not a mistake." },
       { step: 6, text: "Transfer the chicken to a cutting board and let it rest for 3 minutes. Then slice it into thin strips, cutting against the grain." },
       { step: 7, text: "While the chicken cooks, make the garlic sauce. Add the garlic, lemon juice, and salt to a small food processor or blender. Blend until the garlic is finely minced. With the motor running, slowly drizzle in the oil in a very thin stream. The sauce will emulsify into a thick, creamy white paste.", tip: "The key to toum is patience with the oil. Add it too fast and it will stay thin and oily instead of becoming thick and fluffy." },
       { step: 8, text: "Warm your flatbread in a dry pan or directly over a gas flame for a few seconds per side. Spread a generous layer of garlic sauce on the bread, add the sliced chicken, top with tomatoes, cucumber, pickled turnips, and fresh herbs. Roll tightly and serve immediately." },
     ],
     equipment: ["Large cast-iron skillet or heavy frying pan", "Small food processor or blender (for garlic sauce)", "Cutting board"],
     tips: [
-      "Chicken thighs are essential here — they have enough fat to stay juicy at high heat. Breast meat dries out quickly and will not give you the same result.",
+      "Chicken thighs are essential here. They have enough fat to stay juicy at high heat. Breast meat dries out quickly and will not give you the same result.",
       "For an oven method, spread marinated chicken on a sheet pan lined with foil and roast at 425°F (220°C) for 20 to 25 minutes, flipping halfway. Finish under the broiler for 2 minutes to char the edges.",
       "If your garlic sauce breaks (stays liquidy instead of emulsifying), start over with a fresh garlic clove in the blender and slowly drizzle the broken sauce back in as if it were oil.",
-      "The pickled turnips are not optional — their vinegary crunch cuts through the richness of the chicken and garlic sauce. Look for them in any Middle Eastern grocery, or quick-pickle your own with vinegar, salt, and a slice of beetroot for color.",
+      "The pickled turnips are not optional. Their vinegary crunch cuts through the richness of the chicken and garlic sauce. Look for them in any Middle Eastern grocery, or quick-pickle your own with vinegar, salt, and a slice of beetroot for color.",
     ],
     substitutions: [
-      "No yogurt? Use 2 tablespoons of mayonnaise mixed with the lemon juice — it tenderizes similarly.",
+      "No yogurt? Use 2 tablespoons of mayonnaise mixed with the lemon juice. It tenderizes similarly.",
       "No cast-iron pan? A grill or grill pan works even better. Grill the whole thighs for 5 to 6 minutes per side, then slice.",
       "For a quick garlic sauce without a food processor, finely mince the garlic, mash it with salt into a paste using the flat of your knife, then whisk in the lemon juice and oil by hand.",
       "Swap flatbread for rice if you prefer a plate-style shawarma. Serve the sliced chicken over basmati rice with garlic sauce and salad on the side.",
@@ -949,14 +949,14 @@ Making shawarma at home means you do not have a vertical rotisserie, and that is
     ],
     servingSuggestions: [
       "Serve with a side of fattoush salad for a complete Levantine meal.",
-      "Add french fries inside the wrap — this is how many Gulf shawarma shops serve it and it is excellent.",
+      "Add french fries inside the wrap. This is how many Gulf shawarma shops serve it and it is excellent.",
       "Pair with pickled vegetables, hummus, and a cold glass of laban (buttermilk) for an authentic street food experience.",
     ],
-    storage: "Cooked chicken keeps in the fridge for 3 days. Reheat in a hot skillet to revive the char — microwaving makes it rubbery. The garlic sauce keeps for up to 2 weeks refrigerated in a sealed jar. Do not freeze the sauce.",
+    storage: "Cooked chicken keeps in the fridge for 3 days. Reheat in a hot skillet to revive the char. Microwaving makes it rubbery. The garlic sauce keeps for up to 2 weeks refrigerated in a sealed jar. Do not freeze the sauce.",
     faqs: [
       { question: "Can I use chicken breast instead of thighs?", answer: "You can, but the result will be drier. If using breast, pound it to an even thickness so it cooks evenly, and reduce the cooking time by a couple of minutes. Do not overcook it." },
       { question: "How do restaurants get shawarma so tender?", answer: "Three things: they use thigh meat (more fat), they marinate for hours (the yogurt and acid tenderize the proteins), and they cook on a vertical rotisserie where the meat bastes in its own juices. At home, the yogurt marinade and high-heat cooking get you most of the way there." },
-      { question: "What is toum exactly?", answer: "Toum is a Lebanese garlic sauce made by emulsifying raw garlic with oil and lemon juice — similar to how mayonnaise is made with egg yolks and oil. When done right, it is thick, fluffy, and intensely garlicky. It is the traditional sauce for shawarma across Lebanon, Syria, and the Gulf." },
+      { question: "What is toum exactly?", answer: "Toum is a Lebanese garlic sauce made by emulsifying raw garlic with oil and lemon juice, similar to how mayonnaise is made with egg yolks and oil. When done right, it is thick, fluffy, and intensely garlicky. It is the traditional sauce for shawarma across Lebanon, Syria, and the Gulf." },
       { question: "Can I make this ahead for meal prep?", answer: "Yes. Marinate the chicken the night before, cook it in the morning, slice and refrigerate. When ready to eat, reheat the sliced chicken in a hot skillet for 2 minutes. Prep the garlic sauce, vegetables, and pickles separately. Assemble wraps fresh." },
     ],
     relatedRecipeSlugs: ["gulf-red-lentil-soup", "gulf-shakshuka"],
@@ -969,11 +969,11 @@ Making shawarma at home means you do not have a vertical rotisserie, and that is
     seoTitle: "Air Fryer Chicken Tenders: Crispy Panko Recipe",
     metaDescription: "Crispy golden air fryer chicken tenders with a crunchy panko breadcrumb coating. Brined for juiciness, cooked with barely any oil, and ready in 20 minutes.",
     shortDescription: "Crispy, golden chicken tenders with a shattering panko crust and juicy interior, made in the air fryer with barely a tablespoon of oil. A quick brine keeps the meat moist, and the dual-breadcrumb coating delivers that deep-fried crunch without the mess. Ready in 20 minutes, loved by everyone at the table.",
-    intro: `Chicken tenders sit in a sweet spot for air fryer cooking. They are thin enough to cook through in minutes, but substantial enough to develop a proper crust. The challenge has always been getting breaded chicken to crisp evenly without the coating falling off or turning pale and soft. The solution is a three-step dredge — flour, egg, breadcrumbs — with a firm press at each stage, and a light mist of oil before and during cooking.
+    intro: `Chicken tenders sit in a sweet spot for air fryer cooking. They are thin enough to cook through in minutes, but substantial enough to develop a proper crust. The challenge has always been getting breaded chicken to crisp evenly without the coating falling off or turning pale and soft. The solution is a three-step dredge (flour, egg, breadcrumbs) with a firm press at each stage, and a light mist of oil before and during cooking.
 
 The brine is the other key. Chicken tenders are lean, and lean meat dries out fast at high heat. A 30-minute soak in salted water seasons the meat all the way through and adds enough moisture to keep the interior juicy even at 200°C. It is a small step that makes a significant difference.
 
-**Pro Tip:** Keep a meat thermometer handy — it is the most reliable way to ensure perfect results when cooking proteins. For chicken, aim for 74°C (165°F).`,
+**Pro Tip:** Keep a meat thermometer handy. It is the most reliable way to ensure perfect results when cooking proteins. For chicken, aim for 74°C (165°F).`,
     author: "sarah-al-fayed",
     publishedAt: "2026-07-16",
     cuisine: "International",
@@ -1001,7 +1001,7 @@ The brine is the other key. Chicken tenders are lean, and lean meat dries out fa
       {
         title: "Chicken & Coating",
         items: [
-          { item: "chicken tenders", amount: "1½", unit: "lbs", note: "about 680g — or chicken breast cut into strips", amountNumeric: 1.5 },
+          { item: "chicken tenders", amount: "1½", unit: "lbs", note: "about 680g, or chicken breast cut into strips", amountNumeric: 1.5 },
           { item: "all-purpose flour", amount: "½", unit: "cup", amountNumeric: 0.5 },
           { item: "large eggs", amount: "2", unit: "", note: "whisked", amountNumeric: 2 },
           { item: "panko breadcrumbs", amount: "1", unit: "cup", amountNumeric: 1 },
@@ -1019,9 +1019,9 @@ The brine is the other key. Chicken tenders are lean, and lean meat dries out fa
       { step: 1, text: "Whisk together the water, kosher salt, and sugar in a large bowl until fully dissolved. Submerge the chicken tenders in the brine and refrigerate for 30 minutes. Even 15 minutes helps if you are short on time.", tip: "Brining seasons the meat throughout and adds moisture that survives the high heat of the air fryer. Do not skip this step." },
       { step: 2, text: "Preheat your air fryer to 200°C (400°F). Preheating ensures the chicken starts crisping the moment it hits the basket." },
       { step: 3, text: "Set up three shallow bowls. Bowl one: flour. Bowl two: whisked eggs. Bowl three: panko breadcrumbs, regular breadcrumbs, garlic powder, onion powder, paprika, black pepper, and salt, mixed together." },
-      { step: 4, text: "Remove the chicken from the brine and pat each piece thoroughly dry with paper towels. This is crucial — excess moisture prevents the breading from adhering.", tip: "Take your time here. Damp chicken means the flour slides off and the coating falls apart during cooking." },
-      { step: 5, text: "Dredge each tender in flour, shaking off the excess. Dip into the egg wash, letting any excess drip back. Press firmly into the breadcrumb mixture, coating all sides. Use your hands to really pack the crumbs on — no bare spots." },
-      { step: 6, text: "Lightly spray the air fryer basket with cooking oil. Arrange the breaded tenders in a single layer with space between each piece. Do not overcrowd — work in batches if needed. Spray the tops of the tenders with oil." },
+      { step: 4, text: "Remove the chicken from the brine and pat each piece thoroughly dry with paper towels. This is crucial: excess moisture prevents the breading from adhering.", tip: "Take your time here. Damp chicken means the flour slides off and the coating falls apart during cooking." },
+      { step: 5, text: "Dredge each tender in flour, shaking off the excess. Dip into the egg wash, letting any excess drip back. Press firmly into the breadcrumb mixture, coating all sides. Use your hands to really pack the crumbs on. No bare spots." },
+      { step: 6, text: "Lightly spray the air fryer basket with cooking oil. Arrange the breaded tenders in a single layer with space between each piece. Do not overcrowd. Work in batches if needed. Spray the tops of the tenders with oil." },
       { step: 7, text: "Air fry at 200°C (400°F) for 8 minutes. Flip the tenders, spray lightly with oil again, and cook for another 4 to 6 minutes until golden brown and the internal temperature reaches 74°C (165°F)." },
       { step: 8, text: "Remove from the air fryer and let rest for 2 minutes. Serve with honey mustard, ranch, barbecue sauce, or ketchup." },
     ],
@@ -1029,16 +1029,16 @@ The brine is the other key. Chicken tenders are lean, and lean meat dries out fa
     tips: [
       "Do not skip the brine. A 30-minute soak keeps the chicken moist at high air fryer temperatures. At minimum, season the chicken with salt and sugar and let it sit while you prepare the rest.",
       "Pat the chicken completely dry after brining. This is the single most important step for getting the coating to stick.",
-      "Press the breadcrumbs firmly with your hands. Light dusting will not hold — you need to pack the coating on.",
+      "Press the breadcrumbs firmly with your hands. Light dusting will not hold. You need to pack the coating on.",
       "Do not overcrowd the basket. Overlapping tenders will steam instead of crisp. Cook in batches and keep finished tenders warm in a 100°C (200°F) oven.",
       "Oil spray is essential. A light mist on the breaded chicken is what turns the coating golden and crispy. Without it, the breadcrumbs stay pale.",
       "Use a meat thermometer. Air fryer temperatures vary between models. Cook until the internal temperature reaches 74°C (165°F) for guaranteed juicy results.",
-      "Quick Reference — Air Fryer Cooking Chart: Chicken Tenders → 200°C (400°F) for 12–14 min, flip halfway. Salmon Fillets → 200°C (400°F) for 8–10 min, no flipping needed. Baked Potato → 200°C (400°F) for 35–45 min, rotate halfway.",
+      "Quick Reference (Air Fryer Cooking Chart): Chicken Tenders → 200°C (400°F) for 12–14 min, flip halfway. Salmon Fillets → 200°C (400°F) for 8–10 min, no flipping needed. Baked Potato → 200°C (400°F) for 35–45 min, rotate halfway.",
     ],
     substitutions: [
       "No chicken tenders? Cut boneless, skinless chicken breast into strips about 2cm wide. They work identically.",
       "For gluten-free tenders, use a gluten-free flour blend and crushed cornflakes or gluten-free panko in place of regular breadcrumbs.",
-      "No panko? Use all regular breadcrumbs — the texture will be slightly less shatteringly crisp but still good.",
+      "No panko? Use all regular breadcrumbs. The texture will be slightly less shatteringly crisp but still good.",
       "Swap paprika for smoked paprika for a subtle smoky flavor, or add a pinch of cayenne for heat.",
     ],
     servingSuggestions: [
@@ -1047,7 +1047,7 @@ The brine is the other key. Chicken tenders are lean, and lean meat dries out fa
       "Stuff into Arabic flatbread with pickles, shredded lettuce, and garlic sauce for an air fryer shawarma-style wrap.",
       "Serve alongside fries or a simple coleslaw for a classic family dinner.",
     ],
-    storage: "Store leftover tenders in an airtight container in the fridge for up to 3 days. Reheat in the air fryer at 180°C (350°F) for 3 to 4 minutes to restore crispiness. Do not microwave — it will make the coating soggy.",
+    storage: "Store leftover tenders in an airtight container in the fridge for up to 3 days. Reheat in the air fryer at 180°C (350°F) for 3 to 4 minutes to restore crispiness. Do not microwave. It will make the coating soggy.",
     faqs: [
       { question: "Can I use frozen chicken tenders?", answer: "Yes, but thaw them completely first and pat dry. Cooking from frozen will result in uneven cooking and the breading will not adhere properly." },
       { question: "Why is my air fryer chicken not crispy?", answer: "Three common reasons: the chicken was not dried properly after brining, the basket was overcrowded (causing steaming), or you skipped the oil spray. All three are essential for a crispy result." },
@@ -1063,12 +1063,12 @@ The brine is the other key. Chicken tenders are lean, and lean meat dries out fa
     pageTitle: "Air Fryer Salmon: Perfectly Flaky in 10 Minutes",
     seoTitle: "Air Fryer Salmon: Crispy Skin in 10 Minutes",
     metaDescription: "Air fryer salmon with crispy skin and a flaky, juicy interior. Ready in just 10 minutes with a simple garlic-paprika seasoning and optional honey-soy glaze.",
-    shortDescription: "Salmon fillets with crispy, golden skin and a buttery, flaky interior — cooked in the air fryer in under 10 minutes. A simple garlic and smoked paprika rub does the heavy lifting, and an optional honey-soy glaze adds a caramelised finish. No flipping required.",
+    shortDescription: "Salmon fillets with crispy, golden skin and a buttery, flaky interior, cooked in the air fryer in under 10 minutes. A simple garlic and smoked paprika rub does the heavy lifting, and an optional honey-soy glaze adds a caramelised finish. No flipping required.",
     intro: `Salmon is one of the best proteins for the air fryer. The circulating hot air crisps the skin in a way that is difficult to achieve in a conventional oven, while the interior stays moist and flaky. The entire cook takes 8 to 10 minutes with no flipping, no babysitting, and no splatter.
 
 The key is starting with dry fillets and a hot air fryer. Moisture on the surface of the fish prevents crisping, so a thorough pat-down with paper towels before seasoning is essential. A light coat of olive oil, a simple spice rub, and 200°C does the rest.
 
-**Pro Tip:** Keep a meat thermometer handy — for salmon, the USDA recommends 63°C (145°F). For a juicier, medium-cooked fillet, pull it at 52°C (125°F) and let it rest for 2 minutes.`,
+**Pro Tip:** Keep a meat thermometer handy. For salmon, the USDA recommends 63°C (145°F). For a juicier, medium-cooked fillet, pull it at 52°C (125°F) and let it rest for 2 minutes.`,
     author: "sarah-al-fayed",
     publishedAt: "2026-07-18",
     cuisine: "International",
@@ -1107,7 +1107,7 @@ The key is starting with dry fillets and a hot air fryer. Moisture on the surfac
       },
     ],
     instructions: [
-      { step: 1, text: "Remove the salmon from the fridge 10 minutes before cooking. Pat each fillet thoroughly dry with paper towels — both the flesh side and the skin side.", tip: "This is the most important step. Dry skin = crispy skin. Wet skin = rubbery skin." },
+      { step: 1, text: "Remove the salmon from the fridge 10 minutes before cooking. Pat each fillet thoroughly dry with paper towels, both the flesh side and the skin side.", tip: "This is the most important step. Dry skin = crispy skin. Wet skin = rubbery skin." },
       { step: 2, text: "Preheat your air fryer to 200°C (400°F) for 3 minutes." },
       { step: 3, text: "Brush or drizzle the flesh side of each fillet with olive oil. Mix the garlic powder, smoked paprika, salt, and black pepper together, then sprinkle evenly over the flesh side of each fillet." },
       { step: 4, text: "If using the honey-soy glaze, whisk together the honey, soy sauce, minced garlic, and rice vinegar in a small bowl. Set aside." },
@@ -1122,13 +1122,13 @@ The key is starting with dry fillets and a hot air fryer. Moisture on the surfac
       "Fillet thickness matters. For fillets thinner than 2cm, start checking at 7 minutes. For thicker cuts over 3cm, add 2 to 3 minutes.",
       "The honey-soy glaze burns easily. Only add it in the final 2 minutes of cooking.",
       "For crispier skin, lightly spray the skin side with oil before placing it in the basket.",
-      "Frozen salmon works — cook from frozen at 200°C for 12 to 15 minutes. Season after the first 5 minutes when the surface has thawed enough for the spices to stick.",
-      "Quick Reference — Air Fryer Cooking Chart: Chicken Tenders → 200°C (400°F) for 12–14 min, flip halfway. Salmon Fillets → 200°C (400°F) for 8–10 min, no flipping needed. Baked Potato → 200°C (400°F) for 35–45 min, rotate halfway.",
+      "Frozen salmon works: cook from frozen at 200°C for 12 to 15 minutes. Season after the first 5 minutes when the surface has thawed enough for the spices to stick.",
+      "Quick Reference (Air Fryer Cooking Chart): Chicken Tenders → 200°C (400°F) for 12–14 min, flip halfway. Salmon Fillets → 200°C (400°F) for 8–10 min, no flipping needed. Baked Potato → 200°C (400°F) for 35–45 min, rotate halfway.",
     ],
     substitutions: [
       "No smoked paprika? Use regular paprika with a pinch of cumin for warmth.",
       "Swap honey for maple syrup in the glaze for a deeper, less sweet flavour.",
-      "Use any firm fish fillet — trout, arctic char, or cod work well, though cook times may vary.",
+      "Use any firm fish fillet. Trout, arctic char, or cod work well, though cook times may vary.",
       "For a Middle Eastern twist, season with sumac, za'atar, and a squeeze of lemon instead of the paprika rub.",
     ],
     servingSuggestions: [
@@ -1137,9 +1137,9 @@ The key is starting with dry fillets and a hot air fryer. Moisture on the surfac
       "Flake the salmon over a grain bowl with quinoa, avocado, and pickled onion.",
       "Serve with roasted asparagus or air-fried broccoli for a complete low-carb meal.",
     ],
-    storage: "Store leftover salmon in an airtight container in the fridge for up to 2 days. Reheat gently in the air fryer at 160°C (320°F) for 3 to 4 minutes. Salmon does not reheat well in the microwave — the texture suffers.",
+    storage: "Store leftover salmon in an airtight container in the fridge for up to 2 days. Reheat gently in the air fryer at 160°C (320°F) for 3 to 4 minutes. Salmon does not reheat well in the microwave: the texture suffers.",
     faqs: [
-      { question: "Should I use skin-on or skinless salmon?", answer: "Skin-on is recommended. The skin protects the fillet from the intense heat and crisps up beautifully. Skinless fillets work but cook slightly faster — start checking at 6 minutes." },
+      { question: "Should I use skin-on or skinless salmon?", answer: "Skin-on is recommended. The skin protects the fillet from the intense heat and crisps up beautifully. Skinless fillets work but cook slightly faster. Start checking at 6 minutes." },
       { question: "Why is my salmon dry?", answer: "Most likely overcooked. Start checking at 8 minutes and use a meat thermometer. For juicy results, pull the salmon at 52°C (125°F) for medium or 57°C (135°F) for medium-well." },
       { question: "Can I cook salmon with the glaze from the start?", answer: "No. The honey will burn at 200°C if exposed for the full cook time. Add the glaze only during the last 2 minutes." },
       { question: "Do I need to use parchment paper?", answer: "Not required, but a parchment liner makes cleanup easier and prevents the skin from sticking to the basket. If using parchment, poke a few holes for air circulation." },
@@ -1153,7 +1153,7 @@ The key is starting with dry fillets and a hot air fryer. Moisture on the surfac
     pageTitle: "Air Fryer Baked Potato: Crispy Skin, Fluffy Inside",
     seoTitle: "Air Fryer Baked Potato: Time, Temp & Crispy Skin",
     metaDescription: "Air fryer baked potato with crisp, salted skin and a fluffy centre. Cooked at 200°C (400°F) for 35 to 45 minutes with just oil and salt, plus toppings.",
-    shortDescription: "Baked potatoes with shatteringly crispy, salted skin and a cloud-like fluffy interior — made in the air fryer in about 40 minutes. No foil wrapping, no soggy skin. Just oil, salt, and the circulating heat of the air fryer doing what an oven cannot.",
+    shortDescription: "Baked potatoes with shatteringly crispy, salted skin and a cloud-like fluffy interior, made in the air fryer in about 40 minutes. No foil wrapping, no soggy skin. Just oil, salt, and the circulating heat of the air fryer doing what an oven cannot.",
     intro: `The air fryer produces the best baked potato most home cooks have ever made. The circulating hot air dries and crisps the skin in a way that a conventional oven struggles to match, while the interior steams to a light, fluffy texture. No foil, no microwave shortcut, no compromise.
 
 The method is simple: scrub the potatoes, poke them, rub with oil and salt, and let the air fryer do its work at 200°C for 35 to 45 minutes. The salt draws moisture from the skin's surface, and the oil conducts heat evenly across it. The result is skin you actually want to eat.
@@ -1198,7 +1198,7 @@ The method is simple: scrub the potatoes, poke them, rub with oil and salt, and 
       { step: 2, text: "Poke each potato 6 to 8 times with a fork on all sides. This allows steam to escape during cooking and prevents the potato from bursting.", tip: "Do not skip the poking. A potato without holes can build up enough steam pressure to crack open in the air fryer." },
       { step: 3, text: "Rub each potato with a thin, even coat of olive oil. Sprinkle coarse salt all over the skin, pressing gently so it adheres.", tip: "The oil conducts heat across the skin's surface for even crisping. The salt draws out moisture, which is what makes the skin shatteringly crisp." },
       { step: 4, text: "Preheat the air fryer to 200°C (400°F) for 3 minutes." },
-      { step: 5, text: "Place the potatoes in the air fryer basket. Leave space between them — do not stack or crowd. If your air fryer is small, cook in batches of 2." },
+      { step: 5, text: "Place the potatoes in the air fryer basket. Leave space between them. Do not stack or crowd. If your air fryer is small, cook in batches of 2." },
       { step: 6, text: "Cook at 200°C (400°F) for 20 minutes. Then rotate each potato (turn them over or shift their position) and cook for another 15 to 25 minutes.", tip: "Total cook time depends on potato size. Medium potatoes: 35 minutes. Large potatoes: 40 to 45 minutes." },
       { step: 7, text: "The potato is done when a knife slides into the centre with no resistance and the skin feels dry and crisp to the touch. If unsure, the internal temperature should reach 99°C (210°F)." },
       { step: 8, text: "Remove from the air fryer. Cut a deep slit down the centre of each potato, squeeze the ends to push the fluffy interior up, and add your toppings. Serve immediately." },
@@ -1207,14 +1207,14 @@ The method is simple: scrub the potatoes, poke them, rub with oil and salt, and 
     tips: [
       "Choose potatoes of similar size so they finish cooking at the same time. A 50g difference in weight can mean 5 to 10 minutes of uneven cooking.",
       "Russet potatoes are the best variety for baking. Their high starch content produces the fluffiest interior. Waxy potatoes like Yukon Gold will not give the same result.",
-      "Do not wrap in foil. Foil traps steam and produces soft, soggy skin — the opposite of what the air fryer excels at.",
+      "Do not wrap in foil. Foil traps steam and produces soft, soggy skin, the opposite of what the air fryer excels at.",
       "Rotate halfway through. Air fryers have uneven hot spots, and rotating ensures the skin crisps evenly on all sides.",
-      "Leftover baked potatoes are excellent sliced and reheated in the air fryer at 190°C (375°F) for 5 minutes — they crisp up like home fries.",
-      "Quick Reference — Air Fryer Cooking Chart: Chicken Tenders → 200°C (400°F) for 12–14 min, flip halfway. Salmon Fillets → 200°C (400°F) for 8–10 min, no flipping needed. Baked Potato → 200°C (400°F) for 35–45 min, rotate halfway.",
+      "Leftover baked potatoes are excellent sliced and reheated in the air fryer at 190°C (375°F) for 5 minutes. They crisp up like home fries.",
+      "Quick Reference (Air Fryer Cooking Chart): Chicken Tenders → 200°C (400°F) for 12–14 min, flip halfway. Salmon Fillets → 200°C (400°F) for 8–10 min, no flipping needed. Baked Potato → 200°C (400°F) for 35–45 min, rotate halfway.",
     ],
     substitutions: [
-      "No russet potatoes? Sweet potatoes work well — reduce cook time to 30 to 35 minutes and check early, as they are denser and cook slightly differently.",
-      "Use any neutral oil — avocado oil, vegetable oil, or even melted butter rubbed on the skin.",
+      "No russet potatoes? Sweet potatoes work well. Reduce cook time to 30 to 35 minutes and check early, as they are denser and cook slightly differently.",
+      "Use any neutral oil: avocado oil, vegetable oil, or even melted butter rubbed on the skin.",
       "For a dairy-free version, top with olive oil, za'atar, and chopped parsley instead of butter and sour cream.",
       "Swap cheddar for crumbled feta or labneh for a Gulf-inspired loaded potato.",
     ],
@@ -1228,8 +1228,8 @@ The method is simple: scrub the potatoes, poke them, rub with oil and salt, and 
     faqs: [
       { question: "Why are my baked potatoes not crispy?", answer: "Three common reasons: the potatoes were not dried before oiling, you wrapped them in foil (which steams the skin), or you did not use enough oil. The skin needs direct contact with hot circulating air to crisp." },
       { question: "How do I know when the potato is done?", answer: "A knife should slide into the centre with zero resistance. The skin should feel dry and firm, not soft. Internal temperature of 99°C (210°F) is the most reliable indicator." },
-      { question: "Can I cook sweet potatoes the same way?", answer: "Yes, with adjustments. Sweet potatoes are denser and cook faster — check at 30 minutes. They also release more sugar, so line the basket with parchment to prevent sticking." },
-      { question: "How many potatoes can I cook at once?", answer: "Depends on your air fryer size. Most standard baskets fit 2 to 4 medium potatoes comfortably. Never stack them — each potato needs air circulation on all sides." },
+      { question: "Can I cook sweet potatoes the same way?", answer: "Yes, with adjustments. Sweet potatoes are denser and cook faster. Check at 30 minutes. They also release more sugar, so line the basket with parchment to prevent sticking." },
+      { question: "How many potatoes can I cook at once?", answer: "Depends on your air fryer size. Most standard baskets fit 2 to 4 medium potatoes comfortably. Never stack them: each potato needs air circulation on all sides." },
     ],
     relatedRecipeSlugs: ["air-fryer-chicken-tenders", "air-fryer-salmon"],
   },
@@ -1240,12 +1240,12 @@ The method is simple: scrub the potatoes, poke them, rub with oil and salt, and 
     pageTitle: "Air Fryer Chicken Thighs: Crispy Skin, Juicy Meat Every Time",
     seoTitle: "Air Fryer Chicken Thighs: Crispy Skin & Juicy",
     metaDescription: "Crispy-skinned air fryer chicken thighs with juicy, tender meat in under 25 minutes. A simple garlic-paprika rub and 200°C circulating heat do all the work.",
-    shortDescription: "Bone-in, skin-on chicken thighs with shatteringly crispy skin and juicy, succulent meat — made in the air fryer in about 25 minutes. A five-ingredient spice rub is all you need. No marinating, no flipping, no babysitting. The air fryer renders the fat under the skin and crisps it to golden perfection.",
+    shortDescription: "Bone-in, skin-on chicken thighs with shatteringly crispy skin and juicy, succulent meat, made in the air fryer in about 25 minutes. A five-ingredient spice rub is all you need. No marinating, no flipping, no babysitting. The air fryer renders the fat under the skin and crisps it to golden perfection.",
     intro: `Chicken thighs are the single best cut of meat for the air fryer. They have enough fat to stay juicy at high heat, a skin that crisps beautifully in circulating air, and a forgiving nature that means you can cook them a minute too long without disaster. Breast meat dries out. Wings are fiddly. Thighs just work.
 
-The key to perfect air fryer chicken thighs is dry skin. Moisture is the enemy of crispness, so a thorough pat-down with paper towels before seasoning is non-negotiable. After that, a simple rub of oil, garlic powder, smoked paprika, salt, and pepper is all you need. The air fryer does the rest — the circulating heat renders the fat layer under the skin while drying and crisping the surface, producing results that rival deep frying with a fraction of the oil.
+The key to perfect air fryer chicken thighs is dry skin. Moisture is the enemy of crispness, so a thorough pat-down with paper towels before seasoning is non-negotiable. After that, a simple rub of oil, garlic powder, smoked paprika, salt, and pepper is all you need. The air fryer does the rest: the circulating heat renders the fat layer under the skin while drying and crisping the surface, producing results that rival deep frying with a fraction of the oil.
 
-In Gulf kitchens, chicken thighs are a weeknight staple. They are affordable, available everywhere from hypermarkets to corner baqalas, and they pair well with everything from basmati rice and salad to flatbread and hummus. The air fryer has made them even more practical — no preheating a full oven, no splatter from a frying pan, and dinner on the table in 25 minutes.
+In Gulf kitchens, chicken thighs are a weeknight staple. They are affordable, available everywhere from hypermarkets to corner baqalas, and they pair well with everything from basmati rice and salad to flatbread and hummus. The air fryer has made them even more practical: no preheating a full oven, no splatter from a frying pan, and dinner on the table in 25 minutes.
 
 **Pro Tip:** Always cook chicken thighs skin-side up in the air fryer. The fat renders downward, basting the meat, while the skin faces the heating element and crisps.`,
     author: "sarah-al-fayed",
@@ -1267,7 +1267,7 @@ In Gulf kitchens, chicken thighs are a weeknight staple. They are affordable, av
       {
         title: "Chicken Thighs",
         items: [
-          { item: "bone-in, skin-on chicken thighs", amount: "4", unit: "large", note: "about 1 kg total — pat completely dry", amountNumeric: 4 },
+          { item: "bone-in, skin-on chicken thighs", amount: "4", unit: "large", note: "about 1 kg total; pat completely dry", amountNumeric: 4 },
           { item: "olive oil", amount: "1", unit: "tbsp", amountNumeric: 1 },
           { item: "garlic powder", amount: "1", unit: "tsp", amountNumeric: 1 },
           { item: "smoked paprika", amount: "1", unit: "tsp", amountNumeric: 1 },
@@ -1278,10 +1278,10 @@ In Gulf kitchens, chicken thighs are a weeknight staple. They are affordable, av
       },
     ],
     instructions: [
-      { step: 1, text: "Remove chicken thighs from the fridge 10 minutes before cooking. Pat each thigh thoroughly dry on all sides with paper towels — especially the skin side.", tip: "This is the most important step. Dry skin crisps; wet skin steams. Take your time here." },
+      { step: 1, text: "Remove chicken thighs from the fridge 10 minutes before cooking. Pat each thigh thoroughly dry on all sides with paper towels, especially the skin side.", tip: "This is the most important step. Dry skin crisps; wet skin steams. Take your time here." },
       { step: 2, text: "Preheat your air fryer to 200°C (400°F) for 3 minutes." },
       { step: 3, text: "Mix the garlic powder, smoked paprika, onion powder, salt, and black pepper in a small bowl. Rub the chicken thighs with olive oil, then season generously on all sides with the spice mixture." },
-      { step: 4, text: "Place the chicken thighs skin-side up in the air fryer basket in a single layer. Leave space between each piece for air circulation. Do not stack or overlap.", tip: "Skin-side up is essential — the skin faces the heating element and the fat renders downward, keeping the meat moist." },
+      { step: 4, text: "Place the chicken thighs skin-side up in the air fryer basket in a single layer. Leave space between each piece for air circulation. Do not stack or overlap.", tip: "Skin-side up is essential: the skin faces the heating element and the fat renders downward, keeping the meat moist." },
       { step: 5, text: "Air fry at 200°C (400°F) for 20 to 22 minutes without flipping. The skin should be deep golden brown and crispy, and the internal temperature should reach 74°C (165°F)." },
       { step: 6, text: "Remove from the air fryer and let rest for 3 to 5 minutes before serving. The juices redistribute during resting, keeping the meat succulent." },
     ],
@@ -1292,11 +1292,11 @@ In Gulf kitchens, chicken thighs are a weeknight staple. They are affordable, av
       "Do not overcrowd the basket. Air needs to circulate around each thigh. Cook in batches if your air fryer is small.",
       "For extra crispy skin, increase the temperature to 220°C (425°F) for the last 3 minutes.",
       "Bone-in thighs take longer than boneless but are juicier and more flavorful. If using boneless, reduce cook time to 15 to 18 minutes.",
-      "Quick Reference — Air Fryer Cooking Chart: Chicken Thighs (bone-in) → 200°C (400°F) for 20–22 min, no flipping. Chicken Wings → 200°C (400°F) for 24–28 min, flip halfway. Sweet Potato → 200°C (400°F) for 20–25 min, shake halfway.",
+      "Quick Reference (Air Fryer Cooking Chart): Chicken Thighs (bone-in) → 200°C (400°F) for 20–22 min, no flipping. Chicken Wings → 200°C (400°F) for 24–28 min, flip halfway. Sweet Potato → 200°C (400°F) for 20–25 min, shake halfway.",
     ],
     substitutions: [
       "No smoked paprika? Use regular paprika with a pinch of cumin.",
-      "Boneless, skinless thighs work but cook faster — check at 14 minutes. They will not crisp like skin-on.",
+      "Boneless, skinless thighs work but cook faster. Check at 14 minutes. They will not crisp like skin-on.",
       "Swap the spice rub for za'atar and sumac for a Middle Eastern twist.",
       "Use avocado oil instead of olive oil for a higher smoke point.",
     ],
@@ -1312,12 +1312,12 @@ In Gulf kitchens, chicken thighs are a weeknight staple. They are affordable, av
       "Shred the meat and stuff into Arabic flatbread with garlic sauce and pickles for a shawarma-style wrap.",
       "Serve alongside hummus, fattoush, and warm pita for a Mediterranean-inspired plate.",
     ],
-    storage: "Store leftover chicken thighs in an airtight container in the fridge for up to 3 days. Reheat in the air fryer at 180°C (350°F) for 4 to 5 minutes to restore crispiness. Do not microwave — it will make the skin rubbery.",
+    storage: "Store leftover chicken thighs in an airtight container in the fridge for up to 3 days. Reheat in the air fryer at 180°C (350°F) for 4 to 5 minutes to restore crispiness. Do not microwave. It will make the skin rubbery.",
     faqs: [
       { question: "Do I need to flip air fryer chicken thighs?", answer: "No. Cook them skin-side up the entire time. The skin faces the heating element and crisps, while the fat renders downward and bastes the meat. Flipping makes the skin soggy." },
       { question: "Why is my air fryer chicken skin not crispy?", answer: "Three common reasons: the skin was not dried properly before cooking, the basket was overcrowded, or the temperature was too low. Pat the skin bone-dry, leave space between pieces, and cook at 200°C (400°F) or higher." },
-      { question: "How long do bone-in chicken thighs take in the air fryer?", answer: "About 20 to 22 minutes at 200°C (400°F). Larger thighs may need 25 minutes. Use a meat thermometer — the internal temperature should reach 74°C (165°F)." },
-      { question: "Can I use boneless chicken thighs?", answer: "Yes. Boneless thighs cook faster — about 15 to 18 minutes at 200°C. They will not have crispy skin but the meat will be just as juicy." },
+      { question: "How long do bone-in chicken thighs take in the air fryer?", answer: "About 20 to 22 minutes at 200°C (400°F). Larger thighs may need 25 minutes. Use a meat thermometer: the internal temperature should reach 74°C (165°F)." },
+      { question: "Can I use boneless chicken thighs?", answer: "Yes. Boneless thighs cook faster: about 15 to 18 minutes at 200°C. They will not have crispy skin but the meat will be just as juicy." },
       { question: "Should I use bone-in or boneless chicken thighs?", answer: "Bone-in, skin-on thighs are best for the air fryer. The bone insulates the meat so it stays juicier, and the skin crisps beautifully. Boneless works in a pinch but dries out faster." },
     ],
     relatedRecipeSlugs: ["air-fryer-chicken-wings", "air-fryer-chicken-tenders"],
@@ -1329,12 +1329,12 @@ In Gulf kitchens, chicken thighs are a weeknight staple. They are affordable, av
     pageTitle: "Air Fryer Chicken Wings: Extra-Crispy with No Deep Frying",
     seoTitle: "Air Fryer Chicken Wings: Extra Crispy, 3 Sauces",
     metaDescription: "Extra-crispy air fryer chicken wings with no deep frying. A baking powder trick crisps the skin, and three sauce options let you customize every batch.",
-    shortDescription: "Extra-crispy chicken wings with shattering golden skin and tender, juicy meat — made in the air fryer with no deep frying and barely any oil. A baking powder trick draws moisture from the skin for maximum crunch. Toss in buffalo, honey garlic, or salt-and-pepper seasoning.",
-    intro: `Wings are one of the hardest things to get right without a deep fryer — and one of the easiest things to get right with an air fryer. The circulating heat renders the fat under the skin and crisps it from every angle, producing results that rival restaurant-quality fried wings. The secret weapon is baking powder. A light dusting mixed into the seasoning raises the skin's pH, which breaks down proteins and draws out moisture during cooking. The result is skin that crisps faster and stays crunchier longer.
+    shortDescription: "Extra-crispy chicken wings with shattering golden skin and tender, juicy meat, made in the air fryer with no deep frying and barely any oil. A baking powder trick draws moisture from the skin for maximum crunch. Toss in buffalo, honey garlic, or salt-and-pepper seasoning.",
+    intro: `Wings are one of the hardest things to get right without a deep fryer, and one of the easiest things to get right with an air fryer. The circulating heat renders the fat under the skin and crisps it from every angle, producing results that rival restaurant-quality fried wings. The secret weapon is baking powder. A light dusting mixed into the seasoning raises the skin's pH, which breaks down proteins and draws out moisture during cooking. The result is skin that crisps faster and stays crunchier longer.
 
 The technique requires patience in one area: temperature staging. Starting the wings at a lower temperature (180°C) renders the fat slowly and evenly. Finishing at a higher temperature (220°C) blasts the skin to a deep golden crunch. This two-stage approach is what separates great air fryer wings from merely good ones.
 
-In the Gulf, chicken wings have become a fixture at gatherings — from Friday family dinners to football watch parties. Every shawarma shop and casual restaurant has them on the menu, and the home air fryer has made it possible to produce the same quality on a weeknight. The three sauces below — classic buffalo, honey garlic, and dry salt-and-pepper — cover the range from fiery to sweet to simple.
+In the Gulf, chicken wings have become a fixture at gatherings, from Friday family dinners to football watch parties. Every shawarma shop and casual restaurant has them on the menu, and the home air fryer has made it possible to produce the same quality on a weeknight. The three sauces below (classic buffalo, honey garlic, and dry salt-and-pepper) cover the range from fiery to sweet to simple.
 
 **Pro Tip:** Use a wire rack if your air fryer has one. Elevating the wings allows rendered fat to drip away, keeping the bottoms crispy instead of sitting in grease.`,
     author: "sarah-al-fayed",
@@ -1356,8 +1356,8 @@ In the Gulf, chicken wings have become a fixture at gatherings — from Friday f
       {
         title: "Wings",
         items: [
-          { item: "chicken wings", amount: "1", unit: "kg", note: "about 2 lbs — split into flats and drumettes, tips removed", amountNumeric: 1 },
-          { item: "baking powder", amount: "1", unit: "tbsp", note: "not baking soda — aluminium-free preferred", amountNumeric: 1 },
+          { item: "chicken wings", amount: "1", unit: "kg", note: "about 2 lbs, split into flats and drumettes, tips removed", amountNumeric: 1 },
+          { item: "baking powder", amount: "1", unit: "tbsp", note: "not baking soda (aluminium-free preferred)", amountNumeric: 1 },
           { item: "salt", amount: "1", unit: "tsp", amountNumeric: 1 },
           { item: "garlic powder", amount: "1", unit: "tsp", amountNumeric: 1 },
           { item: "onion powder", amount: "½", unit: "tsp", amountNumeric: 0.5 },
@@ -1394,8 +1394,8 @@ In the Gulf, chicken wings have become a fixture at gatherings — from Friday f
       },
     ],
     instructions: [
-      { step: 1, text: "Pat the chicken wings completely dry with paper towels. This is critical — any surface moisture prevents the skin from crisping.", tip: "For maximum crispiness, dry the wings and leave them uncovered on a plate in the fridge for 1 to 4 hours before cooking. This air-dries the skin." },
-      { step: 2, text: "In a large bowl, toss the wings with baking powder, salt, garlic powder, onion powder, and black pepper until evenly coated. Make sure every wing is covered.", tip: "The baking powder is the crunch secret. It raises the pH of the skin, which helps it brown faster and crisp harder. Do not substitute baking soda — it will leave a metallic taste." },
+      { step: 1, text: "Pat the chicken wings completely dry with paper towels. This is critical: any surface moisture prevents the skin from crisping.", tip: "For maximum crispiness, dry the wings and leave them uncovered on a plate in the fridge for 1 to 4 hours before cooking. This air-dries the skin." },
+      { step: 2, text: "In a large bowl, toss the wings with baking powder, salt, garlic powder, onion powder, and black pepper until evenly coated. Make sure every wing is covered.", tip: "The baking powder is the crunch secret. It raises the pH of the skin, which helps it brown faster and crisp harder. Do not substitute baking soda. It will leave a metallic taste." },
       { step: 3, text: "Preheat your air fryer to 180°C (360°F)." },
       { step: 4, text: "Arrange the wings in a single layer in the air fryer basket. Do not overlap or stack. Lightly spray with cooking oil. Cook in batches if needed." },
       { step: 5, text: "Air fry at 180°C (360°F) for 12 minutes. This lower temperature renders the fat slowly." },
@@ -1405,18 +1405,18 @@ In the Gulf, chicken wings have become a fixture at gatherings — from Friday f
     ],
     equipment: ["Air fryer", "Large mixing bowl", "Paper towels", "Small saucepan (for sauces)", "Cooking oil spray"],
     tips: [
-      "The baking powder trick is essential. It produces crunchier skin than oil alone. Use aluminium-free baking powder if you can find it — it has a cleaner taste.",
+      "The baking powder trick is essential. It produces crunchier skin than oil alone. Use aluminium-free baking powder if you can find it. It has a cleaner taste.",
       "Do not skip the two-temperature method. Low heat first renders fat; high heat finishes with crunch.",
       "Flip the wings only once, at the midpoint. Over-handling knocks off the crispy coating.",
       "Do not overcrowd the basket. Wings need space for air to circulate. Cook in two batches if necessary and keep the first batch warm in a 100°C (200°F) oven.",
       "For even crispier results, leave the seasoned wings uncovered in the fridge for 2 to 4 hours before cooking. The dry air removes surface moisture.",
-      "Quick Reference — Air Fryer Cooking Chart: Chicken Wings → 180°C for 12 min + 220°C for 12–16 min. Chicken Thighs → 200°C for 20–22 min. Chicken Tenders → 200°C for 12–14 min.",
+      "Quick Reference (Air Fryer Cooking Chart): Chicken Wings → 180°C for 12 min + 220°C for 12–16 min. Chicken Thighs → 200°C for 20–22 min. Chicken Tenders → 200°C for 12–14 min.",
     ],
     substitutions: [
       "No baking powder? You can skip it, but the skin will not be as crispy. Increase the final high-heat cook time by 2 to 3 minutes.",
-      "Swap buffalo sauce for any hot sauce you prefer — sriracha, harissa, or even a Gulf-style shatta.",
+      "Swap buffalo sauce for any hot sauce you prefer: sriracha, harissa, or even a Gulf-style shatta.",
       "For dairy-free buffalo sauce, use olive oil instead of butter.",
-      "Use chicken drumettes only if you prefer — they cook in the same time as flats.",
+      "Use chicken drumettes only if you prefer. They cook in the same time as flats.",
     ],
     servingSuggestions: [
       "Serve with celery and carrot sticks and blue cheese or ranch dressing.",
@@ -1426,7 +1426,7 @@ In the Gulf, chicken wings have become a fixture at gatherings — from Friday f
     ],
     storage: "Store leftover wings in an airtight container in the fridge for up to 3 days. Reheat in the air fryer at 200°C (400°F) for 5 minutes to restore crispiness. Microwaving makes them soggy.",
     faqs: [
-      { question: "Why do you use baking powder on chicken wings?", answer: "Baking powder raises the pH of the chicken skin, which breaks down proteins and draws out moisture. This allows the skin to crisp faster and stay crunchier longer — similar to the effect of deep frying." },
+      { question: "Why do you use baking powder on chicken wings?", answer: "Baking powder raises the pH of the chicken skin, which breaks down proteins and draws out moisture. This allows the skin to crisp faster and stay crunchier longer, similar to the effect of deep frying." },
       { question: "Do I need to flip air fryer chicken wings?", answer: "Yes, once. Flip them at the halfway point when you increase the temperature. This ensures both sides get direct exposure to the heating element for even crisping." },
       { question: "How long do chicken wings take in the air fryer?", answer: "About 24 to 28 minutes total using the two-temperature method: 12 minutes at 180°C (360°F) to render fat, then 12 to 16 minutes at 220°C (425°F) to crisp." },
       { question: "Can I cook frozen chicken wings in the air fryer?", answer: "Yes, but add 5 to 8 minutes to the total cook time. Start at 180°C for 15 minutes, flip, then finish at 220°C for 12 to 16 minutes. Season after the first stage when the surface has thawed." },
@@ -1441,12 +1441,12 @@ In the Gulf, chicken wings have become a fixture at gatherings — from Friday f
     pageTitle: "Air Fryer Sweet Potato & Sweet Potato Fries",
     seoTitle: "Air Fryer Sweet Potato: Whole Baked & Fries",
     metaDescription: "Air fryer sweet potatoes two ways: whole baked with caramelised skin, or crispy sweet potato fries with smoked paprika. Both ready in under 25 minutes.",
-    shortDescription: "Sweet potatoes two ways in the air fryer — whole baked with caramelised, candy-like skin, or cut into crispy fries with a smoked paprika seasoning. The air fryer caramelises the natural sugars in sweet potato better than any oven, producing edges that are crisp and centers that are soft and creamy.",
-    intro: `Sweet potatoes and air fryers are a perfect match. The concentrated, circulating heat caramelises the natural sugars in sweet potato far more effectively than a conventional oven, producing deeply golden, almost candy-like edges on fries and a rich, caramel-scented flesh on whole baked ones. The results feel indulgent but the method is remarkably healthy — barely any oil, no deep frying, and sweet potatoes are packed with fiber, vitamin A, and potassium.
+    shortDescription: "Sweet potatoes two ways in the air fryer: whole baked with caramelised, candy-like skin, or cut into crispy fries with a smoked paprika seasoning. The air fryer caramelises the natural sugars in sweet potato better than any oven, producing edges that are crisp and centers that are soft and creamy.",
+    intro: `Sweet potatoes and air fryers are a perfect match. The concentrated, circulating heat caramelises the natural sugars in sweet potato far more effectively than a conventional oven, producing deeply golden, almost candy-like edges on fries and a rich, caramel-scented flesh on whole baked ones. The results feel indulgent but the method is remarkably healthy: barely any oil, no deep frying, and sweet potatoes are packed with fiber, vitamin A, and potassium.
 
 This recipe gives you two methods: a whole baked sweet potato for when you want something simple and satisfying, and crispy sweet potato fries for when you want a snack or side dish that disappears the moment it hits the table. The fries require one specific trick to avoid sogginess: cornstarch. A light dusting absorbs surface moisture and creates a thin, crispy shell that stays crunchy for several minutes after cooking. Without it, sweet potato fries go limp almost immediately because of their high moisture content.
 
-In the Gulf, sweet potatoes have become increasingly popular over the past decade — driven partly by health-conscious eating trends and partly by their natural sweetness, which appeals to Gulf palates. You will find them roasted at street food stalls, baked at health-focused cafes, and served as fries at casual restaurants across Dubai, Riyadh, and Doha.
+In the Gulf, sweet potatoes have become increasingly popular over the past decade, driven partly by health-conscious eating trends and partly by their natural sweetness, which appeals to Gulf palates. You will find them roasted at street food stalls, baked at health-focused cafes, and served as fries at casual restaurants across Dubai, Riyadh, and Doha.
 
 **Pro Tip:** For fries, soak the cut sweet potato in cold water for 30 minutes before cooking. This removes excess starch and moisture, resulting in crispier fries.`,
     author: "sarah-al-fayed",
@@ -1492,8 +1492,8 @@ In the Gulf, sweet potatoes have become increasingly popular over the past decad
       { step: 3, text: "Air fry at 200°C for 35 to 40 minutes, rotating halfway, until a knife slides in easily and the skin is caramelised and slightly wrinkled.", tip: "Sweet potatoes leak sugar as they cook. Line the basket with parchment to avoid sticky cleanup." },
       { step: 4, text: "FOR FRIES: Peel the sweet potatoes and cut into even sticks about 1cm (⅓ inch) thick. Even cuts mean even cooking.", tip: "Cut them thinner than you think. Sweet potato fries shrink as they cook and thicker cuts stay soft in the middle." },
       { step: 5, text: "Soak the cut fries in cold water for 30 minutes to remove excess starch. Drain and pat completely dry with paper towels." },
-      { step: 6, text: "Toss the dry fries with cornstarch first — shake off any excess. Then toss with olive oil, smoked paprika, garlic powder, salt, and pepper.", tip: "The cornstarch is the crunch secret. It absorbs surface moisture and creates a thin crispy shell that prevents sogginess." },
-      { step: 7, text: "Arrange fries in a single layer in the air fryer basket. Do not overcrowd — cook in batches if needed. Air fry at 200°C (400°F) for 10 minutes, shake the basket, then cook for another 8 to 12 minutes until crispy and golden at the edges." },
+      { step: 6, text: "Toss the dry fries with cornstarch first. Shake off any excess. Then toss with olive oil, smoked paprika, garlic powder, salt, and pepper.", tip: "The cornstarch is the crunch secret. It absorbs surface moisture and creates a thin crispy shell that prevents sogginess." },
+      { step: 7, text: "Arrange fries in a single layer in the air fryer basket. Do not overcrowd. Cook in batches if needed. Air fry at 200°C (400°F) for 10 minutes, shake the basket, then cook for another 8 to 12 minutes until crispy and golden at the edges." },
       { step: 8, text: "Season with additional salt immediately after removing from the air fryer. Serve fries with your favourite dipping sauce or serve baked sweet potatoes split open with butter, cinnamon, and a drizzle of honey." },
     ],
     equipment: ["Air fryer", "Fork", "Paper towels", "Large mixing bowl"],
@@ -1514,7 +1514,7 @@ In the Gulf, sweet potatoes have become increasingly popular over the past decad
       "Cinnamon sugar fries: Toss cooked fries in a mix of 1 tbsp sugar and ½ tsp cinnamon for a dessert-style snack.",
       "Loaded baked sweet potato: Top with black beans, corn, avocado, and a drizzle of lime crema.",
       "Spicy fries: Add ½ tsp cayenne pepper to the seasoning mix.",
-      "Japanese-style: Top baked sweet potato with a pat of butter and nothing else — the caramelised natural sweetness is the star.",
+      "Japanese-style: Top baked sweet potato with a pat of butter and nothing else. The caramelised natural sweetness is the star.",
     ],
     servingSuggestions: [
       "Serve fries with garlic aioli, chipotle mayo, or a simple yogurt dip.",
@@ -1527,8 +1527,8 @@ In the Gulf, sweet potatoes have become increasingly popular over the past decad
       { question: "How do I make crispy sweet potato fries in the air fryer?", answer: "Three things: soak them in cold water for 30 minutes, pat them completely dry, and toss with cornstarch before seasoning. The soak removes starch, the drying prevents steaming, and the cornstarch creates a crispy shell." },
       { question: "Why are my sweet potato fries soggy?", answer: "Most likely causes: too much moisture on the surface (dry them thoroughly), overcrowding the basket (cook in batches), or skipping the cornstarch coating. All three contribute to sogginess." },
       { question: "How long do sweet potatoes take in the air fryer?", answer: "Whole baked: 35 to 40 minutes at 200°C (400°F). Fries: 18 to 22 minutes at 200°C, shaking halfway. Times vary based on thickness." },
-      { question: "Do I need to peel sweet potatoes for fries?", answer: "For fries, yes — the peel can prevent even crisping. For whole baked sweet potatoes, leave the skin on — it caramelises beautifully and is edible." },
-      { question: "Can I use regular potatoes for the fries method?", answer: "Yes, but skip the cornstarch (regular potatoes have enough surface starch on their own). Cook time is similar — 18 to 22 minutes, shaking halfway." },
+      { question: "Do I need to peel sweet potatoes for fries?", answer: "For fries, yes: the peel can prevent even crisping. For whole baked sweet potatoes, leave the skin on. It caramelises beautifully and is edible." },
+      { question: "Can I use regular potatoes for the fries method?", answer: "Yes, but skip the cornstarch (regular potatoes have enough surface starch on their own). Cook time is similar: 18 to 22 minutes, shaking halfway." },
     ],
     relatedRecipeSlugs: ["air-fryer-baked-potato", "air-fryer-chicken-tenders"],
   },
@@ -1539,12 +1539,12 @@ In the Gulf, sweet potatoes have become increasingly popular over the past decad
     pageTitle: "Air Fryer Chocolate Chip Cookies: Small-Batch in 8 Minutes",
     seoTitle: "Air Fryer Chocolate Chip Cookies (Small Batch)",
     metaDescription: "Small-batch air fryer chocolate chip cookies with crispy edges and soft, gooey centers. Just 6 cookies, no oven preheating, ready in 8 minutes.",
-    shortDescription: "Small-batch chocolate chip cookies baked in the air fryer — crispy golden edges, soft and gooey centers, and melted chocolate in every bite. This recipe makes just 6 cookies: perfect for a quick dessert without the temptation of three dozen cooling on the counter. No oven preheating, no baking sheets. Ready in 8 minutes.",
-    intro: `The air fryer makes surprisingly excellent cookies — and the case for baking them this way is not just speed (though 8 minutes versus 12 to 15 in an oven is nice). The real advantage is texture. The circulating hot air crisps the edges of the cookie while the center stays soft and slightly underdone, creating that bakery-style contrast between crunch and chew that home ovens often struggle to achieve.
+    shortDescription: "Small-batch chocolate chip cookies baked in the air fryer: crispy golden edges, soft and gooey centers, and melted chocolate in every bite. This recipe makes just 6 cookies: perfect for a quick dessert without the temptation of three dozen cooling on the counter. No oven preheating, no baking sheets. Ready in 8 minutes.",
+    intro: `The air fryer makes surprisingly excellent cookies, and the case for baking them this way is not just speed (though 8 minutes versus 12 to 15 in an oven is nice). The real advantage is texture. The circulating hot air crisps the edges of the cookie while the center stays soft and slightly underdone, creating that bakery-style contrast between crunch and chew that home ovens often struggle to achieve.
 
-The other advantage is portion control. This is a small-batch recipe that makes exactly 6 cookies. No scaling up a giant recipe and ending up with three dozen cookies that call to you from the kitchen counter all week. You mix the dough, scoop it, and eight minutes later you have a warm dessert — enough for two people with a couple left over, or enough for one person who has had a day.
+The other advantage is portion control. This is a small-batch recipe that makes exactly 6 cookies. No scaling up a giant recipe and ending up with three dozen cookies that call to you from the kitchen counter all week. You mix the dough, scoop it, and eight minutes later you have a warm dessert, enough for two people with a couple left over, or enough for one person who has had a day.
 
-The dough itself is a straightforward brown-butter chocolate chip cookie base. Browning the butter takes two extra minutes but adds a nutty, caramel-like depth that separates these from basic cookies. If you are in a rush, melted (not browned) butter works fine — the cookies will be less complex in flavor but still excellent.
+The dough itself is a straightforward brown-butter chocolate chip cookie base. Browning the butter takes two extra minutes but adds a nutty, caramel-like depth that separates these from basic cookies. If you are in a rush, melted (not browned) butter works fine. The cookies will be less complex in flavor but still excellent.
 
 **Pro Tip:** Chill the dough balls for 15 minutes in the fridge before air frying. Cold dough spreads more slowly, producing thicker cookies with better texture.`,
     author: "sarah-al-fayed",
@@ -1567,7 +1567,7 @@ The dough itself is a straightforward brown-butter chocolate chip cookie base. B
       {
         items: [
           { item: "unsalted butter", amount: "3", unit: "tbsp", note: "browned or melted", amountNumeric: 3 },
-          { item: "brown sugar", amount: "¼", unit: "cup", note: "packed — dark or light", amountNumeric: 0.25 },
+          { item: "brown sugar", amount: "¼", unit: "cup", note: "packed, dark or light", amountNumeric: 0.25 },
           { item: "granulated sugar", amount: "1", unit: "tbsp", amountNumeric: 1 },
           { item: "egg yolk", amount: "1", unit: "large", amountNumeric: 1 },
           { item: "alcohol-free vanilla", amount: "½", unit: "tsp", note: "or vanilla bean paste", amountNumeric: 0.5 },
@@ -1575,28 +1575,28 @@ The dough itself is a straightforward brown-butter chocolate chip cookie base. B
           { item: "baking soda", amount: "¼", unit: "tsp", amountNumeric: 0.25 },
           { item: "salt", amount: "¼", unit: "tsp", amountNumeric: 0.25 },
           { item: "chocolate chips", amount: "⅓", unit: "cup", note: "semi-sweet or dark", amountNumeric: 0.33 },
-          { item: "flaky sea salt", note: "for finishing — optional" },
+          { item: "flaky sea salt", note: "for finishing (optional)" },
         ],
       },
     ],
     instructions: [
-      { step: 1, text: "If browning the butter: melt 3 tablespoons of butter in a small saucepan over medium heat. Swirl occasionally until the butter foams, turns golden, and smells nutty — about 3 minutes. Pour into a mixing bowl and let cool for 5 minutes.", tip: "Watch the butter closely once it starts to foam. It goes from browned to burnt in seconds. The brown bits at the bottom are flavor, not burned — scrape them all into the bowl." },
+      { step: 1, text: "If browning the butter: melt 3 tablespoons of butter in a small saucepan over medium heat. Swirl occasionally until the butter foams, turns golden, and smells nutty, about 3 minutes. Pour into a mixing bowl and let cool for 5 minutes.", tip: "Watch the butter closely once it starts to foam. It goes from browned to burnt in seconds. The brown bits at the bottom are flavor, not burned. Scrape them all into the bowl." },
       { step: 2, text: "Stir the brown sugar and granulated sugar into the cooled butter until combined. Add the egg yolk and vanilla and mix until smooth." },
-      { step: 3, text: "Add the flour, baking soda, and salt. Stir with a spatula until just combined — do not overmix. Fold in the chocolate chips." },
+      { step: 3, text: "Add the flour, baking soda, and salt. Stir with a spatula until just combined. Do not overmix. Fold in the chocolate chips." },
       { step: 4, text: "Scoop the dough into 6 equal balls (about 1.5 tablespoons each). Place on a small plate and chill in the fridge for 15 minutes.", tip: "Chilling is optional but recommended. Cold dough spreads more slowly, producing thicker, chewier cookies with better shape." },
       { step: 5, text: "Preheat the air fryer to 165°C (325°F). Cut a piece of parchment paper to fit the basket." },
       { step: 6, text: "Place the dough balls on the parchment in the air fryer basket, leaving at least 5cm (2 inches) between each cookie. You may need to bake in two batches of 3." },
-      { step: 7, text: "Air fry at 165°C (325°F) for 7 to 8 minutes. The cookies should look slightly underdone in the center — they will firm up as they cool.", tip: "Pull them at 7 minutes if you want gooey centers. The carry-over heat continues cooking them for another minute after removal." },
+      { step: 7, text: "Air fry at 165°C (325°F) for 7 to 8 minutes. The cookies should look slightly underdone in the center. They will firm up as they cool.", tip: "Pull them at 7 minutes if you want gooey centers. The carry-over heat continues cooking them for another minute after removal." },
       { step: 8, text: "Sprinkle with flaky sea salt immediately. Let the cookies cool on the parchment for 3 minutes (they will be very soft at first), then transfer to a plate. Serve warm." },
     ],
     equipment: ["Air fryer", "Small saucepan (for browning butter)", "Mixing bowl", "Spatula", "Parchment paper"],
     tips: [
-      "Use parchment paper — always. Cookie dough will stick to the air fryer basket and burn.",
+      "Use parchment paper, always. Cookie dough will stick to the air fryer basket and burn.",
       "Lower temperature is key. Unlike other air fryer recipes that use 200°C, cookies need 165°C (325°F). Higher temps burn the edges before the center sets.",
       "The cookies look underdone when you pull them out. That is correct. They firm up significantly as they cool. If they look done in the air fryer, they are overdone.",
       "Chilling the dough prevents flat, thin cookies. Even 10 minutes in the fridge helps.",
       "Do not overcrowd. The cookies spread, and touching cookies merge into one giant cookie (delicious but not the goal).",
-      "Flaky sea salt on top is optional but highly recommended — it intensifies the chocolate and caramel notes from the brown butter.",
+      "Flaky sea salt on top is optional but highly recommended: it intensifies the chocolate and caramel notes from the brown butter.",
     ],
     substitutions: [
       "No time to brown butter? Melted butter works fine. The cookies will be good, just less complex in flavor.",
@@ -1610,12 +1610,12 @@ The dough itself is a straightforward brown-butter chocolate chip cookie base. B
       "Pair with a glass of cold milk or a hot latte for the classic combination.",
       "Crumble over a bowl of ice cream for a deconstructed cookie sundae.",
     ],
-    storage: "Store in an airtight container at room temperature for up to 3 days. Reheat in the air fryer at 150°C (300°F) for 2 minutes to restore the warm, gooey center. Raw dough balls can be frozen for up to 3 months — bake straight from frozen, adding 1 to 2 minutes.",
+    storage: "Store in an airtight container at room temperature for up to 3 days. Reheat in the air fryer at 150°C (300°F) for 2 minutes to restore the warm, gooey center. Raw dough balls can be frozen for up to 3 months. Bake straight from frozen, adding 1 to 2 minutes.",
     faqs: [
-      { question: "Can you bake cookies in an air fryer?", answer: "Absolutely. The air fryer produces excellent cookies — crispy edges and soft centers — in about 8 minutes at 165°C (325°F). Use parchment paper and leave space between each cookie for spreading." },
-      { question: "Why are my air fryer cookies burnt on the edges?", answer: "The temperature is too high. Cookies need 165°C (325°F), not the 200°C used for most air fryer cooking. Also check that you are using parchment paper — direct contact with the metal basket scorches the bottom." },
-      { question: "How long do cookies take in the air fryer?", answer: "7 to 8 minutes at 165°C (325°F). They should look slightly underdone when removed — they firm up as they cool. If they look fully done in the air fryer, they will be hard once cooled." },
-      { question: "Why did my cookies spread too flat?", answer: "The dough was too warm. Chill the dough balls for 15 minutes before baking. Also make sure you used the right flour measurement — too little flour causes spreading." },
+      { question: "Can you bake cookies in an air fryer?", answer: "Absolutely. The air fryer produces excellent cookies (crispy edges and soft centers) in about 8 minutes at 165°C (325°F). Use parchment paper and leave space between each cookie for spreading." },
+      { question: "Why are my air fryer cookies burnt on the edges?", answer: "The temperature is too high. Cookies need 165°C (325°F), not the 200°C used for most air fryer cooking. Also check that you are using parchment paper. Direct contact with the metal basket scorches the bottom." },
+      { question: "How long do cookies take in the air fryer?", answer: "7 to 8 minutes at 165°C (325°F). They should look slightly underdone when removed. They firm up as they cool. If they look fully done in the air fryer, they will be hard once cooled." },
+      { question: "Why did my cookies spread too flat?", answer: "The dough was too warm. Chill the dough balls for 15 minutes before baking. Also make sure you used the right flour measurement: too little flour causes spreading." },
       { question: "Can I use store-bought cookie dough?", answer: "Yes. Slice pre-made cookie dough into rounds and air fry at 165°C for 6 to 8 minutes. Results are good, though not as good as fresh dough." },
     ],
     relatedRecipeSlugs: ["air-fryer-baked-potato", "air-fryer-chicken-tenders"],
@@ -1627,8 +1627,8 @@ The dough itself is a straightforward brown-butter chocolate chip cookie base. B
     pageTitle: "Air Fryer Tofu: Crispy Marinated Cubes",
     seoTitle: "Air Fryer Tofu: Crispy Without Deep Frying",
     metaDescription: "Crispy air fryer tofu: pressed, marinated in soy and garlic, then coated in cornstarch for a crunchy outside and a tender centre. No deep frying.",
-    shortDescription: "Crispy, golden tofu cubes with a shattering cornstarch crust and a tender, flavor-soaked interior — made in the air fryer with barely a tablespoon of oil. A quick soy-garlic-ginger marinade seasons the tofu all the way through, and a light cornstarch coating crisps it to deep-fried perfection.",
-    intro: `Tofu in the air fryer is a revelation for anyone who has struggled with soggy, bland tofu on the stovetop. The circulating hot air crisps every surface of the cube evenly, producing a crunch that rivals deep frying — without a pot of oil or the mess that comes with it. The key is pressing the tofu first to remove excess water, then marinating it briefly so it absorbs flavor before the cornstarch coating goes on.
+    shortDescription: "Crispy, golden tofu cubes with a shattering cornstarch crust and a tender, flavor-soaked interior, made in the air fryer with barely a tablespoon of oil. A quick soy-garlic-ginger marinade seasons the tofu all the way through, and a light cornstarch coating crisps it to deep-fried perfection.",
+    intro: `Tofu in the air fryer is a revelation for anyone who has struggled with soggy, bland tofu on the stovetop. The circulating hot air crisps every surface of the cube evenly, producing a crunch that rivals deep frying, without a pot of oil or the mess that comes with it. The key is pressing the tofu first to remove excess water, then marinating it briefly so it absorbs flavor before the cornstarch coating goes on.
 
 Most tofu recipes fail for one of two reasons: not enough seasoning or not enough texture. This recipe solves both. The soy-garlic-ginger marinade saturates the tofu with umami, and the cornstarch coating creates a thin, crispy shell that shatters when you bite into it. The contrast between the crunchy exterior and the soft, creamy interior is what makes this recipe work.
 
@@ -1657,7 +1657,7 @@ In the Gulf, tofu has found a growing audience among health-conscious eaters and
       {
         title: "Tofu",
         items: [
-          { item: "extra-firm tofu", amount: "400", unit: "g", note: "one block — pressed for 15 to 30 minutes", amountNumeric: 400 },
+          { item: "extra-firm tofu", amount: "400", unit: "g", note: "one block, pressed for 15 to 30 minutes", amountNumeric: 400 },
           { item: "soy sauce", amount: "2", unit: "tbsp", amountNumeric: 2 },
           { item: "sesame oil", amount: "1", unit: "tsp", amountNumeric: 1 },
           { item: "rice vinegar", amount: "1", unit: "tsp", amountNumeric: 1 },
@@ -1680,9 +1680,9 @@ In the Gulf, tofu has found a growing audience among health-conscious eaters and
     ],
     instructions: [
       { step: 1, text: "Press the tofu: drain the block, wrap it in several layers of paper towels or a clean kitchen towel, and place a heavy object on top (a cast iron pan or a stack of plates). Press for 15 to 30 minutes.", tip: "This step is non-negotiable. Unpressed tofu is too waterlogged to crisp or absorb marinade. Longer pressing gives better results." },
-      { step: 2, text: "Cut the pressed tofu into bite-sized cubes — about 2cm (¾ inch) pieces." },
-      { step: 3, text: "In a bowl, whisk together the soy sauce, sesame oil, rice vinegar, minced garlic, and grated ginger. Add the tofu cubes and toss gently to coat. Let marinate for 15 minutes, tossing once halfway through.", tip: "Do not marinate for more than 30 minutes — the tofu can become too salty and start to break apart." },
-      { step: 4, text: "Drain any excess marinade from the tofu. Sprinkle the cornstarch over the cubes and toss gently until every piece is evenly coated.", tip: "The cornstarch is the crunch layer. Make sure every surface is covered — any bare spots will stay soft." },
+      { step: 2, text: "Cut the pressed tofu into bite-sized cubes, about 2cm (¾ inch) pieces." },
+      { step: 3, text: "In a bowl, whisk together the soy sauce, sesame oil, rice vinegar, minced garlic, and grated ginger. Add the tofu cubes and toss gently to coat. Let marinate for 15 minutes, tossing once halfway through.", tip: "Do not marinate for more than 30 minutes. The tofu can become too salty and start to break apart." },
+      { step: 4, text: "Drain any excess marinade from the tofu. Sprinkle the cornstarch over the cubes and toss gently until every piece is evenly coated.", tip: "The cornstarch is the crunch layer. Make sure every surface is covered: any bare spots will stay soft." },
       { step: 5, text: "Preheat the air fryer to 200°C (400°F)." },
       { step: 6, text: "Arrange the tofu cubes in a single layer in the air fryer basket. Leave space between each piece. Spray lightly with cooking oil." },
       { step: 7, text: "Air fry at 200°C (400°F) for 12 to 15 minutes, shaking the basket or flipping the cubes at the halfway mark. Cook until golden brown and crispy on all sides." },
@@ -1695,7 +1695,7 @@ In the Gulf, tofu has found a growing audience among health-conscious eaters and
       "Cornstarch creates the crispy coating. Without it, the tofu will be soft on the outside.",
       "Do not overcrowd the basket. Tofu needs air on all sides to crisp evenly. Cook in batches if necessary.",
       "Shake the basket or flip the cubes at the halfway mark for even browning on all sides.",
-      "Serve immediately. Tofu loses its crispiness faster than chicken — within 10 to 15 minutes, the cornstarch coating softens.",
+      "Serve immediately. Tofu loses its crispiness faster than chicken: within 10 to 15 minutes, the cornstarch coating softens.",
     ],
     substitutions: [
       "No cornstarch? Arrowroot powder or tapioca starch work the same way. Regular flour also works but produces a slightly less crispy result.",
@@ -1719,8 +1719,8 @@ In the Gulf, tofu has found a growing audience among health-conscious eaters and
     storage: "Store leftover tofu in the fridge for up to 3 days. Reheat in the air fryer at 190°C (375°F) for 4 to 5 minutes to restore some crispness. Microwaving will make it soft.",
     faqs: [
       { question: "How do I make crispy tofu in the air fryer?", answer: "Three essential steps: press the tofu for 15 to 30 minutes to remove water, coat it in cornstarch for a crispy shell, and cook at 200°C (400°F) for 12 to 15 minutes with space between each piece." },
-      { question: "Do I need to press tofu before air frying?", answer: "Yes. Tofu is full of water that prevents both crispy texture and flavor absorption. Press it for at least 15 minutes — wrap in paper towels and place a heavy object on top." },
-      { question: "What type of tofu is best for the air fryer?", answer: "Extra-firm tofu. It holds its shape, absorbs marinade well, and crisps the best. Firm tofu works but is more fragile. Avoid silken or soft tofu — they will crumble." },
+      { question: "Do I need to press tofu before air frying?", answer: "Yes. Tofu is full of water that prevents both crispy texture and flavor absorption. Press it for at least 15 minutes: wrap in paper towels and place a heavy object on top." },
+      { question: "What type of tofu is best for the air fryer?", answer: "Extra-firm tofu. It holds its shape, absorbs marinade well, and crisps the best. Firm tofu works but is more fragile. Avoid silken or soft tofu. They will crumble." },
       { question: "Can I air fry tofu without cornstarch?", answer: "You can, but the outside will not be crispy. The cornstarch creates a thin shell that crisps in the hot air. Without it, the tofu will be golden but soft-textured on the outside." },
       { question: "Why is my air fryer tofu still soggy?", answer: "Three likely causes: the tofu was not pressed long enough, the basket was overcrowded (causing steaming), or you skipped the cornstarch. All three contribute to sogginess." },
     ],
@@ -1736,11 +1736,11 @@ In the Gulf, tofu has found a growing audience among health-conscious eaters and
     shortDescription: "Cauliflower florets roasted in the air fryer until the edges are crispy and golden, tossed in olive oil, garlic, and a generous shower of parmesan. The air fryer caramelises cauliflower faster and more evenly than a conventional oven, turning an everyday vegetable into something people actually fight over at the dinner table.",
     intro: `Cauliflower is one of the most underrated vegetables for the air fryer. The circulating heat hits every surface of each floret, crisping the edges to a deep golden brown while keeping the interior tender and slightly nutty. In a conventional oven, this level of caramelisation takes 30 to 40 minutes and usually requires flipping. In the air fryer, you get there in 15 minutes with a single shake of the basket.
 
-The garlic and parmesan here are not just seasoning — they are architecture. The parmesan melts into a thin, crispy crust on the surface of each floret, and the garlic toasts to a sweet, mellow flavor that bears no resemblance to the sharp bite of raw garlic. Together, they transform plain cauliflower into something that genuinely competes with fries and chips for snacking appeal.
+The garlic and parmesan here are not just seasoning. They are architecture. The parmesan melts into a thin, crispy crust on the surface of each floret, and the garlic toasts to a sweet, mellow flavor that bears no resemblance to the sharp bite of raw garlic. Together, they transform plain cauliflower into something that genuinely competes with fries and chips for snacking appeal.
 
 The trick to great air fryer cauliflower is not overcrowding the basket. Cauliflower releases moisture as it cooks, and if the florets are packed in too tightly, they steam instead of roasting. The difference between crowded cauliflower (soft, pale, slightly mushy) and properly spaced cauliflower (crispy, golden, caramelised) is dramatic.
 
-In Gulf kitchens, cauliflower has always been popular — used in everything from Indian-influenced gobi dishes to Arabic-style fried cauliflower with tahini. The air fryer version adds a Western twist with parmesan while keeping the simplicity that makes cauliflower a weeknight staple.
+In Gulf kitchens, cauliflower has always been popular, used in everything from Indian-influenced gobi dishes to Arabic-style fried cauliflower with tahini. The air fryer version adds a Western twist with parmesan while keeping the simplicity that makes cauliflower a weeknight staple.
 
 **Pro Tip:** Add the parmesan during the last 3 minutes of cooking, not at the start. This prevents it from burning and gives you a golden, crispy cheese crust.`,
     author: "sarah-al-fayed",
@@ -1768,7 +1768,7 @@ In Gulf kitchens, cauliflower has always been popular — used in everything fro
           { item: "smoked paprika", amount: "½", unit: "tsp", amountNumeric: 0.5 },
           { item: "salt", amount: "¾", unit: "tsp", amountNumeric: 0.75 },
           { item: "black pepper", amount: "¼", unit: "tsp", amountNumeric: 0.25 },
-          { item: "grated parmesan cheese", amount: "⅓", unit: "cup", note: "about 30g — add during last 3 minutes", amountNumeric: 0.33 },
+          { item: "grated parmesan cheese", amount: "⅓", unit: "cup", note: "about 30g, add during last 3 minutes", amountNumeric: 0.33 },
           { item: "fresh parsley, chopped", note: "for garnish" },
           { item: "lemon wedges", note: "for serving" },
         ],
@@ -1778,7 +1778,7 @@ In Gulf kitchens, cauliflower has always been popular — used in everything fro
       { step: 1, text: "Cut the cauliflower into evenly sized bite-sized florets. Smaller, similar-sized pieces cook more evenly. Pat dry if you washed them.", tip: "Dry florets roast; wet florets steam. A few seconds with a paper towel makes a real difference." },
       { step: 2, text: "In a large bowl, toss the cauliflower florets with olive oil, minced garlic, garlic powder, smoked paprika, salt, and black pepper until evenly coated." },
       { step: 3, text: "Preheat the air fryer to 200°C (400°F)." },
-      { step: 4, text: "Arrange the cauliflower in a single layer in the air fryer basket. Do not overcrowd — cook in batches if needed. Leave space between florets for air circulation." },
+      { step: 4, text: "Arrange the cauliflower in a single layer in the air fryer basket. Do not overcrowd. Cook in batches if needed. Leave space between florets for air circulation." },
       { step: 5, text: "Air fry at 200°C (400°F) for 10 minutes. Shake the basket to redistribute." },
       { step: 6, text: "Sprinkle the grated parmesan evenly over the cauliflower. Cook for another 3 to 5 minutes until the cauliflower is golden brown at the edges and the parmesan has melted into a crispy crust.", tip: "Adding parmesan at the end prevents burning. At 200°C for the full cook time, it would turn bitter." },
       { step: 7, text: "Remove from the air fryer. Garnish with fresh chopped parsley and a squeeze of lemon juice. Serve immediately while the parmesan crust is still crispy." },
@@ -1794,7 +1794,7 @@ In Gulf kitchens, cauliflower has always been popular — used in everything fro
     substitutions: [
       "No parmesan? Use nutritional yeast for a vegan version that still gives a savoury, cheesy flavour.",
       "Swap smoked paprika for regular paprika or a pinch of cumin.",
-      "Use broccoli florets instead of cauliflower — same method, same cook time.",
+      "Use broccoli florets instead of cauliflower. Same method, same cook time.",
       "For a Middle Eastern twist, replace parmesan with za'atar and serve with tahini drizzle.",
     ],
     variations: [
@@ -1814,7 +1814,7 @@ In Gulf kitchens, cauliflower has always been popular — used in everything fro
     faqs: [
       { question: "How long does cauliflower take in the air fryer?", answer: "13 to 15 minutes at 200°C (400°F). Shake the basket at the 10-minute mark and add parmesan for the final 3 minutes." },
       { question: "Why is my air fryer cauliflower not crispy?", answer: "Most likely the basket was overcrowded. Cauliflower releases moisture as it cooks, and too many florets packed together causes steaming instead of roasting. Cook in batches with space between pieces." },
-      { question: "Can I use frozen cauliflower?", answer: "Yes, but it will not be as crispy as fresh. Do not thaw it — cook from frozen, adding 3 to 5 extra minutes to the cook time. The excess moisture from freezing makes it harder to achieve crispy edges." },
+      { question: "Can I use frozen cauliflower?", answer: "Yes, but it will not be as crispy as fresh. Do not thaw it. Cook from frozen, adding 3 to 5 extra minutes to the cook time. The excess moisture from freezing makes it harder to achieve crispy edges." },
       { question: "Is air fryer cauliflower healthy?", answer: "Very. Cauliflower is low in calories and high in fiber, vitamin C, and vitamin K. Air frying uses minimal oil compared to roasting or deep frying. A serving of this recipe has about 120 calories including the parmesan." },
       { question: "What other seasonings work for air fryer cauliflower?", answer: "Almost anything. Popular options include curry powder, za'atar, ranch seasoning, cajun spice, or a simple lemon-herb blend. Cauliflower is a blank canvas that takes on whatever flavour you give it." },
     ],

@@ -14,7 +14,7 @@ export default function CopyrightPolicyPage() {
         <h1 className="font-serif text-4xl text-deep-plum mb-6">Copyright Policy</h1>
         <div className="space-y-6 text-charcoal leading-relaxed">
           <p className="p-4 bg-soft-sand border border-warm-taupe text-sm"><strong>Note:</strong> This is a draft copyright policy provided as a template. It must be reviewed and finalized by a qualified legal professional before publication.</p>
-          <p>All content on GulfSpoon — including recipes, articles, photographs, illustrations, and design elements — is the intellectual property of GulfSpoon unless otherwise attributed.</p>
+          <p>All content on GulfSpoon (including recipes, articles, photographs, illustrations, and design elements) is the intellectual property of GulfSpoon unless otherwise attributed.</p>
           <h2 className="font-serif text-2xl text-deep-plum mt-8">Permitted Use</h2>
           <p>You may share individual recipes for personal, non-commercial use with a link back to the original page on GulfSpoon.</p>
           <h2 className="font-serif text-2xl text-deep-plum mt-8">Prohibited Use</h2>
