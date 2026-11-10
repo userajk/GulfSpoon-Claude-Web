@@ -46,7 +46,7 @@ Making a good latte at home comes down to two things: strong, concentrated coffe
       {
         title: "Optional Flavorings",
         items: [
-          { item: "vanilla extract", amount: "½", unit: "tsp", note: "or 1 tbsp vanilla syrup", amountNumeric: 0.5 },
+          { item: "alcohol-free vanilla", amount: "½", unit: "tsp", note: "or 1 tbsp vanilla syrup", amountNumeric: 0.5 },
           { item: "granulated sugar or sweetener", amount: "1", unit: "tsp", note: "to taste", amountNumeric: 1 },
         ],
       },
@@ -73,7 +73,7 @@ Making a good latte at home comes down to two things: strong, concentrated coffe
       "No espresso machine? A moka pot (stovetop espresso maker) produces strong coffee that works perfectly. A 3-cup Bialetti is the most popular size for a single latte.",
       "No moka pot either? Use a French press with double the normal coffee amount and half the water. Steep for 4 minutes for a concentrated brew.",
       "For dairy-free lattes, barista-edition oat milk is the closest to whole milk in terms of frothing and taste. Avoid regular oat or almond milk — they tend to separate and produce thin foam.",
-      "Replace vanilla extract with caramel syrup, hazelnut syrup, or a pinch of cinnamon for different flavor profiles.",
+      "Replace the vanilla with caramel syrup, hazelnut syrup, or a pinch of cinnamon for different flavor profiles.",
     ],
     variations: [
       "Iced latte: Brew a double espresso and let it cool for 2 minutes. Fill a tall glass with ice, pour the espresso over it, then add cold milk (no frothing needed). Stir and serve.",
@@ -1568,7 +1568,7 @@ The dough itself is a straightforward brown-butter chocolate chip cookie base. B
           { item: "brown sugar", amount: "¼", unit: "cup", note: "packed — dark or light", amountNumeric: 0.25 },
           { item: "granulated sugar", amount: "1", unit: "tbsp", amountNumeric: 1 },
           { item: "egg yolk", amount: "1", unit: "large", amountNumeric: 1 },
-          { item: "vanilla extract", amount: "½", unit: "tsp", amountNumeric: 0.5 },
+          { item: "alcohol-free vanilla", amount: "½", unit: "tsp", note: "or vanilla bean paste", amountNumeric: 0.5 },
           { item: "all-purpose flour", amount: "½", unit: "cup", note: "plus 2 tbsp (about 80g)", amountNumeric: 0.5 },
           { item: "baking soda", amount: "¼", unit: "tsp", amountNumeric: 0.25 },
           { item: "salt", amount: "¼", unit: "tsp", amountNumeric: 0.25 },
@@ -1579,7 +1579,7 @@ The dough itself is a straightforward brown-butter chocolate chip cookie base. B
     ],
     instructions: [
       { step: 1, text: "If browning the butter: melt 3 tablespoons of butter in a small saucepan over medium heat. Swirl occasionally until the butter foams, turns golden, and smells nutty — about 3 minutes. Pour into a mixing bowl and let cool for 5 minutes.", tip: "Watch the butter closely once it starts to foam. It goes from browned to burnt in seconds. The brown bits at the bottom are flavor, not burned — scrape them all into the bowl." },
-      { step: 2, text: "Stir the brown sugar and granulated sugar into the cooled butter until combined. Add the egg yolk and vanilla extract and mix until smooth." },
+      { step: 2, text: "Stir the brown sugar and granulated sugar into the cooled butter until combined. Add the egg yolk and vanilla and mix until smooth." },
       { step: 3, text: "Add the flour, baking soda, and salt. Stir with a spatula until just combined — do not overmix. Fold in the chocolate chips." },
       { step: 4, text: "Scoop the dough into 6 equal balls (about 1.5 tablespoons each). Place on a small plate and chill in the fridge for 15 minutes.", tip: "Chilling is optional but recommended. Cold dough spreads more slowly, producing thicker, chewier cookies with better shape." },
       { step: 5, text: "Preheat the air fryer to 165°C (325°F). Cut a piece of parchment paper to fit the basket." },
@@ -1702,7 +1702,7 @@ In the Gulf, tofu has found a growing audience among health-conscious eaters and
       "For a no-marinade shortcut, simply season pressed tofu cubes with salt, garlic powder, and a spray of oil before coating in cornstarch.",
     ],
     variations: [
-      "Teriyaki tofu: Toss cooked tofu in a quick teriyaki sauce (soy sauce, mirin, sugar, ginger) for a sweet-savory version.",
+      "Teriyaki tofu: Toss cooked tofu in a quick teriyaki sauce (soy sauce, honey, rice vinegar, ginger) for a sweet-savory version.",
       "Salt and pepper tofu: Skip the marinade. Season with salt, white pepper, black pepper, and garlic powder after coating in cornstarch.",
       "Peanut tofu: Toss cooked cubes in a peanut sauce (peanut butter, soy sauce, lime juice, sriracha) and top with crushed peanuts.",
       "Mediterranean: Season with za'atar, lemon juice, and olive oil instead of the Asian-style marinade.",
