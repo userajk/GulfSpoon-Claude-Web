@@ -1,9 +1,10 @@
 name: Daily publish
 
-# The site is a static export, so scheduled recipes and guides only appear after a rebuild.
-# Hostinger rebuilds on every push to master. This job runs just after midnight Gulf time
-# (00:05 Asia/Dubai = 20:05 UTC) and, if any content is dated today, pushes an empty commit
-# to trigger that rebuild.
+# Hostinger serves the committed out/ folder (the static export), so a scheduled
+# recipe or guide only appears once out/ is rebuilt and pushed. This job runs just
+# after midnight Gulf time (00:05 Asia/Dubai = 20:05 UTC). If any content is dated
+# today, it rebuilds the site (the build only includes content whose date has
+# arrived and whose hero image exists) and pushes the new out/ to master.
 
 on:
   schedule:
@@ -40,10 +41,27 @@ jobs:
             echo "due=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Trigger Hostinger rebuild
+      - uses: actions/setup-node@v4
+        if: steps.due.outputs.due == 'true' || github.event_name == 'workflow_dispatch'
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Build static site
+        if: steps.due.outputs.due == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          npm ci
+          npm run build
+
+      - name: Commit and push rebuilt out/
         if: steps.due.outputs.due == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit --allow-empty -m "chore: publish scheduled content for ${{ steps.due.outputs.today }}"
+          git add -A out src/content/generated
+          if git diff --cached --quiet; then
+            echo "Build output unchanged; nothing to publish."
+            exit 0
+          fi
+          git commit -m "chore: publish scheduled content for ${{ steps.due.outputs.today }}"
           git push origin master
