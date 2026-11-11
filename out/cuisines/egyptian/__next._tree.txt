@@ -1,8 +1,8 @@
 :HL["/_next/static/media/0e9d289c6eb42bf7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/692df4da22e71021-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/fa3e259cafa8f47e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/css/9207456fef71de32.css","style"]
+:HL["/_next/static/css/4119f0d05b79d3c7.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"egyptian","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"cuisines","h":96,"c":"$Q2"}]]
-0:{"b":"iAepMjQScRgOCtMJ2ePqT","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"ECxgb1AUqCROxNrZGAJ0p","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
