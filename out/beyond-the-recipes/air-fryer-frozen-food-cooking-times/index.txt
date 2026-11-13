@@ -1,0 +1,520 @@
+1:"$Sreact.fragment"
+2:"static/chunks/8500-107859ed31978aa3.js"
+3:"static/chunks/3701-4246fa2ef61b15e6.js"
+4:"static/chunks/app/layout-57bc240ac0b489a7.js"
+5:I[3300,["8500","$2","3701","$3","7177","$4"],"default"]
+6:I[7121,[],""]
+7:"static/chunks/app/error-03d5a2c0f9ef77b0.js"
+8:I[7267,["8039","$7"],"default"]
+9:I[4581,[],""]
+a:"static/chunks/app/beyond-the-recipes/%5Bslug%5D/page-63125142d5aff51a.js"
+b:I[8500,["8500","$2","3701","$3","9888","$a"],""]
+c:I[6197,["8500","$2","3701","$3","7177","$4"],"default"]
+d:I[8437,["8500","$2","3701","$3","9888","$a"],"Image"]
+1d:I[7123,[],"default",1]
+:HL["/_next/static/media/0e9d289c6eb42bf7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/692df4da22e71021-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/fa3e259cafa8f47e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/4119f0d05b79d3c7.css","style"]
+17:X
+1a:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L1b","p":false,"v":null}}]]
+18:[["children",{"s":{"n":"slug","t":"d","k":"air-fryer-frozen-food-cooking-times","s":[]},"h":512,"d":{"r":"$L19","p":false,"v":"$17"},"c":"$Q1a"}]]
+15:[["children",{"s":"beyond-the-recipes","h":512,"d":{"r":"$L16","p":false,"v":"$17"},"c":"$Q18"}]]
+0:{"P":null,"c":["","beyond-the-recipes","air-fryer-frozen-food-cooking-times",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4119f0d05b79d3c7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_d37bd6 __variable_bea9d5 __variable_f8a829 scroll-smooth","children":["$","body",null,{"className":"min-h-screen flex flex-col antialiased","children":[["$","$L5",null,{}],["$","main",null,{"id":"main-content","className":"flex-1","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$8","errorStyles":[],"errorScripts":null,"template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"max-w-[1320px] mx-auto px-5 md:px-10 py-20 text-center min-h-[60vh] flex flex-col items-center justify-center","children":[["$","h1",null,{"className":"font-serif text-4xl md:text-[56px] md:leading-[64px] text-deep-plum mb-4","children":"This Dish Has Left the Table"}],["$","p",null,{"className":"text-lg text-on-surface-variant mb-8 max-w-lg","children":"We could not find the page you are looking for. It may have been moved, renamed, or removed."}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-4","children":[["$","$Lb",null,{"href":"/","className":"bg-deep-plum text-white px-8 py-3 text-sm font-semibold tracking-wider uppercase hover:bg-dark-aubergine transition-colors","children":"Back to Home"}],["$","$Lb",null,{"href":"/recipes/","className":"border border-deep-plum text-deep-plum px-8 py-3 text-sm font-semibold tracking-wider uppercase hover:bg-deep-plum hover:text-white transition-colors","children":"Browse Recipes"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-surface-container border-t border-outline-variant mt-20","children":[["$","div",null,{"className":"max-w-[1320px] mx-auto px-5 md:px-10 py-16 border-b border-outline-variant","children":["$","div",null,{"className":"flex flex-col md:flex-row justify-between items-start md:items-center gap-8","children":[["$","div",null,{"className":"max-w-lg","children":[["$","h3",null,{"className":"font-serif text-[32px] leading-10 text-deep-plum mb-2","children":"The GulfSpoon Dispatch"}],["$","p",null,{"className":"text-on-surface-variant","children":"Curated recipes, cultural stories, and kitchen guides delivered weekly."}]]}],["$","$Lc",null,{}]]}]}],["$","div",null,{"className":"max-w-[1320px] mx-auto px-5 md:px-10 py-16","children":["$","div",null,{"className":"grid grid-cols-2 md:grid-cols-5 gap-6","children":[["$","div",null,{"className":"col-span-2","children":[["$","$Lb",null,{"href":"/","className":"inline-flex items-center gap-3 mb-4","children":[["$","$Ld",null,{"src":"/images/gulfspoon-logo-v2.png","alt":"GulfSpoon","width":40,"height":40,"className":"w-10 h-10 object-contain "}],["$","span",null,{"className":"font-[var(--font-dancing-script)] text-[32px] leading-10 font-bold tracking-tight","children":[["$","span",null,{"style":{"color":"#4C1B42"},"children":"gulf"}],["$","span",null,{"style":{"color":"#DDA11B"},"children":"spoon"}]]}]]}],["$","p",null,{"className":"text-on-surface-variant text-sm max-w-xs","children":"Recipes from the Gulf and the people who call it home."}],["$","p",null,{"className":"text-on-surface-variant text-sm mt-4","children":["© ",2026," GulfSpoon. All rights reserved."]}]]}],["$","div",null,{"className":"flex flex-col gap-3","children":[["$","span",null,{"className":"label-caps text-deep-plum font-bold","children":"Explore"}],[["$","$Lb","/recipes/",{"href":"/recipes/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Recipes"}],["$","$Lb","/gulf-kitchen/",{"href":"/gulf-kitchen/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Gulf Kitchen"}],["$","$Lb","/expat-kitchens/",{"href":"/expat-kitchens/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Expat Kitchens"}]]]}],["$","div",null,{"className":"flex flex-col gap-3","children":[["$","span",null,{"className":"label-caps text-deep-plum font-bold","children":"Features"}],["$Le","$Lf","$L10","$L11","$L12"]]}],"$L13"]}]}]]}],"$L14"]}]}]]}],"p":false,"v":null},"c":"$Q15"},"h":{"r":"$L1c","p":false,"v":null}},"m":"$undefined","G":["$1d",[]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"OcvBmzXRCy3JzZIvjh6s6"}
+1e:I[6269,["8500","$2","3701","$3","7177","$4"],"default"]
+20:I[484,[],"OutletBoundary"]
+21:"$Sreact.suspense"
+23:"ViewportBoundary"
+24:I[484,[],"$23"]
+26:"MetadataBoundary"
+27:I[484,[],"$26"]
+e:["$","$Lb","/ramadan/",{"href":"/ramadan/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Ramadan"}]
+f:["$","$Lb","/breakfast/",{"href":"/breakfast/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Breakfast"}]
+10:["$","$Lb","/quick-and-easy/",{"href":"/quick-and-easy/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Quick & Easy"}]
+11:["$","$Lb","/beyond-the-recipes/",{"href":"/beyond-the-recipes/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Beyond the Recipes"}]
+12:["$","$Lb","/about/",{"href":"/about/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"About"}]
+13:["$","div",null,{"className":"flex flex-col gap-3","children":[["$","span",null,{"className":"label-caps text-deep-plum font-bold","children":"Legal"}],[["$","$Lb","/privacy-policy/",{"href":"/privacy-policy/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Privacy Policy"}],["$","$Lb","/terms/",{"href":"/terms/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Terms of Use"}],["$","$Lb","/editorial-policy/",{"href":"/editorial-policy/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Editorial Policy"}],["$","$Lb","/accessibility/",{"href":"/accessibility/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Accessibility"}],["$","$Lb","/contact/",{"href":"/contact/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Contact Us"}],["$","$Lb","/cookie-policy/",{"href":"/cookie-policy/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Cookie Preferences"}]]]}]
+14:["$","$L1e",null,{}]
+16:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+19:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+1b:["$","$1","c",{"children":["$L1f",null,["$","$L20",null,{"children":["$","$21",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]]}]
+1c:["$","$1","h",{"children":[null,["$","$L24",null,{"children":"$L25"}],["$","$L27",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$21",null,{"name":"Next.Metadata","children":"$L28"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+17:C
+29:T5dd,{"@context":"https://schema.org","@type":"Article","headline":"Frozen Food in the Air Fryer: Cooking Times for Fries, Nuggets, Samosas and More","image":["https://gulfspoon.com/images/stories/air-fryer-frozen-food-cooking-times.webp"],"mainEntityOfPage":"https://gulfspoon.com/beyond-the-recipes/air-fryer-frozen-food-cooking-times/","keywords":"frozen food in air fryer, frozen food air fryer cooking times, frozen food in air fryer chart, how long to cook frozen food in air fryer, can you cook frozen food in air fryer, frozen food oven to air fryer conversion, do you preheat an air fryer for frozen food, eggo waffles in air fryer, uncrustables in air fryer, frozen lasagna in air fryer, air fryer cooking times chart","author":{"@type":"Person","name":"Sarah Al-Fayed","url":"https://gulfspoon.com/authors/sarah-al-fayed/"},"datePublished":"2026-11-13","dateModified":"2026-11-13","description":"Most frozen food cooks in an air fryer at 180–200°C (350–400°F) in about 20 to 30% less time than the oven instructions on the pack, shaken or turned halfway: thin fries take 12–16 minutes, chicken nuggets 8–10, fish fingers 8–10 and frozen samosas 12–15. The chart below covers more than 40 freezer staples, from waffles and lasagna portions to kibbeh and parathas, with a method for converting any oven instruction you find on the box.","publisher":{"@type":"Organization","name":"GulfSpoon","logo":{"@type":"ImageObject","url":"https://gulfspoon.com/images/gulfspoon-logo-v2.png"}}}2a:Tcbe,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you put frozen food straight into an air fryer?","acceptedAnswer":{"@type":"Answer","text":"Yes. Most frozen food, including fries, nuggets, fish fingers, samosas and spring rolls, should go straight from the freezer into a preheated air fryer without thawing. Thawing makes coatings soggy. Shake off loose ice, cook in a single layer and turn or shake the food halfway through."}},{"@type":"Question","name":"Do you need to preheat the air fryer for frozen food?","acceptedAnswer":{"@type":"Answer","text":"Preheating for 3 to 5 minutes is worth it for frozen food. A hot basket sets breadcrumbs and pastry before they thaw and soften, so the result is crisper. If you skip it, add 2 to 3 minutes to the cooking time and check that the food is hot all the way through."}},{"@type":"Question","name":"How do you convert oven times to air fryer times for frozen food?","acceptedAnswer":{"@type":"Answer","text":"Lower the conventional oven temperature on the pack by 15 to 20°C (25 to 35°F) and cut the time by 20 to 30%. If the pack gives a fan oven temperature, use that or 10°C less. Check at the halfway point and turn the food, then judge by colour and internal temperature."}},{"@type":"Question","name":"Do you need to add oil to frozen food in an air fryer?","acceptedAnswer":{"@type":"Answer","text":"Usually not. Fries, nuggets, mini spring rolls and other par-fried foods already contain oil. Unfried items such as raw pastry samosas, kibbeh and large spring rolls brown much better with a light mist of oil. Parathas contain plenty of fat and need none."}},{"@type":"Question","name":"Can you cook frozen lasagna in an air fryer?","acceptedAnswer":{"@type":"Answer","text":"Yes, if it is a single portion of about 300 to 400g. Move it to a heatproof dish that fits the basket, cover with foil and cook at 180°C (350°F) for 20 to 25 minutes, then uncover for 5 to 8 minutes. The centre should reach 74°C (165°F). Family-size trays are better in the oven."}},{"@type":"Question","name":"How long do frozen waffles take in the air fryer?","acceptedAnswer":{"@type":"Answer","text":"Frozen toaster-style waffles take 4 to 6 minutes at 180°C (350°F) in a single layer. Flip them halfway if you want both sides equally crisp. They are done when the edges are crisp and the centre is hot and soft. Thicker Belgian-style waffles may need another minute."}},{"@type":"Question","name":"Is it safe to cook frozen breaded chicken in an air fryer?","acceptedAnswer":{"@type":"Answer","text":"Pre-cooked breaded chicken such as nuggets and strips is safe to air fry; it only needs reheating. Raw breaded chicken must reach 74°C (165°F) in the centre. The USDA says raw, stuffed, breaded chicken breasts should not go in the air fryer, so use the oven method on the pack."}},{"@type":"Question","name":"How long do frozen samosas take in the air fryer?","acceptedAnswer":{"@type":"Answer","text":"Frozen samosas with thick pastry take 12 to 15 minutes at 180°C (350°F), turned halfway. Thin-pastry samosas take 8 to 12 minutes at 190°C (375°F). Mist both kinds with a little oil if the pastry looks dry, and cook them from frozen in a single layer."}}]}1f:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$29"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://gulfspoon.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Beyond the Recipes\",\"item\":\"https://gulfspoon.com/beyond-the-recipes\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Frozen Food in the Air Fryer: Cooking Times for Fries, Nuggets, Samosas and More\",\"item\":\"https://gulfspoon.com/beyond-the-recipes/air-fryer-frozen-food-cooking-times/\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2a"}}],"$L2b"]
+2c:I[1265,["8500","$2","3701","$3","9888","$a"],"default"]
+2b:["$","div",null,{"className":"max-w-[1320px] mx-auto px-5 md:px-10 py-8","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"mb-8","children":["$","ol",null,{"className":"flex items-center gap-1.5 label-caps text-on-surface-variant flex-wrap","children":[["$","li",null,{"children":["$","$Lb",null,{"href":"/","className":"hover:text-deep-plum transition-colors","children":"Home"}]}],[["$","li","0",{"className":"flex items-center gap-1.5","children":[["$","$L2c",null,{"ref":"$undefined","iconNode":[["path",{"d":"m9 18 6-6-6-6","key":"mthhwq"}]],"className":"lucide-chevron-right text-warm-taupe","size":14}],["$","$Lb",null,{"href":"/beyond-the-recipes","className":"hover:text-deep-plum transition-colors","children":"Beyond the Recipes"}]]}],["$","li","1",{"className":"flex items-center gap-1.5","children":[["$","$L2c",null,{"ref":"$undefined","iconNode":"$2b:props:children:0:props:children:props:children:1:0:props:children:0:props:iconNode","className":"lucide-chevron-right text-warm-taupe","size":14}],["$","span",null,{"className":"text-charcoal","children":"Frozen Food in the Air Fryer: Cooking Times for Fries, Nuggets, Samosas and More"}]]}]]]}]}],["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","span",null,{"className":"label-caps text-saffron block mb-3","children":"Guides"}],["$","h1",null,{"className":"font-serif text-4xl md:text-[48px] md:leading-[56px] text-deep-plum mb-4","children":"Frozen Food in the Air Fryer: Cooking Times for Fries, Nuggets, Samosas and More"}],["$","p",null,{"className":"text-lg text-on-surface-variant italic mb-4","children":"Most frozen food cooks in an air fryer at 180–200°C (350–400°F) in about 20 to 30% less time than the oven instructions on the pack, shaken or turned halfway: thin fries take 12–16 minutes, chicken nuggets 8–10, fish fingers 8–10 and frozen samosas 12–15. The chart below covers more than 40 freezer staples, from waffles and lasagna portions to kibbeh and parathas, with a method for converting any oven instruction you find on the box."}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 text-sm text-on-surface-variant border-y border-warm-taupe py-3","children":[["$","span",null,{"children":["By ",["$","$Lb",null,{"href":"/authors/sarah-al-fayed/","className":"font-bold hover:text-deep-plum","children":"Sarah Al-Fayed"}]]}],["$","span",null,{"className":"text-warm-taupe","children":"|"}],["$","span",null,{"children":"November 13, 2026"}]]}]]}],["$","div",null,{"className":"relative aspect-[16/9] mb-8 border border-warm-taupe","children":["$","$Ld",null,{"src":"/images/stories/air-fryer-frozen-food-cooking-times.webp","alt":"Air fryer basket holding frozen samosas, spring rolls and chicken nuggets in a single layer, with a bag of frozen fries and a box of frozen parathas beside it on the counter","fill":true,"className":"object-cover","sizes":"(max-width: 768px) 100vw, 720px","priority":true}]}],["$","nav",null,{"className":"mb-8 p-4 border border-outline-variant bg-soft-ivory","children":[["$","h2",null,{"className":"label-caps text-deep-plum mb-3","children":"Contents"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","chart",{"children":["$","a",null,{"href":"#chart","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"Frozen Food Air Fryer Cooking Times Chart"}]}],["$","li","own-pages",{"children":["$","a",null,{"href":"#own-pages","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"Hash Brown Patties, Taquitos and Frozen Salmon"}]}],["$","li","oven-conversion",{"children":["$","a",null,{"href":"#oven-conversion","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"How to Convert Oven Instructions on the Pack"}]}],["$","li","thaw-preheat",{"children":["$","a",null,{"href":"#thaw-preheat","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"Do You Thaw or Preheat for Frozen Food?"}]}],["$","li","pre-cooked-or-raw",{"children":["$","a",null,{"href":"#pre-cooked-or-raw","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"Is It Pre-Cooked or Raw? Reading the Pack"}]}],"$L2d","$L2e","$L2f","$L30"]}]]}],"$L31","$L32","$L33","$L34",false]}]]}]
+2d:["$","li","crisp",{"children":["$","a",null,{"href":"#crisp","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"How to Get Frozen Food Crisp, Not Soggy"}]}]
+2e:["$","li","iftar",{"children":["$","a",null,{"href":"#iftar","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"Iftar Batches: Samosas and Spring Rolls for a Crowd"}]}]
+2f:["$","li","troubleshooting",{"children":["$","a",null,{"href":"#troubleshooting","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"Troubleshooting Frozen Food in the Air Fryer"}]}]
+30:["$","li","faq",{"children":["$","a",null,{"href":"#faq","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"Frequently Asked Questions"}]}]
+35:T41dd,<h2 id="chart">Frozen Food Air Fryer Cooking Times Chart</h2>
+<p>These times assume a 5 to 6 litre basket air fryer, preheated for 3 minutes, with food straight from the freezer in a single layer or, for fries and nuggets, no more than half full. Start checking at the low end of each range. Smaller 2 to 3 litre baskets need the same temperature with smaller batches; oven-style air fryers usually need 2 to 4 minutes more.</p>
+<p>Pack sizes and thicknesses vary between brands, so treat every time as a starting point and use the visual cue in the notes column.</p>
+<h3>Fries, potatoes and sides</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Frozen food</th>
+<th>Temperature</th>
+<th>Time</th>
+<th>Turn</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Thin-cut fries (around 7 mm)</td>
+<td>200°C (400°F)</td>
+<td>12–16 min</td>
+<td>Shake twice</td>
+<td>About 500g (1 lb) per batch at most</td>
+</tr>
+<tr>
+<td>Thick-cut or steak fries</td>
+<td>200°C (400°F)</td>
+<td>16–22 min</td>
+<td>Shake twice</td>
+<td>Golden, not dark brown</td>
+</tr>
+<tr>
+<td>Crinkle-cut fries</td>
+<td>200°C (400°F)</td>
+<td>14–18 min</td>
+<td>Shake twice</td>
+<td>Ridges brown first</td>
+</tr>
+<tr>
+<td>Potato wedges</td>
+<td>200°C (400°F)</td>
+<td>16–20 min</td>
+<td>Shake once</td>
+<td>Skin side crisps last</td>
+</tr>
+<tr>
+<td>Potato gems or tater tots</td>
+<td>200°C (400°F)</td>
+<td>12–15 min</td>
+<td>Shake twice</td>
+<td>Tap one: it should sound hollow</td>
+</tr>
+<tr>
+<td>Sweet potato fries</td>
+<td>190°C (375°F)</td>
+<td>12–16 min</td>
+<td>Shake twice</td>
+<td>Sugars scorch fast, check at 10 min</td>
+</tr>
+<tr>
+<td>Breaded onion rings</td>
+<td>200°C (400°F)</td>
+<td>8–10 min</td>
+<td>Turn once, gently</td>
+<td>Single layer, slightly overlapping is fine</td>
+</tr>
+<tr>
+<td>Mozzarella sticks</td>
+<td>200°C (400°F)</td>
+<td>6–8 min</td>
+<td>Do not turn</td>
+<td>Stop when the first one starts to ooze</td>
+</tr>
+<tr>
+<td>Broccoli florets</td>
+<td>200°C (400°F)</td>
+<td>10–14 min</td>
+<td>Shake twice</td>
+<td>Toss with 1 tsp oil while still frozen</td>
+</tr>
+</tbody></table></div>
+<h3>Chicken, beef and other halal meat</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Frozen food</th>
+<th>Temperature</th>
+<th>Time</th>
+<th>Turn</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Chicken nuggets (pre-cooked)</td>
+<td>200°C (400°F)</td>
+<td>8–10 min</td>
+<td>Shake once</td>
+<td>Hot through, coating crisp</td>
+</tr>
+<tr>
+<td>Breaded chicken strips (pre-cooked)</td>
+<td>200°C (400°F)</td>
+<td>10–14 min</td>
+<td>Turn once</td>
+<td>Thicker strips need the longer time</td>
+</tr>
+<tr>
+<td>Breaded chicken burger patties (pre-cooked)</td>
+<td>200°C (400°F)</td>
+<td>10–12 min</td>
+<td>Turn once</td>
+<td>Steaming hot in the centre</td>
+</tr>
+<tr>
+<td>Breaded chicken, raw (&quot;uncooked&quot; on pack)</td>
+<td>180°C (350°F)</td>
+<td>18–25 min</td>
+<td>Turn once</td>
+<td>Must reach 74°C (165°F) in the centre</td>
+</tr>
+<tr>
+<td>Raw chicken wings, frozen in a block</td>
+<td>180°C (350°F), then 200°C (400°F)</td>
+<td>12 min, then 10–15 min</td>
+<td>Separate after 5 min, turn once</td>
+<td>74°C (165°F); pour off water halfway</td>
+</tr>
+<tr>
+<td>Raw beef burgers, 110–125g (4 oz)</td>
+<td>190°C (375°F)</td>
+<td>12–16 min</td>
+<td>Flip once</td>
+<td>71°C (160°F) in the centre</td>
+</tr>
+<tr>
+<td>Beef or chicken meatballs (pre-cooked)</td>
+<td>190°C (375°F)</td>
+<td>10–12 min</td>
+<td>Shake once</td>
+<td>Halve one to check it is hot</td>
+</tr>
+<tr>
+<td>Corn dogs (halal chicken or beef franks)</td>
+<td>180°C (350°F)</td>
+<td>8–10 min</td>
+<td>Turn once</td>
+<td>Batter is pre-set at the factory</td>
+</tr>
+<tr>
+<td>Raw kofta or kebab sticks</td>
+<td>190°C (375°F)</td>
+<td>14–18 min</td>
+<td>Turn once</td>
+<td>Beef or lamb 71°C (160°F), chicken 74°C (165°F)</td>
+</tr>
+</tbody></table></div>
+<p>Choose nuggets, burgers, meatballs and franks with a recognised halal certification mark. In the Gulf most supermarket ranges carry one; abroad, check every pack.</p>
+<h3>Fish and seafood</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Frozen food</th>
+<th>Temperature</th>
+<th>Time</th>
+<th>Turn</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Fish fingers</td>
+<td>200°C (400°F)</td>
+<td>8–10 min</td>
+<td>Turn once</td>
+<td>Golden crumb, flaky centre</td>
+</tr>
+<tr>
+<td>Breaded fish fillets</td>
+<td>200°C (400°F)</td>
+<td>12–15 min</td>
+<td>Turn once</td>
+<td>63°C (145°F) in the thickest part</td>
+</tr>
+<tr>
+<td>Factory-battered fish fillets</td>
+<td>200°C (400°F)</td>
+<td>14–16 min</td>
+<td>Turn once</td>
+<td>Works because the batter was set by frying before freezing</td>
+</tr>
+<tr>
+<td>Breaded prawns</td>
+<td>200°C (400°F)</td>
+<td>8–10 min</td>
+<td>Turn once</td>
+<td>Prawns turn opaque and curl</td>
+</tr>
+<tr>
+<td>Fish cakes</td>
+<td>190°C (375°F)</td>
+<td>12–15 min</td>
+<td>Turn once</td>
+<td>Hot in the centre</td>
+</tr>
+</tbody></table></div>
+<h3>Samosas, spring rolls, kibbeh and parathas</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Frozen food</th>
+<th>Temperature</th>
+<th>Time</th>
+<th>Turn</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Samosas, thick pastry</td>
+<td>180°C (350°F)</td>
+<td>12–15 min</td>
+<td>Turn once</td>
+<td>Mist with oil if the pastry looks dry</td>
+</tr>
+<tr>
+<td>Samosas, thin pastry sheets</td>
+<td>190°C (375°F)</td>
+<td>8–12 min</td>
+<td>Turn once</td>
+<td>Mist with oil; blistered and golden</td>
+</tr>
+<tr>
+<td>Mini spring rolls (pre-fried)</td>
+<td>200°C (400°F)</td>
+<td>8–10 min</td>
+<td>Turn once</td>
+<td>No oil needed</td>
+</tr>
+<tr>
+<td>Large spring rolls (not pre-fried)</td>
+<td>190°C (375°F)</td>
+<td>12–15 min</td>
+<td>Turn once</td>
+<td>Brush or mist all over with oil</td>
+</tr>
+<tr>
+<td>Cheese or meat sambousek</td>
+<td>180°C (350°F)</td>
+<td>10–12 min</td>
+<td>Turn once</td>
+<td>Cheese should be melted when you break one</td>
+</tr>
+<tr>
+<td>Kibbeh (bulgur and meat shell, minced filling)</td>
+<td>190°C (375°F)</td>
+<td>12–16 min</td>
+<td>Turn once</td>
+<td>Mist with oil; if the pack says raw, the centre must reach 71°C (160°F)</td>
+</tr>
+<tr>
+<td>Falafel (pre-fried)</td>
+<td>190°C (375°F)</td>
+<td>8–10 min</td>
+<td>Shake once</td>
+<td>Unfried frozen falafel: 12–15 min with oil</td>
+</tr>
+<tr>
+<td>Spinach or cheese fatayer</td>
+<td>180°C (350°F)</td>
+<td>8–10 min</td>
+<td>No</td>
+<td>Base should be crisp, not pale</td>
+</tr>
+<tr>
+<td>Plain or layered parathas</td>
+<td>200°C (400°F)</td>
+<td>5–7 min</td>
+<td>Flip at 3 min</td>
+<td>One or two flat, no extra oil; puffs and blisters</td>
+</tr>
+<tr>
+<td>Dumplings or potstickers</td>
+<td>190°C (375°F)</td>
+<td>10–12 min</td>
+<td>Shake once</td>
+<td>Toss in 1 tsp oil first</td>
+</tr>
+</tbody></table></div>
+<h3>Breakfast and sweet</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Frozen food</th>
+<th>Temperature</th>
+<th>Time</th>
+<th>Turn</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Frozen waffles (Eggo-style)</td>
+<td>180°C (350°F)</td>
+<td>4–6 min</td>
+<td>Flip at halfway (optional)</td>
+<td>Single layer; crisp edges, soft middle</td>
+</tr>
+<tr>
+<td>Frozen pancakes</td>
+<td>170°C (340°F)</td>
+<td>4–5 min</td>
+<td>No</td>
+<td>Stack no more than two</td>
+</tr>
+<tr>
+<td>French toast sticks</td>
+<td>190°C (375°F)</td>
+<td>6–8 min</td>
+<td>Turn once</td>
+<td>Edges crisp, centre soft</td>
+</tr>
+<tr>
+<td>Crustless sealed sandwiches (Uncrustables-style)</td>
+<td>160°C (320°F)</td>
+<td>5–7 min</td>
+<td>Flip at halfway</td>
+<td>Rest 2 min: the filling gets far hotter than the bread</td>
+</tr>
+<tr>
+<td>Ready-to-bake croissants</td>
+<td>160°C (320°F)</td>
+<td>10–14 min</td>
+<td>No</td>
+<td>Deep golden and risen; bake a few at a time</td>
+</tr>
+</tbody></table></div>
+<h3>Meals and sandwiches</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Frozen food</th>
+<th>Temperature</th>
+<th>Time</th>
+<th>Turn</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Single-portion lasagna, 300–400g (halal beef or vegetable)</td>
+<td>180°C (350°F)</td>
+<td>20–25 min covered with foil, then 5–8 min uncovered</td>
+<td>No</td>
+<td>Move to a heatproof dish; 74°C (165°F) in the centre</td>
+</tr>
+<tr>
+<td>Personal pizza, 15–18 cm</td>
+<td>180°C (350°F)</td>
+<td>8–12 min</td>
+<td>No</td>
+<td>Cheese, vegetable or halal beef toppings</td>
+</tr>
+<tr>
+<td>Burritos</td>
+<td>180°C (350°F)</td>
+<td>12–18 min</td>
+<td>Turn once</td>
+<td>74°C (165°F) in the centre; foil for the first 8 min if the tortilla browns early</td>
+</tr>
+<tr>
+<td>Cheese pizza bites</td>
+<td>190°C (375°F)</td>
+<td>6–8 min</td>
+<td>Shake once</td>
+<td>Let them rest: the filling is molten</td>
+</tr>
+</tbody></table></div>
+<p>If you searched for Eggo waffles or Uncrustables in the air fryer, you will find them above under the generic names; any similar frozen waffle or sealed crustless sandwich cooks the same way. A family-size lasagna over about 1 kg will not cook evenly in a basket. Use the oven for that one.</p>
+<h2 id="own-pages">Hash Brown Patties, Taquitos and Frozen Salmon</h2>
+<p>Three frozen favourites have their own pages with full methods, so they are not repeated in the chart:</p>
+<ul>
+<li>Frozen hash brown patties, including how to get the edges crisp without burning the outside.</li>
+<li>Taquitos, frozen or homemade with chicken or beef.</li>
+<li>Salmon straight from the freezer, with times by fillet thickness.</li>
+</ul>
+<p>For frozen garlic bread and Texas toast, see air fryer garlic bread.</p>
+<h2 id="oven-conversion">How to Convert Oven Instructions on the Pack</h2>
+<p>Lower the oven temperature by 15 to 20°C (25 to 35°F), cut the time by 20 to 30%, and check at the halfway point. That covers most frozen food, because an air fryer&#39;s small chamber and strong fan cook faster than an oven at the same setting.</p>
+<p>Check which oven the pack means first:</p>
+<ul>
+<li><strong>Conventional oven temperature (US packs, and the higher figure on UK and Gulf packs):</strong> subtract 15 to 20°C (25 to 35°F).</li>
+<li><strong>Fan oven temperature (often printed alongside):</strong> use it as it is, or 10°C lower. A fan oven already circulates air, so the gap is smaller.</li>
+</ul>
+<p>A worked example. A bag of frozen samosas says &quot;conventional oven 220°C for 20 to 25 minutes, fan oven 200°C&quot;. In the air fryer, set 190 to 200°C and start checking at 12 minutes, turning them at 6. Most batches finish between 12 and 16 minutes.</p>
+<p>Packs that already give air fryer instructions are worth following, since the manufacturer has tested that product. If the pack says &quot;not suitable for air fryer&quot; or gives oven instructions only for a raw, stuffed chicken product, follow the pack.</p>
+<h2 id="thaw-preheat">Do You Thaw or Preheat for Frozen Food?</h2>
+<p>Do not thaw. Breaded, battered and pastry foods are designed to go from freezer to heat. Thawing lets the coating absorb moisture, so it turns soggy and can slide off in the basket. The exceptions are large items the chart does not cover, such as a whole frozen joint, which should be thawed in the fridge and cooked in the oven.</p>
+<p>Do preheat, for 3 to 5 minutes. A hot basket starts setting the coating immediately, before the surface thaws and softens. If you skip preheating, add 2 to 3 minutes and expect slightly paler results.</p>
+<h2 id="pre-cooked-or-raw">Is It Pre-Cooked or Raw? Reading the Pack</h2>
+<p>Check this on every frozen meat product before you set a time. Two items that look identical in the freezer can need very different handling.</p>
+<ul>
+<li><strong>Pre-cooked</strong> (&quot;fully cooked&quot;, &quot;heat and serve&quot;, &quot;ready to eat once heated&quot;): most nuggets, chicken strips, meatballs, corn dogs and spring rolls. You are reheating them until hot through, so timing is about texture.</li>
+<li><strong>Raw</strong> (&quot;uncooked&quot;, &quot;raw&quot;, &quot;cook thoroughly&quot;, &quot;cook until 74°C/165°F&quot;): some breaded chicken, many burgers, kofta, kibbeh and wings. These must reach a safe internal temperature, checked with a probe thermometer in the thickest part: 74°C (165°F) for chicken, 71°C (160°F) for minced beef or lamb.</li>
+</ul>
+<p>One product needs special care. The USDA Food Safety and Inspection Service says raw, stuffed, breaded chicken breast products (cheese-filled or Kiev-style) should not be cooked in an air fryer, and that you should follow the manufacturer&#39;s cooking instructions. They are browned on the outside but raw inside, so they look done long before they are. Use the oven method on the pack and confirm 74°C (165°F) in both the chicken and the filling.</p>
+<h2 id="crisp">How to Get Frozen Food Crisp, Not Soggy</h2>
+<p>Soggy frozen food is almost always a water problem. Ice on the surface melts and has to evaporate before the coating can crisp, and a crowded basket traps that steam.</p>
+<ul>
+<li><strong>Shake off loose ice</strong> before cooking. Frost from a half-used bag adds a surprising amount of water.</li>
+<li><strong>Leave space.</strong> A single layer is best. For fries and nuggets, fill the basket no more than halfway and shake every 5 to 6 minutes.</li>
+<li><strong>Add oil only where the pack does not.</strong> Par-fried foods such as fries, nuggets and mini spring rolls already contain oil. Unfried pastry, kibbeh and large spring rolls brown far better with a light mist of oil. Parathas already contain plenty of fat and need none.</li>
+<li><strong>Pour off water.</strong> Wings and burgers from frozen release liquid into the drawer. Tip it out halfway so it does not steam the food.</li>
+<li><strong>Rest briefly.</strong> Two minutes on a rack, not a plate, lets steam escape from the base.</li>
+</ul>
+<p>Do not chase colour too far with potato products. The UK Food Standards Agency advises cooking starchy foods such as chips to a golden yellow colour or lighter, to limit acrylamide.</p>
+<h2 id="iftar">Iftar Batches: Samosas and Spring Rolls for a Crowd</h2>
+<p>During Ramadan, many Gulf households air fry two or three trays of frozen samosas, spring rolls and sambousek every evening. A 5 to 6 litre basket holds about 10 to 12 medium samosas in a single layer, so plan batches rather than piling them in.</p>
+<ul>
+<li><strong>Start the first batch 20 minutes before maghrib.</strong> Keep finished batches warm, uncovered, on a rack in a 100°C (210°F) oven so they stay crisp.</li>
+<li><strong>Cook the unfried pastry first.</strong> Thick-pastry samosas take the longest; pre-fried mini spring rolls only need 8 to 10 minutes and can go in last.</li>
+<li><strong>Homemade samosas freeze well.</strong> Freeze filled, unbaked samosas on a tray, then bag them. Brush with oil and cook from frozen at 180°C (350°F) for 14 to 18 minutes, turning once. A cooked filling just needs to be hot through; a raw minced meat filling must reach 71°C (160°F).</li>
+<li><strong>Reheating leftovers</strong> the next day takes 4 to 5 minutes at 170°C (340°F).</li>
+</ul>
+<p>If you are new to the appliance, our guide to <a href="/beyond-the-recipes/what-can-you-cook-in-an-air-fryer/">what you can cook in an air fryer</a> covers the foods that work well alongside these snacks.</p>
+<h2 id="troubleshooting">Troubleshooting Frozen Food in the Air Fryer</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Likely cause</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Soggy fries or nuggets</td>
+<td>Basket overfilled; ice on the surface</td>
+<td>Halve the batch, shake off ice and shake the basket more often</td>
+</tr>
+<tr>
+<td>Outside burnt, middle still frozen</td>
+<td>Temperature too high for the thickness</td>
+<td>Drop 20°C and add time, or cover with foil for the first half</td>
+</tr>
+<tr>
+<td>Pastry pale and dry</td>
+<td>Unfried pastry with no fat on the surface</td>
+<td>Mist with oil before cooking and again after turning</td>
+</tr>
+<tr>
+<td>Cheese leaking out</td>
+<td>Overcooked, or thawed before cooking</td>
+<td>Cook from hard-frozen and stop at the first sign of oozing</td>
+</tr>
+<tr>
+<td>Light items flying around</td>
+<td>Fan lifting thin waffles or wraps</td>
+<td>Place a heatproof trivet on top, or cook beside heavier items</td>
+</tr>
+<tr>
+<td>White smoke</td>
+<td>Fat from wings or burgers burning in the drawer</td>
+<td>Pour off fat halfway and keep the drawer clean</td>
+</tr>
+<tr>
+<td>Filling cold in the middle</td>
+<td>Thick item such as a burrito or lasagna</td>
+<td>Lower to 170–180°C, cover with foil and extend; check the centre</td>
+</tr>
+</tbody></table></div>
+<p>Smoke that keeps coming back usually means old grease has built up under the basket. Our guide to <a href="/beyond-the-recipes/how-to-clean-air-fryer/">cleaning an air fryer</a> covers the drawer and element.</p>
+31:["$","div",null,{"className":"rich-text text-lg mb-12","dangerouslySetInnerHTML":{"__html":"$35"}}]
+32:["$","section",null,{"className":"rich-text mb-12","aria-labelledby":"faq","children":[["$","h2",null,{"id":"faq","children":"Frequently Asked Questions"}],[["$","div","0",{"children":[["$","h3",null,{"children":"Can you put frozen food straight into an air fryer?"}],["$","p",null,{"children":"Yes. Most frozen food, including fries, nuggets, fish fingers, samosas and spring rolls, should go straight from the freezer into a preheated air fryer without thawing. Thawing makes coatings soggy. Shake off loose ice, cook in a single layer and turn or shake the food halfway through."}]]}],["$","div","1",{"children":[["$","h3",null,{"children":"Do you need to preheat the air fryer for frozen food?"}],["$","p",null,{"children":"Preheating for 3 to 5 minutes is worth it for frozen food. A hot basket sets breadcrumbs and pastry before they thaw and soften, so the result is crisper. If you skip it, add 2 to 3 minutes to the cooking time and check that the food is hot all the way through."}]]}],["$","div","2",{"children":[["$","h3",null,{"children":"How do you convert oven times to air fryer times for frozen food?"}],["$","p",null,{"children":"Lower the conventional oven temperature on the pack by 15 to 20°C (25 to 35°F) and cut the time by 20 to 30%. If the pack gives a fan oven temperature, use that or 10°C less. Check at the halfway point and turn the food, then judge by colour and internal temperature."}]]}],["$","div","3",{"children":[["$","h3",null,{"children":"Do you need to add oil to frozen food in an air fryer?"}],["$","p",null,{"children":"Usually not. Fries, nuggets, mini spring rolls and other par-fried foods already contain oil. Unfried items such as raw pastry samosas, kibbeh and large spring rolls brown much better with a light mist of oil. Parathas contain plenty of fat and need none."}]]}],["$","div","4",{"children":[["$","h3",null,{"children":"Can you cook frozen lasagna in an air fryer?"}],["$","p",null,{"children":"Yes, if it is a single portion of about 300 to 400g. Move it to a heatproof dish that fits the basket, cover with foil and cook at 180°C (350°F) for 20 to 25 minutes, then uncover for 5 to 8 minutes. The centre should reach 74°C (165°F). Family-size trays are better in the oven."}]]}],["$","div","5",{"children":[["$","h3",null,{"children":"How long do frozen waffles take in the air fryer?"}],["$","p",null,{"children":"Frozen toaster-style waffles take 4 to 6 minutes at 180°C (350°F) in a single layer. Flip them halfway if you want both sides equally crisp. They are done when the edges are crisp and the centre is hot and soft. Thicker Belgian-style waffles may need another minute."}]]}],["$","div","6",{"children":[["$","h3",null,{"children":"Is it safe to cook frozen breaded chicken in an air fryer?"}],["$","p",null,{"children":"Pre-cooked breaded chicken such as nuggets and strips is safe to air fry; it only needs reheating. Raw breaded chicken must reach 74°C (165°F) in the centre. The USDA says raw, stuffed, breaded chicken breasts should not go in the air fryer, so use the oven method on the pack."}]]}],["$","div","7",{"children":[["$","h3",null,{"children":"How long do frozen samosas take in the air fryer?"}],["$","p",null,{"children":"Frozen samosas with thick pastry take 12 to 15 minutes at 180°C (350°F), turned halfway. Thin-pastry samosas take 8 to 12 minutes at 190°C (375°F). Mist both kinds with a little oil if the pastry looks dry, and cook them from frozen in a single layer."}]]}]]]}]
+33:["$","section",null,{"className":"mb-12 border-t border-warm-taupe pt-6","children":[["$","h2",null,{"className":"label-caps text-on-surface-variant mb-3","children":"Sources"}],["$","ul",null,{"className":"space-y-1 text-sm","children":[["$","li","https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/air-fryers-and-food-safety",{"children":["$","a",null,{"href":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/air-fryers-and-food-safety","rel":"noopener","target":"_blank","className":"text-deep-plum underline decoration-saffron underline-offset-2 hover:text-muted-berry","children":"USDA FSIS: Air Fryers and Food Safety"}]}],["$","li","https://www.gov.uk/government/publications/acrylamide/acrylamide",{"children":["$","a",null,{"href":"https://www.gov.uk/government/publications/acrylamide/acrylamide","rel":"noopener","target":"_blank","className":"text-deep-plum underline decoration-saffron underline-offset-2 hover:text-muted-berry","children":"Food Standards Agency: Acrylamide"}]}]]}]]}]
+34:["$","div",null,{"className":"border-t border-warm-taupe pt-8 mb-12","children":[["$","h3",null,{"className":"label-caps text-on-surface-variant mb-3","children":"About the Author"}],["$","$Lb",null,{"href":"/authors/sarah-al-fayed/","className":"flex items-start gap-4 group","children":["$","div",null,{"children":[["$","span",null,{"className":"font-serif text-lg text-deep-plum group-hover:text-saffron transition-colors","children":"Sarah Al-Fayed"}],["$","p",null,{"className":"text-sm text-on-surface-variant mt-1","children":"Food writer and recipe developer based in Dubai, specializing in Gulf heritage cuisine. Over a decade spent documenting Emirati traditional culinary traditions."}]]}]}]]}]
+25:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+36:I[6869,[],"IconMark"]
+22:null
+28:[["$","title","0",{"children":"Frozen Food in Air Fryer: Times & Temps Chart | GulfSpoon"}],["$","meta","1",{"name":"description","content":"Frozen food in the air fryer: times for 40+ foods, from fries (12–16 min) and nuggets to samosas and kibbeh, plus how to convert oven pack instructions."}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","meta","3",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","4",{"rel":"canonical","href":"https://gulfspoon.com/beyond-the-recipes/air-fryer-frozen-food-cooking-times/"}],["$","meta","5",{"property":"og:title","content":"Frozen Food in Air Fryer: Times & Temps Chart"}],["$","meta","6",{"property":"og:description","content":"Frozen food in the air fryer: times for 40+ foods, from fries (12–16 min) and nuggets to samosas and kibbeh, plus how to convert oven pack instructions."}],["$","meta","7",{"property":"og:image","content":"https://gulfspoon.com/images/stories/air-fryer-frozen-food-cooking-times.webp"}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"GulfSpoon: Gulf Recipes and Expat Kitchens"}],["$","meta","11",{"name":"twitter:description","content":"Authentic Gulf recipes, expat kitchen favorites, and food stories from the Arabian Peninsula. Khaleeji, South Asian, and Levantine dishes for home cooks."}],["$","meta","12",{"name":"twitter:image","content":"https://gulfspoon.com/images/stories/air-fryer-frozen-food-cooking-times.webp"}],["$","link","13",{"rel":"icon","href":"/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","link","14",{"rel":"icon","href":"/icons/favicon.png"}],["$","link","15",{"rel":"apple-touch-icon","href":"/icons/apple-touch-icon.png"}],["$","$L36","16",{}]]

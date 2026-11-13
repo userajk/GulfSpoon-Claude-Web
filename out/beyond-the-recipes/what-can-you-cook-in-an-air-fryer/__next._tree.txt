@@ -5,4 +5,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"what-can-you-cook-in-an-air-fryer","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"beyond-the-recipes","h":96,"c":"$Q2"}]]
-0:{"b":"WELaHmgqftNbIUouXLQtu","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"OcvBmzXRCy3JzZIvjh6s6","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
