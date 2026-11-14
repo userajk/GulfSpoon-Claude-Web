@@ -1,0 +1,393 @@
+1:"$Sreact.fragment"
+2:"static/chunks/8500-107859ed31978aa3.js"
+3:"static/chunks/3701-4246fa2ef61b15e6.js"
+4:"static/chunks/app/layout-57bc240ac0b489a7.js"
+5:I[3300,["8500","$2","3701","$3","7177","$4"],"default"]
+6:I[7121,[],""]
+7:"static/chunks/app/error-03d5a2c0f9ef77b0.js"
+8:I[7267,["8039","$7"],"default"]
+9:I[4581,[],""]
+a:"static/chunks/app/beyond-the-recipes/%5Bslug%5D/page-63125142d5aff51a.js"
+b:I[8500,["8500","$2","3701","$3","9888","$a"],""]
+c:I[6197,["8500","$2","3701","$3","7177","$4"],"default"]
+d:I[8437,["8500","$2","3701","$3","9888","$a"],"Image"]
+1d:I[7123,[],"default",1]
+:HL["/_next/static/media/0e9d289c6eb42bf7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/692df4da22e71021-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/fa3e259cafa8f47e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/4119f0d05b79d3c7.css","style"]
+17:X
+1a:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L1b","p":false,"v":null}}]]
+18:[["children",{"s":{"n":"slug","t":"d","k":"air-fryer-vegetable-recipes","s":[]},"h":512,"d":{"r":"$L19","p":false,"v":"$17"},"c":"$Q1a"}]]
+15:[["children",{"s":"beyond-the-recipes","h":512,"d":{"r":"$L16","p":false,"v":"$17"},"c":"$Q18"}]]
+0:{"P":null,"c":["","beyond-the-recipes","air-fryer-vegetable-recipes",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4119f0d05b79d3c7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_d37bd6 __variable_bea9d5 __variable_f8a829 scroll-smooth","children":["$","body",null,{"className":"min-h-screen flex flex-col antialiased","children":[["$","$L5",null,{}],["$","main",null,{"id":"main-content","className":"flex-1","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$8","errorStyles":[],"errorScripts":null,"template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"max-w-[1320px] mx-auto px-5 md:px-10 py-20 text-center min-h-[60vh] flex flex-col items-center justify-center","children":[["$","h1",null,{"className":"font-serif text-4xl md:text-[56px] md:leading-[64px] text-deep-plum mb-4","children":"This Dish Has Left the Table"}],["$","p",null,{"className":"text-lg text-on-surface-variant mb-8 max-w-lg","children":"We could not find the page you are looking for. It may have been moved, renamed, or removed."}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-4","children":[["$","$Lb",null,{"href":"/","className":"bg-deep-plum text-white px-8 py-3 text-sm font-semibold tracking-wider uppercase hover:bg-dark-aubergine transition-colors","children":"Back to Home"}],["$","$Lb",null,{"href":"/recipes/","className":"border border-deep-plum text-deep-plum px-8 py-3 text-sm font-semibold tracking-wider uppercase hover:bg-deep-plum hover:text-white transition-colors","children":"Browse Recipes"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-surface-container border-t border-outline-variant mt-20","children":[["$","div",null,{"className":"max-w-[1320px] mx-auto px-5 md:px-10 py-16 border-b border-outline-variant","children":["$","div",null,{"className":"flex flex-col md:flex-row justify-between items-start md:items-center gap-8","children":[["$","div",null,{"className":"max-w-lg","children":[["$","h3",null,{"className":"font-serif text-[32px] leading-10 text-deep-plum mb-2","children":"The GulfSpoon Dispatch"}],["$","p",null,{"className":"text-on-surface-variant","children":"Curated recipes, cultural stories, and kitchen guides delivered weekly."}]]}],["$","$Lc",null,{}]]}]}],["$","div",null,{"className":"max-w-[1320px] mx-auto px-5 md:px-10 py-16","children":["$","div",null,{"className":"grid grid-cols-2 md:grid-cols-5 gap-6","children":[["$","div",null,{"className":"col-span-2","children":[["$","$Lb",null,{"href":"/","className":"inline-flex items-center gap-3 mb-4","children":[["$","$Ld",null,{"src":"/images/gulfspoon-logo-v2.png","alt":"GulfSpoon","width":40,"height":40,"className":"w-10 h-10 object-contain "}],["$","span",null,{"className":"font-[var(--font-dancing-script)] text-[32px] leading-10 font-bold tracking-tight","children":[["$","span",null,{"style":{"color":"#4C1B42"},"children":"gulf"}],["$","span",null,{"style":{"color":"#DDA11B"},"children":"spoon"}]]}]]}],["$","p",null,{"className":"text-on-surface-variant text-sm max-w-xs","children":"Recipes from the Gulf and the people who call it home."}],["$","p",null,{"className":"text-on-surface-variant text-sm mt-4","children":["© ",2026," GulfSpoon. All rights reserved."]}]]}],["$","div",null,{"className":"flex flex-col gap-3","children":[["$","span",null,{"className":"label-caps text-deep-plum font-bold","children":"Explore"}],[["$","$Lb","/recipes/",{"href":"/recipes/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Recipes"}],["$","$Lb","/gulf-kitchen/",{"href":"/gulf-kitchen/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Gulf Kitchen"}],["$","$Lb","/expat-kitchens/",{"href":"/expat-kitchens/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Expat Kitchens"}]]]}],["$","div",null,{"className":"flex flex-col gap-3","children":[["$","span",null,{"className":"label-caps text-deep-plum font-bold","children":"Features"}],["$Le","$Lf","$L10","$L11","$L12"]]}],"$L13"]}]}]]}],"$L14"]}]}]]}],"p":false,"v":null},"c":"$Q15"},"h":{"r":"$L1c","p":false,"v":null}},"m":"$undefined","G":["$1d",[]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"thC8yCKW6TWDX9IsG49DU"}
+1e:I[6269,["8500","$2","3701","$3","7177","$4"],"default"]
+20:I[484,[],"OutletBoundary"]
+21:"$Sreact.suspense"
+23:"ViewportBoundary"
+24:I[484,[],"$23"]
+26:"MetadataBoundary"
+27:I[484,[],"$26"]
+e:["$","$Lb","/ramadan/",{"href":"/ramadan/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Ramadan"}]
+f:["$","$Lb","/breakfast/",{"href":"/breakfast/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Breakfast"}]
+10:["$","$Lb","/quick-and-easy/",{"href":"/quick-and-easy/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Quick & Easy"}]
+11:["$","$Lb","/beyond-the-recipes/",{"href":"/beyond-the-recipes/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Beyond the Recipes"}]
+12:["$","$Lb","/about/",{"href":"/about/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"About"}]
+13:["$","div",null,{"className":"flex flex-col gap-3","children":[["$","span",null,{"className":"label-caps text-deep-plum font-bold","children":"Legal"}],[["$","$Lb","/privacy-policy/",{"href":"/privacy-policy/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Privacy Policy"}],["$","$Lb","/terms/",{"href":"/terms/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Terms of Use"}],["$","$Lb","/editorial-policy/",{"href":"/editorial-policy/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Editorial Policy"}],["$","$Lb","/accessibility/",{"href":"/accessibility/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Accessibility"}],["$","$Lb","/contact/",{"href":"/contact/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Contact Us"}],["$","$Lb","/cookie-policy/",{"href":"/cookie-policy/","className":"text-on-surface-variant hover:text-saffron transition-colors text-sm","children":"Cookie Preferences"}]]]}]
+14:["$","$L1e",null,{}]
+16:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+19:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+1b:["$","$1","c",{"children":["$L1f",null,["$","$L20",null,{"children":["$","$21",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]]}]
+1c:["$","$1","h",{"children":[null,["$","$L24",null,{"children":"$L25"}],["$","$L27",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$21",null,{"name":"Next.Metadata","children":"$L28"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+17:C
+29:T564,{"@context":"https://schema.org","@type":"Article","headline":"Air Fryer Vegetable Recipes with a Time and Temperature Chart","image":["https://gulfspoon.com/images/stories/air-fryer-vegetable-recipes.webp"],"mainEntityOfPage":"https://gulfspoon.com/beyond-the-recipes/air-fryer-vegetable-recipes/","keywords":"air fryer vegetable recipes, air fryer vegetables, how long to cook vegetables in air fryer, how to cook vegetables in an air fryer, roasted vegetables in air fryer, how to cook frozen vegetables in air fryer, why are my vegetables not crispy from the air fryer, can you cook vegetables in an air fryer without oil, air fryer broccoli, air fryer carrots, air fryer okra, are air fryer vegetables healthy","author":{"@type":"Person","name":"Sarah Al-Fayed","url":"https://gulfspoon.com/authors/sarah-al-fayed/"},"datePublished":"2026-11-14","dateModified":"2026-11-14","description":"Most vegetables air fry at 200°C (400°F) in 6 to 22 minutes, cut into even pieces, tossed in about 1 tablespoon of oil per 450g (1 lb) and cooked in a single layer with a shake halfway. Below is a chart for 22 vegetables, short recipes for the everyday ones, and links to full recipes for the vegetables that need more than a few lines.","publisher":{"@type":"Organization","name":"GulfSpoon","logo":{"@type":"ImageObject","url":"https://gulfspoon.com/images/gulfspoon-logo-v2.png"}}}2a:Ta42,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long do you cook vegetables in an air fryer?","acceptedAnswer":{"@type":"Answer","text":"Most vegetables take 6 to 22 minutes at 200°C (400°F). Quick-cooking vegetables such as asparagus, peppers and green beans need 6 to 10 minutes, broccoli and courgette 8 to 12, and dense vegetables such as carrots, Brussels sprouts and potato cubes 14 to 22 minutes."}},{"@type":"Question","name":"What temperature do you air fry vegetables at?","acceptedAnswer":{"@type":"Answer","text":"Use 200°C (400°F) for most vegetables. Drop to 190°C (375°F) for dense or layered vegetables such as Brussels sprouts, onion wedges and cabbage, so the centres cook before the outer leaves burn."}},{"@type":"Question","name":"Can you cook vegetables in an air fryer without oil?","acceptedAnswer":{"@type":"Answer","text":"Yes, but they brown less and can turn dry and leathery. Watery vegetables such as courgette, peppers and tomatoes manage best without oil. Dense ones such as carrots and potatoes need at least a teaspoon or a light spray to brown well."}},{"@type":"Question","name":"Do you need to preheat the air fryer for vegetables?","acceptedAnswer":{"@type":"Answer","text":"It is worth it. Many vegetables cook in under 10 minutes, so a cold start makes timing unpredictable and can leave them soft. Three minutes at 200°C (400°F) is enough for most basket air fryers."}},{"@type":"Question","name":"Can you cook frozen vegetables in the air fryer?","acceptedAnswer":{"@type":"Answer","text":"Yes, straight from frozen. Toss with a little oil and cook at 200°C (400°F) for 8 to 20 minutes depending on the vegetable, shaking every few minutes and pouring off any meltwater. They will be softer than fresh because they were blanched before freezing."}},{"@type":"Question","name":"Are air fryer vegetables healthy?","acceptedAnswer":{"@type":"Answer","text":"They can be. The vegetables themselves are the same as roasted ones; what changes is the fat. A batch uses about a tablespoon of oil per 450g, far less than deep or shallow frying and about the same as a lightly oiled oven tray. Heavy cheese, butter or sugary glazes change the picture more than the cooking method does."}},{"@type":"Question","name":"Can you steam vegetables in an air fryer?","acceptedAnswer":{"@type":"Answer","text":"Not properly. An air fryer dries and browns food rather than steaming it. For a softer result, cook vegetables in a covered foil tin with a tablespoon of water at 180°C (350°F), but a pan or microwave steams more effectively."}}]}1f:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$29"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://gulfspoon.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Beyond the Recipes\",\"item\":\"https://gulfspoon.com/beyond-the-recipes\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Air Fryer Vegetable Recipes with a Time and Temperature Chart\",\"item\":\"https://gulfspoon.com/beyond-the-recipes/air-fryer-vegetable-recipes/\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2a"}}],"$L2b"]
+2c:I[1265,["8500","$2","3701","$3","9888","$a"],"default"]
+2b:["$","div",null,{"className":"max-w-[1320px] mx-auto px-5 md:px-10 py-8","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"mb-8","children":["$","ol",null,{"className":"flex items-center gap-1.5 label-caps text-on-surface-variant flex-wrap","children":[["$","li",null,{"children":["$","$Lb",null,{"href":"/","className":"hover:text-deep-plum transition-colors","children":"Home"}]}],[["$","li","0",{"className":"flex items-center gap-1.5","children":[["$","$L2c",null,{"ref":"$undefined","iconNode":[["path",{"d":"m9 18 6-6-6-6","key":"mthhwq"}]],"className":"lucide-chevron-right text-warm-taupe","size":14}],["$","$Lb",null,{"href":"/beyond-the-recipes","className":"hover:text-deep-plum transition-colors","children":"Beyond the Recipes"}]]}],["$","li","1",{"className":"flex items-center gap-1.5","children":[["$","$L2c",null,{"ref":"$undefined","iconNode":"$2b:props:children:0:props:children:props:children:1:0:props:children:0:props:iconNode","className":"lucide-chevron-right text-warm-taupe","size":14}],["$","span",null,{"className":"text-charcoal","children":"Air Fryer Vegetable Recipes with a Time and Temperature Chart"}]]}]]]}]}],["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","span",null,{"className":"label-caps text-saffron block mb-3","children":"Guides"}],["$","h1",null,{"className":"font-serif text-4xl md:text-[48px] md:leading-[56px] text-deep-plum mb-4","children":"Air Fryer Vegetable Recipes with a Time and Temperature Chart"}],["$","p",null,{"className":"text-lg text-on-surface-variant italic mb-4","children":"Most vegetables air fry at 200°C (400°F) in 6 to 22 minutes, cut into even pieces, tossed in about 1 tablespoon of oil per 450g (1 lb) and cooked in a single layer with a shake halfway. Below is a chart for 22 vegetables, short recipes for the everyday ones, and links to full recipes for the vegetables that need more than a few lines."}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 text-sm text-on-surface-variant border-y border-warm-taupe py-3","children":[["$","span",null,{"children":["By ",["$","$Lb",null,{"href":"/authors/sarah-al-fayed/","className":"font-bold hover:text-deep-plum","children":"Sarah Al-Fayed"}]]}],["$","span",null,{"className":"text-warm-taupe","children":"|"}],["$","span",null,{"children":"November 14, 2026"}]]}]]}],["$","div",null,{"className":"relative aspect-[16/9] mb-8 border border-warm-taupe","children":["$","$Ld",null,{"src":"/images/stories/air-fryer-vegetable-recipes.webp","alt":"An air fryer basket of roasted broccoli, carrot batons, red pepper strips and courgette half-moons with browned edges, next to small bowls of za'atar and sumac","fill":true,"className":"object-cover","sizes":"(max-width: 768px) 100vw, 720px","priority":true}]}],["$","nav",null,{"className":"mb-8 p-4 border border-outline-variant bg-soft-ivory","children":[["$","h2",null,{"className":"label-caps text-deep-plum mb-3","children":"Contents"}],["$","ul",null,{"className":"space-y-1","children":[["$","li","method",{"children":["$","a",null,{"href":"#method","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"How to cook vegetables in an air fryer"}]}],["$","li","chart",{"children":["$","a",null,{"href":"#chart","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"Air fryer vegetable cooking times chart"}]}],["$","li","recipes",{"children":["$","a",null,{"href":"#recipes","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"Quick air fryer vegetable recipes"}]}],["$","li","full-recipes",{"children":["$","a",null,{"href":"#full-recipes","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"Vegetables with their own full recipe"}]}],["$","li","mixed",{"children":["$","a",null,{"href":"#mixed","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"How to roast mixed vegetables in the air fryer"}]}],["$","li","frozen",{"children":["$","a",null,{"href":"#frozen","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"How to cook frozen vegetables in the air fryer"}]}],"$L2d","$L2e","$L2f"]}]]}],"$L30","$L31","$undefined","$L32","$L33"]}]]}]
+35:I[3530,["8500","$2","3701","$3","9888","$a"],"default"]
+2d:["$","li","not-crispy",{"children":["$","a",null,{"href":"#not-crispy","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"Why are my air fryer vegetables not crispy?"}]}]
+2e:["$","li","seasonings",{"children":["$","a",null,{"href":"#seasonings","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"Seasonings and sauces for air fryer vegetables"}]}]
+2f:["$","li","faq",{"children":["$","a",null,{"href":"#faq","className":"text-sm text-on-surface-variant hover:text-deep-plum transition-colors","children":"Frequently Asked Questions"}]}]
+34:T4181,<h2 id="method">How to cook vegetables in an air fryer</h2>
+<p>An air fryer is a small, powerful fan oven. Hot air moving fast over the surface of a vegetable dries it, and once the surface is dry it browns. Almost every rule below comes back to that: anything that keeps water on the surface, or traps steam around the food, gives you soft, pale vegetables. If you want the mechanics in more detail, our explainer on <a href="/beyond-the-recipes/how-does-an-air-fryer-work/">how an air fryer works</a> covers the fan, the element and why shaking matters.</p>
+<p>The method that works for nearly every vegetable:</p>
+<ol>
+<li><strong>Cut evenly.</strong> Pieces of the same size cook at the same rate. For most vegetables, aim for 2 to 3cm (about 1 inch) pieces or 1cm-thick batons.</li>
+<li><strong>Dry thoroughly.</strong> Spin or pat washed vegetables dry. Surface water has to evaporate before browning can start.</li>
+<li><strong>Oil lightly.</strong> Use about 1 tablespoon of oil per 450g (1 lb). It conducts heat into the surface and helps seasoning stick. More than that drips into the drawer and smokes.</li>
+<li><strong>Preheat.</strong> Three minutes at 200°C (400°F) is enough for most basket models. With cook times under 10 minutes, a cold start throws the timing off.</li>
+<li><strong>Single layer.</strong> A 5 to 6 litre basket takes about 450g of most vegetables in one loose layer. Pile them deeper and the bottom layer steams.</li>
+<li><strong>Shake halfway.</strong> This turns the pieces and moves the ones from the centre to the hotter edges.</li>
+<li><strong>Salt at the right time.</strong> For dense vegetables (carrots, broccoli, Brussels sprouts, potatoes) salt before cooking. For watery ones (courgette, mushrooms, aubergine, tomatoes) salt after cooking, because salt draws out water that then steams them.</li>
+</ol>
+<p>Doneness looks the same across most vegetables: browned edges, a centre a knife slides into with little resistance, and no liquid pooling in the drawer.</p>
+<h2 id="chart">Air fryer vegetable cooking times chart</h2>
+<p>All times are for a preheated 5 to 6 litre basket air fryer with about 450g (1 lb) of vegetables in one layer. For a compact 3 to 4 litre basket, cook half the amount and check 1 to 2 minutes early. For an oven-style air fryer with racks, add 2 to 3 minutes and swap rack positions halfway.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Vegetable</th>
+<th>Cut</th>
+<th>Temperature</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Broccoli</td>
+<td>3–4cm florets</td>
+<td>200°C (400°F)</td>
+<td>8–10 min</td>
+</tr>
+<tr>
+<td>Tenderstem broccoli</td>
+<td>Whole stems</td>
+<td>200°C (400°F)</td>
+<td>6–8 min</td>
+</tr>
+<tr>
+<td>Carrots</td>
+<td>1cm batons, 7cm long</td>
+<td>200°C (400°F)</td>
+<td>14–18 min</td>
+</tr>
+<tr>
+<td>Baby carrots</td>
+<td>Whole</td>
+<td>200°C (400°F)</td>
+<td>15–18 min</td>
+</tr>
+<tr>
+<td>Courgette (zucchini)</td>
+<td>1.5cm half-moons</td>
+<td>200°C (400°F)</td>
+<td>10–12 min</td>
+</tr>
+<tr>
+<td>Green beans</td>
+<td>Trimmed, whole</td>
+<td>200°C (400°F)</td>
+<td>8–10 min</td>
+</tr>
+<tr>
+<td>Brussels sprouts</td>
+<td>Halved</td>
+<td>190°C (375°F)</td>
+<td>14–18 min</td>
+</tr>
+<tr>
+<td>Peppers</td>
+<td>2–3cm strips or chunks</td>
+<td>200°C (400°F)</td>
+<td>8–10 min</td>
+</tr>
+<tr>
+<td>Aubergine (eggplant)</td>
+<td>2.5cm cubes</td>
+<td>200°C (400°F)</td>
+<td>12–15 min</td>
+</tr>
+<tr>
+<td>Okra</td>
+<td>Whole, tops trimmed</td>
+<td>200°C (400°F)</td>
+<td>10–12 min</td>
+</tr>
+<tr>
+<td>Corn on the cob</td>
+<td>Cobs halved</td>
+<td>200°C (400°F)</td>
+<td>12–15 min</td>
+</tr>
+<tr>
+<td>Butternut squash</td>
+<td>2cm cubes</td>
+<td>200°C (400°F)</td>
+<td>15–20 min</td>
+</tr>
+<tr>
+<td>Cherry tomatoes</td>
+<td>Whole</td>
+<td>200°C (400°F)</td>
+<td>5–7 min</td>
+</tr>
+<tr>
+<td>Cabbage</td>
+<td>3cm wedges, core left on</td>
+<td>190°C (375°F)</td>
+<td>12–15 min</td>
+</tr>
+<tr>
+<td>Asparagus</td>
+<td>Medium spears</td>
+<td>200°C (400°F)</td>
+<td>6–8 min</td>
+</tr>
+<tr>
+<td>Mushrooms</td>
+<td>Halved</td>
+<td>200°C (400°F)</td>
+<td>10–11 min</td>
+</tr>
+<tr>
+<td>Onions</td>
+<td>8 wedges per onion</td>
+<td>190°C (375°F)</td>
+<td>14–18 min</td>
+</tr>
+<tr>
+<td>Cauliflower</td>
+<td>Bite-size florets</td>
+<td>200°C (400°F)</td>
+<td>13–15 min</td>
+</tr>
+<tr>
+<td>Chickpeas (canned)</td>
+<td>Drained and dried</td>
+<td>200°C (400°F)</td>
+<td>15–18 min</td>
+</tr>
+<tr>
+<td>Potatoes</td>
+<td>2.5cm cubes</td>
+<td>200°C (400°F)</td>
+<td>18–22 min</td>
+</tr>
+<tr>
+<td>Baby potatoes</td>
+<td>Halved</td>
+<td>200°C (400°F)</td>
+<td>15–18 min</td>
+</tr>
+<tr>
+<td>Sweet potato</td>
+<td>2cm cubes</td>
+<td>200°C (400°F)</td>
+<td>12–15 min</td>
+</tr>
+</tbody></table></div>
+<p>For whole baked potatoes and sweet potatoes, which take 35 to 45 minutes, see the full recipes linked further down.</p>
+<h2 id="recipes">Quick air fryer vegetable recipes</h2>
+<p>Each of these serves 2 to 3 as a side and starts with about 450g (1 lb) of vegetables, 1 tablespoon of oil and ½ teaspoon of salt unless stated. Follow the chart for time and temperature.</p>
+<h3>Broccoli with lemon and chilli</h3>
+<p>Cut florets to 3 to 4cm and slice the stalk into 1cm coins; peeled stalk is sweet and cooks in the same time. Toss with oil, salt and ½ teaspoon of chilli flakes. Small florets char fast at the tips, which is the point, but anything smaller than 2cm will burn, so keep pieces even. Finish with lemon zest and a squeeze of juice. Done when the floret tops are dark brown at the edges and the stalks are tender.</p>
+<h3>Honey cumin carrots</h3>
+<p>Cut carrots into 1cm batons. Toss with oil, salt and ½ teaspoon of ground cumin and cook 12 minutes, then drizzle with 2 teaspoons of honey or date syrup, shake and cook 2 to 4 minutes more. Adding the honey at the start burns it before the carrots soften. Done when a knife slides through the thickest baton and the edges are caramelised.</p>
+<h3>Courgette with za&#39;atar</h3>
+<p>Cut courgettes into 1.5cm half-moons. Toss with oil only and cook 10 to 12 minutes, shaking once. Season with salt and 1 teaspoon of za&#39;atar after cooking, while still hot. Courgette is mostly water, and salting early leaves it limp. Done when the cut faces are golden and the flesh is tender but still holding its shape.</p>
+<h3>Garlic green beans</h3>
+<p>Trim the stem ends and toss the beans with oil and salt. Cook 8 to 10 minutes, shaking once, until blistered in spots. Meanwhile, warm 1 tablespoon of olive oil with 1 grated garlic clove, then pour over the hot beans with a few toasted flaked almonds. Done when the beans are wrinkled in places and bend without snapping.</p>
+<h3>Crispy Brussels sprouts</h3>
+<p>Trim the bases and halve the sprouts, keeping loose outer leaves (they turn into crisp flakes). Toss with oil and salt and cook at 190°C (375°F) for 14 to 18 minutes, shaking twice. The lower temperature lets the dense centres cook before the leaves burn. Finish with ½ teaspoon of sumac or a drizzle of pomegranate molasses. Done when a knife slides into the centre of the largest half.</p>
+<h3>Charred peppers</h3>
+<p>Use red, yellow or orange peppers; green ones taste more bitter once charred. Cut into 2 to 3cm strips, toss with oil, salt and ½ teaspoon of smoked paprika and cook 8 to 10 minutes until blistered with dark spots. They are good in wraps, over hummus or with grilled meat.</p>
+<h3>Spiced aubergine</h3>
+<p>Cut a medium aubergine (about 350g) into 2.5cm cubes. Aubergine soaks up oil like a sponge, so use 2 tablespoons and toss well so every cube is coated. Add ½ teaspoon each of ground cumin and coriander. Cook 12 to 15 minutes, shaking twice, then salt. Done when the cubes are browned outside and creamy all the way through when pressed. Serve with garlic yoghurt and chopped mint.</p>
+<h3>Crispy okra</h3>
+<p>Okra (bamia) is easy to find fresh in Gulf markets all year. Rinse and dry it completely, then trim just the stem caps without cutting into the pods, which keeps the slippery juice inside. Toss whole pods with oil, salt and ½ teaspoon of chilli powder or chaat masala and cook 10 to 12 minutes, shaking twice. For crispier okra, halve the pods lengthways, toss in 1 tablespoon of chickpea flour after the oil and cook 8 to 10 minutes. Done when the ridges are browned and the pods are tender.</p>
+<h3>Corn on the cob</h3>
+<p>Cut cobs in half to fit the basket, brush with oil and cook 12 to 15 minutes, turning once, until the kernels are spotted brown. Brush with butter mixed with chilli powder and lime zest, or with a little tahini and lemon. Shorter frozen half-cobs work too: add 3 to 4 minutes.</p>
+<h2 id="full-recipes">Vegetables with their own full recipe</h2>
+<p>Some vegetables have enough technique to them that a few lines do not cover it. These have full recipes with ingredients, step-by-step methods and their own time charts.</p>
+<ul>
+<li><strong>Chickpeas.</strong> They roast plain for 10 minutes before the oil and spices go on, so they crunch right through. See our crispy air fryer chickpeas recipe for six seasoning blends.</li>
+<li><strong>Mushrooms.</strong> Salt and garlic go on late so they brown instead of stewing. The garlic butter mushrooms recipe includes times for button, chestnut, portobello and oyster.</li>
+<li><strong>Onions.</strong> Roasted wedges, jammy slices and crispy fried onions all need different heat. All three are in our roasted onion wedges recipe.</li>
+<li><strong>Asparagus.</strong> Cooking time depends on spear thickness. The lemon garlic asparagus page has a chart from pencil-thin to jumbo.</li>
+<li><strong>Cauliflower.</strong> Large florets with garlic and parmesan; see the <a href="/recipes/air-fryer-cauliflower/">garlic parmesan cauliflower</a>.</li>
+<li><strong>Potatoes.</strong> For cubed roast potatoes with crisp edges, see <a href="/recipes/air-fryer-potatoes/">air fryer potatoes</a>. For small potatoes cooked whole or halved, see the <a href="/recipes/air-fryer-potatoes/">baby potatoes recipe</a>. For a whole jacket potato, see the <a href="/recipes/air-fryer-baked-potato/">air fryer baked potato</a>.</li>
+<li><strong>Sweet potatoes.</strong> Whole baked sweet potatoes and sweet potato fries are in our <a href="/recipes/air-fryer-sweet-potato/">sweet potato recipe</a>. For bite-size pieces, sweet or savoury, see <a href="/recipes/air-fryer-sweet-potato-cubes/">sweet potato cubes</a>.</li>
+<li><strong>Tofu.</strong> Not a vegetable, but it often shares the basket with them. Pressing and a cornflour coating make the difference; see our <a href="/recipes/air-fryer-tofu/">crispy marinated tofu</a>.</li>
+</ul>
+<h2 id="mixed">How to roast mixed vegetables in the air fryer</h2>
+<p>Mixed vegetables cook unevenly if they all go in together, because a carrot baton needs nearly twice as long as a pepper strip. Start the slowest group, then add the others so everything finishes at once.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Vegetables</th>
+<th>When to add (for a 16-minute total at 200°C / 400°F)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Slow</td>
+<td>Carrots, butternut squash, onion wedges, Brussels sprouts, aubergine</td>
+<td>At the start</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>Cauliflower, okra, courgette, mushrooms</td>
+<td>After 4 minutes</td>
+</tr>
+<tr>
+<td>Fast</td>
+<td>Broccoli, green beans, peppers, asparagus</td>
+<td>After 8 minutes</td>
+</tr>
+<tr>
+<td>Very fast</td>
+<td>Cherry tomatoes, spring onions</td>
+<td>For the last 5 minutes</td>
+</tr>
+</tbody></table></div>
+<p>Cubed potatoes need 18 to 22 minutes, so if they are in the mix, give them 4 to 6 minutes on their own before the slow group goes in.</p>
+<p>Toss each group with its own oil and salt before it goes in, rather than adding oil on top of food that is already cooking. Keep the total load to about 600g (1 lb 5 oz) in a 5 to 6 litre basket. Beyond that, cook in two batches and combine them at the end; a second batch takes a minute or two less because the air fryer is already hot.</p>
+<p>A combination that works well: carrot batons and red onion wedges first, then courgette and red pepper, finished with 1 teaspoon of za&#39;atar, a drizzle of pomegranate molasses and crumbled feta. Serve it warm with flatbread, or cold the next day as a salad.</p>
+<h2 id="frozen">How to cook frozen vegetables in the air fryer</h2>
+<p>Cook frozen vegetables straight from the freezer. Thawing them first lets them sit in their own water and they go soggy. Spread them in a single layer, toss with a little oil, and cook at 200°C (400°F), shaking every 4 to 5 minutes. Ice melts in the first few minutes, so if water collects in the drawer, pour it off at the first shake.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Frozen vegetable</th>
+<th>Time at 200°C (400°F)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Broccoli florets</td>
+<td>10–14 min</td>
+</tr>
+<tr>
+<td>Cauliflower florets</td>
+<td>16–20 min</td>
+</tr>
+<tr>
+<td>Green beans</td>
+<td>10–12 min</td>
+</tr>
+<tr>
+<td>Okra (whole)</td>
+<td>12–15 min</td>
+</tr>
+<tr>
+<td>Brussels sprouts</td>
+<td>14–18 min</td>
+</tr>
+<tr>
+<td>Mixed diced vegetables</td>
+<td>10–12 min, on a perforated liner so they do not fall through</td>
+</tr>
+<tr>
+<td>Sweetcorn kernels</td>
+<td>8–10 min, on a perforated liner</td>
+</tr>
+</tbody></table></div>
+<p>Frozen vegetables were blanched before freezing, so they will be softer than fresh and brown less. They are still a good fast side. For frozen ready-made foods such as samosas, spring rolls or fries, use our <a href="/beyond-the-recipes/air-fryer-frozen-food-cooking-times/">frozen food air fryer chart</a>.</p>
+<h2 id="not-crispy">Why are my air fryer vegetables not crispy?</h2>
+<p>Nearly every soft batch comes down to steam. Work through this table.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Likely cause</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Soft and pale all over</td>
+<td>Basket overloaded</td>
+<td>Cook 450g or less in one layer; batch the rest</td>
+</tr>
+<tr>
+<td>Watery, limp courgette or mushrooms</td>
+<td>Salted before cooking</td>
+<td>Salt after cooking</td>
+</tr>
+<tr>
+<td>Edges burnt, centres hard</td>
+<td>Pieces too large or temperature too high</td>
+<td>Cut smaller, or drop to 190°C (375°F) and cook longer</td>
+</tr>
+<tr>
+<td>Some pieces burnt, others raw</td>
+<td>Uneven cut sizes</td>
+<td>Cut to the same size; remove small pieces early</td>
+</tr>
+<tr>
+<td>Seasoning tastes bitter</td>
+<td>Garlic powder or paprika cooked too long</td>
+<td>Add delicate spices in the last 3 to 5 minutes</td>
+</tr>
+<tr>
+<td>Dry and leathery</td>
+<td>No oil, or cooked too long</td>
+<td>Use 1 tbsp oil per 450g; check at the low end of the time</td>
+</tr>
+<tr>
+<td>Smoke from the drawer</td>
+<td>Excess oil or old grease</td>
+<td>Use less oil; clean the drawer after each use</td>
+</tr>
+</tbody></table></div>
+<p>If smoke is a regular problem, grease built up under the basket is the usual culprit. Our guide on <a href="/beyond-the-recipes/how-to-clean-air-fryer/">how to clean an air fryer</a> explains how to get it off.</p>
+<h2 id="seasonings">Seasonings and sauces for air fryer vegetables</h2>
+<p>Dry spices go on with the oil for dense vegetables. Fresh herbs, citrus, sugar and cheese go on at the end, because they burn at 200°C.</p>
+<p><strong>Spice blends (per 450g of vegetables):</strong></p>
+<ul>
+<li><strong>Za&#39;atar and sumac:</strong> 1 tsp za&#39;atar and ½ tsp sumac after cooking. Good on courgette, carrots and cauliflower.</li>
+<li><strong>Baharat:</strong> 1 tsp with the oil. Good on aubergine, squash and onions.</li>
+<li><strong>Chaat masala:</strong> ½ to 1 tsp after cooking. Good on okra, corn and potatoes.</li>
+<li><strong>Smoked paprika and garlic:</strong> ½ tsp each, garlic powder added for the last 5 minutes. Good on peppers, broccoli and chickpeas.</li>
+<li><strong>Cumin and coriander:</strong> ½ tsp each with the oil. Good on carrots and aubergine.</li>
+</ul>
+<p><strong>Sauces to serve alongside:</strong></p>
+<ul>
+<li><strong>Tahini lemon:</strong> 3 tbsp tahini, juice of ½ lemon, a small grated garlic clove, salt and enough cold water to make it pourable.</li>
+<li><strong>Garlic yoghurt:</strong> 150g thick yoghurt or labneh, 1 grated garlic clove, salt and dried mint.</li>
+<li><strong>Chilli lime:</strong> 2 tbsp olive oil, zest and juice of 1 lime, ½ tsp chilli flakes and a pinch of salt.</li>
+<li><strong>Pomegranate dressing:</strong> 1 tbsp pomegranate molasses whisked with 2 tbsp olive oil and a squeeze of lemon.</li>
+</ul>
+<p>These all keep for 3 to 4 days in the fridge, so make a jar on the weekend and a tray of vegetables becomes a meal in 15 minutes during the week.</p>
+30:["$","div",null,{"className":"rich-text text-lg mb-12","dangerouslySetInnerHTML":{"__html":"$34"}}]
+31:["$","section",null,{"className":"rich-text mb-12","aria-labelledby":"faq","children":[["$","h2",null,{"id":"faq","children":"Frequently Asked Questions"}],[["$","div","0",{"children":[["$","h3",null,{"children":"How long do you cook vegetables in an air fryer?"}],["$","p",null,{"children":"Most vegetables take 6 to 22 minutes at 200°C (400°F). Quick-cooking vegetables such as asparagus, peppers and green beans need 6 to 10 minutes, broccoli and courgette 8 to 12, and dense vegetables such as carrots, Brussels sprouts and potato cubes 14 to 22 minutes."}]]}],["$","div","1",{"children":[["$","h3",null,{"children":"What temperature do you air fry vegetables at?"}],["$","p",null,{"children":"Use 200°C (400°F) for most vegetables. Drop to 190°C (375°F) for dense or layered vegetables such as Brussels sprouts, onion wedges and cabbage, so the centres cook before the outer leaves burn."}]]}],["$","div","2",{"children":[["$","h3",null,{"children":"Can you cook vegetables in an air fryer without oil?"}],["$","p",null,{"children":"Yes, but they brown less and can turn dry and leathery. Watery vegetables such as courgette, peppers and tomatoes manage best without oil. Dense ones such as carrots and potatoes need at least a teaspoon or a light spray to brown well."}]]}],["$","div","3",{"children":[["$","h3",null,{"children":"Do you need to preheat the air fryer for vegetables?"}],["$","p",null,{"children":"It is worth it. Many vegetables cook in under 10 minutes, so a cold start makes timing unpredictable and can leave them soft. Three minutes at 200°C (400°F) is enough for most basket air fryers."}]]}],["$","div","4",{"children":[["$","h3",null,{"children":"Can you cook frozen vegetables in the air fryer?"}],["$","p",null,{"children":"Yes, straight from frozen. Toss with a little oil and cook at 200°C (400°F) for 8 to 20 minutes depending on the vegetable, shaking every few minutes and pouring off any meltwater. They will be softer than fresh because they were blanched before freezing."}]]}],["$","div","5",{"children":[["$","h3",null,{"children":"Are air fryer vegetables healthy?"}],["$","p",null,{"children":"They can be. The vegetables themselves are the same as roasted ones; what changes is the fat. A batch uses about a tablespoon of oil per 450g, far less than deep or shallow frying and about the same as a lightly oiled oven tray. Heavy cheese, butter or sugary glazes change the picture more than the cooking method does."}]]}],["$","div","6",{"children":[["$","h3",null,{"children":"Can you steam vegetables in an air fryer?"}],["$","p",null,{"children":"Not properly. An air fryer dries and browns food rather than steaming it. For a softer result, cook vegetables in a covered foil tin with a tablespoon of water at 180°C (350°F), but a pan or microwave steams more effectively."}]]}]]]}]
+32:["$","div",null,{"className":"border-t border-warm-taupe pt-8 mb-12","children":[["$","h3",null,{"className":"label-caps text-on-surface-variant mb-3","children":"About the Author"}],["$","$Lb",null,{"href":"/authors/sarah-al-fayed/","className":"flex items-start gap-4 group","children":["$","div",null,{"children":[["$","span",null,{"className":"font-serif text-lg text-deep-plum group-hover:text-saffron transition-colors","children":"Sarah Al-Fayed"}],["$","p",null,{"className":"text-sm text-on-surface-variant mt-1","children":"Food writer and recipe developer based in Dubai, specializing in Gulf heritage cuisine. Over a decade spent documenting Emirati traditional culinary traditions."}]]}]}]]}]
+36:T631,Cauliflower is one of the most underrated vegetables for the air fryer. The circulating heat hits every surface of each floret, crisping the edges to a deep golden brown while keeping the interior tender and slightly nutty. In a conventional oven, this level of caramelisation takes 30 to 40 minutes and usually requires flipping. In the air fryer, you get there in 15 minutes with a single shake of the basket.
+
+The garlic and parmesan here are not just seasoning. They are architecture. The parmesan melts into a thin, crispy crust on the surface of each floret, and the garlic toasts to a sweet, mellow flavor that bears no resemblance to the sharp bite of raw garlic. Together, they transform plain cauliflower into something that genuinely competes with fries and chips for snacking appeal.
+
+The trick to great air fryer cauliflower is not overcrowding the basket. Cauliflower releases moisture as it cooks, and if the florets are packed in too tightly, they steam instead of roasting. The difference between crowded cauliflower (soft, pale, slightly mushy) and properly spaced cauliflower (crispy, golden, caramelised) is dramatic.
+
+In Gulf kitchens, cauliflower has always been popular, used in everything from Indian-influenced gobi dishes to Arabic-style fried cauliflower with tahini. The air fryer version adds a Western twist with parmesan while keeping the simplicity that makes cauliflower a weeknight staple.
+
+**Pro Tip:** Add the parmesan during the last 3 minutes of cooking, not at the start. This prevents it from burning and gives you a golden, crispy cheese crust.33:["$","div",null,{"className":"mb-12","children":[["$","h3",null,{"className":"font-serif text-2xl text-deep-plum mb-6","children":"Related Recipes"}],["$","div",null,{"className":"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6","children":[["$","$L35","air-fryer-cauliflower",{"recipe":{"slug":"air-fryer-cauliflower","recipeName":"Air Fryer Garlic Parmesan Cauliflower","archiveTitle":"Air Fryer Garlic Parmesan Cauliflower","pageTitle":"Air Fryer Cauliflower with Garlic & Parmesan","seoTitle":"Air Fryer Cauliflower: Crispy Garlic Parmesan","metaDescription":"Air fryer cauliflower with garlic and parmesan: browned, crisp edges and a tender centre from olive oil, garlic and cheese. A fast side dish or snack.","shortDescription":"Cauliflower florets roasted in the air fryer until the edges are crispy and golden, tossed in olive oil, garlic, and a generous shower of parmesan. The air fryer caramelises cauliflower faster and more evenly than a conventional oven, turning an everyday vegetable into something people actually fight over at the dinner table.","intro":"$36","author":"sarah-al-fayed","publishedAt":"2026-09-24","cuisine":"International","categories":["air-fryer","quick-and-easy"],"mealTypes":["Side Dish","Snack"],"cookingMethods":["Air Frying"],"dietaryTags":["Vegetarian","Gluten-Free"],"difficulty":"Easy","prepTimeMinutes":5,"cookTimeMinutes":15,"totalTimeMinutes":20,"servings":4,"estimatedCost":"Low","heroImage":"/images/recipes/air-fryer-cauliflower.webp","imageAlt":"Crispy roasted garlic parmesan cauliflower florets in a white bowl with lemon wedges on a rustic wooden table","ingredients":[{"items":[{"item":"cauliflower","amount":"1","unit":"medium head","note":"about 600g, cut into bite-sized florets","amountNumeric":1},{"item":"olive oil","amount":"2","unit":"tbsp","amountNumeric":2},{"item":"garlic cloves, minced","amount":"3","unit":"cloves","amountNumeric":3},{"item":"garlic powder","amount":"½","unit":"tsp","amountNumeric":0.5},{"item":"smoked paprika","amount":"½","unit":"tsp","amountNumeric":0.5},{"item":"salt","amount":"¾","unit":"tsp","amountNumeric":0.75},{"item":"black pepper","amount":"¼","unit":"tsp","amountNumeric":0.25},{"item":"grated parmesan cheese","amount":"⅓","unit":"cup","note":"about 30g, add during last 3 minutes","amountNumeric":0.33},{"item":"fresh parsley, chopped","note":"for garnish"},{"item":"lemon wedges","note":"for serving"}]}],"instructions":[{"step":1,"text":"Cut the cauliflower into evenly sized bite-sized florets. Smaller, similar-sized pieces cook more evenly. Pat dry if you washed them.","tip":"Dry florets roast; wet florets steam. A few seconds with a paper towel makes a real difference."},{"step":2,"text":"In a large bowl, toss the cauliflower florets with olive oil, minced garlic, garlic powder, smoked paprika, salt, and black pepper until evenly coated."},{"step":3,"text":"Preheat the air fryer to 200°C (400°F)."},{"step":4,"text":"Arrange the cauliflower in a single layer in the air fryer basket. Do not overcrowd. Cook in batches if needed. Leave space between florets for air circulation."},{"step":5,"text":"Air fry at 200°C (400°F) for 10 minutes. Shake the basket to redistribute."},{"step":6,"text":"Sprinkle the grated parmesan evenly over the cauliflower. Cook for another 3 to 5 minutes until the cauliflower is golden brown at the edges and the parmesan has melted into a crispy crust.","tip":"Adding parmesan at the end prevents burning. At 200°C for the full cook time, it would turn bitter."},{"step":7,"text":"Remove from the air fryer. Garnish with fresh chopped parsley and a squeeze of lemon juice. Serve immediately while the parmesan crust is still crispy."}],"equipment":["Air fryer","Large mixing bowl"],"tips":["Do not overcrowd the basket. This is the most common mistake. Crowded cauliflower steams and turns soggy instead of crisping.","Cut florets to similar sizes for even cooking. Tiny pieces will burn before large ones are done.","Add the parmesan in the last 3 minutes only. It burns quickly at high temperatures.","Pat the florets dry before tossing with oil. Surface moisture prevents caramelisation.","Shake the basket once during cooking for even browning on all sides."],"substitutions":["No parmesan? Use nutritional yeast for a vegan version that still gives a savoury, cheesy flavour.","Swap smoked paprika for regular paprika or a pinch of cumin.","Use broccoli florets instead of cauliflower. Same method, same cook time.","For a Middle Eastern twist, replace parmesan with za'atar and serve with tahini drizzle."],"variations":["Buffalo cauliflower: Skip the parmesan. Toss cooked florets in buffalo sauce (hot sauce + melted butter) for a spicy version.","Lemon herb: Add 1 tsp dried Italian herbs to the seasoning and finish with extra lemon juice.","Asian-style: Replace parmesan with a drizzle of soy sauce and sesame oil, and garnish with sesame seeds.","Spicy: Add ½ tsp cayenne pepper to the spice mix for a kick."],"servingSuggestions":["Serve as a side dish alongside any grilled or air-fried protein.","Add to grain bowls with quinoa, chickpeas, and a tahini drizzle.","Serve as a snack or appetiser with garlic aioli or ranch dressing for dipping.","Toss into pasta with olive oil and chili flakes for a quick dinner.","Stuff into warm flatbread with hummus and pickled onions for a vegetarian wrap."],"storage":"Store leftovers in the fridge for up to 3 days. Reheat in the air fryer at 190°C (375°F) for 3 to 4 minutes. Microwaving works but softens the crispy edges.","faqs":[{"question":"How long does cauliflower take in the air fryer?","answer":"13 to 15 minutes at 200°C (400°F). Shake the basket at the 10-minute mark and add parmesan for the final 3 minutes."},{"question":"Why is my air fryer cauliflower not crispy?","answer":"Most likely the basket was overcrowded. Cauliflower releases moisture as it cooks, and too many florets packed together causes steaming instead of roasting. Cook in batches with space between pieces."},{"question":"Can I use frozen cauliflower?","answer":"Yes, but it will not be as crispy as fresh. Do not thaw it. Cook from frozen, adding 3 to 5 extra minutes to the cook time. The excess moisture from freezing makes it harder to achieve crispy edges."},{"question":"Is air fryer cauliflower healthy?","answer":"Very. Cauliflower is low in calories and high in fiber, vitamin C, and vitamin K. Air frying uses minimal oil compared to roasting or deep frying. A serving of this recipe has about 120 calories including the parmesan."},{"question":"What other seasonings work for air fryer cauliflower?","answer":"Almost anything. Popular options include curry powder, za'atar, ranch seasoning, cajun spice, or a simple lemon-herb blend. Cauliflower is a blank canvas that takes on whatever flavour you give it."}],"relatedRecipeSlugs":["air-fryer-tofu","air-fryer-sweet-potato"]},"priority":false}]]}]]}]
+25:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+37:I[6869,[],"IconMark"]
+22:null
+28:[["$","title","0",{"children":"Air Fryer Vegetable Recipes + Time & Temp Chart | GulfSpoon"}],["$","meta","1",{"name":"description","content":"Air fryer vegetable recipes for broccoli, carrots, courgette, okra and more, with a time and temperature chart for 22 vegetables, fresh or frozen."}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","meta","3",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","4",{"rel":"canonical","href":"https://gulfspoon.com/beyond-the-recipes/air-fryer-vegetable-recipes/"}],["$","meta","5",{"property":"og:title","content":"Air Fryer Vegetable Recipes + Time & Temp Chart"}],["$","meta","6",{"property":"og:description","content":"Air fryer vegetable recipes for broccoli, carrots, courgette, okra and more, with a time and temperature chart for 22 vegetables, fresh or frozen."}],["$","meta","7",{"property":"og:image","content":"https://gulfspoon.com/images/stories/air-fryer-vegetable-recipes.webp"}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"GulfSpoon: Gulf Recipes and Expat Kitchens"}],["$","meta","11",{"name":"twitter:description","content":"Authentic Gulf recipes, expat kitchen favorites, and food stories from the Arabian Peninsula. Khaleeji, South Asian, and Levantine dishes for home cooks."}],["$","meta","12",{"name":"twitter:image","content":"https://gulfspoon.com/images/stories/air-fryer-vegetable-recipes.webp"}],["$","link","13",{"rel":"icon","href":"/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","link","14",{"rel":"icon","href":"/icons/favicon.png"}],["$","link","15",{"rel":"apple-touch-icon","href":"/icons/apple-touch-icon.png"}],["$","$L37","16",{}]]
