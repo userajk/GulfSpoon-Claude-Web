@@ -5,4 +5,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"air-fryer-chickpeas","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"recipes","h":96,"c":"$Q2"}]]
-0:{"b":"LN8NJesw_6ZUEXD6m7a4u","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"G1L7cxKaS-3jmTR6C9zQS","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
