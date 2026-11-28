@@ -5,4 +5,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"air-fryer-salmon-bites","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"recipes","h":96,"c":"$Q2"}]]
-0:{"b":"phAI89Eds2nr1YH9BYX1m","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"9h57lKDxIBRyPspnAQ98s","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
